@@ -1,0 +1,4 @@
+SQLAlchemy==1.1.13
+pandas==0.20.1
+jieba==0.38
+setuptools==36.2.7

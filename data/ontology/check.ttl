@@ -1,0 +1,4052 @@
+@prefix prom: <http://www.semioe.org/prop/prom#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix food: <http://www.semioe.org/entity/medicine/food#> .
+@prefix hospital: <http://www.semioe.org/entity/medicine/hospital#> .
+@prefix place: <http://www.semioe.org/entity/medicine/place#> .
+@prefix drug: <http://www.semioe.org/entity/medicine/drug#> .
+@prefix org: <http://www.semioe.org/entity/medicine/org#> .
+@prefix disease: <http://www.semioe.org/entity/medicine/disease#> .
+@prefix symptom: <http://www.semioe.org/entity/medicine/symptom#> .
+@prefix check: <http://www.semioe.org/entity/medicine/check#> .
+@prefix department: <http://www.semioe.org/entity/medicine/department#> .
+@prefix department_1: <http://www.semioe.org/entity/medicine/department_1#> .
+@prefix department_2: <http://www.semioe.org/entity/medicine/department_2#> .
+@prefix medicine: <http://www.semioe.org/entity/medicine/medicine#> .
+@prefix drug_generic: <http://www.semioe.org/entity/medicine/drug_generic#> .
+@prefix formula: <http://www.semioe.org/entity/medicine/formula#> .
+@prefix dosage_form: <http://www.semioe.org/entity/medicine/dosage_form#> .
+@prefix ele: <http://www.semioe.org/entity/medicine/ele#> .
+@prefix part: <http://www.semioe.org/entity/medicine/part#> .
+
+
+check:Q0 rdfs:label "婴幼儿肌肉骨骼系统检查"@cn .
+
+check:Q1 rdfs:label "血小板体积分布宽度"@cn .
+
+check:Q2 rdfs:label "胃液潜血试验"@cn .
+
+check:Q3 rdfs:label "血流变学检查"@cn .
+
+check:Q4 rdfs:label "肱桡肌肌力试验"@cn .
+
+check:Q5 rdfs:label "间接免疫荧光试验"@cn .
+
+check:Q6 rdfs:label "DNA多聚酶"@cn .
+
+check:Q7 rdfs:label "球形红细胞"@cn .
+
+check:Q8 rdfs:label "抗甲状腺过氧化物酶抗体（ATPO）"@cn .
+
+check:Q9 rdfs:label "阴道分泌物涂片检查"@cn .
+
+check:Q10 rdfs:label "骨显像"@cn .
+
+check:Q11 rdfs:label "角膜内皮细胞计数仪"@cn .
+
+check:Q12 rdfs:label "膀胱叩诊"@cn .
+
+check:Q13 rdfs:label "SW阴茎超声血流检测"@cn .
+
+check:Q14 rdfs:label "血清球蛋白(G"@cn .
+
+check:Q15 rdfs:label "椎间孔挤压试验"@cn .
+
+check:Q16 rdfs:label "血浆渗透压（POP）"@cn .
+
+check:Q17 rdfs:label "钼靶X线检查"@cn .
+
+check:Q18 rdfs:label "抗心肌抗体"@cn .
+
+check:Q19 rdfs:label "动脉听诊"@cn .
+
+check:Q20 rdfs:label "腾喜龙试验"@cn .
+
+check:Q21 rdfs:label "角膜厚度测量"@cn .
+
+check:Q22 rdfs:label "肾盂镜"@cn .
+
+check:Q23 rdfs:label "脑脊液蛋白"@cn .
+
+check:Q24 rdfs:label "类风湿相关核抗原(RANA)抗体"@cn .
+
+check:Q25 rdfs:label "雌二醇"@cn .
+
+check:Q26 rdfs:label "间接鼻咽镜"@cn .
+
+check:Q27 rdfs:label "胰高血糖素"@cn .
+
+check:Q28 rdfs:label "抗内因子抗体"@cn .
+
+check:Q29 rdfs:label "磷酸肌酸激酶"@cn .
+
+check:Q30 rdfs:label "血液硫化血红蛋白"@cn .
+
+check:Q31 rdfs:label "脊柱检查"@cn .
+
+check:Q32 rdfs:label "膀胱残余尿量测定"@cn .
+
+check:Q33 rdfs:label "静脉胆囊、胆道造影"@cn .
+
+check:Q34 rdfs:label "黄体生成素（LH）"@cn .
+
+check:Q35 rdfs:label "两下肢长度"@cn .
+
+check:Q36 rdfs:label "骨骼视诊"@cn .
+
+check:Q37 rdfs:label "干扰素"@cn .
+
+check:Q38 rdfs:label "脑代谢显像"@cn .
+
+check:Q39 rdfs:label "颈部MRI检查"@cn .
+
+check:Q40 rdfs:label "血清前白蛋白"@cn .
+
+check:Q41 rdfs:label "禁水试验"@cn .
+
+check:Q42 rdfs:label "胸部平片"@cn .
+
+check:Q43 rdfs:label "糖筛"@cn .
+
+check:Q44 rdfs:label "骨关节及软组织CT检查"@cn .
+
+check:Q45 rdfs:label "高密脂蛋白3-胆固醇"@cn .
+
+check:Q46 rdfs:label "鼻部检查"@cn .
+
+check:Q47 rdfs:label "靶形红细胞"@cn .
+
+check:Q48 rdfs:label "胃粘膜活检"@cn .
+
+check:Q49 rdfs:label "T淋巴细胞亚群"@cn .
+
+check:Q50 rdfs:label "收缩压"@cn .
+
+check:Q51 rdfs:label "尿碘"@cn .
+
+check:Q52 rdfs:label "淋巴细胞转化率"@cn .
+
+check:Q53 rdfs:label "一秒用力呼出量／用力肺活量比值"@cn .
+
+check:Q54 rdfs:label "内分泌功能试验"@cn .
+
+check:Q55 rdfs:label "β-半乳糖苷酶试验"@cn .
+
+check:Q56 rdfs:label "血清化学检查"@cn .
+
+check:Q57 rdfs:label "胰泌素"@cn .
+
+check:Q58 rdfs:label "优球蛋白溶解时间"@cn .
+
+check:Q59 rdfs:label "遗传筛查"@cn .
+
+check:Q60 rdfs:label "乳房活检"@cn .
+
+check:Q61 rdfs:label "静态视野检查"@cn .
+
+check:Q62 rdfs:label "纯音听力计检查法"@cn .
+
+check:Q63 rdfs:label "(CT)"@cn .
+
+check:Q64 rdfs:label "肿瘤特异性生长因子"@cn .
+
+check:Q65 rdfs:label "骨髓增生程度"@cn .
+
+check:Q66 rdfs:label "浆膜腔积液"@cn .
+
+check:Q67 rdfs:label "红细胞沉降率(ESR)"@cn .
+
+check:Q68 rdfs:label "血液检查"@cn .
+
+check:Q69 rdfs:label "单核细胞计数(MONO)"@cn .
+
+check:Q70 rdfs:label "抗甲状腺抗体"@cn .
+
+check:Q71 rdfs:label "近视力检查法"@cn .
+
+check:Q72 rdfs:label "妊娠相关血浆蛋白A"@cn .
+
+check:Q73 rdfs:label "髋关节超伸试验"@cn .
+
+check:Q74 rdfs:label "心脏血管超声检查"@cn .
+
+check:Q75 rdfs:label "胃液显微镜检查"@cn .
+
+check:Q76 rdfs:label "动态心电图（Holter监测）"@cn .
+
+check:Q77 rdfs:label "血小板寿命"@cn .
+
+check:Q78 rdfs:label "抗胃壁细胞抗体（APCA）"@cn .
+
+check:Q79 rdfs:label "血清乳酸脱氢酶"@cn .
+
+check:Q80 rdfs:label "系统胎儿超声检查"@cn .
+
+check:Q81 rdfs:label "脑膜刺激征"@cn .
+
+check:Q82 rdfs:label "组胺试验"@cn .
+
+check:Q83 rdfs:label "内科检查"@cn .
+
+check:Q84 rdfs:label "产后检查"@cn .
+
+check:Q85 rdfs:label "尿镉"@cn .
+
+check:Q86 rdfs:label "肾血流图"@cn .
+
+check:Q87 rdfs:label "阴道活检"@cn .
+
+check:Q88 rdfs:label "羊水量"@cn .
+
+check:Q89 rdfs:label "A型超声检查"@cn .
+
+check:Q90 rdfs:label "尿镍（Ni）"@cn .
+
+check:Q91 rdfs:label "听力计"@cn .
+
+check:Q92 rdfs:label "常规体检"@cn .
+
+check:Q93 rdfs:label "阴茎夜间勃起试验检查"@cn .
+
+check:Q94 rdfs:label "肾血浆流量"@cn .
+
+check:Q95 rdfs:label "交通静脉瓣膜功能试验"@cn .
+
+check:Q96 rdfs:label "线索细胞"@cn .
+
+check:Q97 rdfs:label "泪膜破裂时间"@cn .
+
+check:Q98 rdfs:label "脾脏超声检查"@cn .
+
+check:Q99 rdfs:label "血凝试验"@cn .
+
+check:Q100 rdfs:label "尿锰"@cn .
+
+check:Q101 rdfs:label "肺和胸膜触诊"@cn .
+
+check:Q102 rdfs:label "抗角蛋白抗体"@cn .
+
+check:Q103 rdfs:label "血清肌酸激酶同工酶（CKI）"@cn .
+
+check:Q104 rdfs:label "乳腺导管造影"@cn .
+
+check:Q105 rdfs:label "大隐静脉瓣膜功能试验"@cn .
+
+check:Q106 rdfs:label "眼外部检查"@cn .
+
+check:Q107 rdfs:label "甲状腺结合球蛋白（TBG）"@cn .
+
+check:Q108 rdfs:label "人绒毛膜促性腺激素（HCG）"@cn .
+
+check:Q109 rdfs:label "浅感觉检查"@cn .
+
+check:Q110 rdfs:label "淋球菌抗体检测"@cn .
+
+check:Q111 rdfs:label "血清冷球蛋白"@cn .
+
+check:Q112 rdfs:label "肾上腺素试验"@cn .
+
+check:Q113 rdfs:label "脑神经检查"@cn .
+
+check:Q114 rdfs:label "内听道片"@cn .
+
+check:Q115 rdfs:label "脑脊液结核性脑膜炎抗体"@cn .
+
+check:Q116 rdfs:label "三合诊"@cn .
+
+check:Q117 rdfs:label "脂肪酶"@cn .
+
+check:Q118 rdfs:label "尿道冲洗试验"@cn .
+
+check:Q119 rdfs:label "尿锌"@cn .
+
+check:Q120 rdfs:label "尿溶菌酶"@cn .
+
+check:Q121 rdfs:label "下颌运动检查"@cn .
+
+check:Q122 rdfs:label "沙眼衣原体抗原"@cn .
+
+check:Q123 rdfs:label "尿去甲肾上腺素（NNM）"@cn .
+
+check:Q124 rdfs:label "抗脱氧核糖核酸(DNA)抗体"@cn .
+
+check:Q125 rdfs:label "肝、胆、脾CT检查"@cn .
+
+check:Q126 rdfs:label "定量肝功能试验"@cn .
+
+check:Q127 rdfs:label "前列腺特异性抗原"@cn .
+
+check:Q128 rdfs:label "1分钟胆红素"@cn .
+
+check:Q129 rdfs:label "二氧化碳分压（PCO2"@cn .
+
+check:Q130 rdfs:label "胸腔镜检查"@cn .
+
+check:Q131 rdfs:label "四肢CT检查"@cn .
+
+check:Q132 rdfs:label "外科检查"@cn .
+
+check:Q133 rdfs:label "总胆红素（TBIL"@cn .
+
+check:Q134 rdfs:label "结核杆菌血清学检查（anti-TB）"@cn .
+
+check:Q135 rdfs:label "癌抗原50（CA50）"@cn .
+
+check:Q136 rdfs:label "动物实验"@cn .
+
+check:Q137 rdfs:label "氧化酶试验"@cn .
+
+check:Q138 rdfs:label "阿米巴原虫抗原和抗体"@cn .
+
+check:Q139 rdfs:label "乳突"@cn .
+
+check:Q140 rdfs:label "血清补体C4含量测定"@cn .
+
+check:Q141 rdfs:label "HPV检查"@cn .
+
+check:Q142 rdfs:label "p16基因检测（MTS）"@cn .
+
+check:Q143 rdfs:label "骨骼触诊"@cn .
+
+check:Q144 rdfs:label "血清转铁蛋白"@cn .
+
+check:Q145 rdfs:label "尿铜"@cn .
+
+check:Q146 rdfs:label "肾小球滤过率（GFR）"@cn .
+
+check:Q147 rdfs:label "抗血小板抗体"@cn .
+
+check:Q148 rdfs:label "反应时"@cn .
+
+check:Q149 rdfs:label "血小板检查项目"@cn .
+
+check:Q150 rdfs:label "血小板相关免疫球蛋白（PAIgG、PAIgA、PAIgM）"@cn .
+
+check:Q151 rdfs:label "尿铍"@cn .
+
+check:Q152 rdfs:label "脂肪吸收试验"@cn .
+
+check:Q153 rdfs:label "心血管造影"@cn .
+
+check:Q154 rdfs:label "高峰胃酸分泌量测定（PAO）"@cn .
+
+check:Q155 rdfs:label "尿铅"@cn .
+
+check:Q156 rdfs:label "冠状动脉CT检查"@cn .
+
+check:Q157 rdfs:label "血管镜"@cn .
+
+check:Q158 rdfs:label "小气脑CT扫描"@cn .
+
+check:Q159 rdfs:label "输精管造影"@cn .
+
+check:Q160 rdfs:label "尿钾"@cn .
+
+check:Q161 rdfs:label "血清钾(K+"@cn .
+
+check:Q162 rdfs:label "胰腺特异性抗原（PaA）"@cn .
+
+check:Q163 rdfs:label "双向琼脂扩散试验"@cn .
+
+check:Q164 rdfs:label "钼靶摄影检查"@cn .
+
+check:Q165 rdfs:label "脊椎平片"@cn .
+
+check:Q166 rdfs:label "眼压描记检查法"@cn .
+
+check:Q167 rdfs:label "血浆肝素含量测定"@cn .
+
+check:Q168 rdfs:label "男性生殖内分泌检查"@cn .
+
+check:Q169 rdfs:label "抗胰岛细胞抗体"@cn .
+
+check:Q170 rdfs:label "4字试验"@cn .
+
+check:Q171 rdfs:label "瞳孔外观"@cn .
+
+check:Q172 rdfs:label "毛发矿物质检查"@cn .
+
+check:Q173 rdfs:label "血尿素氮(BUN)"@cn .
+
+check:Q174 rdfs:label "逆行胰胆管造影（ERCP）"@cn .
+
+check:Q175 rdfs:label "尿钠"@cn .
+
+check:Q176 rdfs:label "骨骼叩诊"@cn .
+
+check:Q177 rdfs:label "磁共振平扫"@cn .
+
+check:Q178 rdfs:label "黄体生成素"@cn .
+
+check:Q179 rdfs:label "眼功能检查"@cn .
+
+check:Q180 rdfs:label "淋巴细胞数"@cn .
+
+check:Q181 rdfs:label "尿酸碱度（pH）"@cn .
+
+check:Q182 rdfs:label "药敏试验"@cn .
+
+check:Q183 rdfs:label "纤溶酶原"@cn .
+
+check:Q184 rdfs:label "人绒毛膜促性腺激素"@cn .
+
+check:Q185 rdfs:label "血清免疫球蛋白A（IgA）"@cn .
+
+check:Q186 rdfs:label "静脉胆道造影"@cn .
+
+check:Q187 rdfs:label "亚健康人群体检"@cn .
+
+check:Q188 rdfs:label "精子活动力"@cn .
+
+check:Q189 rdfs:label "自身溶血试验"@cn .
+
+check:Q190 rdfs:label "生长激素"@cn .
+
+check:Q191 rdfs:label "甲状腺素结合球蛋白"@cn .
+
+check:Q192 rdfs:label "全身软组织MRI检查"@cn .
+
+check:Q193 rdfs:label "二硝基氟苯皮肤试验"@cn .
+
+check:Q194 rdfs:label "俯卧伸腰试验"@cn .
+
+check:Q195 rdfs:label "前锯肌肌力试验"@cn .
+
+check:Q196 rdfs:label "总甲状腺素"@cn .
+
+check:Q197 rdfs:label "乙状结肠镜检查"@cn .
+
+check:Q198 rdfs:label "血尿素"@cn .
+
+check:Q199 rdfs:label "蛋白结合碘（PBI）"@cn .
+
+check:Q200 rdfs:label "聚合酶链式反应"@cn .
+
+check:Q201 rdfs:label "放射性核素脑血管显像"@cn .
+
+check:Q202 rdfs:label "胆道造影"@cn .
+
+check:Q203 rdfs:label "烟酸"@cn .
+
+check:Q204 rdfs:label "甲型肝炎抗原"@cn .
+
+check:Q205 rdfs:label "尿胃蛋白酶原"@cn .
+
+check:Q206 rdfs:label "十二指肠钡餐造影"@cn .
+
+check:Q207 rdfs:label "研磨试验"@cn .
+
+check:Q208 rdfs:label "免疫抑制酸性蛋白"@cn .
+
+check:Q209 rdfs:label "维生素K"@cn .
+
+check:Q210 rdfs:label "乙型肝炎病毒表面抗原（HBsAg）"@cn .
+
+check:Q211 rdfs:label "吞噬白色念珠菌功能试验"@cn .
+
+check:Q212 rdfs:label "伤寒、副伤寒血清凝集试验（肥达氏试验"@cn .
+
+check:Q213 rdfs:label "结合胆红素(SDB"@cn .
+
+check:Q214 rdfs:label "职业病检查项目"@cn .
+
+check:Q215 rdfs:label "雄烯二酮"@cn .
+
+check:Q216 rdfs:label "嗜酸性粒细胞数"@cn .
+
+check:Q217 rdfs:label "被动转移试验"@cn .
+
+check:Q218 rdfs:label "直肠镜检查"@cn .
+
+check:Q219 rdfs:label "经胸壁针刺肺活检"@cn .
+
+check:Q220 rdfs:label "乙醇凝胶试验"@cn .
+
+check:Q221 rdfs:label "血液丙酮酸"@cn .
+
+check:Q222 rdfs:label "儿茶酚胺"@cn .
+
+check:Q223 rdfs:label "肾脏超音波"@cn .
+
+check:Q224 rdfs:label "阴道窥器检查"@cn .
+
+check:Q225 rdfs:label "血小板粘附功能测定"@cn .
+
+check:Q226 rdfs:label "二氧化碳结合力"@cn .
+
+check:Q227 rdfs:label "皮损"@cn .
+
+check:Q228 rdfs:label "血清游离脂肪酸"@cn .
+
+check:Q229 rdfs:label "织网红细胞计数"@cn .
+
+check:Q230 rdfs:label "谷氨酸"@cn .
+
+check:Q231 rdfs:label "肥达氏反应"@cn .
+
+check:Q232 rdfs:label "转铁蛋白饱和度"@cn .
+
+check:Q233 rdfs:label "胎儿镜"@cn .
+
+check:Q234 rdfs:label "超级影像"@cn .
+
+check:Q235 rdfs:label "肝胆动态显像"@cn .
+
+check:Q236 rdfs:label "气体分布"@cn .
+
+check:Q237 rdfs:label "针刺试验"@cn .
+
+check:Q238 rdfs:label "端粒酶"@cn .
+
+check:Q239 rdfs:label "阴茎血流指数"@cn .
+
+check:Q240 rdfs:label "角质蛋白19片段(CYFRA21-1)"@cn .
+
+check:Q241 rdfs:label "神经元特异性烯醇化酶"@cn .
+
+check:Q242 rdfs:label "卵巢肿瘤标记"@cn .
+
+check:Q243 rdfs:label "宫颈粘液检查"@cn .
+
+check:Q244 rdfs:label "方肩检查"@cn .
+
+check:Q245 rdfs:label "维生素A"@cn .
+
+check:Q246 rdfs:label "颅脑超声检查"@cn .
+
+check:Q247 rdfs:label "尿比重"@cn .
+
+check:Q248 rdfs:label "触觉"@cn .
+
+check:Q249 rdfs:label "阴道妇科常规检查"@cn .
+
+check:Q250 rdfs:label "尿浓缩试验"@cn .
+
+check:Q251 rdfs:label "不稳定血红蛋白"@cn .
+
+check:Q252 rdfs:label "磁共振波谱成像"@cn .
+
+check:Q253 rdfs:label "弓形虫点免疫金渗滤法"@cn .
+
+check:Q254 rdfs:label "血清蛋白结合碘"@cn .
+
+check:Q255 rdfs:label "眼底检查"@cn .
+
+check:Q256 rdfs:label "皮肤真菌镜检"@cn .
+
+check:Q257 rdfs:label "血清免疫球蛋白测定"@cn .
+
+check:Q258 rdfs:label "血清甲状腺素"@cn .
+
+check:Q259 rdfs:label "血清胰高血糖素（PG）"@cn .
+
+check:Q260 rdfs:label "动脉通畅性试验"@cn .
+
+check:Q261 rdfs:label "痰液颜色"@cn .
+
+check:Q262 rdfs:label "血小板黏附功能试验"@cn .
+
+check:Q263 rdfs:label "胎儿发育检查"@cn .
+
+check:Q264 rdfs:label "尿胆红素（BIL）"@cn .
+
+check:Q265 rdfs:label "低密度脂蛋白-胆固醇"@cn .
+
+check:Q266 rdfs:label "酚红排泄试验"@cn .
+
+check:Q267 rdfs:label "癣菌素试验"@cn .
+
+check:Q268 rdfs:label "尿维生素B6"@cn .
+
+check:Q269 rdfs:label "脾脏触诊"@cn .
+
+check:Q270 rdfs:label "血小板凝集试验（PAgT）"@cn .
+
+check:Q271 rdfs:label "维生素"@cn .
+
+check:Q272 rdfs:label "彻照法检查"@cn .
+
+check:Q273 rdfs:label "泪液pH"@cn .
+
+check:Q274 rdfs:label "尿酮体检查（KET）"@cn .
+
+check:Q275 rdfs:label "输卵管通气试验"@cn .
+
+check:Q276 rdfs:label "CT造影增强扫描"@cn .
+
+check:Q277 rdfs:label "颈项强直"@cn .
+
+check:Q278 rdfs:label "胃钡餐造影"@cn .
+
+check:Q279 rdfs:label "血清结合珠蛋白"@cn .
+
+check:Q280 rdfs:label "涂片"@cn .
+
+check:Q281 rdfs:label "卵巢检查"@cn .
+
+check:Q282 rdfs:label "钙激发试验"@cn .
+
+check:Q283 rdfs:label "腹部叩诊音"@cn .
+
+check:Q284 rdfs:label "尿比重（SG）"@cn .
+
+check:Q285 rdfs:label "三叉神经的运动功能检查"@cn .
+
+check:Q286 rdfs:label "关节检查"@cn .
+
+check:Q287 rdfs:label "抗红细胞抗体"@cn .
+
+check:Q288 rdfs:label "胰岛素原"@cn .
+
+check:Q289 rdfs:label "血液及骨髓标本的细菌学检验"@cn .
+
+check:Q290 rdfs:label "听力检查法"@cn .
+
+check:Q291 rdfs:label "挤压泪囊试验"@cn .
+
+check:Q292 rdfs:label "肿瘤放射免疫显像（RII）"@cn .
+
+check:Q293 rdfs:label "腹部听诊"@cn .
+
+check:Q294 rdfs:label "抗胰腺腺泡抗体(PAB)"@cn .
+
+check:Q295 rdfs:label "尿游离皮质醇"@cn .
+
+check:Q296 rdfs:label "骨髓单核细胞系统"@cn .
+
+check:Q297 rdfs:label "红细胞血清总胆红素"@cn .
+
+check:Q298 rdfs:label "子宫大小"@cn .
+
+check:Q299 rdfs:label "粪便颜色"@cn .
+
+check:Q300 rdfs:label "胰高血糖素负荷试验"@cn .
+
+check:Q301 rdfs:label "肢体血流图"@cn .
+
+check:Q302 rdfs:label "立克次体凝集试验"@cn .
+
+check:Q303 rdfs:label "脑脊液蛋白定性（CSF.Pro）"@cn .
+
+check:Q304 rdfs:label "缩胆囊素"@cn .
+
+check:Q305 rdfs:label "肝区及胆囊叩击痛"@cn .
+
+check:Q306 rdfs:label "深感觉检查"@cn .
+
+check:Q307 rdfs:label "中性炎症细胞吞噬试验"@cn .
+
+check:Q308 rdfs:label "红细胞电泳时间"@cn .
+
+check:Q309 rdfs:label "促肾上腺皮质激素"@cn .
+
+check:Q310 rdfs:label "寄生虫检查的定量透明法"@cn .
+
+check:Q311 rdfs:label "肺显像"@cn .
+
+check:Q312 rdfs:label "抗组蛋白抗体"@cn .
+
+check:Q313 rdfs:label "乳突CT检查"@cn .
+
+check:Q314 rdfs:label "血清钙"@cn .
+
+check:Q315 rdfs:label "直肠-肛门运动功能测定"@cn .
+
+check:Q316 rdfs:label "15-3）"@cn .
+
+check:Q317 rdfs:label "间碘苄胍γ-闪烁照相"@cn .
+
+check:Q318 rdfs:label "尿淀粉酶"@cn .
+
+check:Q319 rdfs:label "胰腺的CT检查"@cn .
+
+check:Q320 rdfs:label "催产素"@cn .
+
+check:Q321 rdfs:label "蠕形螨检查"@cn .
+
+check:Q322 rdfs:label "抗环瓜氨酸多肽抗体（抗CCP）"@cn .
+
+check:Q323 rdfs:label "叶酸"@cn .
+
+check:Q324 rdfs:label "骨髓有核细胞计数"@cn .
+
+check:Q325 rdfs:label "异丙醇试验"@cn .
+
+check:Q326 rdfs:label "内生肌酐清除率"@cn .
+
+check:Q327 rdfs:label "一氧化碳"@cn .
+
+check:Q328 rdfs:label "α1-抗胰蛋白酶"@cn .
+
+check:Q329 rdfs:label "耳鼻咽喉CT检查"@cn .
+
+check:Q330 rdfs:label "厌氧菌检测"@cn .
+
+check:Q331 rdfs:label "最大胃酸分泌量测定（MAO）"@cn .
+
+check:Q332 rdfs:label "血尿酸"@cn .
+
+check:Q333 rdfs:label "血清总甲状腺素（TT4）"@cn .
+
+check:Q334 rdfs:label "周围血白细胞计数及分类检验"@cn .
+
+check:Q335 rdfs:label "荧光密螺旋体抗体"@cn .
+
+check:Q336 rdfs:label "头颅平片"@cn .
+
+check:Q337 rdfs:label "两点辨别感觉"@cn .
+
+check:Q338 rdfs:label "耳镜检查法"@cn .
+
+check:Q339 rdfs:label "间接抗人球蛋白试验"@cn .
+
+check:Q340 rdfs:label "胃电图"@cn .
+
+check:Q341 rdfs:label "粪便磷酸盐"@cn .
+
+check:Q342 rdfs:label "抗着丝点抗体"@cn .
+
+check:Q343 rdfs:label "性病研究实验室试验"@cn .
+
+check:Q344 rdfs:label "电阻抗体积描记检查"@cn .
+
+check:Q345 rdfs:label "食管钡餐透视"@cn .
+
+check:Q346 rdfs:label "血管紧张素Ⅱ"@cn .
+
+check:Q347 rdfs:label "垂体后叶素"@cn .
+
+check:Q348 rdfs:label "放射性核素肾扫描"@cn .
+
+check:Q349 rdfs:label "反三碘甲状腺原氨酸(γT3"@cn .
+
+check:Q350 rdfs:label "散光表验光法"@cn .
+
+check:Q351 rdfs:label "皮肤弹性检查"@cn .
+
+check:Q352 rdfs:label "白细胞数"@cn .
+
+check:Q353 rdfs:label "血浆皮质醇"@cn .
+
+check:Q354 rdfs:label "尿17-羟皮质类固醇"@cn .
+
+check:Q355 rdfs:label "断层显像"@cn .
+
+check:Q356 rdfs:label "白蛋白(A"@cn .
+
+check:Q357 rdfs:label "心肌灌注显像"@cn .
+
+check:Q358 rdfs:label "羊水卵磷脂/鞘磷脂比值（L/S）"@cn .
+
+check:Q359 rdfs:label "脑磷脂胆固醇絮状试验"@cn .
+
+check:Q360 rdfs:label "尺压试验"@cn .
+
+check:Q361 rdfs:label "阴囊超声检查"@cn .
+
+check:Q362 rdfs:label "尿黑酸定性试验"@cn .
+
+check:Q363 rdfs:label "心血管疾病的超声诊断"@cn .
+
+check:Q364 rdfs:label "舌咽神经检查"@cn .
+
+check:Q365 rdfs:label "碱剩余"@cn .
+
+check:Q366 rdfs:label "维生素E"@cn .
+
+check:Q367 rdfs:label "维生素D"@cn .
+
+check:Q368 rdfs:label "维生素C"@cn .
+
+check:Q369 rdfs:label "颞下颌关节造影"@cn .
+
+check:Q370 rdfs:label "透明质酸"@cn .
+
+check:Q371 rdfs:label "抗核仁抗体"@cn .
+
+check:Q372 rdfs:label "脑脊液病原体检查(CSF)"@cn .
+
+check:Q373 rdfs:label "三叉神经检查"@cn .
+
+check:Q374 rdfs:label "甲状腺放射性核素显影检查"@cn .
+
+check:Q375 rdfs:label "抗ENA抗体"@cn .
+
+check:Q376 rdfs:label "胰高糖素激发试验"@cn .
+
+check:Q377 rdfs:label "意识状态"@cn .
+
+check:Q378 rdfs:label "白细胞移动抑制试验"@cn .
+
+check:Q379 rdfs:label "p53蛋白"@cn .
+
+check:Q380 rdfs:label "羊水细菌检查"@cn .
+
+check:Q381 rdfs:label "麻风病的皮内试验"@cn .
+
+check:Q382 rdfs:label "非必需微量元素"@cn .
+
+check:Q383 rdfs:label "高密度脂蛋白胆固醇"@cn .
+
+check:Q384 rdfs:label "血清钾"@cn .
+
+check:Q385 rdfs:label "全身状态检查"@cn .
+
+check:Q386 rdfs:label "静脉尿路造影"@cn .
+
+check:Q387 rdfs:label "儿童肺功能检查"@cn .
+
+check:Q388 rdfs:label "肺通气显像"@cn .
+
+check:Q389 rdfs:label "全身体检"@cn .
+
+check:Q390 rdfs:label "肺和胸膜叩诊"@cn .
+
+check:Q391 rdfs:label "血清蛋白电泳"@cn .
+
+check:Q392 rdfs:label "胃部检查"@cn .
+
+check:Q393 rdfs:label "阴道分泌物清洁度"@cn .
+
+check:Q394 rdfs:label "抗线粒体抗体"@cn .
+
+check:Q395 rdfs:label "脑脊液的显微镜检查"@cn .
+
+check:Q396 rdfs:label "血红蛋白浓度（HGB）"@cn .
+
+check:Q397 rdfs:label "四肢与关节运动功能"@cn .
+
+check:Q398 rdfs:label "淀粉样体"@cn .
+
+check:Q399 rdfs:label "婴儿智力测试"@cn .
+
+check:Q400 rdfs:label "胰岛细胞抗体"@cn .
+
+check:Q401 rdfs:label "束臂试验"@cn .
+
+check:Q402 rdfs:label "静态骨显像"@cn .
+
+check:Q403 rdfs:label "氨基酸清除率测定"@cn .
+
+check:Q404 rdfs:label "尿中寄生虫检查"@cn .
+
+check:Q405 rdfs:label "阿米巴原虫抗体"@cn .
+
+check:Q406 rdfs:label "寒冷性升压试验"@cn .
+
+check:Q407 rdfs:label "脑脊液神经肽"@cn .
+
+check:Q408 rdfs:label "骨骼听诊"@cn .
+
+check:Q409 rdfs:label "平均红细胞血红蛋白浓度(MCHC)"@cn .
+
+check:Q410 rdfs:label "人体内的微量元素检测"@cn .
+
+check:Q411 rdfs:label "泪道检查"@cn .
+
+check:Q412 rdfs:label "抗凝血酶Ⅲ活性和抗凝血酶Ⅲ抗原"@cn .
+
+check:Q413 rdfs:label "直接胆红素/间接胆红素比值"@cn .
+
+check:Q414 rdfs:label "耳廓检查"@cn .
+
+check:Q415 rdfs:label "鼻部放射线检查"@cn .
+
+check:Q416 rdfs:label "轮替动作"@cn .
+
+check:Q417 rdfs:label "胺试验"@cn .
+
+check:Q418 rdfs:label "口腔X光片检查"@cn .
+
+check:Q419 rdfs:label "羊水细胞培养染色体检查"@cn .
+
+check:Q420 rdfs:label "沉淀反应"@cn .
+
+check:Q421 rdfs:label "膝反射"@cn .
+
+check:Q422 rdfs:label "热溶血试验"@cn .
+
+check:Q423 rdfs:label "腹部血管超声检查"@cn .
+
+check:Q424 rdfs:label "动脉血气分析"@cn .
+
+check:Q425 rdfs:label "前列腺酸性磷酸酶（PAP）"@cn .
+
+check:Q426 rdfs:label "脊柱椎体平扫"@cn .
+
+check:Q427 rdfs:label "凝血酶原时间（PT）"@cn .
+
+check:Q428 rdfs:label "血清锌（Zn）"@cn .
+
+check:Q429 rdfs:label "血清肌红蛋白"@cn .
+
+check:Q430 rdfs:label "智商"@cn .
+
+check:Q431 rdfs:label "尿三杯试验"@cn .
+
+check:Q432 rdfs:label "冷热试验"@cn .
+
+check:Q433 rdfs:label "被动血凝测定"@cn .
+
+check:Q434 rdfs:label "刮宫术(D和C)"@cn .
+
+check:Q435 rdfs:label "酚红排泌试验"@cn .
+
+check:Q436 rdfs:label "尿胃蛋白酶"@cn .
+
+check:Q437 rdfs:label "肿瘤标志物检测"@cn .
+
+check:Q438 rdfs:label "抗卵子透明带抗体（AZP）"@cn .
+
+check:Q439 rdfs:label "牙髓电活力测定"@cn .
+
+check:Q440 rdfs:label "痰培养"@cn .
+
+check:Q441 rdfs:label "颌面五官CT检查"@cn .
+
+check:Q442 rdfs:label "中段尿细菌培养计数"@cn .
+
+check:Q443 rdfs:label "人类免疫缺陷病毒抗体"@cn .
+
+check:Q444 rdfs:label "乳腺超声检查"@cn .
+
+check:Q445 rdfs:label "角膜染色法"@cn .
+
+check:Q446 rdfs:label "抗肝细胞膜特异性脂蛋白抗体（ALSP）"@cn .
+
+check:Q447 rdfs:label "支气管镜检查"@cn .
+
+check:Q448 rdfs:label "乳房视诊"@cn .
+
+check:Q449 rdfs:label "角膜荧光素染色"@cn .
+
+check:Q450 rdfs:label "美蓝试验"@cn .
+
+check:Q451 rdfs:label "雌激素试验"@cn .
+
+check:Q452 rdfs:label "神经系统免疫学检验"@cn .
+
+check:Q453 rdfs:label "微量补体溶血敏感试验"@cn .
+
+check:Q454 rdfs:label "特异性IgE抗体"@cn .
+
+check:Q455 rdfs:label "尿羟脯氨酸"@cn .
+
+check:Q456 rdfs:label "输尿管超声检查"@cn .
+
+check:Q457 rdfs:label "血液酸碱度（pH）"@cn .
+
+check:Q458 rdfs:label "肺容积"@cn .
+
+check:Q459 rdfs:label "新生儿红细胞计数"@cn .
+
+check:Q460 rdfs:label "醋酸白试验"@cn .
+
+check:Q461 rdfs:label "脑血流灌注断层显像"@cn .
+
+check:Q462 rdfs:label "腰椎穿刺"@cn .
+
+check:Q463 rdfs:label "前列腺液显微镜检查"@cn .
+
+check:Q464 rdfs:label "胸膜摩擦感"@cn .
+
+check:Q465 rdfs:label "肩关节脱位的恐惧试验"@cn .
+
+check:Q466 rdfs:label "尿卟啉原试验（UP）"@cn .
+
+check:Q467 rdfs:label "不孕的基础体温测定"@cn .
+
+check:Q468 rdfs:label "男性性功能测试全面测试"@cn .
+
+check:Q469 rdfs:label "浊度"@cn .
+
+check:Q470 rdfs:label "痰液显微镜检查"@cn .
+
+check:Q471 rdfs:label "腹部叩诊"@cn .
+
+check:Q472 rdfs:label "抗甲状腺球蛋白抗体"@cn .
+
+check:Q473 rdfs:label "血清α-L-岩藻糖苷酶"@cn .
+
+check:Q474 rdfs:label "功能残气量（FRC）"@cn .
+
+check:Q475 rdfs:label "血小板第3因子功能检测"@cn .
+
+check:Q476 rdfs:label "铜蓝蛋白"@cn .
+
+check:Q477 rdfs:label "痰液性状"@cn .
+
+check:Q478 rdfs:label "大生化检查"@cn .
+
+check:Q479 rdfs:label "无痛胃镜"@cn .
+
+check:Q480 rdfs:label "痰液细菌涂片检查"@cn .
+
+check:Q481 rdfs:label "红细胞比容"@cn .
+
+check:Q482 rdfs:label "拇指对掌肌肌力试验"@cn .
+
+check:Q483 rdfs:label "肾血管造影"@cn .
+
+check:Q484 rdfs:label "血糖"@cn .
+
+check:Q485 rdfs:label "尿17-酮类固醇"@cn .
+
+check:Q486 rdfs:label "强弱"@cn .
+
+check:Q487 rdfs:label "精子形态检查"@cn .
+
+check:Q488 rdfs:label "卵磷脂小体"@cn .
+
+check:Q489 rdfs:label "B因子"@cn .
+
+check:Q490 rdfs:label "食管拉网检查"@cn .
+
+check:Q491 rdfs:label "抗心磷脂抗体"@cn .
+
+check:Q492 rdfs:label "血清天冬氨酶氨基转移酶同工酶"@cn .
+
+check:Q493 rdfs:label "巩膜硬度"@cn .
+
+check:Q494 rdfs:label "胃泌素"@cn .
+
+check:Q495 rdfs:label "骨髓异常细胞和寄生虫"@cn .
+
+check:Q496 rdfs:label "胸部透视"@cn .
+
+check:Q497 rdfs:label "尿量"@cn .
+
+check:Q498 rdfs:label "精浆的生化检查"@cn .
+
+check:Q499 rdfs:label "肛门反射"@cn .
+
+check:Q500 rdfs:label "阴道病原体检查"@cn .
+
+check:Q501 rdfs:label "胰蛋白酶"@cn .
+
+check:Q502 rdfs:label "周期性阴道涂片"@cn .
+
+check:Q503 rdfs:label "白带检查"@cn .
+
+check:Q504 rdfs:label "粪便红细胞"@cn .
+
+check:Q505 rdfs:label "肺活检"@cn .
+
+check:Q506 rdfs:label "泪滴状红细胞"@cn .
+
+check:Q507 rdfs:label "血小板黏附试验"@cn .
+
+check:Q508 rdfs:label "涎腺超声检查"@cn .
+
+check:Q509 rdfs:label "真菌的分离与鉴定"@cn .
+
+check:Q510 rdfs:label "氯丙嗪试验"@cn .
+
+check:Q511 rdfs:label "俯卧伸髋试验"@cn .
+
+check:Q512 rdfs:label "阴囊显象"@cn .
+
+check:Q513 rdfs:label "痰液中晶体"@cn .
+
+check:Q514 rdfs:label "血管杂音"@cn .
+
+check:Q515 rdfs:label "纤溶酶原测定"@cn .
+
+check:Q516 rdfs:label "阴道清洁度检查"@cn .
+
+check:Q517 rdfs:label "血清免疫球蛋白D（IgD）"@cn .
+
+check:Q518 rdfs:label "粪便酸碱度（粪便pH）"@cn .
+
+check:Q519 rdfs:label "旋转试验"@cn .
+
+check:Q520 rdfs:label "血凝抑制试验"@cn .
+
+check:Q521 rdfs:label "新生儿甲状腺功能检查"@cn .
+
+check:Q522 rdfs:label "血清乳酸脱氢酶（LDH）"@cn .
+
+check:Q523 rdfs:label "骨盆内测量"@cn .
+
+check:Q524 rdfs:label "痰液量"@cn .
+
+check:Q525 rdfs:label "静态显像"@cn .
+
+check:Q526 rdfs:label "乳糜微粒"@cn .
+
+check:Q527 rdfs:label "蓝多耳菲征"@cn .
+
+check:Q528 rdfs:label "巩膜透照"@cn .
+
+check:Q529 rdfs:label "血吸虫酶联免疫吸附试验"@cn .
+
+check:Q530 rdfs:label "乳房触诊"@cn .
+
+check:Q531 rdfs:label "腰腿痛的感觉检查"@cn .
+
+check:Q532 rdfs:label "尿镁"@cn .
+
+check:Q533 rdfs:label "红细胞渗透脆性试验（ROFT）"@cn .
+
+check:Q534 rdfs:label "溶菌酶"@cn .
+
+check:Q535 rdfs:label "血液尿素氮与肌酐比值"@cn .
+
+check:Q536 rdfs:label "角膜照影法"@cn .
+
+check:Q537 rdfs:label "丝氨酸"@cn .
+
+check:Q538 rdfs:label "卧立试验"@cn .
+
+check:Q539 rdfs:label "尿酸"@cn .
+
+check:Q540 rdfs:label "胃液酸碱度(pH)"@cn .
+
+check:Q541 rdfs:label "间接胆红素"@cn .
+
+check:Q542 rdfs:label "试管凝集试验"@cn .
+
+check:Q543 rdfs:label "尿本周蛋白（BJP）"@cn .
+
+check:Q544 rdfs:label "尿白蛋白清除率"@cn .
+
+check:Q545 rdfs:label "肝脏触诊"@cn .
+
+check:Q546 rdfs:label "甲状腺显像"@cn .
+
+check:Q547 rdfs:label "纤维蛋白原测定"@cn .
+
+check:Q548 rdfs:label "泪液溶菌酶"@cn .
+
+check:Q549 rdfs:label "脊柱弯曲度"@cn .
+
+check:Q550 rdfs:label "心理年龄测试"@cn .
+
+check:Q551 rdfs:label "风湿病化验检查项目"@cn .
+
+check:Q552 rdfs:label "动态血压监测(ABPM)"@cn .
+
+check:Q553 rdfs:label "肝功能检查"@cn .
+
+check:Q554 rdfs:label "免疫病理检查"@cn .
+
+check:Q555 rdfs:label "疟疾间接免疫荧光试验"@cn .
+
+check:Q556 rdfs:label "经皮肝穿胆道引流（PTD）"@cn .
+
+check:Q557 rdfs:label "便常规"@cn .
+
+check:Q558 rdfs:label "血清铅（Pb）"@cn .
+
+check:Q559 rdfs:label "胎心监护"@cn .
+
+check:Q560 rdfs:label "自然杀伤细胞活性"@cn .
+
+check:Q561 rdfs:label "胆道镜检查"@cn .
+
+check:Q562 rdfs:label "兔感染试验"@cn .
+
+check:Q563 rdfs:label "胸腔积液肿瘤细胞学检查"@cn .
+
+check:Q564 rdfs:label "妇科常规检查"@cn .
+
+check:Q565 rdfs:label "淋病细菌学检测"@cn .
+
+check:Q566 rdfs:label "血清补体C1q"@cn .
+
+check:Q567 rdfs:label "循环红细胞量"@cn .
+
+check:Q568 rdfs:label "血液电解质检查"@cn .
+
+check:Q569 rdfs:label "舒张压"@cn .
+
+check:Q570 rdfs:label "偏振光显微镜检查"@cn .
+
+check:Q571 rdfs:label "阴道出血量检查"@cn .
+
+check:Q572 rdfs:label "维生素A（VitA）"@cn .
+
+check:Q573 rdfs:label "胃超声检查"@cn .
+
+check:Q574 rdfs:label "抗人球蛋白试验"@cn .
+
+check:Q575 rdfs:label "血清叶酸"@cn .
+
+check:Q576 rdfs:label "血浆鱼精蛋白副凝试验（3p试验）"@cn .
+
+check:Q577 rdfs:label "乳腺检查"@cn .
+
+check:Q578 rdfs:label "糖尿病视网膜病变检查"@cn .
+
+check:Q579 rdfs:label "盆腔MRI检查"@cn .
+
+check:Q580 rdfs:label "鼓膜"@cn .
+
+check:Q581 rdfs:label "凝血酶时间"@cn .
+
+check:Q582 rdfs:label "血氨"@cn .
+
+check:Q583 rdfs:label "淀粉酶"@cn .
+
+check:Q584 rdfs:label "血清单胺氧化酶（MAO）"@cn .
+
+check:Q585 rdfs:label "红细胞寿命"@cn .
+
+check:Q586 rdfs:label "蛋白C"@cn .
+
+check:Q587 rdfs:label "四肢透视"@cn .
+
+check:Q588 rdfs:label "骨密度测定"@cn .
+
+check:Q589 rdfs:label "SPECT显像"@cn .
+
+check:Q590 rdfs:label "甲状腺激素抑制试验"@cn .
+
+check:Q591 rdfs:label "结核菌素试验（OT"@cn .
+
+check:Q592 rdfs:label "下消化道内镜检查"@cn .
+
+check:Q593 rdfs:label "胫骨后肌肌力试验"@cn .
+
+check:Q594 rdfs:label "色觉"@cn .
+
+check:Q595 rdfs:label "椎管内注射标记物法"@cn .
+
+check:Q596 rdfs:label "体位变换试验"@cn .
+
+check:Q597 rdfs:label "微丝蚴（Mf）"@cn .
+
+check:Q598 rdfs:label "早产视网膜病变筛查"@cn .
+
+check:Q599 rdfs:label "弓形体抗体测定"@cn .
+
+check:Q600 rdfs:label "麻疹病毒抗体"@cn .
+
+check:Q601 rdfs:label "抗溶血性链球菌“O”试验"@cn .
+
+check:Q602 rdfs:label "载脂蛋白B（ApoB）"@cn .
+
+check:Q603 rdfs:label "颅骨透照试验"@cn .
+
+check:Q604 rdfs:label "聚合酶链反应技术"@cn .
+
+check:Q605 rdfs:label "血清补体C9含量"@cn .
+
+check:Q606 rdfs:label "角膜反射检查"@cn .
+
+check:Q607 rdfs:label "骨髓象分析"@cn .
+
+check:Q608 rdfs:label "核酸的分子杂交"@cn .
+
+check:Q609 rdfs:label "尿卟啉"@cn .
+
+check:Q610 rdfs:label "不孕不育的免疫学检查"@cn .
+
+check:Q611 rdfs:label "脑血流图"@cn .
+
+check:Q612 rdfs:label "一秒用力呼气量"@cn .
+
+check:Q613 rdfs:label "尿沉渣白细胞（WBC"@cn .
+
+check:Q614 rdfs:label "纤维胃镜"@cn .
+
+check:Q615 rdfs:label "脉波"@cn .
+
+check:Q616 rdfs:label "胃排空测定和显像"@cn .
+
+check:Q617 rdfs:label "病理反射检查"@cn .
+
+check:Q618 rdfs:label "支气管激发试验（BPT）"@cn .
+
+check:Q619 rdfs:label "平均红细胞血红蛋白含量(MCH)"@cn .
+
+check:Q620 rdfs:label "肘直线检查"@cn .
+
+check:Q621 rdfs:label "纵隔镜检查"@cn .
+
+check:Q622 rdfs:label "促肾上腺皮质激素（ACTH）"@cn .
+
+check:Q623 rdfs:label "夹纸试验"@cn .
+
+check:Q624 rdfs:label "脊柱触诊"@cn .
+
+check:Q625 rdfs:label "子宫疾病自检"@cn .
+
+check:Q626 rdfs:label "膀胱触诊"@cn .
+
+check:Q627 rdfs:label "丙氨酸"@cn .
+
+check:Q628 rdfs:label "复合感觉检查"@cn .
+
+check:Q629 rdfs:label "虹膜检查法"@cn .
+
+check:Q630 rdfs:label "C3肾炎因子"@cn .
+
+check:Q631 rdfs:label "红细胞沉率"@cn .
+
+check:Q632 rdfs:label "痰液细胞学检查"@cn .
+
+check:Q633 rdfs:label "胰多肽"@cn .
+
+check:Q634 rdfs:label "视神经检查"@cn .
+
+check:Q635 rdfs:label "凝血时间"@cn .
+
+check:Q636 rdfs:label "妇科炎症检查"@cn .
+
+check:Q637 rdfs:label "血清磷脂"@cn .
+
+check:Q638 rdfs:label "脑脊液生长抑素"@cn .
+
+check:Q639 rdfs:label "酸碱度(pH)值测定"@cn .
+
+check:Q640 rdfs:label "糖化血清蛋白"@cn .
+
+check:Q641 rdfs:label "血浆凝血酶检测"@cn .
+
+check:Q642 rdfs:label "呼气流速"@cn .
+
+check:Q643 rdfs:label "平均红细胞体积（MCV）"@cn .
+
+check:Q644 rdfs:label "肺泡-动脉氧分压差（PA-aDO2）"@cn .
+
+check:Q645 rdfs:label "脑脊液细胞计数"@cn .
+
+check:Q646 rdfs:label "血清砷（As）"@cn .
+
+check:Q647 rdfs:label "疟原虫抗体和抗原"@cn .
+
+check:Q648 rdfs:label "全血糖化Hb"@cn .
+
+check:Q649 rdfs:label "血清铁（Fe）"@cn .
+
+check:Q650 rdfs:label "阴道滴虫检查"@cn .
+
+check:Q651 rdfs:label "肺活量（VC）"@cn .
+
+check:Q652 rdfs:label "全血镍（Ni）"@cn .
+
+check:Q653 rdfs:label "淋巴显像"@cn .
+
+check:Q654 rdfs:label "眼标本的细菌学检查"@cn .
+
+check:Q655 rdfs:label "端粒酶活性"@cn .
+
+check:Q656 rdfs:label "胸部疾病体征检查"@cn .
+
+check:Q657 rdfs:label "锡克试验"@cn .
+
+check:Q658 rdfs:label "电子阴道镜"@cn .
+
+check:Q659 rdfs:label "抗肾上腺皮质抗体"@cn .
+
+check:Q660 rdfs:label "胃液总量"@cn .
+
+check:Q661 rdfs:label "气钡双对比造影"@cn .
+
+check:Q662 rdfs:label "多导睡眠图检查"@cn .
+
+check:Q663 rdfs:label "尿人绒毛膜促性腺激素（HCG）"@cn .
+
+check:Q664 rdfs:label "疥螨检查"@cn .
+
+check:Q665 rdfs:label "免疫球蛋白轻链"@cn .
+
+check:Q666 rdfs:label "碘黄试验"@cn .
+
+check:Q667 rdfs:label "甘油三酯"@cn .
+
+check:Q668 rdfs:label "尿液透明度（UCI）"@cn .
+
+check:Q669 rdfs:label "颈部活动度检查"@cn .
+
+check:Q670 rdfs:label "蝰蛇毒时间"@cn .
+
+check:Q671 rdfs:label "纤维支气管镜检查"@cn .
+
+check:Q672 rdfs:label "闭孔内肌征"@cn .
+
+check:Q673 rdfs:label "鼻咽部MRI检查"@cn .
+
+check:Q674 rdfs:label "五肽胃泌素胃液分析"@cn .
+
+check:Q675 rdfs:label "脑电图棘波"@cn .
+
+check:Q676 rdfs:label "黄疸检查"@cn .
+
+check:Q677 rdfs:label "结核杆菌检查"@cn .
+
+check:Q678 rdfs:label "尿硒"@cn .
+
+check:Q679 rdfs:label "汗液电解质检查"@cn .
+
+check:Q680 rdfs:label "拇指小指尖相对试验"@cn .
+
+check:Q681 rdfs:label "胎心音"@cn .
+
+check:Q682 rdfs:label "脑脊液IgG/白蛋白比值"@cn .
+
+check:Q683 rdfs:label "地塞米松抑制试验"@cn .
+
+check:Q684 rdfs:label "饮水通气法"@cn .
+
+check:Q685 rdfs:label "血管紧张素Ⅰ"@cn .
+
+check:Q686 rdfs:label "产科B超"@cn .
+
+check:Q687 rdfs:label "尿路平片"@cn .
+
+check:Q688 rdfs:label "电子皮镜"@cn .
+
+check:Q689 rdfs:label "细菌的鉴定"@cn .
+
+check:Q690 rdfs:label "C-反应蛋白检验（CRP）"@cn .
+
+check:Q691 rdfs:label "食管24hpH监测"@cn .
+
+check:Q692 rdfs:label "平衡法放射性核素心血管造影(ERNA)"@cn .
+
+check:Q693 rdfs:label "羊水检查"@cn .
+
+check:Q694 rdfs:label "过氯酸盐释放试验"@cn .
+
+check:Q695 rdfs:label "卵泡检测"@cn .
+
+check:Q696 rdfs:label "中性粒细胞比例(NEUT%)"@cn .
+
+check:Q697 rdfs:label "多普勒小儿血压检测"@cn .
+
+check:Q698 rdfs:label "血清骨钙素（BGP）"@cn .
+
+check:Q699 rdfs:label "呼吸道合胞病毒抗体"@cn .
+
+check:Q700 rdfs:label "吞咽试验"@cn .
+
+check:Q701 rdfs:label "尿素酶试验"@cn .
+
+check:Q702 rdfs:label "阴茎海绵体造影"@cn .
+
+check:Q703 rdfs:label "脑池显象"@cn .
+
+check:Q704 rdfs:label "抗柯萨奇B病毒IgG抗体"@cn .
+
+check:Q705 rdfs:label "癌抗原125（CA125）"@cn .
+
+check:Q706 rdfs:label "细胞免疫检查"@cn .
+
+check:Q707 rdfs:label "积液溶菌酶"@cn .
+
+check:Q708 rdfs:label "抗利尿激素"@cn .
+
+check:Q709 rdfs:label "胎方位"@cn .
+
+check:Q710 rdfs:label "维生素B12"@cn .
+
+check:Q711 rdfs:label "宫颈刮片（TCT）"@cn .
+
+check:Q712 rdfs:label "心血管MRI检查"@cn .
+
+check:Q713 rdfs:label "红细胞碱粒凝聚试验"@cn .
+
+check:Q714 rdfs:label "促甲状腺激素"@cn .
+
+check:Q715 rdfs:label "血涂片"@cn .
+
+check:Q716 rdfs:label "鼻中隔"@cn .
+
+check:Q717 rdfs:label "胆道支架引流（ERBD）"@cn .
+
+check:Q718 rdfs:label "关节腔液检查"@cn .
+
+check:Q719 rdfs:label "血清肌酸激酶"@cn .
+
+check:Q720 rdfs:label "血浆17-羟孕酮"@cn .
+
+check:Q721 rdfs:label "血清醛缩酶"@cn .
+
+check:Q722 rdfs:label "凝集实验"@cn .
+
+check:Q723 rdfs:label "胎儿体重预测"@cn .
+
+check:Q724 rdfs:label "红细胞计数(RBC)"@cn .
+
+check:Q725 rdfs:label "异形淋巴细胞"@cn .
+
+check:Q726 rdfs:label "颅内压监测"@cn .
+
+check:Q727 rdfs:label "亮氨酸氨基肽酶"@cn .
+
+check:Q728 rdfs:label "肾脏MRI检查"@cn .
+
+check:Q729 rdfs:label "乙型肝炎核心抗原"@cn .
+
+check:Q730 rdfs:label "木糖测定"@cn .
+
+check:Q731 rdfs:label "血型鉴定"@cn .
+
+check:Q732 rdfs:label "胃肠道功能动力学检查"@cn .
+
+check:Q733 rdfs:label "咽鼓管检查法"@cn .
+
+check:Q734 rdfs:label "血红蛋白电泳"@cn .
+
+check:Q735 rdfs:label "痰液的一般性状检查"@cn .
+
+check:Q736 rdfs:label "石胆酸"@cn .
+
+check:Q737 rdfs:label "促黄体生成素LH"@cn .
+
+check:Q738 rdfs:label "多染性红细胞"@cn .
+
+check:Q739 rdfs:label "角膜映光法"@cn .
+
+check:Q740 rdfs:label "抗Sa抗体"@cn .
+
+check:Q741 rdfs:label "乙型肝炎表面抗原"@cn .
+
+check:Q742 rdfs:label "宫颈检查"@cn .
+
+check:Q743 rdfs:label "心包积液检查"@cn .
+
+check:Q744 rdfs:label "脑脊液蛋白电泳"@cn .
+
+check:Q745 rdfs:label "直接抗人球蛋白试验"@cn .
+
+check:Q746 rdfs:label "粪便性状"@cn .
+
+check:Q747 rdfs:label "基础胃液分泌量"@cn .
+
+check:Q748 rdfs:label "静息显像"@cn .
+
+check:Q749 rdfs:label "尿酮体（KET）"@cn .
+
+check:Q750 rdfs:label "抗平滑肌抗体"@cn .
+
+check:Q751 rdfs:label "呼吸动度"@cn .
+
+check:Q752 rdfs:label "硫酸锌浊度试验"@cn .
+
+check:Q753 rdfs:label "白细胞分类计数"@cn .
+
+check:Q754 rdfs:label "狼疮带试验"@cn .
+
+check:Q755 rdfs:label "腹部透视"@cn .
+
+check:Q756 rdfs:label "胃食管反流测定和显像"@cn .
+
+check:Q757 rdfs:label "抗磷脂抗体"@cn .
+
+check:Q758 rdfs:label "乳房穿刺针活检"@cn .
+
+check:Q759 rdfs:label "儿童骨科检查"@cn .
+
+check:Q760 rdfs:label "厌氧菌的分离与鉴定"@cn .
+
+check:Q761 rdfs:label "鼻腔内镜检查"@cn .
+
+check:Q762 rdfs:label "视野检查"@cn .
+
+check:Q763 rdfs:label "上消化道功能测定和显像"@cn .
+
+check:Q764 rdfs:label "胰腺疾病超声诊断"@cn .
+
+check:Q765 rdfs:label "泪液电解质"@cn .
+
+check:Q766 rdfs:label "身体器官功能与营养"@cn .
+
+check:Q767 rdfs:label "血清尿酸"@cn .
+
+check:Q768 rdfs:label "压痛及反跳痛"@cn .
+
+check:Q769 rdfs:label "真菌培养检查"@cn .
+
+check:Q770 rdfs:label "炭疽的凝集反应"@cn .
+
+check:Q771 rdfs:label "红外热象图检查"@cn .
+
+check:Q772 rdfs:label "脱落细胞检查"@cn .
+
+check:Q773 rdfs:label "血管性血友病因子抗原（vWF:"@cn .
+
+check:Q774 rdfs:label "宫缩应激试验"@cn .
+
+check:Q775 rdfs:label "反击征"@cn .
+
+check:Q776 rdfs:label "尿亮氨酸"@cn .
+
+check:Q777 rdfs:label "腰部活动度"@cn .
+
+check:Q778 rdfs:label "脑脊液细胞学检查"@cn .
+
+check:Q779 rdfs:label "TRH兴奋TSH、PRL试验"@cn .
+
+check:Q780 rdfs:label "血清镁(Mg2+"@cn .
+
+check:Q781 rdfs:label "脑脊液细菌培养"@cn .
+
+check:Q782 rdfs:label "血清γ-谷氨酰转肽酶（γ-GTP）"@cn .
+
+check:Q783 rdfs:label "眼底微血管检查"@cn .
+
+check:Q784 rdfs:label "维生素A结合蛋白（RBP）"@cn .
+
+check:Q785 rdfs:label "运动功能检查"@cn .
+
+check:Q786 rdfs:label "腹部外形触诊"@cn .
+
+check:Q787 rdfs:label "羊水细胞性染色质检查"@cn .
+
+check:Q788 rdfs:label "血浆组织纤溶酶原活化物活性检测"@cn .
+
+check:Q789 rdfs:label "人体各关节功能活动范围"@cn .
+
+check:Q790 rdfs:label "病毒感染免疫检测"@cn .
+
+check:Q791 rdfs:label "纤维结肠镜检查"@cn .
+
+check:Q792 rdfs:label "粪便粘液"@cn .
+
+check:Q793 rdfs:label "血清乳酸脱氢酶同工酶（LDHI）"@cn .
+
+check:Q794 rdfs:label "胃泡鼓音区"@cn .
+
+check:Q795 rdfs:label "颌面部检查"@cn .
+
+check:Q796 rdfs:label "抗平滑肌抗体（ASMA）"@cn .
+
+check:Q797 rdfs:label "直接检眼镜检查法"@cn .
+
+check:Q798 rdfs:label "鼻粘膜及鼻腔分泌物"@cn .
+
+check:Q799 rdfs:label "药物刺激试验"@cn .
+
+check:Q800 rdfs:label "粒红比例"@cn .
+
+check:Q801 rdfs:label "血清尿素氮"@cn .
+
+check:Q802 rdfs:label "肾素活性"@cn .
+
+check:Q803 rdfs:label "瑞斯托霉素诱导血小板聚集测定"@cn .
+
+check:Q804 rdfs:label "温度与出汗"@cn .
+
+check:Q805 rdfs:label "经皮肤穿刺胆道造影"@cn .
+
+check:Q806 rdfs:label "血浆维生素B12"@cn .
+
+check:Q807 rdfs:label "甲状旁腺激素"@cn .
+
+check:Q808 rdfs:label "磷酸肌酸激同工酶"@cn .
+
+check:Q809 rdfs:label "心电图"@cn .
+
+check:Q810 rdfs:label "血红蛋白F包涵体生成试验"@cn .
+
+check:Q811 rdfs:label "甲状腺131碘吸收率"@cn .
+
+check:Q812 rdfs:label "阴茎超声检查"@cn .
+
+check:Q813 rdfs:label "胸部MRI"@cn .
+
+check:Q814 rdfs:label "输尿管镜检查"@cn .
+
+check:Q815 rdfs:label "胃镜"@cn .
+
+check:Q816 rdfs:label "胃肠道显像"@cn .
+
+check:Q817 rdfs:label "抗核抗体(ANA)或抗核因子(ANF)"@cn .
+
+check:Q818 rdfs:label "高铁血红蛋白还原试验"@cn .
+
+check:Q819 rdfs:label "甲状腺静态显像"@cn .
+
+check:Q820 rdfs:label "抗透明质酸酶"@cn .
+
+check:Q821 rdfs:label "葡萄糖氧化酶生化分析仪法"@cn .
+
+check:Q822 rdfs:label "内镜下胰胆造影术（ERCP）"@cn .
+
+check:Q823 rdfs:label "血清运铁蛋白"@cn .
+
+check:Q824 rdfs:label "尿液细菌培养"@cn .
+
+check:Q825 rdfs:label "血清胆汁酸测定（TBA）"@cn .
+
+check:Q826 rdfs:label "唾液黏蛋白"@cn .
+
+check:Q827 rdfs:label "眼球表膜检查"@cn .
+
+check:Q828 rdfs:label "口形红细胞"@cn .
+
+check:Q829 rdfs:label "胰凝乳蛋白酶"@cn .
+
+check:Q830 rdfs:label "脐带血穿刺"@cn .
+
+check:Q831 rdfs:label "纤溶酶"@cn .
+
+check:Q832 rdfs:label "弓形虫抗体"@cn .
+
+check:Q833 rdfs:label "铁染色"@cn .
+
+check:Q834 rdfs:label "远视力检查法"@cn .
+
+check:Q835 rdfs:label "尿蛋白试验（PRO）"@cn .
+
+check:Q836 rdfs:label "X染色质"@cn .
+
+check:Q837 rdfs:label "粪便脓液"@cn .
+
+check:Q838 rdfs:label "甲状腺素(T4)"@cn .
+
+check:Q839 rdfs:label "拾物试验"@cn .
+
+check:Q840 rdfs:label "硝酸盐还原试验"@cn .
+
+check:Q841 rdfs:label "血管造影"@cn .
+
+check:Q842 rdfs:label "精子形态"@cn .
+
+check:Q843 rdfs:label "降钙素"@cn .
+
+check:Q844 rdfs:label "特殊细菌涂片检查"@cn .
+
+check:Q845 rdfs:label "深静脉通畅试验"@cn .
+
+check:Q846 rdfs:label "前足挤压试验"@cn .
+
+check:Q847 rdfs:label "三叉神经的面部感觉检查"@cn .
+
+check:Q848 rdfs:label "肝胆显像"@cn .
+
+check:Q849 rdfs:label "颈动脉彩超"@cn .
+
+check:Q850 rdfs:label "鼻嗅觉功能检查"@cn .
+
+check:Q851 rdfs:label "滑液检查"@cn .
+
+check:Q852 rdfs:label "粪便脂肪定量"@cn .
+
+check:Q853 rdfs:label "尿胆原（URO）"@cn .
+
+check:Q854 rdfs:label "靛胭脂试验"@cn .
+
+check:Q855 rdfs:label "小气道功能"@cn .
+
+check:Q856 rdfs:label "皮疹"@cn .
+
+check:Q857 rdfs:label "骨髓浆细胞系统"@cn .
+
+check:Q858 rdfs:label "胎心胎动"@cn .
+
+check:Q859 rdfs:label "皮肤颜色"@cn .
+
+check:Q860 rdfs:label "凝血酶原消耗试验"@cn .
+
+check:Q861 rdfs:label "磁共振血管造影"@cn .
+
+check:Q862 rdfs:label "尿三氯化铁试验"@cn .
+
+check:Q863 rdfs:label "视觉诱发电位"@cn .
+
+check:Q864 rdfs:label "中性粒细胞趋化试验"@cn .
+
+check:Q865 rdfs:label "眼底荧光血管造影"@cn .
+
+check:Q866 rdfs:label "嗜碱性点彩红细胞"@cn .
+
+check:Q867 rdfs:label "粪细菌培养"@cn .
+
+check:Q868 rdfs:label "尿常规"@cn .
+
+check:Q869 rdfs:label "肾脏切片"@cn .
+
+check:Q870 rdfs:label "精子数"@cn .
+
+check:Q871 rdfs:label "血细胞分析仪"@cn .
+
+check:Q872 rdfs:label "粪便量"@cn .
+
+check:Q873 rdfs:label "静脉肾盂造影（IVP）"@cn .
+
+check:Q874 rdfs:label "膝关节分离试验"@cn .
+
+check:Q875 rdfs:label "中和试验"@cn .
+
+check:Q876 rdfs:label "足畸形检查"@cn .
+
+check:Q877 rdfs:label "Cochet和Bonnet氏角膜知觉测量计"@cn .
+
+check:Q878 rdfs:label "抗艾滋病(AIDS)抗体"@cn .
+
+check:Q879 rdfs:label "尿渗透压"@cn .
+
+check:Q880 rdfs:label "皮肤病的物理检查"@cn .
+
+check:Q881 rdfs:label "血清α1抗胰蛋白酶测定（α1-AT"@cn .
+
+check:Q882 rdfs:label "膀胱输尿管返流显象"@cn .
+
+check:Q883 rdfs:label "脂溶性维生素"@cn .
+
+check:Q884 rdfs:label "脑脊液培养+药敏试验"@cn .
+
+check:Q885 rdfs:label "CT检查"@cn .
+
+check:Q886 rdfs:label "甲状腺摄131碘试验"@cn .
+
+check:Q887 rdfs:label "声阻抗检查"@cn .
+
+check:Q888 rdfs:label "尿液细菌学检查"@cn .
+
+check:Q889 rdfs:label "肾脏叩诊"@cn .
+
+check:Q890 rdfs:label "耳部检查"@cn .
+
+check:Q891 rdfs:label "步态分析"@cn .
+
+check:Q892 rdfs:label "抗甲状腺微粒体抗体"@cn .
+
+check:Q893 rdfs:label "尿液镜检法"@cn .
+
+check:Q894 rdfs:label "快速血浆反应素环状卡片试验"@cn .
+
+check:Q895 rdfs:label "骨盆挤压试验"@cn .
+
+check:Q896 rdfs:label "瞳孔反射"@cn .
+
+check:Q897 rdfs:label "子宫颈活检"@cn .
+
+check:Q898 rdfs:label "碳氧血红蛋白定性试验(HBCO)"@cn .
+
+check:Q899 rdfs:label "抗戊型肝炎病毒抗体"@cn .
+
+check:Q900 rdfs:label "肾血流量"@cn .
+
+check:Q901 rdfs:label "鼻咽部活组织检查"@cn .
+
+check:Q902 rdfs:label "五官MRI检查"@cn .
+
+check:Q903 rdfs:label "逆行肾盂造影"@cn .
+
+check:Q904 rdfs:label "血清γ-谷氨酰转肽酶"@cn .
+
+check:Q905 rdfs:label "肝压痛"@cn .
+
+check:Q906 rdfs:label "排卵预测试纸"@cn .
+
+check:Q907 rdfs:label "抗桥粒自身抗体"@cn .
+
+check:Q908 rdfs:label "血清总铁结合力"@cn .
+
+check:Q909 rdfs:label "嗜酸性粒细胞计数（E）"@cn .
+
+check:Q910 rdfs:label "平均血小板体积(MPV)"@cn .
+
+check:Q911 rdfs:label "盆腔和阴道B超"@cn .
+
+check:Q912 rdfs:label "乙型肝炎抗原抗体检测（HBcAb）"@cn .
+
+check:Q913 rdfs:label "沙眼衣原体抗体"@cn .
+
+check:Q914 rdfs:label "窦道及瘘管造影"@cn .
+
+check:Q915 rdfs:label "尿钠(Na+"@cn .
+
+check:Q916 rdfs:label "精子子宫黏液贯通试验"@cn .
+
+check:Q917 rdfs:label "静脉听诊"@cn .
+
+check:Q918 rdfs:label "脑脊液的化学检查"@cn .
+
+check:Q919 rdfs:label "结核杆菌基因检测（PCR）"@cn .
+
+check:Q920 rdfs:label "生殖系统肿瘤检查项目"@cn .
+
+check:Q921 rdfs:label "白带pH值"@cn .
+
+check:Q922 rdfs:label "阴道分泌物细胞学检查"@cn .
+
+check:Q923 rdfs:label "脑脊液免疫球蛋白"@cn .
+
+check:Q924 rdfs:label "前列腺指检"@cn .
+
+check:Q925 rdfs:label "总三碘甲状腺原氨酸"@cn .
+
+check:Q926 rdfs:label "碱性磷酸酶(ALP"@cn .
+
+check:Q927 rdfs:label "姿势与步态"@cn .
+
+check:Q928 rdfs:label "尿液病原体检查"@cn .
+
+check:Q929 rdfs:label "抗血小板抗体（APA）"@cn .
+
+check:Q930 rdfs:label "前臂直尺试验"@cn .
+
+check:Q931 rdfs:label "抗乙酰胆碱受体抗体"@cn .
+
+check:Q932 rdfs:label "视野计检查"@cn .
+
+check:Q933 rdfs:label "血清免疫蛋白电泳"@cn .
+
+check:Q934 rdfs:label "尿隐血"@cn .
+
+check:Q935 rdfs:label "肾图检查"@cn .
+
+check:Q936 rdfs:label "阴道细胞涂片检查"@cn .
+
+check:Q937 rdfs:label "血浆醛固酮"@cn .
+
+check:Q938 rdfs:label "血小板凝集功能试验"@cn .
+
+check:Q939 rdfs:label "肩关节外展试验"@cn .
+
+check:Q940 rdfs:label "抗链球菌型M蛋白抗体"@cn .
+
+check:Q941 rdfs:label "子宫内膜活检"@cn .
+
+check:Q942 rdfs:label "尿道抬举试验"@cn .
+
+check:Q943 rdfs:label "温度觉"@cn .
+
+check:Q944 rdfs:label "泪液分泌型免疫球蛋白A"@cn .
+
+check:Q945 rdfs:label "尿液颜色"@cn .
+
+check:Q946 rdfs:label "纤维肠镜"@cn .
+
+check:Q947 rdfs:label "FBC玫瑰花试验"@cn .
+
+check:Q948 rdfs:label "新斯的明试验"@cn .
+
+check:Q949 rdfs:label "眼压计测量法"@cn .
+
+check:Q950 rdfs:label "胸部CT检查"@cn .
+
+check:Q951 rdfs:label "抗凝血酶-Ⅲ"@cn .
+
+check:Q952 rdfs:label "肩胛骨检查"@cn .
+
+check:Q953 rdfs:label "血管紧张素转化酶"@cn .
+
+check:Q954 rdfs:label "体层摄影"@cn .
+
+check:Q955 rdfs:label "乳酸脱氢酶(LDH"@cn .
+
+check:Q956 rdfs:label "尿胆原"@cn .
+
+check:Q957 rdfs:label "梅毒确诊试验"@cn .
+
+check:Q958 rdfs:label "葡萄糖耐量试验"@cn .
+
+check:Q959 rdfs:label "阴离子隙"@cn .
+
+check:Q960 rdfs:label "螺旋CT检查"@cn .
+
+check:Q961 rdfs:label "过敏原筛选"@cn .
+
+check:Q962 rdfs:label "脑电图弥漫性慢波"@cn .
+
+check:Q963 rdfs:label "尿素氮"@cn .
+
+check:Q964 rdfs:label "上消化道X线钡餐"@cn .
+
+check:Q965 rdfs:label "妊娠检查"@cn .
+
+check:Q966 rdfs:label "胆囊胆道B超检查"@cn .
+
+check:Q967 rdfs:label "血红蛋白"@cn .
+
+check:Q968 rdfs:label "液气胸征"@cn .
+
+check:Q969 rdfs:label "小指短屈肌肌力试验"@cn .
+
+check:Q970 rdfs:label "口服胆囊造影"@cn .
+
+check:Q971 rdfs:label "抗子宫内膜抗体（EMAb）"@cn .
+
+check:Q972 rdfs:label "纤维蛋白原"@cn .
+
+check:Q973 rdfs:label "流式细胞DNA分析"@cn .
+
+check:Q974 rdfs:label "血栓素B2"@cn .
+
+check:Q975 rdfs:label "细菌鉴定的酶类试验"@cn .
+
+check:Q976 rdfs:label "乳房自检"@cn .
+
+check:Q977 rdfs:label "胎儿脐动脉收缩压与舒张压的比值"@cn .
+
+check:Q978 rdfs:label "染色体核型分析"@cn .
+
+check:Q979 rdfs:label "吞咽试验法"@cn .
+
+check:Q980 rdfs:label "出血时间"@cn .
+
+check:Q981 rdfs:label "异型淋巴细胞"@cn .
+
+check:Q982 rdfs:label "迷走神经检查"@cn .
+
+check:Q983 rdfs:label "孕激素"@cn .
+
+check:Q984 rdfs:label "生长激素激发试验"@cn .
+
+check:Q985 rdfs:label "血清甲胎蛋白(AFP)"@cn .
+
+check:Q986 rdfs:label "狼疮性抗凝因子"@cn .
+
+check:Q987 rdfs:label "低密度脂蛋白胆固醇(LDL-C)"@cn .
+
+check:Q988 rdfs:label "棉签试验"@cn .
+
+check:Q989 rdfs:label "X线钡影跳跃征"@cn .
+
+check:Q990 rdfs:label "血浆因子XIII缺乏筛选试验"@cn .
+
+check:Q991 rdfs:label "尿肌红蛋白"@cn .
+
+check:Q992 rdfs:label "乳糜尿定性试验"@cn .
+
+check:Q993 rdfs:label "动态视野检查"@cn .
+
+check:Q994 rdfs:label "三面镜"@cn .
+
+check:Q995 rdfs:label "骨与关节MRI检查"@cn .
+
+check:Q996 rdfs:label "腹部皮肤检查"@cn .
+
+check:Q997 rdfs:label "乳酸（LA）"@cn .
+
+check:Q998 rdfs:label "肺功能检查"@cn .
+
+check:Q999 rdfs:label "异常红细胞形态检查"@cn .
+
+check:Q1000 rdfs:label "细胞组织化学染色"@cn .
+
+check:Q1001 rdfs:label "抗链球菌激酶试验"@cn .
+
+check:Q1002 rdfs:label "闭目难立征"@cn .
+
+check:Q1003 rdfs:label "痰培养+药敏试验"@cn .
+
+check:Q1004 rdfs:label "脑脊液动力学试验"@cn .
+
+check:Q1005 rdfs:label "局部淋巴显象"@cn .
+
+check:Q1006 rdfs:label "中性粒细胞计数（NEUT）"@cn .
+
+check:Q1007 rdfs:label "导尿术"@cn .
+
+check:Q1008 rdfs:label "抗PM-1抗体"@cn .
+
+check:Q1009 rdfs:label "膀胱逼尿肌功能检查"@cn .
+
+check:Q1010 rdfs:label "瞳孔检查"@cn .
+
+check:Q1011 rdfs:label "十二指肠液和胆汁寄生虫检查"@cn .
+
+check:Q1012 rdfs:label "国际标准智力测试"@cn .
+
+check:Q1013 rdfs:label "肾上腺CT检查"@cn .
+
+check:Q1014 rdfs:label "糖发酵试验"@cn .
+
+check:Q1015 rdfs:label "脑多普勒超声（TCD）"@cn .
+
+check:Q1016 rdfs:label "骨髓红细胞系统"@cn .
+
+check:Q1017 rdfs:label "ECT检查"@cn .
+
+check:Q1018 rdfs:label "血小板计数（PLT）"@cn .
+
+check:Q1019 rdfs:label "尿钙"@cn .
+
+check:Q1020 rdfs:label "X线碘油造影"@cn .
+
+check:Q1021 rdfs:label "寄生虫排泄物和分泌物检查"@cn .
+
+check:Q1022 rdfs:label "粪便脂肪"@cn .
+
+check:Q1023 rdfs:label "烟碱"@cn .
+
+check:Q1024 rdfs:label "丙氨酸氨基转移酶(ALT）"@cn .
+
+check:Q1025 rdfs:label "粪便寄生虫"@cn .
+
+check:Q1026 rdfs:label "血清甘油三脂"@cn .
+
+check:Q1027 rdfs:label "检眼镜检查法"@cn .
+
+check:Q1028 rdfs:label "抱膝试验"@cn .
+
+check:Q1029 rdfs:label "血红蛋白A2"@cn .
+
+check:Q1030 rdfs:label "食管压力测定"@cn .
+
+check:Q1031 rdfs:label "血氧饱和度(SaO2)"@cn .
+
+check:Q1032 rdfs:label "电子肠镜"@cn .
+
+check:Q1033 rdfs:label "钩端螺旋体乳胶凝集试验"@cn .
+
+check:Q1034 rdfs:label "伸肘试验"@cn .
+
+check:Q1035 rdfs:label "屈拇握拳试验"@cn .
+
+check:Q1036 rdfs:label "血浆凝血因子Ⅶ活性测定"@cn .
+
+check:Q1037 rdfs:label "检影镜"@cn .
+
+check:Q1038 rdfs:label "Tinel征"@cn .
+
+check:Q1039 rdfs:label "颅脑MRI检查"@cn .
+
+check:Q1040 rdfs:label "鳞状上皮细胞癌抗原"@cn .
+
+check:Q1041 rdfs:label "催乳素(PRL)"@cn .
+
+check:Q1042 rdfs:label "脯氨酸"@cn .
+
+check:Q1043 rdfs:label "呼气试验"@cn .
+
+check:Q1044 rdfs:label "腹壁反射"@cn .
+
+check:Q1045 rdfs:label "动静脉瘘定位试验"@cn .
+
+check:Q1046 rdfs:label "脑葡萄糖代谢显像"@cn .
+
+check:Q1047 rdfs:label "血液及骨髓细菌培养"@cn .
+
+check:Q1048 rdfs:label "肺和胸膜视诊"@cn .
+
+check:Q1049 rdfs:label "血清胆固醇与磷脂比值"@cn .
+
+check:Q1050 rdfs:label "胃蛋白酶测定"@cn .
+
+check:Q1051 rdfs:label "血清锰（Mn）"@cn .
+
+check:Q1052 rdfs:label "自身溶血试验及纠正试验"@cn .
+
+check:Q1053 rdfs:label "经支气管镜肺活检"@cn .
+
+check:Q1054 rdfs:label "自主神经功能检查"@cn .
+
+check:Q1055 rdfs:label "粪胆原"@cn .
+
+check:Q1056 rdfs:label "血清铁饱和度"@cn .
+
+check:Q1057 rdfs:label "冠状动脉造影"@cn .
+
+check:Q1058 rdfs:label "眼及眶区CT检查"@cn .
+
+check:Q1059 rdfs:label "跖反射"@cn .
+
+check:Q1060 rdfs:label "沙眼衣原体IgM和IgG"@cn .
+
+check:Q1061 rdfs:label "抗内皮细胞抗体"@cn .
+
+check:Q1062 rdfs:label "最大胃液分泌量"@cn .
+
+check:Q1063 rdfs:label "磁共振增强扫描"@cn .
+
+check:Q1064 rdfs:label "甲型肝炎抗体检测（抗-HAV）"@cn .
+
+check:Q1065 rdfs:label "床旁摄片"@cn .
+
+check:Q1066 rdfs:label "膀胱镜"@cn .
+
+check:Q1067 rdfs:label "核磁共振成像(MRI)"@cn .
+
+check:Q1068 rdfs:label "泪管显象"@cn .
+
+check:Q1069 rdfs:label "肌钙蛋白"@cn .
+
+check:Q1070 rdfs:label "精液细菌"@cn .
+
+check:Q1071 rdfs:label "结膜的检查"@cn .
+
+check:Q1072 rdfs:label "精液量"@cn .
+
+check:Q1073 rdfs:label "体液免疫检测法"@cn .
+
+check:Q1074 rdfs:label "输卵管通液检查"@cn .
+
+check:Q1075 rdfs:label "脂蛋白脂肪酶"@cn .
+
+check:Q1076 rdfs:label "红细胞生成素"@cn .
+
+check:Q1077 rdfs:label "液晶热图"@cn .
+
+check:Q1078 rdfs:label "吲哚氰绿试验"@cn .
+
+check:Q1079 rdfs:label "尿素"@cn .
+
+check:Q1080 rdfs:label "尿儿茶酚胺"@cn .
+
+check:Q1081 rdfs:label "眼球及眼眶检查法"@cn .
+
+check:Q1082 rdfs:label "布氏杆菌凝集试验"@cn .
+
+check:Q1083 rdfs:label "血葡萄糖"@cn .
+
+check:Q1084 rdfs:label "冷热溶血试验"@cn .
+
+check:Q1085 rdfs:label "红细胞变形性"@cn .
+
+check:Q1086 rdfs:label "尿蛋白质"@cn .
+
+check:Q1087 rdfs:label "浅反射检查"@cn .
+
+check:Q1088 rdfs:label "泌尿感染类尿常规"@cn .
+
+check:Q1089 rdfs:label "骨髓各系细胞形态学检查"@cn .
+
+check:Q1090 rdfs:label "浆膜腔积液细胞学检查"@cn .
+
+check:Q1091 rdfs:label "血液黏度"@cn .
+
+check:Q1092 rdfs:label "体温测量"@cn .
+
+check:Q1093 rdfs:label "直接涂片检查"@cn .
+
+check:Q1094 rdfs:label "血吸虫环卵沉淀试验"@cn .
+
+check:Q1095 rdfs:label "抗碱血红蛋白"@cn .
+
+check:Q1096 rdfs:label "肺阻抗血流图"@cn .
+
+check:Q1097 rdfs:label "半乳糖耐量试验"@cn .
+
+check:Q1098 rdfs:label "Hertel氏眼球突出计"@cn .
+
+check:Q1099 rdfs:label "抗中性粒细胞胞浆"@cn .
+
+check:Q1100 rdfs:label "等渗盐水低压灌肠试验"@cn .
+
+check:Q1101 rdfs:label "肝脏超声检查"@cn .
+
+check:Q1102 rdfs:label "内镜检查"@cn .
+
+check:Q1103 rdfs:label "D860激发试验"@cn .
+
+check:Q1104 rdfs:label "腹部CT"@cn .
+
+check:Q1105 rdfs:label "睾丸活检"@cn .
+
+check:Q1106 rdfs:label "屈指试验"@cn .
+
+check:Q1107 rdfs:label "屈肌紧张试验"@cn .
+
+check:Q1108 rdfs:label "血清癌胚抗原"@cn .
+
+check:Q1109 rdfs:label "维生素B2"@cn .
+
+check:Q1110 rdfs:label "维生素B6"@cn .
+
+check:Q1111 rdfs:label "枸橼酸盐利用试验"@cn .
+
+check:Q1112 rdfs:label "维生素B1"@cn .
+
+check:Q1113 rdfs:label "妇科超声检查"@cn .
+
+check:Q1114 rdfs:label "抗双链DNA抗体"@cn .
+
+check:Q1115 rdfs:label "血氧饱和度"@cn .
+
+check:Q1116 rdfs:label "体重指数"@cn .
+
+check:Q1117 rdfs:label "类风湿因子"@cn .
+
+check:Q1118 rdfs:label "尿糖"@cn .
+
+check:Q1119 rdfs:label "包虫病补体结合试验"@cn .
+
+check:Q1120 rdfs:label "衣原体检查法"@cn .
+
+check:Q1121 rdfs:label "眼科检查"@cn .
+
+check:Q1122 rdfs:label "尿肌酐（Ucr）"@cn .
+
+check:Q1123 rdfs:label "幽门螺杆菌检测"@cn .
+
+check:Q1124 rdfs:label "关节镜检查"@cn .
+
+check:Q1125 rdfs:label "脊髓灰质炎病毒抗体"@cn .
+
+check:Q1126 rdfs:label "左旋多巴兴奋GH试验"@cn .
+
+check:Q1127 rdfs:label "拇指对掌试验"@cn .
+
+check:Q1128 rdfs:label "胰脏触诊"@cn .
+
+check:Q1129 rdfs:label "指总伸肌肌力试验"@cn .
+
+check:Q1130 rdfs:label "抗甲状腺球蛋白抗体（ATGA）"@cn .
+
+check:Q1131 rdfs:label "胆囊触诊"@cn .
+
+check:Q1132 rdfs:label "脐检查"@cn .
+
+check:Q1133 rdfs:label "脑脊液C-反应蛋白"@cn .
+
+check:Q1134 rdfs:label "生理盐水皮肤试验"@cn .
+
+check:Q1135 rdfs:label "阴道分泌物检查"@cn .
+
+check:Q1136 rdfs:label "血小板聚集试验（PAgT）"@cn .
+
+check:Q1137 rdfs:label "尿胆素"@cn .
+
+check:Q1138 rdfs:label "内窥镜逆行胰胆管造影（ERCP）"@cn .
+
+check:Q1139 rdfs:label "毒素皮肤试验"@cn .
+
+check:Q1140 rdfs:label "阴道镜检查"@cn .
+
+check:Q1141 rdfs:label "过敏原检测仪"@cn .
+
+check:Q1142 rdfs:label "甘氨酸"@cn .
+
+check:Q1143 rdfs:label "粪中脂肪"@cn .
+
+check:Q1144 rdfs:label "血清胆固醇"@cn .
+
+check:Q1145 rdfs:label "肿瘤相关抗原"@cn .
+
+check:Q1146 rdfs:label "血磷脂（PL）"@cn .
+
+check:Q1147 rdfs:label "乳头溢液检查"@cn .
+
+check:Q1148 rdfs:label "脑脊液胆红素"@cn .
+
+check:Q1149 rdfs:label "眼球异物定位摄影"@cn .
+
+check:Q1150 rdfs:label "尿沉渣细胞学"@cn .
+
+check:Q1151 rdfs:label "血清酸性磷酸酶"@cn .
+
+check:Q1152 rdfs:label "血清腺苷脱氨酶"@cn .
+
+check:Q1153 rdfs:label "乳腺导管内窥镜"@cn .
+
+check:Q1154 rdfs:label "体位"@cn .
+
+check:Q1155 rdfs:label "尿17-酮皮质类固醇（17-KS）"@cn .
+
+check:Q1156 rdfs:label "皮肤癌检测"@cn .
+
+check:Q1157 rdfs:label "淀粉酶同工酶"@cn .
+
+check:Q1158 rdfs:label "血浆促甲状腺激素释放激素(TRH)"@cn .
+
+check:Q1159 rdfs:label "99Tmc-MIBI甲状腺显像"@cn .
+
+check:Q1160 rdfs:label "枫糖尿症筛查"@cn .
+
+check:Q1161 rdfs:label "血清免疫球蛋白（Ig）"@cn .
+
+check:Q1162 rdfs:label "前房角镜检查法"@cn .
+
+check:Q1163 rdfs:label "胱氨酸"@cn .
+
+check:Q1164 rdfs:label "脑诱发电位"@cn .
+
+check:Q1165 rdfs:label "胎盘分级"@cn .
+
+check:Q1166 rdfs:label "部分凝血活酶时间"@cn .
+
+check:Q1167 rdfs:label "非梅毒螺旋体抗原血清试验"@cn .
+
+check:Q1168 rdfs:label "抗Sm抗体"@cn .
+
+check:Q1169 rdfs:label "宫颈妇科常规检查"@cn .
+
+check:Q1170 rdfs:label "骨髓粒细胞系统"@cn .
+
+check:Q1171 rdfs:label "胃运动功能测定"@cn .
+
+check:Q1172 rdfs:label "尿汞"@cn .
+
+check:Q1173 rdfs:label "抗戊型肝炎病毒IgG抗体"@cn .
+
+check:Q1174 rdfs:label "肺内分流量（Qsp"@cn .
+
+check:Q1175 rdfs:label "蔗糖溶血试验"@cn .
+
+check:Q1176 rdfs:label "床边试验"@cn .
+
+check:Q1177 rdfs:label "膀胱超声检查"@cn .
+
+check:Q1178 rdfs:label "胰岛素抗体"@cn .
+
+check:Q1179 rdfs:label "粪结核杆菌检查"@cn .
+
+check:Q1180 rdfs:label "基础胃液分泌量/最大胃酸排量"@cn .
+
+check:Q1181 rdfs:label "腹部平片"@cn .
+
+check:Q1182 rdfs:label "全血铅"@cn .
+
+check:Q1183 rdfs:label "睾酮（T）"@cn .
+
+check:Q1184 rdfs:label "四肢的骨和关节平片"@cn .
+
+check:Q1185 rdfs:label "淋球菌免疫学检测"@cn .
+
+check:Q1186 rdfs:label "颅脑CT检查"@cn .
+
+check:Q1187 rdfs:label "β-胡萝卜素"@cn .
+
+check:Q1188 rdfs:label "眼心反射"@cn .
+
+check:Q1189 rdfs:label "泌尿系统CT检查"@cn .
+
+check:Q1190 rdfs:label "风疹病毒抗体"@cn .
+
+check:Q1191 rdfs:label "谷氨酰胺"@cn .
+
+check:Q1192 rdfs:label "肝脏及胆囊叩诊"@cn .
+
+check:Q1193 rdfs:label "皮肤点刺试验"@cn .
+
+check:Q1194 rdfs:label "二维超声心动图"@cn .
+
+check:Q1195 rdfs:label "Ⅰ级产前超声检查"@cn .
+
+check:Q1196 rdfs:label "胃肠道CT检查"@cn .
+
+check:Q1197 rdfs:label "螯合剂驱铅试验"@cn .
+
+check:Q1198 rdfs:label "阴道细胞学检查"@cn .
+
+check:Q1199 rdfs:label "腰臀围比例"@cn .
+
+check:Q1200 rdfs:label "HBsAg免疫复合物"@cn .
+
+check:Q1201 rdfs:label "精液黏稠度"@cn .
+
+check:Q1202 rdfs:label "雌激素"@cn .
+
+check:Q1203 rdfs:label "尿氯"@cn .
+
+check:Q1204 rdfs:label "婴幼儿视力检查"@cn .
+
+check:Q1205 rdfs:label "血浆抗利尿激素（ADH）"@cn .
+
+check:Q1206 rdfs:label "脑血流测定"@cn .
+
+check:Q1207 rdfs:label "尿铅（Pb）"@cn .
+
+check:Q1208 rdfs:label "痰液气味"@cn .
+
+check:Q1209 rdfs:label "肠道通过时间测定和压力测定"@cn .
+
+check:Q1210 rdfs:label "血清脂蛋白和血清脂蛋白电泳"@cn .
+
+check:Q1211 rdfs:label "尿前列腺素"@cn .
+
+check:Q1212 rdfs:label "尿17-羟-皮质类固醇（17-OH-CS）"@cn .
+
+check:Q1213 rdfs:label "前列腺B超检查"@cn .
+
+check:Q1214 rdfs:label "阴囊检查"@cn .
+
+check:Q1215 rdfs:label "粪便显微镜检查"@cn .
+
+check:Q1216 rdfs:label "电子束CT"@cn .
+
+check:Q1217 rdfs:label "粪便白细胞"@cn .
+
+check:Q1218 rdfs:label "音叉检查"@cn .
+
+check:Q1219 rdfs:label "脑脊液颜色"@cn .
+
+check:Q1220 rdfs:label "血清钙（Ca2+"@cn .
+
+check:Q1221 rdfs:label "脏器触诊"@cn .
+
+check:Q1222 rdfs:label "前S抗体"@cn .
+
+check:Q1223 rdfs:label "肠鸣音"@cn .
+
+check:Q1224 rdfs:label "痰液免疫学检查"@cn .
+
+check:Q1225 rdfs:label "羊水甲胎蛋白测定（AFP）"@cn .
+
+check:Q1226 rdfs:label "粪脂肪定量"@cn .
+
+check:Q1227 rdfs:label "胆囊超声波检查"@cn .
+
+check:Q1228 rdfs:label "三碘甲状腺原氨酸（T3）"@cn .
+
+check:Q1229 rdfs:label "嗜异性凝集试验"@cn .
+
+check:Q1230 rdfs:label "胃蛋白酶"@cn .
+
+check:Q1231 rdfs:label "带状光检影法"@cn .
+
+check:Q1232 rdfs:label "毛果芸香碱出汗试验"@cn .
+
+check:Q1233 rdfs:label "乳腺远红外检查"@cn .
+
+check:Q1234 rdfs:label "眼球运动检查"@cn .
+
+check:Q1235 rdfs:label "肌电图"@cn .
+
+check:Q1236 rdfs:label "血清白蛋白与球蛋白比值（A/G）"@cn .
+
+check:Q1237 rdfs:label "放射免疫分析"@cn .
+
+check:Q1238 rdfs:label "冷凝集试验"@cn .
+
+check:Q1239 rdfs:label "脑脊液乳酸"@cn .
+
+check:Q1240 rdfs:label "红细胞染色质小体"@cn .
+
+check:Q1241 rdfs:label "抗核抗体（ANA）"@cn .
+
+check:Q1242 rdfs:label "色氨酸"@cn .
+
+check:Q1243 rdfs:label "浮髌试验"@cn .
+
+check:Q1244 rdfs:label "血管彩超"@cn .
+
+check:Q1245 rdfs:label "抗戊型肝炎病毒IgM抗体"@cn .
+
+check:Q1246 rdfs:label "血浆酮体"@cn .
+
+check:Q1247 rdfs:label "胃肠型和蠕动波"@cn .
+
+check:Q1248 rdfs:label "肿瘤断层显象"@cn .
+
+check:Q1249 rdfs:label "裂隙灯"@cn .
+
+check:Q1250 rdfs:label "脑电图检查"@cn .
+
+check:Q1251 rdfs:label "乙肝两对半"@cn .
+
+check:Q1252 rdfs:label "阿司匹林耐量试验"@cn .
+
+check:Q1253 rdfs:label "肺毛细血管楔压"@cn .
+
+check:Q1254 rdfs:label "扫描电子显微镜"@cn .
+
+check:Q1255 rdfs:label "乳房超声检查"@cn .
+
+check:Q1256 rdfs:label "造影检查"@cn .
+
+check:Q1257 rdfs:label "放射过敏原吸附试验(RAST)"@cn .
+
+check:Q1258 rdfs:label "粪胆红素"@cn .
+
+check:Q1259 rdfs:label "梅毒USR试验"@cn .
+
+check:Q1260 rdfs:label "肾病类尿常规"@cn .
+
+check:Q1261 rdfs:label "外生殖器检查"@cn .
+
+check:Q1262 rdfs:label "埃可病毒抗体"@cn .
+
+check:Q1263 rdfs:label "14C呼气试验"@cn .
+
+check:Q1264 rdfs:label "羟脯氨酸"@cn .
+
+check:Q1265 rdfs:label "泪液分泌试验"@cn .
+
+check:Q1266 rdfs:label "PPD试验"@cn .
+
+check:Q1267 rdfs:label "抗组织相容性抗原-DR抗体"@cn .
+
+check:Q1268 rdfs:label "粪便中的卟啉"@cn .
+
+check:Q1269 rdfs:label "TCT检查"@cn .
+
+check:Q1270 rdfs:label "β1-妊娠特异蛋白"@cn .
+
+check:Q1271 rdfs:label "泪腺检查法"@cn .
+
+check:Q1272 rdfs:label "动脉血氧含量（CaO2）"@cn .
+
+check:Q1273 rdfs:label "脊柱超伸试验"@cn .
+
+check:Q1274 rdfs:label "肾静态显像"@cn .
+
+check:Q1275 rdfs:label "淋巴细胞计数（LY）"@cn .
+
+check:Q1276 rdfs:label "空腹血葡萄糖"@cn .
+
+check:Q1277 rdfs:label "脉率"@cn .
+
+check:Q1278 rdfs:label "胆碱酯酶"@cn .
+
+check:Q1279 rdfs:label "浆细胞"@cn .
+
+check:Q1280 rdfs:label "周围血中异型细胞检验"@cn .
+
+check:Q1281 rdfs:label "尿妊娠试验（HCG）"@cn .
+
+check:Q1282 rdfs:label "NK细胞活性测定（ＮＫ）"@cn .
+
+check:Q1283 rdfs:label "尿道口检查"@cn .
+
+check:Q1284 rdfs:label "血清酪氨酸"@cn .
+
+check:Q1285 rdfs:label "小指外展试验"@cn .
+
+check:Q1286 rdfs:label "门冬氨酸氨基转移酶(AST)"@cn .
+
+check:Q1287 rdfs:label "耳的一般检查法"@cn .
+
+check:Q1288 rdfs:label "白细胞抗原（HLA）"@cn .
+
+check:Q1289 rdfs:label "染色体"@cn .
+
+check:Q1290 rdfs:label "尿沉渣管型检查"@cn .
+
+check:Q1291 rdfs:label "血清碱性磷酸酶"@cn .
+
+check:Q1292 rdfs:label "尿卟胆原"@cn .
+
+check:Q1293 rdfs:label "直立倾斜试验"@cn .
+
+check:Q1294 rdfs:label "血清锌"@cn .
+
+check:Q1295 rdfs:label "胰岛素"@cn .
+
+check:Q1296 rdfs:label "面部色诊"@cn .
+
+check:Q1297 rdfs:label "康氏反应"@cn .
+
+check:Q1298 rdfs:label "羊膜镜检查"@cn .
+
+check:Q1299 rdfs:label "细菌的CAMP试验"@cn .
+
+check:Q1300 rdfs:label "缓冲液"@cn .
+
+check:Q1301 rdfs:label "阴茎动脉血压/臂动脉血压"@cn .
+
+check:Q1302 rdfs:label "肱三头肌反射"@cn .
+
+check:Q1303 rdfs:label "粘稠度"@cn .
+
+check:Q1304 rdfs:label "脑脊液比重"@cn .
+
+check:Q1305 rdfs:label "尿含铁血黄素定性试验"@cn .
+
+check:Q1306 rdfs:label "急性肾功能衰竭诊断试验"@cn .
+
+check:Q1307 rdfs:label "鼻前庭"@cn .
+
+check:Q1308 rdfs:label "痰液病原体检查"@cn .
+
+check:Q1309 rdfs:label "光学相干断层扫描（OCT）"@cn .
+
+check:Q1310 rdfs:label "游离甲状腺指数"@cn .
+
+check:Q1311 rdfs:label "活化部分凝血活酶时间（APTT）"@cn .
+
+check:Q1312 rdfs:label "脑脊液细胞计数（CST）"@cn .
+
+check:Q1313 rdfs:label "异常凝血酶原（APT）"@cn .
+
+check:Q1314 rdfs:label "膀胱造影"@cn .
+
+check:Q1315 rdfs:label "孕酮(P)"@cn .
+
+check:Q1316 rdfs:label "睾丸检查"@cn .
+
+check:Q1317 rdfs:label "纤维鼻咽镜"@cn .
+
+check:Q1318 rdfs:label "膝侧向运动试验"@cn .
+
+check:Q1319 rdfs:label "地塞米松抑制醛固酮试验"@cn .
+
+check:Q1320 rdfs:label "皱缩红细胞"@cn .
+
+check:Q1321 rdfs:label "甲状腺球蛋白"@cn .
+
+check:Q1322 rdfs:label "口腔内窥镜"@cn .
+
+check:Q1323 rdfs:label "封闭抗体检查"@cn .
+
+check:Q1324 rdfs:label "肿瘤受体显像"@cn .
+
+check:Q1325 rdfs:label "总三碘甲状腺原氨酸(TT3)"@cn .
+
+check:Q1326 rdfs:label "血清镁"@cn .
+
+check:Q1327 rdfs:label "C肽（C-PR）"@cn .
+
+check:Q1328 rdfs:label "真菌检查"@cn .
+
+check:Q1329 rdfs:label "腹部外形检查"@cn .
+
+check:Q1330 rdfs:label "肺部检查"@cn .
+
+check:Q1331 rdfs:label "皮肤斑贴实验"@cn .
+
+check:Q1332 rdfs:label "粪便氯化物"@cn .
+
+check:Q1333 rdfs:label "孕激素试验"@cn .
+
+check:Q1334 rdfs:label "青光眼激发试验"@cn .
+
+check:Q1335 rdfs:label "前列腺、精囊腺的超声检查"@cn .
+
+check:Q1336 rdfs:label "植物血凝素试验"@cn .
+
+check:Q1337 rdfs:label "红细胞渗透脆性试验"@cn .
+
+check:Q1338 rdfs:label "引颈试验"@cn .
+
+check:Q1339 rdfs:label "肿瘤坏死因子α"@cn .
+
+check:Q1340 rdfs:label "真菌组织病理学"@cn .
+
+check:Q1341 rdfs:label "阴道触诊"@cn .
+
+check:Q1342 rdfs:label "上消化道造影"@cn .
+
+check:Q1343 rdfs:label "胃总酸度测定"@cn .
+
+check:Q1344 rdfs:label "呼气高峰流量（PEFR）"@cn .
+
+check:Q1345 rdfs:label "巩膜检查法"@cn .
+
+check:Q1346 rdfs:label "p53基因检测"@cn .
+
+check:Q1347 rdfs:label "促甲状腺激素释放激素"@cn .
+
+check:Q1348 rdfs:label "血清总补体"@cn .
+
+check:Q1349 rdfs:label "胎产式"@cn .
+
+check:Q1350 rdfs:label "妊娠试验"@cn .
+
+check:Q1351 rdfs:label "胃基础胃酸分泌量测定（BAO）"@cn .
+
+check:Q1352 rdfs:label "小肠造影"@cn .
+
+check:Q1353 rdfs:label "腹部MRI检查"@cn .
+
+check:Q1354 rdfs:label "上消化道摄影检查"@cn .
+
+check:Q1355 rdfs:label "前庭功能检查"@cn .
+
+check:Q1356 rdfs:label "脑脊液特异性梅毒螺旋体抗体"@cn .
+
+check:Q1357 rdfs:label "促甲状腺激素（TSH）"@cn .
+
+check:Q1358 rdfs:label "溶血试验"@cn .
+
+check:Q1359 rdfs:label "血清胆碱酯酶（CHE）"@cn .
+
+check:Q1360 rdfs:label "酶联免疫吸附试验"@cn .
+
+check:Q1361 rdfs:label "胸部外部检查"@cn .
+
+check:Q1362 rdfs:label "剖腹探查"@cn .
+
+check:Q1363 rdfs:label "胎儿畸形筛查"@cn .
+
+check:Q1364 rdfs:label "Trousseau征"@cn .
+
+check:Q1365 rdfs:label "移动性浊音"@cn .
+
+check:Q1366 rdfs:label "皮内试验"@cn .
+
+check:Q1367 rdfs:label "β-半乳糖苷酶"@cn .
+
+check:Q1368 rdfs:label "吞线试验"@cn .
+
+check:Q1369 rdfs:label "过氧化酶染色"@cn .
+
+check:Q1370 rdfs:label "粪隐血试验"@cn .
+
+check:Q1371 rdfs:label "促肾上腺皮质激素（ACTH）兴奋试验"@cn .
+
+check:Q1372 rdfs:label "血清钠"@cn .
+
+check:Q1373 rdfs:label "尿液粘多糖检测"@cn .
+
+check:Q1374 rdfs:label "血常规"@cn .
+
+check:Q1375 rdfs:label "复方碘试验"@cn .
+
+check:Q1376 rdfs:label "胸腔积液免疫化学检查"@cn .
+
+check:Q1377 rdfs:label "寄生虫血液检查"@cn .
+
+check:Q1378 rdfs:label "紧张度与动脉壁状态"@cn .
+
+check:Q1379 rdfs:label "阴道寄生虫检验"@cn .
+
+check:Q1380 rdfs:label "外鼻检查"@cn .
+
+check:Q1381 rdfs:label "听力检查"@cn .
+
+check:Q1382 rdfs:label "视网膜检影法"@cn .
+
+check:Q1383 rdfs:label "肺和胸膜听诊"@cn .
+
+check:Q1384 rdfs:label "猪囊虫抗体"@cn .
+
+check:Q1385 rdfs:label "拇短伸肌肌力试验"@cn .
+
+check:Q1386 rdfs:label "结节病抗原（Kveim）试验"@cn .
+
+check:Q1387 rdfs:label "蛇毒因子溶血试验"@cn .
+
+check:Q1388 rdfs:label "酶联合吸附测定"@cn .
+
+check:Q1389 rdfs:label "流感病毒抗体"@cn .
+
+check:Q1390 rdfs:label "散瞳验光"@cn .
+
+check:Q1391 rdfs:label "血清铁"@cn .
+
+check:Q1392 rdfs:label "宫颈分泌物培养"@cn .
+
+check:Q1393 rdfs:label "血清铜"@cn .
+
+check:Q1394 rdfs:label "血氧含量"@cn .
+
+check:Q1395 rdfs:label "角膜显微镜"@cn .
+
+check:Q1396 rdfs:label "红细胞压积(HCT)"@cn .
+
+check:Q1397 rdfs:label "免疫学检测"@cn .
+
+check:Q1398 rdfs:label "唾液中的细胞"@cn .
+
+check:Q1399 rdfs:label "尿蛋白定量"@cn .
+
+check:Q1400 rdfs:label "抗Scl-70抗体"@cn .
+
+check:Q1401 rdfs:label "氧分压"@cn .
+
+check:Q1402 rdfs:label "红细胞谷胱甘肽还原酶"@cn .
+
+check:Q1403 rdfs:label "眼震电图描记法"@cn .
+
+check:Q1404 rdfs:label "羊水细胞培养"@cn .
+
+check:Q1405 rdfs:label "血压"@cn .
+
+check:Q1406 rdfs:label "肌张力检查"@cn .
+
+check:Q1407 rdfs:label "输卵管通畅检查"@cn .
+
+check:Q1408 rdfs:label "糖链抗原50"@cn .
+
+check:Q1409 rdfs:label "肩外展摆动试验"@cn .
+
+check:Q1410 rdfs:label "全血容量"@cn .
+
+check:Q1411 rdfs:label "C反应蛋白（CRP）"@cn .
+
+check:Q1412 rdfs:label "尿肾上腺素"@cn .
+
+check:Q1413 rdfs:label "积液癌胚抗原"@cn .
+
+check:Q1414 rdfs:label "视力筛查仪"@cn .
+
+check:Q1415 rdfs:label "主觉检查"@cn .
+
+check:Q1416 rdfs:label "纤维胃镜检查"@cn .
+
+check:Q1417 rdfs:label "12小时尿细胞计数"@cn .
+
+check:Q1418 rdfs:label "踝关节背伸试验"@cn .
+
+check:Q1419 rdfs:label "胸膜腔内气体成分压力的测定"@cn .
+
+check:Q1420 rdfs:label "半胱氨酸尿症筛查"@cn .
+
+check:Q1421 rdfs:label "卵巢功能检查"@cn .
+
+check:Q1422 rdfs:label "胰腺肿瘤标记（CA"@cn .
+
+check:Q1423 rdfs:label "胃液胃组织癌胚抗原"@cn .
+
+check:Q1424 rdfs:label "头颅正侧位片"@cn .
+
+check:Q1425 rdfs:label "尿苯丙酸试验"@cn .
+
+check:Q1426 rdfs:label "腮腺炎病毒抗体"@cn .
+
+check:Q1427 rdfs:label "睾酮"@cn .
+
+check:Q1428 rdfs:label "优生四项检查"@cn .
+
+check:Q1429 rdfs:label "普通透视检查(透视)"@cn .
+
+check:Q1430 rdfs:label "血清氯(Cl-"@cn .
+
+check:Q1431 rdfs:label "半乳糖血症筛查"@cn .
+
+check:Q1432 rdfs:label "胸腔积液临床化学检查"@cn .
+
+check:Q1433 rdfs:label "脑血流显像"@cn .
+
+check:Q1434 rdfs:label "痰液中细胞分类"@cn .
+
+check:Q1435 rdfs:label "小指对掌肌肌力试验"@cn .
+
+check:Q1436 rdfs:label "肺通气功能"@cn .
+
+check:Q1437 rdfs:label "羊水泡沫试验"@cn .
+
+check:Q1438 rdfs:label "呼吸道粘液-纤毛清除功能测定"@cn .
+
+check:Q1439 rdfs:label "妇科疾病的病毒检查"@cn .
+
+check:Q1440 rdfs:label "血清学反应"@cn .
+
+check:Q1441 rdfs:label "动态显像"@cn .
+
+check:Q1442 rdfs:label "粪便隐血试验(OBT)"@cn .
+
+check:Q1443 rdfs:label "胸腹水常规检查"@cn .
+
+check:Q1444 rdfs:label "泌乳素（PRL）分泌抑制试验"@cn .
+
+check:Q1445 rdfs:label "血清淀粉酶（AMS）"@cn .
+
+check:Q1446 rdfs:label "脑干反射检查"@cn .
+
+check:Q1447 rdfs:label "血清磷脂酶A2"@cn .
+
+check:Q1448 rdfs:label "脾显像"@cn .
+
+check:Q1449 rdfs:label "脓汁和创伤感染标本细菌学检查"@cn .
+
+check:Q1450 rdfs:label "臂丛牵拉试验"@cn .
+
+check:Q1451 rdfs:label "膀胱颈抬高试验"@cn .
+
+check:Q1452 rdfs:label "速发型变态反应皮肤测试"@cn .
+
+check:Q1453 rdfs:label "19-9）"@cn .
+
+check:Q1454 rdfs:label "PHA淋巴细胞转化试验"@cn .
+
+check:Q1455 rdfs:label "肿瘤筛查"@cn .
+
+check:Q1456 rdfs:label "复钙时间"@cn .
+
+check:Q1457 rdfs:label "巴氏(Pap)"@cn .
+
+check:Q1458 rdfs:label "前置镜"@cn .
+
+check:Q1459 rdfs:label "皮肤与组织寄生虫的病原检查"@cn .
+
+check:Q1460 rdfs:label "脑功能成像"@cn .
+
+check:Q1461 rdfs:label "纤维蛋白肽A"@cn .
+
+check:Q1462 rdfs:label "骨盆外测量"@cn .
+
+check:Q1463 rdfs:label "梅毒螺旋体抗原血清试验"@cn .
+
+check:Q1464 rdfs:label "上肢动脉功能试验"@cn .
+
+check:Q1465 rdfs:label "脑垂体CT检查"@cn .
+
+check:Q1466 rdfs:label "真菌感染的实验室检查"@cn .
+
+check:Q1467 rdfs:label "心内电生理检查"@cn .
+
+check:Q1468 rdfs:label "NST试验"@cn .
+
+check:Q1469 rdfs:label "糖尿病类尿常规"@cn .
+
+check:Q1470 rdfs:label "血管视诊"@cn .
+
+check:Q1471 rdfs:label "抗肌球蛋白抗体"@cn .
+
+check:Q1472 rdfs:label "抗凝血活性试验"@cn .
+
+check:Q1473 rdfs:label "精子活动率"@cn .
+
+check:Q1474 rdfs:label "结核杆菌的抗原、抗体检查"@cn .
+
+check:Q1475 rdfs:label "血清脂肪酶"@cn .
+
+check:Q1476 rdfs:label "眼压指测法"@cn .
+
+check:Q1477 rdfs:label "血清谷草转氨酶"@cn .
+
+check:Q1478 rdfs:label "EB病毒抗体（EBV－Ab）"@cn .
+
+check:Q1479 rdfs:label "CT平扫"@cn .
+
+check:Q1480 rdfs:label "尿C肽"@cn .
+
+check:Q1481 rdfs:label "眼底接触镜"@cn .
+
+check:Q1482 rdfs:label "抗球蛋白试验（Coombs试验）"@cn .
+
+check:Q1483 rdfs:label "踝反射"@cn .
+
+check:Q1484 rdfs:label "前房轴深检查法"@cn .
+
+check:Q1485 rdfs:label "血液生化六项检查"@cn .
+
+check:Q1486 rdfs:label "滑膜液肉眼检查"@cn .
+
+check:Q1487 rdfs:label "血小板活化因子"@cn .
+
+check:Q1488 rdfs:label "抗甲型肝炎病毒IgA抗体"@cn .
+
+check:Q1489 rdfs:label "跟骨叩击试验"@cn .
+
+check:Q1490 rdfs:label "神经系统核医学检查"@cn .
+
+check:Q1491 rdfs:label "雌三醇"@cn .
+
+check:Q1492 rdfs:label "深反射检查"@cn .
+
+check:Q1493 rdfs:label "全血黏度"@cn .
+
+check:Q1494 rdfs:label "免疫印迹技术"@cn .
+
+check:Q1495 rdfs:label "维生素A耐量试验"@cn .
+
+check:Q1496 rdfs:label "肝脏疾病超声诊断"@cn .
+
+check:Q1497 rdfs:label "GnRH兴奋试验"@cn .
+
+check:Q1498 rdfs:label "血小板第Ⅳ因子"@cn .
+
+check:Q1499 rdfs:label "血清铁蛋白"@cn .
+
+check:Q1500 rdfs:label "尿微量转铁蛋白"@cn .
+
+check:Q1501 rdfs:label "快速血浆反应素试验"@cn .
+
+check:Q1502 rdfs:label "经食管超声心动图(TEE)"@cn .
+
+check:Q1503 rdfs:label "流行性脑脊髓膜炎免疫学试验"@cn .
+
+check:Q1504 rdfs:label "支气管造影"@cn .
+
+check:Q1505 rdfs:label "桡骨膜反射"@cn .
+
+check:Q1506 rdfs:label "脊柱运动试验"@cn .
+
+check:Q1507 rdfs:label "极低密度脂蛋白-胆固醇"@cn .
+
+check:Q1508 rdfs:label "内生殖器检查"@cn .
+
+check:Q1509 rdfs:label "天门冬氨酸"@cn .
+
+check:Q1510 rdfs:label "结肠造影"@cn .
+
+check:Q1511 rdfs:label "尿多巴胺"@cn .
+
+check:Q1512 rdfs:label "流行性出血热病毒抗体"@cn .
+
+check:Q1513 rdfs:label "盆底肌电图"@cn .
+
+check:Q1514 rdfs:label "肾功能检查"@cn .
+
+check:Q1515 rdfs:label "外耳道"@cn .
+
+check:Q1516 rdfs:label "胆固醇酯(chE"@cn .
+
+check:Q1517 rdfs:label "荚膜肿胀试验"@cn .
+
+check:Q1518 rdfs:label "乳酸脱氢酶同工酶"@cn .
+
+check:Q1519 rdfs:label "脑脊液检查-化学检查-蛋白质检查"@cn .
+
+check:Q1520 rdfs:label "痰及下呼吸道分泌物标本的细菌学检验"@cn .
+
+check:Q1521 rdfs:label "性传播疾病免疫检测"@cn .
+
+check:Q1522 rdfs:label "生殖道分泌物培养"@cn .
+
+check:Q1523 rdfs:label "十二指肠引流一般性状检查"@cn .
+
+check:Q1524 rdfs:label "细菌内毒素检查法"@cn .
+
+check:Q1525 rdfs:label "植物血凝素皮内试验"@cn .
+
+check:Q1526 rdfs:label "甲状腺吸碘率试验"@cn .
+
+check:Q1527 rdfs:label "尿胱氨酸"@cn .
+
+check:Q1528 rdfs:label "隐血试验与含铁血黄素检查"@cn .
+
+check:Q1529 rdfs:label "水溶性维生素"@cn .
+
+check:Q1530 rdfs:label "淋巴细胞毒试验"@cn .
+
+check:Q1531 rdfs:label "钼靶照相"@cn .
+
+check:Q1532 rdfs:label "阴道真菌检验"@cn .
+
+check:Q1533 rdfs:label "腹腔镜"@cn .
+
+check:Q1534 rdfs:label "阴道肿块"@cn .
+
+check:Q1535 rdfs:label "椭圆形红细胞"@cn .
+
+check:Q1536 rdfs:label "细胞角蛋白19片段抗原（CYFRA21-1）"@cn .
+
+check:Q1537 rdfs:label "精液检查"@cn .
+
+check:Q1538 rdfs:label "血栓弹力图"@cn .
+
+check:Q1539 rdfs:label "经阴道超声"@cn .
+
+check:Q1540 rdfs:label "抗胃壁细胞抗体"@cn .
+
+check:Q1541 rdfs:label "心肺功能运动试验（CPET）"@cn .
+
+check:Q1542 rdfs:label "单纯疱疹病毒（HSV）"@cn .
+
+check:Q1543 rdfs:label "小肠镜检查"@cn .
+
+check:Q1544 rdfs:label "胸壁检查"@cn .
+
+check:Q1545 rdfs:label "血清铝"@cn .
+
+check:Q1546 rdfs:label "餐后2小时血葡萄糖（2HPG"@cn .
+
+check:Q1547 rdfs:label "腹腔穿刺"@cn .
+
+check:Q1548 rdfs:label "尿流率测定"@cn .
+
+check:Q1549 rdfs:label "尿中白细胞（WBC"@cn .
+
+check:Q1550 rdfs:label "小肠充盈及排空功能检查"@cn .
+
+check:Q1551 rdfs:label "髋臼指数"@cn .
+
+check:Q1552 rdfs:label "抗中性粒细胞胞质抗体"@cn .
+
+check:Q1553 rdfs:label "下消化道摄影检查"@cn .
+
+check:Q1554 rdfs:label "前房深度测量"@cn .
+
+check:Q1555 rdfs:label "红细胞检查"@cn .
+
+check:Q1556 rdfs:label "子宫颈涂片测试"@cn .
+
+check:Q1557 rdfs:label "胆固醇酯与总胆固醇比值"@cn .
+
+check:Q1558 rdfs:label "寄生虫感染免疫检测"@cn .
+
+check:Q1559 rdfs:label "抗RNP抗体"@cn .
+
+check:Q1560 rdfs:label "氨基酸的检查"@cn .
+
+check:Q1561 rdfs:label "脑脊液单克隆抗体检测癌细胞"@cn .
+
+check:Q1562 rdfs:label "肌红蛋白"@cn .
+
+check:Q1563 rdfs:label "部分凝血活酶活性时间"@cn .
+
+check:Q1564 rdfs:label "羊水一般检查"@cn .
+
+check:Q1565 rdfs:label "脑脊液蛋白定性"@cn .
+
+check:Q1566 rdfs:label "结核菌素皮内试验"@cn .
+
+check:Q1567 rdfs:label "类风湿因子（RF）"@cn .
+
+check:Q1568 rdfs:label "伸腕试验"@cn .
+
+check:Q1569 rdfs:label "脑脊液梅毒血清补体结合反应"@cn .
+
+check:Q1570 rdfs:label "股四头肌肌力试验"@cn .
+
+check:Q1571 rdfs:label "髋外旋外展试验"@cn .
+
+check:Q1572 rdfs:label "握拳尺偏试验"@cn .
+
+check:Q1573 rdfs:label "迟发性皮肤变态反应"@cn .
+
+check:Q1574 rdfs:label "3-甲氧基肾上腺素"@cn .
+
+check:Q1575 rdfs:label "腰背部检查"@cn .
+
+check:Q1576 rdfs:label "肠镜"@cn .
+
+check:Q1577 rdfs:label "心排血量(CO)"@cn .
+
+check:Q1578 rdfs:label "组织多肽抗原"@cn .
+
+check:Q1579 rdfs:label "透明质酸酶"@cn .
+
+check:Q1580 rdfs:label "碎裂红细胞"@cn .
+
+check:Q1581 rdfs:label "甲状腺B型超声检查"@cn .
+
+check:Q1582 rdfs:label "胸部B超"@cn .
+
+check:Q1583 rdfs:label "含甲状腺球蛋白免疫复合物（TG-IC）"@cn .
+
+check:Q1584 rdfs:label "脑脊液一般性状检查"@cn .
+
+check:Q1585 rdfs:label "乳房检查"@cn .
+
+check:Q1586 rdfs:label "氨基酸测定"@cn .
+
+check:Q1587 rdfs:label "血清补体溶解免疫复合物活性"@cn .
+
+check:Q1588 rdfs:label "色素内镜检查"@cn .
+
+check:Q1589 rdfs:label "孕酮"@cn .
+
+check:Q1590 rdfs:label "脊柱MRI检查"@cn .
+
+check:Q1591 rdfs:label "粪寄生虫卵"@cn .
+
+check:Q1592 rdfs:label "血清脂蛋白-α"@cn .
+
+check:Q1593 rdfs:label "眼睑检查"@cn .
+
+check:Q1594 rdfs:label "激发试验"@cn .
+
+check:Q1595 rdfs:label "全身骨骼疾病排查"@cn .
+
+check:Q1596 rdfs:label "支气管舒张试验"@cn .
+
+check:Q1597 rdfs:label "经皮肾镜检查"@cn .
+
+check:Q1598 rdfs:label "头皮检查"@cn .
+
+check:Q1599 rdfs:label "血清白蛋白（ALB"@cn .
+
+check:Q1600 rdfs:label "囊虫病补体结合试验"@cn .
+
+check:Q1601 rdfs:label "凝血因子ⅩⅢ定性测定"@cn .
+
+check:Q1602 rdfs:label "中性粒细胞杀菌试验"@cn .
+
+check:Q1603 rdfs:label "肝上、下界叩诊"@cn .
+
+check:Q1604 rdfs:label "肛腹诊"@cn .
+
+check:Q1605 rdfs:label "华氏反应"@cn .
+
+check:Q1606 rdfs:label "脑脊液葡萄糖"@cn .
+
+check:Q1607 rdfs:label "屈肘试验"@cn .
+
+check:Q1608 rdfs:label "抗中性粒细胞抗体（ANGA）"@cn .
+
+check:Q1609 rdfs:label "甲状腺吸碘试验"@cn .
+
+check:Q1610 rdfs:label "尿结晶"@cn .
+
+check:Q1611 rdfs:label "眼位检查法"@cn .
+
+check:Q1612 rdfs:label "抗U1RNP抗体"@cn .
+
+check:Q1613 rdfs:label "抗肾小球基底膜抗体测定（AGBM）"@cn .
+
+check:Q1614 rdfs:label "前臂伸肌紧张试验"@cn .
+
+check:Q1615 rdfs:label "狼疮细胞"@cn .
+
+check:Q1616 rdfs:label "感染免疫检测"@cn .
+
+check:Q1617 rdfs:label "酶学检查"@cn .
+
+check:Q1618 rdfs:label "脑脊液细胞分类计数"@cn .
+
+check:Q1619 rdfs:label "脑脊液囊虫病间接血球凝集试验"@cn .
+
+check:Q1620 rdfs:label "血清免疫球蛋白M（IgM）"@cn .
+
+check:Q1621 rdfs:label "补体结合试验"@cn .
+
+check:Q1622 rdfs:label "标准碳酸氢盐(SB)"@cn .
+
+check:Q1623 rdfs:label "尿早早孕试验"@cn .
+
+check:Q1624 rdfs:label "食道X线钡餐检查"@cn .
+
+check:Q1625 rdfs:label "血清氯化物"@cn .
+
+check:Q1626 rdfs:label "血清免疫球蛋白E（IgE）"@cn .
+
+check:Q1627 rdfs:label "阴茎检查"@cn .
+
+check:Q1628 rdfs:label "血清醛固酮(ALD"@cn .
+
+check:Q1629 rdfs:label "眼睑肌力测量计"@cn .
+
+check:Q1630 rdfs:label "脑脊液常规检验（CSF）"@cn .
+
+check:Q1631 rdfs:label "精液液化时间"@cn .
+
+check:Q1632 rdfs:label "泪道探术"@cn .
+
+check:Q1633 rdfs:label "痛觉"@cn .
+
+check:Q1634 rdfs:label "角膜检查"@cn .
+
+check:Q1635 rdfs:label "前列腺液病原体"@cn .
+
+check:Q1636 rdfs:label "骨盆分离试验"@cn .
+
+check:Q1637 rdfs:label "梅毒血清反应的假阳性"@cn .
+
+check:Q1638 rdfs:label "巨噬细胞移动抑制试验"@cn .
+
+check:Q1639 rdfs:label "支气管肺泡灌洗术（BAL）"@cn .
+
+check:Q1640 rdfs:label "蝶鞍侧位片"@cn .
+
+check:Q1641 rdfs:label "促甲状腺激素释放激素兴奋试验"@cn .
+
+check:Q1642 rdfs:label "层粘连蛋白"@cn .
+
+check:Q1643 rdfs:label "囊虫胶乳凝集试验"@cn .
+
+check:Q1644 rdfs:label "乳糜尿"@cn .
+
+check:Q1645 rdfs:label "血肌酐(Cr"@cn .
+
+check:Q1646 rdfs:label "食管造影"@cn .
+
+check:Q1647 rdfs:label "血清尿素"@cn .
+
+check:Q1648 rdfs:label "糖原染色"@cn .
+
+check:Q1649 rdfs:label "胃液胃癌相关抗原"@cn .
+
+check:Q1650 rdfs:label "血清免疫球蛋白G（IgG）"@cn .
+
+check:Q1651 rdfs:label "眼压"@cn .
+
+check:Q1652 rdfs:label "碘过敏试验"@cn .
+
+check:Q1653 rdfs:label "血清总蛋白（TP"@cn .
+
+check:Q1654 rdfs:label "多导睡眠监测（PSG）"@cn .
+
+check:Q1655 rdfs:label "抗表皮基底膜抗体"@cn .
+
+check:Q1656 rdfs:label "梅毒螺旋体血凝试验"@cn .
+
+check:Q1657 rdfs:label "颅底片"@cn .
+
+check:Q1658 rdfs:label "视力"@cn .
+
+check:Q1659 rdfs:label "毛蚴孵化法"@cn .
+
+check:Q1660 rdfs:label "动眼神经检查"@cn .
+
+check:Q1661 rdfs:label "脑脊液蛋白定量"@cn .
+
+check:Q1662 rdfs:label "精囊检查"@cn .
+
+check:Q1663 rdfs:label "尿液分析"@cn .
+
+check:Q1664 rdfs:label "多普勒超声心动图"@cn .
+
+check:Q1665 rdfs:label "颈动脉搏动检查"@cn .
+
+check:Q1666 rdfs:label "酸溶血试验"@cn .
+
+check:Q1667 rdfs:label "红斑狼疮细胞(LEC)"@cn .
+
+check:Q1668 rdfs:label "血清载脂蛋白测定"@cn .
+
+check:Q1669 rdfs:label "指深屈肌肌力试验"@cn .
+
+check:Q1670 rdfs:label "乙醇胶试验"@cn .
+
+check:Q1671 rdfs:label "骨碱性磷酸酶"@cn .
+
+check:Q1672 rdfs:label "角膜知觉检查法"@cn .
+
+check:Q1673 rdfs:label "肿瘤基因P53抗体（P53-AB）"@cn .
+
+check:Q1674 rdfs:label "颈椎CT检查"@cn .
+
+check:Q1675 rdfs:label "放射性核素肾图"@cn .
+
+check:Q1676 rdfs:label "白细胞介素2（iL-2）"@cn .
+
+check:Q1677 rdfs:label "抗风疹病毒抗体(RuV)"@cn .
+
+check:Q1678 rdfs:label "B淋巴细胞表面标志"@cn .
+
+check:Q1679 rdfs:label "钒"@cn .
+
+check:Q1680 rdfs:label "抗骨骼肌抗体"@cn .
+
+check:Q1681 rdfs:label "腹部包块"@cn .
+
+check:Q1682 rdfs:label "包皮包茎检查"@cn .
+
+check:Q1683 rdfs:label "血液碳氧血红蛋白"@cn .
+
+check:Q1684 rdfs:label "硝基四唑氮蓝试验"@cn .
+
+check:Q1685 rdfs:label "游离甲状腺素"@cn .
+
+check:Q1686 rdfs:label "简易凝血活酶生成试验"@cn .
+
+check:Q1687 rdfs:label "肝、胆、胰、脾的MRI检查"@cn .
+
+check:Q1688 rdfs:label "淋菌培养"@cn .
+
+check:Q1689 rdfs:label "肌酸激酶"@cn .
+
+check:Q1690 rdfs:label "抗淋巴细胞抗体"@cn .
+
+check:Q1691 rdfs:label "脑脊液猪囊虫抗体"@cn .
+
+check:Q1692 rdfs:label "宫腔细菌培养"@cn .
+
+check:Q1693 rdfs:label "心钠素"@cn .
+
+check:Q1694 rdfs:label "腹股沟外环冲击试验"@cn .
+
+check:Q1695 rdfs:label "血清碱性磷酸酶（ALP）"@cn .
+
+check:Q1696 rdfs:label "游离三碘甲状腺原氨酸（FT3）"@cn .
+
+check:Q1697 rdfs:label "鼻泪管内镜"@cn .
+
+check:Q1698 rdfs:label "痰液中寄生虫和虫卵"@cn .
+
+check:Q1699 rdfs:label "痰液常规检查"@cn .
+
+check:Q1700 rdfs:label "有核红细胞"@cn .
+
+check:Q1701 rdfs:label "角膜病灶刮片"@cn .
+
+check:Q1702 rdfs:label "白细胞计数（WBC）"@cn .
+
+check:Q1703 rdfs:label "单胺氧化酶"@cn .
+
+check:Q1704 rdfs:label "尿纤维蛋白降解产物"@cn .
+
+check:Q1705 rdfs:label "凝血因子活性测定"@cn .
+
+check:Q1706 rdfs:label "头面部触诊"@cn .
+
+check:Q1707 rdfs:label "滑膜液常规检查"@cn .
+
+check:Q1708 rdfs:label "红细胞电泳时间测定"@cn .
+
+check:Q1709 rdfs:label "血清α-羟丁酸脱氢酶（α-HBDH）"@cn .
+
+check:Q1710 rdfs:label "尿砷"@cn .
+
+check:Q1711 rdfs:label "肛门视诊"@cn .
+
+check:Q1712 rdfs:label "红细胞膜磷脂"@cn .
+
+check:Q1713 rdfs:label "泪道冲洗"@cn .
+
+check:Q1714 rdfs:label "血乳酸"@cn .
+
+check:Q1715 rdfs:label "血液分析仪检查"@cn .
+
+check:Q1716 rdfs:label "肺通气量"@cn .
+
+check:Q1717 rdfs:label "EB病毒壳抗原IgA抗体"@cn .
+
+check:Q1718 rdfs:label "皮肤试验"@cn .
+
+check:Q1719 rdfs:label "脉搏"@cn .
+
+check:Q1720 rdfs:label "轮状病毒抗原的检测"@cn .
+
+check:Q1721 rdfs:label "胃充盈及排空功能检查"@cn .
+
+check:Q1722 rdfs:label "白陶土部分凝血活酶时间"@cn .
+
+check:Q1723 rdfs:label "抗链球菌溶血素“O”试验"@cn .
+
+check:Q1724 rdfs:label "基础代谢"@cn .
+
+check:Q1725 rdfs:label "眼底镜检查法"@cn .
+
+check:Q1726 rdfs:label "听力图"@cn .
+
+check:Q1727 rdfs:label "积液腺苷脱氢酶"@cn .
+
+check:Q1728 rdfs:label "粪钙"@cn .
+
+check:Q1729 rdfs:label "5-羟吲哚乙酸"@cn .
+
+check:Q1730 rdfs:label "前鼻镜检查"@cn .
+
+check:Q1731 rdfs:label "粪卟啉"@cn .
+
+check:Q1732 rdfs:label "甲状旁腺激素（PTH）试验"@cn .
+
+check:Q1733 rdfs:label "黄体酮试验"@cn .
+
+check:Q1734 rdfs:label "泪液乳铁蛋白"@cn .
+
+check:Q1735 rdfs:label "膝关节过伸试验"@cn .
+
+check:Q1736 rdfs:label "男科检查"@cn .
+
+check:Q1737 rdfs:label "颞动脉活检"@cn .
+
+check:Q1738 rdfs:label "羊膜穿刺术"@cn .
+
+check:Q1739 rdfs:label "尿苯丙酮酸（PA）"@cn .
+
+check:Q1740 rdfs:label "羊水胆红素"@cn .
+
+check:Q1741 rdfs:label "压颈试验"@cn .
+
+check:Q1742 rdfs:label "肾上腺MRI检查"@cn .
+
+check:Q1743 rdfs:label "重复呼吸试验"@cn .
+
+check:Q1744 rdfs:label "毛发"@cn .
+
+check:Q1745 rdfs:label "盆腔充气造影"@cn .
+
+check:Q1746 rdfs:label "琼脂扩散试验"@cn .
+
+check:Q1747 rdfs:label "总胆汁酸"@cn .
+
+check:Q1748 rdfs:label "M型超声心动图（ME）"@cn .
+
+check:Q1749 rdfs:label "腰背痛体格检查"@cn .
+
+check:Q1750 rdfs:label "骨髓细菌培养"@cn .
+
+check:Q1751 rdfs:label "侧方应力试验"@cn .
+
+check:Q1752 rdfs:label "胰岛素低血糖兴奋GH、ACTH试验"@cn .
+
+check:Q1753 rdfs:label "抗精子抗体"@cn .
+
+check:Q1754 rdfs:label "语言检查法"@cn .
+
+check:Q1755 rdfs:label "髋膝屈曲试验"@cn .
+
+check:Q1756 rdfs:label "口服葡萄糖耐量试验"@cn .
+
+check:Q1757 rdfs:label "周围血管征"@cn .
+
+check:Q1758 rdfs:label "葡萄糖-6-磷酸脱氢酶"@cn .
+
+check:Q1759 rdfs:label "前列腺肿瘤标记（PSA）"@cn .
+
+check:Q1760 rdfs:label "血清汞（Hg）"@cn .
+
+check:Q1761 rdfs:label "新生儿溶血症筛查"@cn .
+
+check:Q1762 rdfs:label "骨髓粒细胞与有核红细胞比值（M/E）"@cn .
+
+check:Q1763 rdfs:label "X线头影测量"@cn .
+
+check:Q1764 rdfs:label "尿磷"@cn .
+
+check:Q1765 rdfs:label "性激素六项检查"@cn .
+
+check:Q1766 rdfs:label "雌激素撤血试验"@cn .
+
+check:Q1767 rdfs:label "体位引流"@cn .
+
+check:Q1768 rdfs:label "新生儿体格检查"@cn .
+
+check:Q1769 rdfs:label "碱性磷酸酶染色"@cn .
+
+check:Q1770 rdfs:label "网织红细胞计数（RC）"@cn .
+
+check:Q1771 rdfs:label "四步触诊法"@cn .
+
+check:Q1772 rdfs:label "环卵沉淀试验"@cn .
+
+check:Q1773 rdfs:label "红细胞乙酰胆碱脂酶"@cn .
+
+check:Q1774 rdfs:label "抗单链DNA(ssDNA)抗体"@cn .
+
+check:Q1775 rdfs:label "甲状腺、甲状旁腺的超声检查"@cn .
+
+check:Q1776 rdfs:label "梅毒螺旋体抗体"@cn .
+
+check:Q1777 rdfs:label "抗肝肾微粒体抗体测定（LKM）"@cn .
+
+check:Q1778 rdfs:label "脑脊液氨基酸"@cn .
+
+check:Q1779 rdfs:label "伸肌紧张试验"@cn .
+
+check:Q1780 rdfs:label "眼球和眼眶的超声检查"@cn .
+
+check:Q1781 rdfs:label "耳、鼻、咽拭子细菌培养"@cn .
+
+check:Q1782 rdfs:label "CT造影扫描"@cn .
+
+check:Q1783 rdfs:label "戊型肝炎抗体（抗-HEIgM）"@cn .
+
+check:Q1784 rdfs:label "毛细血管脆性试验"@cn .
+
+check:Q1785 rdfs:label "暗适应曲线"@cn .
+
+check:Q1786 rdfs:label "细菌感染免疫检测"@cn .
+
+check:Q1787 rdfs:label "尿氨基酸氮"@cn .
+
+check:Q1788 rdfs:label "组氨酸"@cn .
+
+check:Q1789 rdfs:label "骨盆测量"@cn .
+
+check:Q1790 rdfs:label "血清粘蛋白（SM）"@cn .
+
+check:Q1791 rdfs:label "肺炎支原体补体结合试验"@cn .
+
+check:Q1792 rdfs:label "后穹窿穿刺术"@cn .
+
+check:Q1793 rdfs:label "乳房摄片"@cn .
+
+check:Q1794 rdfs:label "裸眼检查法"@cn .
+
+check:Q1795 rdfs:label "胰腺外分泌功能试验"@cn .
+
+check:Q1796 rdfs:label "血液半乳糖"@cn .
+
+check:Q1797 rdfs:label "单纯疱疹病毒抗体"@cn .
+
+check:Q1798 rdfs:label "胸腔积液显微镜检查"@cn .
+
+check:Q1799 rdfs:label "鼻部功能检查"@cn .
+
+check:Q1800 rdfs:label "支原体检查法"@cn .
+
+check:Q1801 rdfs:label "棘形红细胞"@cn .
+
+check:Q1802 rdfs:label "上消化道内窥镜检查"@cn .
+
+check:Q1803 rdfs:label "骶髂关节检查法"@cn .
+
+check:Q1804 rdfs:label "球囊逼出试验"@cn .
+
+check:Q1805 rdfs:label "葡萄糖6-磷酸脱氢酶荧光斑点试验"@cn .
+
+check:Q1806 rdfs:label "癌症普查"@cn .
+
+check:Q1807 rdfs:label "羊水生化检查"@cn .
+
+check:Q1808 rdfs:label "中耳"@cn .
+
+check:Q1809 rdfs:label "血清补体C3"@cn .
+
+check:Q1810 rdfs:label "棒状小体"@cn .
+
+check:Q1811 rdfs:label "尿道分泌物检查"@cn .
+
+check:Q1812 rdfs:label "血清补体C4"@cn .
+
+check:Q1813 rdfs:label "听力测试法"@cn .
+
+check:Q1814 rdfs:label "脑脊液压力"@cn .
+
+check:Q1815 rdfs:label "遮盖法"@cn .
+
+check:Q1816 rdfs:label "5-羟色胺"@cn .
+
+check:Q1817 rdfs:label "妇科检查"@cn .
+
+check:Q1818 rdfs:label "新生儿疾病筛查"@cn .
+
+check:Q1819 rdfs:label "晶状体检查"@cn .
+
+check:Q1820 rdfs:label "神经系统检查"@cn .
+
+check:Q1821 rdfs:label "鼻腔检查"@cn .
+
+check:Q1822 rdfs:label "血清钠（Na+"@cn .
+
+check:Q1823 rdfs:label "输卵管镜"@cn .
+
+check:Q1824 rdfs:label "寄生虫检查的直接涂片法"@cn .
+
+check:Q1825 rdfs:label "超声内镜检查"@cn .
+
+check:Q1826 rdfs:label "血清淀粉样蛋白A"@cn .
+
+check:Q1827 rdfs:label "胶体铁染色"@cn .
+
+check:Q1828 rdfs:label "粪便上皮细胞"@cn .
+
+check:Q1829 rdfs:label "颞下颌关节检查"@cn .
+
+check:Q1830 rdfs:label "指鼻试验"@cn .
+
+check:Q1831 rdfs:label "血清无机磷"@cn .
+
+check:Q1832 rdfs:label "膀胱注水试验"@cn .
+
+check:Q1833 rdfs:label "血清前白蛋白（PA）"@cn .
+
+check:Q1834 rdfs:label "一般摄片检查"@cn .
+
+check:Q1835 rdfs:label "精子顶体酶活性"@cn .
+
+check:Q1836 rdfs:label "眼球突出度"@cn .
+
+check:Q1837 rdfs:label "肾脏CT检查"@cn .
+
+check:Q1838 rdfs:label "纤维蛋白降解产物"@cn .
+
+check:Q1839 rdfs:label "肾脏触诊"@cn .
+
+check:Q1840 rdfs:label "阿托品抑制GH试验"@cn .
+
+check:Q1841 rdfs:label "痰液中分泌型IgA"@cn .
+
+check:Q1842 rdfs:label "脑血管造影"@cn .
+
+check:Q1843 rdfs:label "男性生殖系X线检查"@cn .
+
+check:Q1844 rdfs:label "沙眼衣原体"@cn .
+
+check:Q1845 rdfs:label "骨髓巨核细胞数和分类"@cn .
+
+check:Q1846 rdfs:label "解脲脲原体"@cn .
+
+check:Q1847 rdfs:label "肺灌注显像"@cn .
+
+check:Q1848 rdfs:label "钼"@cn .
+
+check:Q1849 rdfs:label "粪便血液"@cn .
+
+check:Q1850 rdfs:label "血清触珠蛋白（Hp）"@cn .
+
+check:Q1851 rdfs:label "宫腔镜"@cn .
+
+check:Q1852 rdfs:label "不育男性体格检查"@cn .
+
+check:Q1853 rdfs:label "胎盘成熟度"@cn .
+
+check:Q1854 rdfs:label "尿沉渣3小时计数"@cn .
+
+check:Q1855 rdfs:label "滤过紫外线检查"@cn .
+
+check:Q1856 rdfs:label "T3T4抗体"@cn .
+
+check:Q1857 rdfs:label "电子支气管镜检查"@cn .
+
+check:Q1858 rdfs:label "脑电图尖波"@cn .
+
+check:Q1859 rdfs:label "体脂肪率"@cn .
+
+check:Q1860 rdfs:label "阴道毛滴虫检查"@cn .
+
+check:Q1861 rdfs:label "屈光检查"@cn .
+
+check:Q1862 rdfs:label "血小板第3因子有效性测定"@cn .
+
+check:Q1863 rdfs:label "外耳检查"@cn .
+
+check:Q1864 rdfs:label "实际碳酸氢盐（AB）"@cn .
+
+check:Q1865 rdfs:label "直肠指检"@cn .
+
+check:Q1866 rdfs:label "后仰位椎间孔挤压试验"@cn .
+
+check:Q1867 rdfs:label "透光试验"@cn .
+
+check:Q1868 rdfs:label "马氏杆"@cn .
+
+check:Q1869 rdfs:label "血清磷（Pi）"@cn .
+
+check:Q1870 rdfs:label "肺泡气-动脉血氧分压差"@cn .
+
+check:Q1871 rdfs:label "水负荷ADH抑制试验"@cn .
+
+check:Q1872 rdfs:label "必需微量元素检测"@cn .
+
+check:Q1873 rdfs:label "抗类风湿性关节炎33抗体"@cn .
+
+check:Q1874 rdfs:label "放射免疫显象"@cn .
+
+check:Q1875 rdfs:label "脾脏叩诊"@cn .
+
+check:Q1876 rdfs:label "牙髓温度试验（冷热诊）"@cn .
+
+check:Q1877 rdfs:label "立体视觉"@cn .
+
+check:Q1878 rdfs:label "角膜地形图检查"@cn .
+
+check:Q1879 rdfs:label "禁水加压素试验"@cn .
+
+check:Q1880 rdfs:label "动脉血氧分压(PaO2)"@cn .
+
+check:Q1881 rdfs:label "磁共振波谱分析"@cn .
+
+check:Q1882 rdfs:label "抗Jo-1抗体"@cn .
+
+check:Q1883 rdfs:label "赖氨酸"@cn .
+
+check:Q1884 rdfs:label "丙型肝炎抗体检测（抗-HCV-Ig）"@cn .
+
+check:Q1885 rdfs:label "风疹病毒抗体IgG"@cn .
+
+check:Q1886 rdfs:label "瘘管试验"@cn .
+
+check:Q1887 rdfs:label "近红外线乳腺扫描检查"@cn .
+
+check:Q1888 rdfs:label "电子胃镜"@cn .
+
+check:Q1889 rdfs:label "酸性磷酸酶"@cn .
+
+check:Q1890 rdfs:label "电测听"@cn .
+
+check:Q1891 rdfs:label "子宫输卵管造影"@cn .
+
+check:Q1892 rdfs:label "引流管"@cn .
+
+check:Q1893 rdfs:label "前列腺检查"@cn .
+
+check:Q1894 rdfs:label "血管性假血友病因子"@cn .
+
+check:Q1895 rdfs:label "胸水检查"@cn .
+
+check:Q1896 rdfs:label "Chvostek征"@cn .
+
+check:Q1897 rdfs:label "选择性心血管造影"@cn .
+
+check:Q1898 rdfs:label "全血细胞计数"@cn .
+
+check:Q1899 rdfs:label "甲型肝炎病毒抗原（HAVAg）"@cn .
+
+check:Q1900 rdfs:label "压平眼压计测量法"@cn .
+
+check:Q1901 rdfs:label "肾上腺皮质显像"@cn .
+
+check:Q1902 rdfs:label "乳腺肿瘤标记（CA"@cn .
+
+check:Q1903 rdfs:label "Rh血型鉴定"@cn .
+
+check:Q1904 rdfs:label "抗庚型肝炎病毒E2抗体"@cn .
+
+check:Q1905 rdfs:label "癌胚抗原（CEA）"@cn .
+
+check:Q1906 rdfs:label "心音图检查"@cn .
+
+check:Q1907 rdfs:label "中心静脉压测定（CVP）"@cn .
+
+check:Q1908 rdfs:label "子宫及附件检查"@cn .
+
+check:Q1909 rdfs:label "腹水检查"@cn .
+
+check:Q1910 rdfs:label "丙型肝炎RNA"@cn .
+
+check:Q1911 rdfs:label "脊柱压痛与叩击痛"@cn .
+
+check:Q1912 rdfs:label "腹膜后充气造影"@cn .
+
+check:Q1913 rdfs:label "单克隆丙种球蛋白"@cn .
+
+check:Q1914 rdfs:label "盆腔CT检查"@cn .
+
+check:Q1915 rdfs:label "皮肤涂片显微镜检查"@cn .
+
+check:Q1916 rdfs:label "双合诊"@cn .
+
+check:Q1917 rdfs:label "补体C3测定"@cn .
+
+check:Q1918 rdfs:label "抗Ku抗体"@cn .
+
+check:Q1919 rdfs:label "产科检查"@cn .
+
+check:Q1920 rdfs:label "后鼻镜检查"@cn .
+
+check:Q1921 rdfs:label "精氨酸"@cn .
+
+check:Q1922 rdfs:label "细菌学检验"@cn .
+
+check:Q1923 rdfs:label "抗庚型肝炎病毒IgG抗体"@cn .
+
+check:Q1924 rdfs:label "肿瘤声学造影"@cn .
+
+check:Q1925 rdfs:label "呼吸肌功能测定"@cn .
+
+check:Q1926 rdfs:label "乙肝病毒学指标"@cn .
+
+check:Q1927 rdfs:label "血沉方程K值"@cn .
+
+check:Q1928 rdfs:label "肛门指检"@cn .
+
+check:Q1929 rdfs:label "尿半乳糖"@cn .
+
+check:Q1930 rdfs:label "免疫电泳"@cn .
+
+check:Q1931 rdfs:label "抗原皮内试验"@cn .
+
+check:Q1932 rdfs:label "疲劳试验"@cn .
+
+check:Q1933 rdfs:label "子宫与附件肿块"@cn .
+
+check:Q1934 rdfs:label "神经系统细胞学检查"@cn .
+
+check:Q1935 rdfs:label "CT血管成像"@cn .
+
+check:Q1936 rdfs:label "改良加藤法"@cn .
+
+check:Q1937 rdfs:label "胃液颜色"@cn .
+
+check:Q1938 rdfs:label "乳房淋巴结实验"@cn .
+
+check:Q1939 rdfs:label "血脂检查"@cn .
+
+check:Q1940 rdfs:label "梅毒血清试验"@cn .
+
+check:Q1941 rdfs:label "精子计数"@cn .
+
+check:Q1942 rdfs:label "气道过敏试验"@cn .
+
+check:Q1943 rdfs:label "直腿抬高试验"@cn .
+
+check:Q1944 rdfs:label "尿沉渣"@cn .
+
+check:Q1945 rdfs:label "直接胆红素"@cn .
+
+check:Q1946 rdfs:label "经皮经肝胆道造影术"@cn .
+
+check:Q1947 rdfs:label "精液酸度"@cn .
+
+check:Q1948 rdfs:label "促卵泡激素（FSH）"@cn .
+
+check:Q1949 rdfs:label "抽屉试验"@cn .
+
+check:Q1950 rdfs:label "Ⅱ级产前超声检查"@cn .
+
+check:Q1951 rdfs:label "血浆游离血红蛋白"@cn .
+
+check:Q1952 rdfs:label "自身免疫抗体检测"@cn .
+
+check:Q1953 rdfs:label "甲型肝炎抗体"@cn .
+
+check:Q1954 rdfs:label "痰液细菌培养"@cn .
+
+check:Q1955 rdfs:label "梅毒定性试验"@cn .
+
+check:Q1956 rdfs:label "抗肾小球基底膜抗体"@cn .
+
+check:Q1957 rdfs:label "血清丙酮酸激酶"@cn .
+
+check:Q1958 rdfs:label "骨髓淋巴细胞系统"@cn .
+
+check:Q1959 rdfs:label "内镜逆行胆胰管造影术"@cn .
+
+check:Q1960 rdfs:label "D-二聚体"@cn .
+
+check:Q1961 rdfs:label "幽门螺旋杆菌的直接检查"@cn .
+
+check:Q1962 rdfs:label "弓形体筛选"@cn .
+
+check:Q1963 rdfs:label "果糖耐量试验"@cn .
+
+check:Q1964 rdfs:label "屈腕试验"@cn .
+
+check:Q1965 rdfs:label "正电子发射计算机断层扫描(PET)"@cn .
+
+check:Q1966 rdfs:label "肠道真菌病检测"@cn .
+
+check:Q1967 rdfs:label "抗组织相容性抗原-DR抗体（抗-HLA-DR）"@cn .
+
+check:Q1968 rdfs:label "耳蜗电图"@cn .
+
+check:Q1969 rdfs:label "阿米巴原虫抗原"@cn .
+
+check:Q1970 rdfs:label "纤维连接蛋白"@cn .
+
+check:Q1971 rdfs:label "粪便气味"@cn .
+
+check:Q1972 rdfs:label "鼻窦检查"@cn .
+
+check:Q1973 rdfs:label "血清肌酐"@cn .
+
+check:Q1974 rdfs:label "尿液细胞学检查"@cn .
+
+check:Q1975 rdfs:label "刚果红试验"@cn .
+
+check:Q1976 rdfs:label "游离甲状腺素（FT4）"@cn .
+
+check:Q1977 rdfs:label "排粪造影检查"@cn .
+
+check:Q1978 rdfs:label "肛门拭子检查法"@cn .
+
+check:Q1979 rdfs:label "乙型肝炎抗原抗体检测"@cn .
+
+check:Q1980 rdfs:label "颅内多普勒血流图(TCD)"@cn .
+
+check:Q1981 rdfs:label "外阴部妇科常规检查"@cn .
+
+check:Q1982 rdfs:label "血清醛缩酶(ALD)"@cn .
+
+check:Q1983 rdfs:label "脊柱活动度"@cn .
+
+check:Q1984 rdfs:label "子宫位置"@cn .
+
+check:Q1985 rdfs:label "儿童五官科检查"@cn .
+
+check:Q1986 rdfs:label "尿肌酐"@cn .
+
+check:Q1987 rdfs:label "腹腔灌洗试验"@cn .
+
+check:Q1988 rdfs:label "自我血糖监测"@cn .
+
+check:Q1989 rdfs:label "酸化甘油溶血试验"@cn .
+
+check:Q1990 rdfs:label "皮肤划痕试验"@cn .
+
+check:Q1991 rdfs:label "荧光法密螺旋体抗体吸附试验"@cn .
+
+check:Q1992 rdfs:label "人白细胞抗原B27（HLA―B27）"@cn .
+
+check:Q1993 rdfs:label "血清谷丙转氨酶"@cn .
+
+check:Q1994 rdfs:label "肾脏超声检查"@cn .
+
+check:Q1995 rdfs:label "血池显像"@cn .
+
+check:Q1996 rdfs:label "蛋白电泳"@cn .
+
+check:Q1997 rdfs:label "胸腔积液检查"@cn .
+
+check:Q1998 rdfs:label "胃肠道疾病的超声检查"@cn .
+
+check:Q1999 rdfs:label "无管胃酸分析"@cn .
+
+check:Q2000 rdfs:label "精液颜色"@cn .
+
+check:Q2001 rdfs:label "糖化血红蛋白"@cn .
+
+check:Q2002 rdfs:label "缩宫素激惹试验"@cn .
+
+check:Q2003 rdfs:label "尿醛固酮"@cn .
+
+check:Q2004 rdfs:label "血清总补体活性（CH50）"@cn .
+
+check:Q2005 rdfs:label "尿肌酸"@cn .
+
+check:Q2006 rdfs:label "子宫颈黏液检查"@cn .
+
+check:Q2007 rdfs:label "气管移位检查"@cn .
+
+check:Q2008 rdfs:label "血浆β-血小板球蛋白"@cn .
+
+check:Q2009 rdfs:label "骨髓显像"@cn .
+
+check:Q2010 rdfs:label "呼吸运动检查"@cn .
+
+check:Q2011 rdfs:label "循环免疫复合物"@cn .
+
+check:Q2012 rdfs:label "β-脂蛋白定量"@cn .
+
+check:Q2013 rdfs:label "男科计算器体层扫描"@cn .
+
+check:Q2014 rdfs:label "精子活动力检查"@cn .
+
+check:Q2015 rdfs:label "胸廓检查"@cn .

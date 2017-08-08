@@ -1,0 +1,56 @@
+@prefix prom: <http://www.semioe.org/prop/prom#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix food: <http://www.semioe.org/entity/medicine/food#> .
+@prefix hospital: <http://www.semioe.org/entity/medicine/hospital#> .
+@prefix place: <http://www.semioe.org/entity/medicine/place#> .
+@prefix drug: <http://www.semioe.org/entity/medicine/drug#> .
+@prefix org: <http://www.semioe.org/entity/medicine/org#> .
+@prefix disease: <http://www.semioe.org/entity/medicine/disease#> .
+@prefix symptom: <http://www.semioe.org/entity/medicine/symptom#> .
+@prefix check: <http://www.semioe.org/entity/medicine/check#> .
+@prefix department: <http://www.semioe.org/entity/medicine/department#> .
+@prefix department_1: <http://www.semioe.org/entity/medicine/department_1#> .
+@prefix department_2: <http://www.semioe.org/entity/medicine/department_2#> .
+@prefix medicine: <http://www.semioe.org/entity/medicine/medicine#> .
+@prefix drug_generic: <http://www.semioe.org/entity/medicine/drug_generic#> .
+@prefix formula: <http://www.semioe.org/entity/medicine/formula#> .
+@prefix dosage_form: <http://www.semioe.org/entity/medicine/dosage_form#> .
+@prefix ele: <http://www.semioe.org/entity/medicine/ele#> .
+@prefix part: <http://www.semioe.org/entity/medicine/part#> .
+
+
+part:Q0 rdfs:label "腹部"@cn .
+
+part:Q1 rdfs:label "胸部"@cn .
+
+part:Q2 rdfs:label "下肢"@cn .
+
+part:Q3 rdfs:label "全身"@cn .
+
+part:Q4 rdfs:label "生殖部位"@cn .
+
+part:Q5 rdfs:label "女性盆骨"@cn .
+
+part:Q6 rdfs:label "腰部"@cn .
+
+part:Q7 rdfs:label "口"@cn .
+
+part:Q8 rdfs:label "皮肤"@cn .
+
+part:Q9 rdfs:label "颈部"@cn .
+
+part:Q10 rdfs:label "男性股沟"@cn .
+
+part:Q11 rdfs:label "四肢"@cn .
+
+part:Q12 rdfs:label "耳"@cn .
+
+part:Q13 rdfs:label "排泄部位"@cn .
+
+part:Q14 rdfs:label "头部"@cn .
+
+part:Q15 rdfs:label "鼻"@cn .
+
+part:Q16 rdfs:label "眼"@cn .
+
+part:Q17 rdfs:label "上肢"@cn .

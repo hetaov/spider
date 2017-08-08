@@ -1,0 +1,48 @@
+@prefix prom: <http://www.semioe.org/prop/prom#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix food: <http://www.semioe.org/entity/medicine/food#> .
+@prefix hospital: <http://www.semioe.org/entity/medicine/hospital#> .
+@prefix place: <http://www.semioe.org/entity/medicine/place#> .
+@prefix drug: <http://www.semioe.org/entity/medicine/drug#> .
+
+
+
+prom:P0 rdfs:label "明细名称"@cn .
+prom:P1 rdfs:label "药品名称"@cn ;
+        rdfs:comment "通用药名"@cn .
+
+prom:P2 rdfs:label "主要成份"@cn .
+prom:P4 rdfs:label "规格"@cn .
+prom:P5 rdfs:label "剂型"@cn .
+prom:P6 rdfs:label "处方"@cn .
+prom:P7 rdfs:label "性状"@cn .
+prom:P8 rdfs:label "适应症"@cn .
+prom:P9 rdfs:label "用法用量"@cn .
+prom:P10 rdfs:label "不良反应"@cn .
+prom:P11 rdfs:label "禁忌"@cn .
+prom:P12 rdfs:label "注意事项"@cn .
+prom:P13 rdfs:label "贮藏"@cn .
+prom:P14 rdfs:label "生产企业"@cn .
+prom:P15 rdfs:label "批准文号"@cn .
+prom:P16 rdfs:label "汉语拼音"@cn .
+prom:P17 rdfs:label "分子式"@cn .
+prom:P18 rdfs:label "分子量"@cn .
+prom:P19 rdfs:label "药理作用"@cn .
+prom:P20 rdfs:label "药代动力学"@cn .
+prom:P21 rdfs:label "相互作用"@cn .
+prom:P22 rdfs:label "药物过量"@cn .
+
+prom:P23 rdfs:label "症状"@cn .
+prom:P24 rdfs:label "需要做的检查"@cn .
+prom:P25 rdfs:label "相关疾病"@cn .
+prom:P26 rdfs:label "病的所属科室"@cn .
+prom:P27 rdfs:label "常用药物"@cn .
+prom:P28 rdfs:label "相关症状"@cn .
+prom:P29 rdfs:label "患病部位"@cn .
+
+prom:P30 rdfs:label "part of"@en ;
+         rdfs:label "属于"@cn ;
+         rdfs:comment "此项是另一个实体的一部分"@cn .
+
+prom:P31 rdfs:label "instance of"@en ;
+         rdfs:label "是"@cn .

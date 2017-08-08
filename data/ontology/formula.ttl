@@ -1,0 +1,1634 @@
+@prefix prom: <http://www.semioe.org/prop/prom#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix food: <http://www.semioe.org/entity/medicine/food#> .
+@prefix hospital: <http://www.semioe.org/entity/medicine/hospital#> .
+@prefix place: <http://www.semioe.org/entity/medicine/place#> .
+@prefix drug: <http://www.semioe.org/entity/medicine/drug#> .
+@prefix org: <http://www.semioe.org/entity/medicine/org#> .
+@prefix disease: <http://www.semioe.org/entity/medicine/disease#> .
+@prefix symptom: <http://www.semioe.org/entity/medicine/symptom#> .
+@prefix check: <http://www.semioe.org/entity/medicine/check#> .
+@prefix department: <http://www.semioe.org/entity/medicine/department#> .
+@prefix department_1: <http://www.semioe.org/entity/medicine/department_1#> .
+@prefix department_2: <http://www.semioe.org/entity/medicine/department_2#> .
+@prefix medicine: <http://www.semioe.org/entity/medicine/medicine#> .
+@prefix drug_generic: <http://www.semioe.org/entity/medicine/drug_generic#> .
+@prefix formula: <http://www.semioe.org/entity/medicine/formula#> .
+@prefix dosage_form: <http://www.semioe.org/entity/medicine/dosage_form#> .
+@prefix ele: <http://www.semioe.org/entity/medicine/ele#> .
+@prefix part: <http://www.semioe.org/entity/medicine/part#> .
+
+
+formula:Q0 rdfs:label "C7H8O"@cn .
+
+formula:Q1 rdfs:label "C25H30N4O9S2?C7H8O3S"@cn .
+
+formula:Q2 rdfs:label "C19H25N5O4·HCl·2H2O"@cn .
+
+formula:Q3 rdfs:label "C29N37O3N"@cn .
+
+formula:Q4 rdfs:label "C17H19N3F2O3·HCL"@cn .
+
+formula:Q5 rdfs:label "C15H21N3O2·C7H6O3"@cn .
+
+formula:Q6 rdfs:label "C14H15N7O2S2"@cn .
+
+formula:Q7 rdfs:label "C14H22ClN3O2"@cn .
+
+formula:Q8 rdfs:label "C4H9NO2S.HCL"@cn .
+
+formula:Q9 rdfs:label "C18H24I3N3O8"@cn .
+
+formula:Q10 rdfs:label "C20H23N·HCl"@cn .
+
+formula:Q11 rdfs:label "C37H67NO13"@cn .
+
+formula:Q12 rdfs:label "C9H12N5O4"@cn .
+
+formula:Q13 rdfs:label "BaSO4"@cn .
+
+formula:Q14 rdfs:label "C21H25NHCI"@cn .
+
+formula:Q15 rdfs:label "C18H28N2O·H2O"@cn .
+
+formula:Q16 rdfs:label "C8H12N4O5"@cn .
+
+formula:Q17 rdfs:label "C17H24N2O·HCl"@cn .
+
+formula:Q18 rdfs:label "C19H17N6Na O6S2"@cn .
+
+formula:Q19 rdfs:label "C7H8ClN3O4S2"@cn .
+
+formula:Q20 rdfs:label "NH4Cl"@cn .
+
+formula:Q21 rdfs:label "C19H27N4H10SBi·2H20"@cn .
+
+formula:Q22 rdfs:label "C26H32F2O7"@cn .
+
+formula:Q23 rdfs:label "(C10H22N4)2·H2SO4"@cn .
+
+formula:Q24 rdfs:label "C5H9Cl2N3O2"@cn .
+
+formula:Q25 rdfs:label "C5H11Cl2N·HCl"@cn .
+
+formula:Q26 rdfs:label "C25H26N9NaO8S2"@cn .
+
+formula:Q27 rdfs:label "C63H88CoN14O14P"@cn .
+
+formula:Q28 rdfs:label "C23H29ClFN3O4"@cn .
+
+formula:Q29 rdfs:label "C22H27NO2·HCl"@cn .
+
+formula:Q30 rdfs:label "C38H72N2O12·2C12H22O12"@cn .
+
+formula:Q31 rdfs:label "C6H18O24P6"@cn .
+
+formula:Q32 rdfs:label "C20H18O10"@cn .
+
+formula:Q33 rdfs:label "C26H29N3O6·HCl"@cn .
+
+formula:Q34 rdfs:label "C17H18FN3O3?C3H6O3"@cn .
+
+formula:Q35 rdfs:label "C10H14N2O5"@cn .
+
+formula:Q36 rdfs:label "C15H15NO3"@cn .
+
+formula:Q37 rdfs:label "C15H15NO2"@cn .
+
+formula:Q38 rdfs:label "C23H28ClN3O5S"@cn .
+
+formula:Q39 rdfs:label "C21H27FO6"@cn .
+
+formula:Q40 rdfs:label "C21H37N5O4S"@cn .
+
+formula:Q41 rdfs:label "马来酸盐C18H13ClFN3·C4H4O4"@cn .
+
+formula:Q42 rdfs:label "C17H20N2O2S·HCl"@cn .
+
+formula:Q43 rdfs:label "201TlCl"@cn .
+
+formula:Q44 rdfs:label "C10H14N4O4"@cn .
+
+formula:Q45 rdfs:label "C62H86N12O16"@cn .
+
+formula:Q46 rdfs:label "C12H11ClN2O5S"@cn .
+
+formula:Q47 rdfs:label "C10H15NO·HCl"@cn .
+
+formula:Q48 rdfs:label "C8H8N4·HCl"@cn .
+
+formula:Q49 rdfs:label "C43H55N5O7?H2SO4"@cn .
+
+formula:Q50 rdfs:label "C15H11N3O3"@cn .
+
+formula:Q51 rdfs:label "C14H20O10N3Gd·2C7H17NO5"@cn .
+
+formula:Q52 rdfs:label "C7H18NO7P"@cn .
+
+formula:Q53 rdfs:label "C3H5O4CaP.H2O"@cn .
+
+formula:Q54 rdfs:label "C24H2603N3Br"@cn .
+
+formula:Q55 rdfs:label "C21H20O9"@cn .
+
+formula:Q56 rdfs:label "C55H15N17O13"@cn .
+
+formula:Q57 rdfs:label "C9H11FN2O5"@cn .
+
+formula:Q58 rdfs:label "C8H7O5N3"@cn .
+
+formula:Q59 rdfs:label "H2O2"@cn .
+
+formula:Q60 rdfs:label "C8H12N2?2HCl"@cn .
+
+formula:Q61 rdfs:label "C11H16N2O·HCl"@cn .
+
+formula:Q62 rdfs:label "C24H32CIFO5"@cn .
+
+formula:Q63 rdfs:label "C21H28O5"@cn .
+
+formula:Q64 rdfs:label "C21H28O2"@cn .
+
+formula:Q65 rdfs:label "C10H15N5·HCl"@cn .
+
+formula:Q66 rdfs:label "C10H14N5Na2O13P3·3H2O±H2O"@cn .
+
+formula:Q67 rdfs:label "C11H17NO3?HCl"@cn .
+
+formula:Q68 rdfs:label "C19N23N3O·HCl"@cn .
+
+formula:Q69 rdfs:label "C10H24N2O2·2HCl"@cn .
+
+formula:Q70 rdfs:label "C41H67NO15"@cn .
+
+formula:Q71 rdfs:label "C11H16ClNO·HCl"@cn .
+
+formula:Q72 rdfs:label "C9H24I2N2O"@cn .
+
+formula:Q73 rdfs:label "C19H21NO4·HCl·2H2O"@cn .
+
+formula:Q74 rdfs:label "C15H21NO2·HCl"@cn .
+
+formula:Q75 rdfs:label "C19H18N3NaO5S·H2O"@cn .
+
+formula:Q76 rdfs:label "C27H33N3O6S"@cn .
+
+formula:Q77 rdfs:label "C15H11ClN2O2"@cn .
+
+formula:Q78 rdfs:label "C42H60MgO16?4H2O"@cn .
+
+formula:Q79 rdfs:label "(C15H25NO3)2·C4H6O6"@cn .
+
+formula:Q80 rdfs:label "C4H3FN2O2"@cn .
+
+formula:Q81 rdfs:label "C18H19N3O3S.HCl.H2O"@cn .
+
+formula:Q82 rdfs:label "C26H33NO6"@cn .
+
+formula:Q83 rdfs:label "C12H15ClO3"@cn .
+
+formula:Q84 rdfs:label "C25H29I2NO3·HCl"@cn .
+
+formula:Q85 rdfs:label "C7H5NaO3"@cn .
+
+formula:Q86 rdfs:label "C9H15NO3S"@cn .
+
+formula:Q87 rdfs:label "C16H17KN2O4S"@cn .
+
+formula:Q88 rdfs:label "C23H32O6"@cn .
+
+formula:Q89 rdfs:label "C4H4FN3O"@cn .
+
+formula:Q90 rdfs:label "C10H13NO2"@cn .
+
+formula:Q91 rdfs:label "C21H27NO3?HCl"@cn .
+
+formula:Q92 rdfs:label "C18H14Cl4N2O·HNO3"@cn .
+
+formula:Q93 rdfs:label "C12H13N3O2"@cn .
+
+formula:Q94 rdfs:label "99mTcC8H12N2O5S2"@cn .
+
+formula:Q95 rdfs:label "C17H27NO2·HCl"@cn .
+
+formula:Q96 rdfs:label "SO3A1(OH)3"@cn .
+
+formula:Q97 rdfs:label "C27H42Cl2N2O6"@cn .
+
+formula:Q98 rdfs:label "C6H12O6"@cn .
+
+formula:Q99 rdfs:label "C5H9NO4S"@cn .
+
+formula:Q100 rdfs:label "C24H21F2NO3"@cn .
+
+formula:Q101 rdfs:label "C47H51NO14"@cn .
+
+formula:Q102 rdfs:label "C15H22N2O6，"@cn .
+
+formula:Q103 rdfs:label "C24H26N2O4"@cn .
+
+formula:Q104 rdfs:label "C14H19NO2·HCl"@cn .
+
+formula:Q105 rdfs:label "C23H31FO6"@cn .
+
+formula:Q106 rdfs:label "C13H12N5NaO5S2"@cn .
+
+formula:Q107 rdfs:label "C28H31NO4·1/2C4H4O4"@cn .
+
+formula:Q108 rdfs:label "C17H18N3NaO3S?H2O"@cn .
+
+formula:Q109 rdfs:label "C8H15N3O4"@cn .
+
+formula:Q110 rdfs:label "C24H32ClFO5"@cn .
+
+formula:Q111 rdfs:label "C3H5NaO3"@cn .
+
+formula:Q112 rdfs:label "C21H23ClFN3O?HCl"@cn .
+
+formula:Q113 rdfs:label "(C21H25NO4)2"@cn .
+
+formula:Q114 rdfs:label "C8H15NaO2"@cn .
+
+formula:Q115 rdfs:label "C14H14N2·HCl"@cn .
+
+formula:Q116 rdfs:label "C13H16N2O2"@cn .
+
+formula:Q117 rdfs:label "C21H18CINO6"@cn .
+
+formula:Q118 rdfs:label "C20H23N5NaO6S"@cn .
+
+formula:Q119 rdfs:label "C16H26O5"@cn .
+
+formula:Q120 rdfs:label "C21H24F3N3S·2HCl"@cn .
+
+formula:Q121 rdfs:label "C8H10N5NaO3"@cn .
+
+formula:Q122 rdfs:label "C21H27NO3·HCl"@cn .
+
+formula:Q123 rdfs:label "C21H43N5O7·5/2H2SO4"@cn .
+
+formula:Q124 rdfs:label "C38H72N2O12"@cn .
+
+formula:Q125 rdfs:label "(C18H31N-O4)2·C4H4O4"@cn .
+
+formula:Q126 rdfs:label "C18H18ClNS·HCl"@cn .
+
+formula:Q127 rdfs:label "C12H15N3O2S"@cn .
+
+formula:Q128 rdfs:label "C8H9N2NaO3S·H2O"@cn .
+
+formula:Q129 rdfs:label "C46H56NO10·H2SO4"@cn .
+
+formula:Q130 rdfs:label "C21H26ClNO·C4H4O4"@cn .
+
+formula:Q131 rdfs:label "C59H90O4"@cn .
+
+formula:Q132 rdfs:label "C17H15NO5"@cn .
+
+formula:Q133 rdfs:label "C8H11NO3·C4H6O6·H2O"@cn .
+
+formula:Q134 rdfs:label "Na99mTcO4"@cn .
+
+formula:Q135 rdfs:label "C19N23ClN2·HCl"@cn .
+
+formula:Q136 rdfs:label "C6H11Na3O12P2"@cn .
+
+formula:Q137 rdfs:label "C6H14O6"@cn .
+
+formula:Q138 rdfs:label "C12H23NaO5S"@cn .
+
+formula:Q139 rdfs:label "C21H24N5NaO8S2"@cn .
+
+formula:Q140 rdfs:label "C13H21N3O·HCl"@cn .
+
+formula:Q141 rdfs:label "C8H9FN2O3"@cn .
+
+formula:Q142 rdfs:label "C21H36N7O16P3S"@cn .
+
+formula:Q143 rdfs:label "C6H7N3O"@cn .
+
+formula:Q144 rdfs:label "C27H30O16?3H2O"@cn .
+
+formula:Q145 rdfs:label "C17H19ClN2S·HCl"@cn .
+
+formula:Q146 rdfs:label "C12H17NO2·C2H7NO"@cn .
+
+formula:Q147 rdfs:label "C7H10N2OS"@cn .
+
+formula:Q148 rdfs:label "C21H31N3O4?2H2O"@cn .
+
+formula:Q149 rdfs:label "C5H11NO2"@cn .
+
+formula:Q150 rdfs:label "C20H26N2O4 · HCl"@cn .
+
+formula:Q151 rdfs:label "C6H6CI2N2O4S23"@cn .
+
+formula:Q152 rdfs:label "C13H20O3"@cn .
+
+formula:Q153 rdfs:label "C12H26ClN·HCl·H2O"@cn .
+
+formula:Q154 rdfs:label "C9H13NO2·C4H6O6"@cn .
+
+formula:Q155 rdfs:label "C17H18FN3O3"@cn .
+
+formula:Q156 rdfs:label "C47H73NO17"@cn .
+
+formula:Q157 rdfs:label "C42H68N2O16"@cn .
+
+formula:Q158 rdfs:label "C18H19N3O5S×H2O"@cn .
+
+formula:Q159 rdfs:label "C19H20N2O2"@cn .
+
+formula:Q160 rdfs:label "HgO"@cn .
+
+formula:Q161 rdfs:label "C32H32O13S"@cn .
+
+formula:Q162 rdfs:label "C28H20N3O6HCl"@cn .
+
+formula:Q163 rdfs:label "C16H13N3O3"@cn .
+
+formula:Q164 rdfs:label "C21H23CIFN3O·2HCI"@cn .
+
+formula:Q165 rdfs:label "C7H15Cl2N2O2P·H2O"@cn .
+
+formula:Q166 rdfs:label "C16H14O3"@cn .
+
+formula:Q167 rdfs:label "C11H14N2S·C23H16O6"@cn .
+
+formula:Q168 rdfs:label "C43H75NO16"@cn .
+
+formula:Q169 rdfs:label "C22H26N2O4S?HCl"@cn .
+
+formula:Q170 rdfs:label "(C17H23NO3)2·H2SO4·H2O"@cn .
+
+formula:Q171 rdfs:label "C19H20NO3F·HCl"@cn .
+
+formula:Q172 rdfs:label "C15H13FO2"@cn .
+
+formula:Q173 rdfs:label "C12H22CaO14?H20"@cn .
+
+formula:Q174 rdfs:label "C34H57BrN2O4"@cn .
+
+formula:Q175 rdfs:label "C22H24N2O8·HCl"@cn .
+
+formula:Q176 rdfs:label "C12H21N5O3"@cn .
+
+formula:Q177 rdfs:label "C9H11NO4"@cn .
+
+formula:Q178 rdfs:label "C22H25N3O4S·HCl"@cn .
+
+formula:Q179 rdfs:label "C12H24Cl2N3O5P"@cn .
+
+formula:Q180 rdfs:label "C18H19ClN4"@cn .
+
+formula:Q181 rdfs:label "C10H16N6S"@cn .
+
+formula:Q182 rdfs:label "MgSO4?7H2O"@cn .
+
+formula:Q183 rdfs:label "C24H26O3N3Br"@cn .
+
+formula:Q184 rdfs:label "C24H32N2O9"@cn .
+
+formula:Q185 rdfs:label "C15H21N3O3S"@cn .
+
+formula:Q186 rdfs:label "C18H16CINO4"@cn .
+
+formula:Q187 rdfs:label "C17H17ClN6O3"@cn .
+
+formula:Q188 rdfs:label "C6H12N2O4Pt"@cn .
+
+formula:Q189 rdfs:label "C9H8O4"@cn .
+
+formula:Q190 rdfs:label "C12H14N4O2S"@cn .
+
+formula:Q191 rdfs:label "C5H8KNO4·H2O"@cn .
+
+formula:Q192 rdfs:label "C19H20N2O3S.HCl"@cn .
+
+formula:Q193 rdfs:label "C5H11NO2S"@cn .
+
+formula:Q194 rdfs:label "C6H6Cl6"@cn .
+
+formula:Q195 rdfs:label "C17H20N2O2S?HCl"@cn .
+
+formula:Q196 rdfs:label "C11H9I3N2O4×C7H17NO5"@cn .
+
+formula:Q197 rdfs:label "C22H32O2"@cn .
+
+formula:Q198 rdfs:label "C16H25NO4·HCl"@cn .
+
+formula:Q199 rdfs:label "C23H26N5NaO7S"@cn .
+
+formula:Q200 rdfs:label "C22H26N2O4S·HCl"@cn .
+
+formula:Q201 rdfs:label "C13H22N2O6S"@cn .
+
+formula:Q202 rdfs:label "C27H38N2O4·HCl"@cn .
+
+formula:Q203 rdfs:label "C32H41NO2"@cn .
+
+formula:Q204 rdfs:label "C17H21NO4·HBr·3H2O"@cn .
+
+formula:Q205 rdfs:label "C25H33NaO8"@cn .
+
+formula:Q206 rdfs:label "C21H25ClFN3O3·C6H8O7·2H20"@cn .
+
+formula:Q207 rdfs:label "Na2SO4"@cn .
+
+formula:Q208 rdfs:label "C45H73NO16"@cn .
+
+formula:Q209 rdfs:label "C17H34N4O10·nH2SO4(n<2)"@cn .
+
+formula:Q210 rdfs:label "C21H30O5"@cn .
+
+formula:Q211 rdfs:label "C21H30O2"@cn .
+
+formula:Q212 rdfs:label "C19H24N2O2"@cn .
+
+formula:Q213 rdfs:label "C18H20FN3O4·CH4O3S·H2O"@cn .
+
+formula:Q214 rdfs:label "C12H16ClNO3·HCl"@cn .
+
+formula:Q215 rdfs:label "CNa3O5P·6H2O"@cn .
+
+formula:Q216 rdfs:label "C16H18FN3O3·C5H9NO4"@cn .
+
+formula:Q217 rdfs:label "C10H12N4O5"@cn .
+
+formula:Q218 rdfs:label "C12H22CaO14?H2O"@cn .
+
+formula:Q219 rdfs:label "C22H30N6O4S·C6H8O7"@cn .
+
+formula:Q220 rdfs:label "C6H14O6S2"@cn .
+
+formula:Q221 rdfs:label "C15H10O4"@cn .
+
+formula:Q222 rdfs:label "C17H17NO2·HCl·1/2H2O"@cn .
+
+formula:Q223 rdfs:label "C13H22N4O3S·HCl"@cn .
+
+formula:Q224 rdfs:label "CH4N2O2"@cn .
+
+formula:Q225 rdfs:label "AgNO3"@cn .
+
+formula:Q226 rdfs:label "C13H20N2O2·HCI"@cn .
+
+formula:Q227 rdfs:label "C24H32O4"@cn .
+
+formula:Q228 rdfs:label "C11H17NO·HCl"@cn .
+
+formula:Q229 rdfs:label "C24H32O6"@cn .
+
+formula:Q230 rdfs:label "C7H5Cl2NO4S"@cn .
+
+formula:Q231 rdfs:label "C10H12N4OS"@cn .
+
+formula:Q232 rdfs:label "C24H41NO4·HCl"@cn .
+
+formula:Q233 rdfs:label "C21H25ClFN3O3·C6H8O7·2H2O"@cn .
+
+formula:Q234 rdfs:label "C13H19NO4S"@cn .
+
+formula:Q235 rdfs:label "C17H19N3O3S"@cn .
+
+formula:Q236 rdfs:label "C12H22FeO14·2H2O"@cn .
+
+formula:Q237 rdfs:label "C13H20N2O2·HCl"@cn .
+
+formula:Q238 rdfs:label "C24H27N·C3H6O3"@cn .
+
+formula:Q239 rdfs:label "C12H20N2O3S·HCl"@cn .
+
+formula:Q240 rdfs:label "C10H17N·HCl"@cn .
+
+formula:Q241 rdfs:label "C14O10H23N3"@cn .
+
+formula:Q242 rdfs:label "C24H36O5"@cn .
+
+formula:Q243 rdfs:label "C26H44O9"@cn .
+
+formula:Q244 rdfs:label "C6H11NO99mTc"@cn .
+
+formula:Q245 rdfs:label "(C21H25NO4)2·H2SO4"@cn .
+
+formula:Q246 rdfs:label "C8H15N7O2S3"@cn .
+
+formula:Q247 rdfs:label "C12H12N2O3"@cn .
+
+formula:Q248 rdfs:label "C32H44N2O8·HBr·H2O"@cn .
+
+formula:Q249 rdfs:label "C11H16N2O2·HNO3，"@cn .
+
+formula:Q250 rdfs:label "C17H25NO3·HCl"@cn .
+
+formula:Q251 rdfs:label "C13H22N4O6"@cn .
+
+formula:Q252 rdfs:label "C16H25NO2·HCl"@cn .
+
+formula:Q253 rdfs:label "(C17H19NO3)2·H2SO4·5H2O"@cn .
+
+formula:Q254 rdfs:label "C14H30Cl2N2O4·2H2O"@cn .
+
+formula:Q255 rdfs:label "(C13H21NO3)2·H2SO4"@cn .
+
+formula:Q256 rdfs:label "C12H14N2O2"@cn .
+
+formula:Q257 rdfs:label "C29H32ClN5O2·4H3PO4"@cn .
+
+formula:Q258 rdfs:label "C17H17NCl2·HCl"@cn .
+
+formula:Q259 rdfs:label "C14H22ClN3O22HCl?H2O"@cn .
+
+formula:Q260 rdfs:label "C18H20FN3O4·HCl·H2O"@cn .
+
+formula:Q261 rdfs:label "C15H14O4"@cn .
+
+formula:Q262 rdfs:label "C16H17KN2O5S"@cn .
+
+formula:Q263 rdfs:label "C33H40N2O9"@cn .
+
+formula:Q264 rdfs:label "C20H26O2"@cn .
+
+formula:Q265 rdfs:label "C20H22N4O10S"@cn .
+
+formula:Q266 rdfs:label "C24H34O4"@cn .
+
+formula:Q267 rdfs:label "C17H20FN3O3·CH4O3S·2H2O"@cn .
+
+formula:Q268 rdfs:label "C16H15N4NaO8S"@cn .
+
+formula:Q269 rdfs:label "C15H16O2"@cn .
+
+formula:Q270 rdfs:label "(C21H41N5O7)2·5H2SO4"@cn .
+
+formula:Q271 rdfs:label "C18H21NO3·H3PO4·3/2H20"@cn .
+
+formula:Q272 rdfs:label "C18H21NO3·H3PO4·3/2H2O"@cn .
+
+formula:Q273 rdfs:label "G37H67NO13"@cn .
+
+formula:Q274 rdfs:label "C18H23NO3·HCl"@cn .
+
+formula:Q275 rdfs:label "C17H23NO4"@cn .
+
+formula:Q276 rdfs:label "C11H12Cl2N2O"@cn .
+
+formula:Q277 rdfs:label "C7H9O"@cn .
+
+formula:Q278 rdfs:label "C23H30N204·H2O"@cn .
+
+formula:Q279 rdfs:label "C12H16O3"@cn .
+
+formula:Q280 rdfs:label "C16H16N5NaO7S2"@cn .
+
+formula:Q281 rdfs:label "(C18H31NO4)2·C4H4O4"@cn .
+
+formula:Q282 rdfs:label "C4H2FeO4"@cn .
+
+formula:Q283 rdfs:label "C23H32O3"@cn .
+
+formula:Q284 rdfs:label "C17H20N2O2"@cn .
+
+formula:Q285 rdfs:label "C13H16N3NaO4S·H2O"@cn .
+
+formula:Q286 rdfs:label "C10H14N5Na2O13P3"@cn .
+
+formula:Q287 rdfs:label "C20H28O2"@cn .
+
+formula:Q288 rdfs:label "C6H8N3Na2O6P·H2O"@cn .
+
+formula:Q289 rdfs:label "C15H13N3O4S"@cn .
+
+formula:Q290 rdfs:label "C19H23CIN2·HCl"@cn .
+
+formula:Q291 rdfs:label "C19H21N5O4·HCl"@cn .
+
+formula:Q292 rdfs:label "C18H28N2O?HCl?H2O"@cn .
+
+formula:Q293 rdfs:label "PtCl2(NH3)2"@cn .
+
+formula:Q294 rdfs:label "C4H6N2S"@cn .
+
+formula:Q295 rdfs:label "C21H27ClN2O2·2HCl"@cn .
+
+formula:Q296 rdfs:label "C14H19Cl2N3O4"@cn .
+
+formula:Q297 rdfs:label "C51H79NO13"@cn .
+
+formula:Q298 rdfs:label "C20H24O2"@cn .
+
+formula:Q299 rdfs:label "C13H12Cl2O4"@cn .
+
+formula:Q300 rdfs:label "C23H30O6"@cn .
+
+formula:Q301 rdfs:label "C22H22N2O8·HCl"@cn .
+
+formula:Q302 rdfs:label "C21H30BrNO4"@cn .
+
+formula:Q303 rdfs:label "C53H72N2O12?2C6H5O3S"@cn .
+
+formula:Q304 rdfs:label "C17H26O3N4S2"@cn .
+
+formula:Q305 rdfs:label "C22H26N2O2"@cn .
+
+formula:Q306 rdfs:label "C15H23N3O4S"@cn .
+
+formula:Q307 rdfs:label "C22H43N5O13N·nH2SO4(n=1.8)"@cn .
+
+formula:Q308 rdfs:label "C16H24N2O4"@cn .
+
+formula:Q309 rdfs:label "C9H13N3O5·HCl"@cn .
+
+formula:Q310 rdfs:label "C13H21NO3"@cn .
+
+formula:Q311 rdfs:label "C14H22ClN3O2·2HCl·H2O"@cn .
+
+formula:Q312 rdfs:label "C17H25NO4·HCl"@cn .
+
+formula:Q313 rdfs:label "C22H21N4NaO7S"@cn .
+
+formula:Q314 rdfs:label "C2H8N2(C7H8N4O2)2·2H2O"@cn .
+
+formula:Q315 rdfs:label "C21H26N2O7"@cn .
+
+formula:Q316 rdfs:label "C18H15Cl3N2O·HNO3"@cn .
+
+formula:Q317 rdfs:label "C20H23NO4"@cn .
+
+formula:Q318 rdfs:label "C47H74O19"@cn .
+
+formula:Q319 rdfs:label "C1H11N4NaO5S·3H2O"@cn .
+
+formula:Q320 rdfs:label "C15H17FN4O3·3/2H2O"@cn .
+
+formula:Q321 rdfs:label "C24H28ClN3O·2H3PO4·2H2O"@cn .
+
+formula:Q322 rdfs:label "C22H24ClFN4O3"@cn .
+
+formula:Q323 rdfs:label "C8H9NO2"@cn .
+
+formula:Q324 rdfs:label "C6H9N3O3"@cn .
+
+formula:Q325 rdfs:label "C15H14ClN3O4S·H2O"@cn .
+
+formula:Q326 rdfs:label "C9H9Cl2N3·HCl"@cn .
+
+formula:Q327 rdfs:label "C15H24N 2O2·HCL"@cn .
+
+formula:Q328 rdfs:label "C57H83N19O21S2.nHCl"@cn .
+
+formula:Q329 rdfs:label "C2H10O14P499mTc"@cn .
+
+formula:Q330 rdfs:label "C13H24N4O3S·C4H4O4"@cn .
+
+formula:Q331 rdfs:label "C18H18ClNS"@cn .
+
+formula:Q332 rdfs:label "C18H20O2"@cn .
+
+formula:Q333 rdfs:label "C18H33ClN2O5S·HCl"@cn .
+
+formula:Q334 rdfs:label "C23H45N5O14·nH2SO4"@cn .
+
+formula:Q335 rdfs:label "C17H13N3O5S2"@cn .
+
+formula:Q336 rdfs:label "C29H35NO2"@cn .
+
+formula:Q337 rdfs:label "C22H26N2O4S?HCL"@cn .
+
+formula:Q338 rdfs:label "C18H19N3O5S0·H2O"@cn .
+
+formula:Q339 rdfs:label "C20H32N5O8P"@cn .
+
+formula:Q340 rdfs:label "C38H72N2O12·(C4H7O4N2)2"@cn .
+
+formula:Q341 rdfs:label "C18H21NO3·H3PO4·1H20"@cn .
+
+formula:Q342 rdfs:label "C28H32N10O6Zn"@cn .
+
+formula:Q343 rdfs:label "C14H22N20·HCl·H20"@cn .
+
+formula:Q344 rdfs:label "C12H19BrN2O2"@cn .
+
+formula:Q345 rdfs:label "C19H21NS"@cn .
+
+formula:Q346 rdfs:label "C8H133N3O4S"@cn .
+
+formula:Q347 rdfs:label "C7H10N2O2S"@cn .
+
+formula:Q348 rdfs:label "C15H18N2O"@cn .
+
+formula:Q349 rdfs:label "C37H67NO13·C12H22O12"@cn .
+
+formula:Q350 rdfs:label "H2O"@cn .
+
+formula:Q351 rdfs:label "C14H10Cl2NO2Na"@cn .
+
+formula:Q352 rdfs:label "C20H21CaN7O7·5H2O"@cn .
+
+formula:Q353 rdfs:label "C23H27N3O7·HCl"@cn .
+
+formula:Q354 rdfs:label "C25H38O5"@cn .
+
+formula:Q355 rdfs:label "C8H13NO2"@cn .
+
+formula:Q356 rdfs:label "C22H30Cl2N10·2C2H4O2"@cn .
+
+formula:Q357 rdfs:label "C17H23NO3·HBr"@cn .
+
+formula:Q358 rdfs:label "C22H23ClN2O8·HCl"@cn .
+
+formula:Q359 rdfs:label "C12H13NO3"@cn .
+
+formula:Q360 rdfs:label "C6H14N2O2·C16H14N2O3"@cn .
+
+formula:Q361 rdfs:label "C25H32O3"@cn .
+
+formula:Q362 rdfs:label "C16H19N3O5S?3H2O"@cn .
+
+formula:Q363 rdfs:label "C14H12N2·HCl"@cn .
+
+formula:Q364 rdfs:label "C19H21NO·HCl"@cn .
+
+formula:Q365 rdfs:label "咪达唑仑盐酸盐C18H13ClFN3·HCl"@cn .
+
+formula:Q366 rdfs:label "C6H8O2N2S"@cn .
+
+formula:Q367 rdfs:label "C22H19NO4"@cn .
+
+formula:Q368 rdfs:label "C19H20ClNO4"@cn .
+
+formula:Q369 rdfs:label "C20H25N2O5Cl·C6H6O3S"@cn .
+
+formula:Q370 rdfs:label "C13H48O2S2"@cn .
+
+formula:Q371 rdfs:label "C23H25N5O5·CH4O3S"@cn .
+
+formula:Q372 rdfs:label "C10H8O3"@cn .
+
+formula:Q373 rdfs:label "C11H17NO3·1/2H2SO4"@cn .
+
+formula:Q374 rdfs:label "C16H22N2O3·HCl·1/2H2O"@cn .
+
+formula:Q375 rdfs:label "C12H16O4S2"@cn .
+
+formula:Q376 rdfs:label "C15H17FN4O3·C6H12O7·H2O"@cn .
+
+formula:Q377 rdfs:label "C7H4ClNO2;C8H9NO2"@cn .
+
+formula:Q378 rdfs:label "C16H25NO2?HCl"@cn .
+
+formula:Q379 rdfs:label "C15H21N2O"@cn .
+
+formula:Q380 rdfs:label "C15H22N2O6"@cn .
+
+formula:Q381 rdfs:label "C16H20N2O4S2·2HCl·H2O"@cn .
+
+formula:Q382 rdfs:label "C16H17N3O4S?H2O"@cn .
+
+formula:Q383 rdfs:label "C9H18N2O4"@cn .
+
+formula:Q384 rdfs:label "C15H12N2O"@cn .
+
+formula:Q385 rdfs:label "C4H11N5·HCl"@cn .
+
+formula:Q386 rdfs:label "C16H14F2N3NaO4S·H2O"@cn .
+
+formula:Q387 rdfs:label "C15H24O5"@cn .
+
+formula:Q388 rdfs:label "C15H11N2NaO2"@cn .
+
+formula:Q389 rdfs:label "C20H25ClN2O5·C6H6O3S"@cn .
+
+formula:Q390 rdfs:label "C14H13N3O4S2"@cn .
+
+formula:Q391 rdfs:label "C9H12N2S"@cn .
+
+formula:Q392 rdfs:label "C9H7N7O2S"@cn .
+
+formula:Q393 rdfs:label "C21H26N2S2·HCl"@cn .
+
+formula:Q394 rdfs:label "C8H9NO2·H2O"@cn .
+
+formula:Q395 rdfs:label "C62H111N11O12"@cn .
+
+formula:Q396 rdfs:label "C16H19ClN2·C4H4O4"@cn .
+
+formula:Q397 rdfs:label "C18H34ClN2O8PS"@cn .
+
+formula:Q398 rdfs:label "NaHCO3"@cn .
+
+formula:Q399 rdfs:label "C18H15NO3"@cn .
+
+formula:Q400 rdfs:label "C16H13ClN2O"@cn .
+
+formula:Q401 rdfs:label "C14H25N4NaO11P2"@cn .
+
+formula:Q402 rdfs:label "C20H22N8O5"@cn .
+
+formula:Q403 rdfs:label "C37H41ClN2O6·HCl·5H2O"@cn .
+
+formula:Q404 rdfs:label "C21H19N3O3S"@cn .
+
+formula:Q405 rdfs:label "C22H28FNa2O8P"@cn .
+
+formula:Q406 rdfs:label "C8H11NO2?HCl"@cn .
+
+formula:Q407 rdfs:label "C6H12Br2O4"@cn .
+
+formula:Q408 rdfs:label "C13H11NO3"@cn .
+
+formula:Q409 rdfs:label "C29H32O13"@cn .
+
+formula:Q410 rdfs:label "C17H20N2O5S"@cn .
+
+formula:Q411 rdfs:label "C12H9F3N202"@cn .
+
+formula:Q412 rdfs:label "(C21H39N7O12)2·3H2SO4"@cn .
+
+formula:Q413 rdfs:label "C15H16Cl2N2O8"@cn .
+
+formula:Q414 rdfs:label "C30H48O3"@cn .
+
+formula:Q415 rdfs:label "Na2Fe(CN)5NO·H2O"@cn .
+
+formula:Q416 rdfs:label "C19H19N7O6"@cn .
+
+formula:Q417 rdfs:label "C12H12N2O2 S"@cn .
+
+formula:Q418 rdfs:label "C8H15NO2"@cn .
+
+formula:Q419 rdfs:label "Na-131I"@cn .
+
+formula:Q420 rdfs:label "C17H19N3·HCl"@cn .
+
+formula:Q421 rdfs:label "C10H14N2O4·H2O"@cn .
+
+formula:Q422 rdfs:label "C20H34AuO9PS"@cn .
+
+formula:Q423 rdfs:label "C43H47N2NaO6S2"@cn .
+
+formula:Q424 rdfs:label "C17H18N2O6"@cn .
+
+formula:Q425 rdfs:label "C10H12N4O3"@cn .
+
+formula:Q426 rdfs:label "C19H21NO3·HBr"@cn .
+
+formula:Q427 rdfs:label "C20H21NO3·HCl"@cn .
+
+formula:Q428 rdfs:label "C10H9N4NaO2S"@cn .
+
+formula:Q429 rdfs:label "C7H6NNaO3·2H2O"@cn .
+
+formula:Q430 rdfs:label "C7H4ClNO2 C8H9NO2"@cn .
+
+formula:Q431 rdfs:label "C14H11Cl2NO2·C4H11N"@cn .
+
+formula:Q432 rdfs:label "C21H26ClN3OS"@cn .
+
+formula:Q433 rdfs:label "C6H12N3PS"@cn .
+
+formula:Q434 rdfs:label "C12H11N2NaO2"@cn .
+
+formula:Q435 rdfs:label "C12H11N2NaO3"@cn .
+
+formula:Q436 rdfs:label "C14H17O4NS"@cn .
+
+formula:Q437 rdfs:label "C18H20FN3O4?HCl?H2O"@cn .
+
+formula:Q438 rdfs:label "C8H13N3O4S"@cn .
+
+formula:Q439 rdfs:label "C5H5N5S"@cn .
+
+formula:Q440 rdfs:label "C17H19F2N3O3．HCl"@cn .
+
+formula:Q441 rdfs:label "二十碳五烯酸乙酯C22H34O2，二十二碳六烯酸乙酯C24H36O2"@cn .
+
+formula:Q442 rdfs:label "C7H8N4O2·H2O"@cn .
+
+formula:Q443 rdfs:label "C45H71NO17"@cn .
+
+formula:Q444 rdfs:label "C26H29NO·C6H8O7"@cn .
+
+formula:Q445 rdfs:label "C9H13NO2·HCl"@cn .
+
+formula:Q446 rdfs:label "C19H26N6O6"@cn .
+
+formula:Q447 rdfs:label "C32H40N4O1099mTc"@cn .
+
+formula:Q448 rdfs:label "C10H13ClN2O3S"@cn .
+
+formula:Q449 rdfs:label "C23H28ClN3o5S"@cn .
+
+formula:Q450 rdfs:label "C14H10O5"@cn .
+
+formula:Q451 rdfs:label "C14H10O3"@cn .
+
+formula:Q452 rdfs:label "C4H6N4O3S2"@cn .
+
+formula:Q453 rdfs:label "C10H9N3O"@cn .
+
+formula:Q454 rdfs:label "C9H18N6"@cn .
+
+formula:Q455 rdfs:label "C26H28ClNO·C6H8O7"@cn .
+
+formula:Q456 rdfs:label "C16H28N2O6Zn"@cn .
+
+formula:Q457 rdfs:label "C19H24N2O3?HCl"@cn .
+
+formula:Q458 rdfs:label "C11H12N2S·HCl"@cn .
+
+formula:Q459 rdfs:label "C19H16CINO4"@cn .
+
+formula:Q460 rdfs:label "C16H16ClN3O3S"@cn .
+
+formula:Q461 rdfs:label "C8H11NO3·HCl"@cn .
+
+formula:Q462 rdfs:label "C20H17FO3S"@cn .
+
+formula:Q463 rdfs:label "C14H22N2O3"@cn .
+
+formula:Q464 rdfs:label "C15H21N3O·2H3PO4"@cn .
+
+formula:Q465 rdfs:label "C12H22O11"@cn .
+
+formula:Q466 rdfs:label "C7H6O3"@cn .
+
+formula:Q467 rdfs:label "C2H6AlNO4"@cn .
+
+formula:Q468 rdfs:label "C8H6N4O5"@cn .
+
+formula:Q469 rdfs:label "C12H18CLNO6"@cn .
+
+formula:Q470 rdfs:label "C27H22Cl2N4"@cn .
+
+formula:Q471 rdfs:label "C10H14N5O7P·H2O"@cn .
+
+formula:Q472 rdfs:label "C14H19N5O4"@cn .
+
+formula:Q473 rdfs:label "C22H25NO6"@cn .
+
+formula:Q474 rdfs:label "MgSO4·7H2O"@cn .
+
+formula:Q475 rdfs:label "C22H24N2O9·HCl"@cn .
+
+formula:Q476 rdfs:label "C2H8N2(C7H8N4O2)2?2H2O"@cn .
+
+formula:Q477 rdfs:label "C26H28N2"@cn .
+
+formula:Q478 rdfs:label "C18H26ClN3·2H3PO4"@cn .
+
+formula:Q479 rdfs:label "C23H21ClO3"@cn .
+
+formula:Q480 rdfs:label "C14H14O3"@cn .
+
+formula:Q481 rdfs:label "C12H18ClN2O·HCl"@cn .
+
+formula:Q482 rdfs:label "C20H31NO·HCl"@cn .
+
+formula:Q483 rdfs:label "C16H21NO2·HCl"@cn .
+
+formula:Q484 rdfs:label "C16H18N3NaO4S"@cn .
+
+formula:Q485 rdfs:label "C9H13BrN2O2"@cn .
+
+formula:Q486 rdfs:label "C6H11O12P2Na3?8H2O"@cn .
+
+formula:Q487 rdfs:label "C16H11ClN4"@cn .
+
+formula:Q488 rdfs:label "C24H33FO7"@cn .
+
+formula:Q489 rdfs:label "C17H12Br2O3"@cn .
+
+formula:Q490 rdfs:label "C47H64N4O12"@cn .
+
+formula:Q491 rdfs:label "C16H14F3N5O2S"@cn .
+
+formula:Q492 rdfs:label "C20H18ClNO4·2H2O"@cn .
+
+formula:Q493 rdfs:label "C17H12Cl2N4"@cn .
+
+formula:Q494 rdfs:label "C19H17ClN3NaO5S"@cn .
+
+formula:Q495 rdfs:label "C4H11N5?HCl"@cn .
+
+formula:Q496 rdfs:label "NaCl"@cn .
+
+formula:Q497 rdfs:label "C19H26N2S·CH3SO3H"@cn .
+
+formula:Q498 rdfs:label "C5H4N4O"@cn .
+
+formula:Q499 rdfs:label "C4H3FN2O2 "@cn .
+
+formula:Q500 rdfs:label "C23H35NaO7"@cn .
+
+formula:Q501 rdfs:label "C5H9NO3S"@cn .
+
+formula:Q502 rdfs:label "C22H28N4O6·2HCl"@cn .
+
+formula:Q503 rdfs:label "C21H32N2O"@cn .
+
+formula:Q504 rdfs:label "C22H28N2O"@cn .
+
+formula:Q505 rdfs:label "C17H18·N3NaO3S·H2O"@cn .
+
+formula:Q506 rdfs:label "C6H12N4·C9H9NO3"@cn .
+
+formula:Q507 rdfs:label "C27H34O3"@cn .
+
+formula:Q508 rdfs:label "C22H23ClN2O29。"@cn .
+
+formula:Q509 rdfs:label "C9H12N5OCl·HCl·H2O"@cn .
+
+formula:Q510 rdfs:label "C27H38N2O4.HCl"@cn .
+
+formula:Q511 rdfs:label "C20H18N8O4S2Zn·2H2O"@cn .
+
+formula:Q512 rdfs:label "C28H37ClO7"@cn .
+
+formula:Q513 rdfs:label "C17H18FN3O3S·HCl"@cn .
+
+formula:Q514 rdfs:label "C14H12N2?HCl"@cn .
+
+formula:Q515 rdfs:label "C14H10MgO6˙4H2O"@cn .
+
+formula:Q516 rdfs:label "C16H30MgO4"@cn .
+
+formula:Q517 rdfs:label "C21H29N3O·H3PO4"@cn .
+
+formula:Q518 rdfs:label "C10H21NO7"@cn .
+
+formula:Q519 rdfs:label "C22H26F3N3OS·2HCI"@cn .
+
+formula:Q520 rdfs:label "C9H5ClINO"@cn .
+
+formula:Q521 rdfs:label "：C3H9NNa2O7P2·5H2O"@cn .
+
+formula:Q522 rdfs:label "C14H18NO2· HCl"@cn .
+
+formula:Q523 rdfs:label "C19H28N406S2"@cn .
+
+formula:Q524 rdfs:label "C13H12N2O5S"@cn .
+
+formula:Q525 rdfs:label "C20H21ClO4"@cn .
+
+formula:Q526 rdfs:label "C35H60N2O4Br2"@cn .
+
+formula:Q527 rdfs:label "C11H17NO3"@cn .
+
+formula:Q528 rdfs:label "C34H57Br2N2O4"@cn .
+
+formula:Q529 rdfs:label "C9H15N5O"@cn .
+
+formula:Q530 rdfs:label "C8H11NO2·HCl"@cn .
+
+formula:Q531 rdfs:label "C17H21NO?HCl"@cn .
+
+formula:Q532 rdfs:label "C22H26F3N3OS·2HCl"@cn .
+
+formula:Q533 rdfs:label "C38H69NO13"@cn .
+
+formula:Q534 rdfs:label "C16H18N2O5"@cn .
+
+formula:Q535 rdfs:label "C14H10MgO6.4H2O"@cn .
+
+formula:Q536 rdfs:label "C32H39NO2"@cn .
+
+formula:Q537 rdfs:label "C8H14N2O4Pt"@cn .
+
+formula:Q538 rdfs:label "C16H19N3O5S，3H2O"@cn .
+
+formula:Q539 rdfs:label "(C20H24N2O2)2·H2SO4·2H2O"@cn .
+
+formula:Q540 rdfs:label "C16H20N2O4S2?2HCl?H2O"@cn .
+
+formula:Q541 rdfs:label "C28H44O"@cn .
+
+formula:Q542 rdfs:label "C16H19N3O5S3·3H2O"@cn .
+
+formula:Q543 rdfs:label "C22H23N3O4·HCl"@cn .
+
+formula:Q544 rdfs:label "C19H15F3N4O3·C7H8O3S·H2O"@cn .
+
+formula:Q545 rdfs:label "C21H27N3O7S·HCl"@cn .
+
+formula:Q546 rdfs:label "C18H19Cl2NO4"@cn .
+
+formula:Q547 rdfs:label "C19H28O8"@cn .
+
+formula:Q548 rdfs:label "C18H16N8Na2O7S3·7/2H2O"@cn .
+
+formula:Q549 rdfs:label "C6H7N30"@cn .
+
+formula:Q550 rdfs:label "C22H29FO5"@cn .
+
+formula:Q551 rdfs:label "C33H42O19"@cn .
+
+formula:Q552 rdfs:label "C17H18FN3O3·HCl·H2O"@cn .
+
+formula:Q553 rdfs:label "C17H19NO·HCl"@cn .
+
+formula:Q554 rdfs:label "C18H26N2O4"@cn .
+
+formula:Q555 rdfs:label "C17H18FN3O3?HCl?H?2O"@cn .
+
+formula:Q556 rdfs:label "C28H27ClF5NO"@cn .
+
+formula:Q557 rdfs:label "C13H18O7"@cn .
+
+formula:Q558 rdfs:label "C24H31FO6"@cn .
+
+formula:Q559 rdfs:label "C17H26N2O?CH4O3S"@cn .
+
+formula:Q560 rdfs:label "(C4H10N2)3·2C6H8O7·5H2O"@cn .
+
+formula:Q561 rdfs:label "C13H18O2"@cn .
+
+formula:Q562 rdfs:label "C24H40O4"@cn .
+
+formula:Q563 rdfs:label "C13H11N2O2Na"@cn .
+
+formula:Q564 rdfs:label "C17H19F2N3O3·HCl"@cn .
+
+formula:Q565 rdfs:label "C17H21NO?/FONT>C7H7C1N4O2"@cn .
+
+formula:Q566 rdfs:label "C20H31NO3?C6H8O7"@cn .
+
+formula:Q567 rdfs:label "C6H12NO5HCl"@cn .
+
+formula:Q568 rdfs:label "CNa3O5P?6H2O"@cn .
+
+formula:Q569 rdfs:label "C12H15Cl2NO5S"@cn .
+
+formula:Q570 rdfs:label "C38H72N2O12?2H2O"@cn .
+
+formula:Q571 rdfs:label "C29H41NO4·HCl"@cn .
+
+formula:Q572 rdfs:label "C18H20FN3O4"@cn .
+
+formula:Q573 rdfs:label "C10H12O4"@cn .
+
+formula:Q574 rdfs:label "C5H5N3O"@cn .
+
+formula:Q575 rdfs:label "C12H18O"@cn .
+
+formula:Q576 rdfs:label "C19H21ClN4O5"@cn .
+
+formula:Q577 rdfs:label "C2H5NaO3S2"@cn .
+
+formula:Q578 rdfs:label "C22H37NO2"@cn .
+
+formula:Q579 rdfs:label "Li2CO3"@cn .
+
+formula:Q580 rdfs:label "C16H24N2O"@cn .
+
+formula:Q581 rdfs:label "C9H11IN2O5"@cn .
+
+formula:Q582 rdfs:label "C4H7NaO2"@cn .
+
+formula:Q583 rdfs:label "C29H39NO9"@cn .
+
+formula:Q584 rdfs:label "C9H7131INNaO3"@cn .
+
+formula:Q585 rdfs:label "C42H58NO15·HCL"@cn .
+
+formula:Q586 rdfs:label "C6H13NO2"@cn .
+
+formula:Q587 rdfs:label "C2H6AsNaO2·3H2O"@cn .
+
+formula:Q588 rdfs:label "C16H19N3O4S"@cn .
+
+formula:Q589 rdfs:label "C9H8N2O2"@cn .
+
+formula:Q590 rdfs:label "C16H14F3N3O2S"@cn .
+
+formula:Q591 rdfs:label "C6H8N2O8"@cn .
+
+formula:Q592 rdfs:label "C14H17N5O3·3H2O"@cn .
+
+formula:Q593 rdfs:label "(C12H19NO3)·H2SO4"@cn .
+
+formula:Q594 rdfs:label "C17H18F3N3O3"@cn .
+
+formula:Q595 rdfs:label "C23H14Na2O11"@cn .
+
+formula:Q596 rdfs:label "C35H53NO3"@cn .
+
+formula:Q597 rdfs:label "C2H5NO2"@cn .
+
+formula:Q598 rdfs:label "Bi5O(OH)9(NO3)4"@cn .
+
+formula:Q599 rdfs:label "C6H12O6·H2O"@cn .
+
+formula:Q600 rdfs:label "Na2[Fe(CN)5NO]?2H2O"@cn .
+
+formula:Q601 rdfs:label "C42H69NO15"@cn .
+
+formula:Q602 rdfs:label "C43H58N4O12"@cn .
+
+formula:Q603 rdfs:label "C13H16ClNO?HCl"@cn .
+
+formula:Q604 rdfs:label "C7H15Cl2N2O2P"@cn .
+
+formula:Q605 rdfs:label "C3H5N3O9"@cn .
+
+formula:Q606 rdfs:label "C16H16N2Na2O7S2"@cn .
+
+formula:Q607 rdfs:label "C16H25N3O5?C4H4O4"@cn .
+
+formula:Q608 rdfs:label "C40H71NO14·C12H26O4S"@cn .
+
+formula:Q609 rdfs:label "C19H26I3N3O9"@cn .
+
+formula:Q610 rdfs:label "C20H25N2O5Cl?C4H4O4"@cn .
+
+formula:Q611 rdfs:label "C17H20FN3O3·CH3SO3H"@cn .
+
+formula:Q612 rdfs:label "C6H12O6?H2O"@cn .
+
+formula:Q613 rdfs:label "C2H3Cl3O2"@cn .
+
+formula:Q614 rdfs:label "C12H17NO3"@cn .
+
+formula:Q615 rdfs:label "C14H11Cl2NO2"@cn .
+
+formula:Q616 rdfs:label "C5H4N4S·H2O"@cn .
+
+formula:Q617 rdfs:label "C24H30ClN3O7"@cn .
+
+formula:Q618 rdfs:label "C12H11N7"@cn .
+
+formula:Q619 rdfs:label "C20H21AlCl2O7"@cn .
+
+formula:Q620 rdfs:label "C37H49N7O9S"@cn .
+
+formula:Q621 rdfs:label "C10H17NO5S"@cn .
+
+formula:Q622 rdfs:label "C20H14O4"@cn .
+
+formula:Q623 rdfs:label "C8H12N2·HCl·2H2O"@cn .
+
+formula:Q624 rdfs:label "C13H17ClN2O2"@cn .
+
+formula:Q625 rdfs:label "C22H22O8"@cn .
+
+formula:Q626 rdfs:label "C11H18N2O3"@cn .
+
+formula:Q627 rdfs:label "C13H10ClNO2"@cn .
+
+formula:Q628 rdfs:label "C18H14N4O5S"@cn .
+
+formula:Q629 rdfs:label "C12H11CIN2O5S"@cn .
+
+formula:Q630 rdfs:label "C10H9AgN4O2S"@cn .
+
+formula:Q631 rdfs:label "C7H10O2N4S·H2O"@cn .
+
+formula:Q632 rdfs:label "C10H14N2O"@cn .
+
+formula:Q633 rdfs:label "C6H10N2O2"@cn .
+
+formula:Q634 rdfs:label "C6H10N2O3"@cn .
+
+formula:Q635 rdfs:label "C15H12FO2Na·2H2O"@cn .
+
+formula:Q636 rdfs:label "C14H24N2O7·2HCl·5H2O"@cn .
+
+formula:Q637 rdfs:label "C25H29I2NO2·HCl"@cn .
+
+formula:Q638 rdfs:label "C8H9NO2?H2O"@cn .
+
+formula:Q639 rdfs:label "C65H73Cl2N9O24·HCl"@cn .
+
+formula:Q640 rdfs:label "C19H20N2O3S?HCL"@cn .
+
+formula:Q641 rdfs:label "C16H17N2NaO4S"@cn .
+
+formula:Q642 rdfs:label "C22H24N2O8"@cn .
+
+formula:Q643 rdfs:label "C22H24N2O9"@cn .
+
+formula:Q644 rdfs:label "H3BO4"@cn .
+
+formula:Q645 rdfs:label "C27H30O16·3H2O"@cn .
+
+formula:Q646 rdfs:label "C22H24N2O8·HCl·1/2C2H5OH·1/2H2O"@cn .
+
+formula:Q647 rdfs:label "C6H8ClN7O·HCl·2H2O"@cn .
+
+formula:Q648 rdfs:label "C17H19N3O·CH4O3S"@cn .
+
+formula:Q649 rdfs:label "C3H5Na2O4P"@cn .
+
+formula:Q650 rdfs:label "C18H34N2O6S·HCl·H2O"@cn .
+
+formula:Q651 rdfs:label "C29H33O2NCl"@cn .
+
+formula:Q652 rdfs:label "C13H8F2O3"@cn .
+
+formula:Q653 rdfs:label "C10H15NaO4S"@cn .
+
+formula:Q654 rdfs:label "C14H13N3O3·H2O"@cn .
+
+formula:Q655 rdfs:label "C15H15N3O·C3H6O3·H2O"@cn .
+
+formula:Q656 rdfs:label "C9H16ClN3O2"@cn .
+
+formula:Q657 rdfs:label "C5H8N4O3S2"@cn .
+
+formula:Q658 rdfs:label "C5H8N4O12"@cn .
+
+formula:Q659 rdfs:label "C11H17NO3·HCl"@cn .
+
+formula:Q660 rdfs:label "(C15H25NO3)2?C4H6O6"@cn .
+
+formula:Q661 rdfs:label "C17H19F2N3O3·C4H7NO4"@cn .
+
+formula:Q662 rdfs:label "C22H43N5O13·nH2SO4(n=1.8)"@cn .
+
+formula:Q663 rdfs:label "C6H6CI2N2O4S2"@cn .
+
+formula:Q664 rdfs:label "( C33H34 FN2O5)2Ca·3H2O"@cn .
+
+formula:Q665 rdfs:label "C8H12N2·HCl"@cn .
+
+formula:Q666 rdfs:label "C6H11O12P2Na3"@cn .
+
+formula:Q667 rdfs:label "C8H11N5O3"@cn .
+
+formula:Q668 rdfs:label "C23H28O6"@cn .
+
+formula:Q669 rdfs:label "C20H34O5"@cn .
+
+formula:Q670 rdfs:label "C16H24N2O3·HCl"@cn .
+
+formula:Q671 rdfs:label "C10H22N4O 6"@cn .
+
+formula:Q672 rdfs:label "C13H16ClNO·HCl"@cn .
+
+formula:Q673 rdfs:label "C16H18N3NaO5S"@cn .
+
+formula:Q674 rdfs:label "C16H15N2NaO6S2"@cn .
+
+formula:Q675 rdfs:label "C20H33N3O4·HCl"@cn .
+
+formula:Q676 rdfs:label "C9H18N2O3Pt·3H2O"@cn .
+
+formula:Q677 rdfs:label "C19H21NO?HCl"@cn .
+
+formula:Q678 rdfs:label "C8H12N2·2HCl"@cn .
+
+formula:Q679 rdfs:label "CaBr2·2H2O"@cn .
+
+formula:Q680 rdfs:label "C19H28BrNO3"@cn .
+
+formula:Q681 rdfs:label "C13H18N4O3"@cn .
+
+formula:Q682 rdfs:label "KCl"@cn .
+
+formula:Q683 rdfs:label "C19H27NaO5S·2H2O"@cn .
+
+formula:Q684 rdfs:label "C19H16ClNO4"@cn .
+
+formula:Q685 rdfs:label "C20H26N2O4· HCl"@cn .
+
+formula:Q686 rdfs:label "C14H18Cl2N2O3"@cn .
+
+formula:Q687 rdfs:label "C5H2N4Na2O3S2·2H2O"@cn .
+
+formula:Q688 rdfs:label "Na2P2O?10H2O"@cn .
+
+formula:Q689 rdfs:label "C17H16N2Na2O6S"@cn .
+
+formula:Q690 rdfs:label "C17H20N2S·HCl"@cn .
+
+formula:Q691 rdfs:label "(C12H19NO3)2·H2SO4"@cn .
+
+formula:Q692 rdfs:label "C11H16FN3O3"@cn .
+
+formula:Q693 rdfs:label "C16H17N3O4S·H2O"@cn .
+
+formula:Q694 rdfs:label "C11H12Cl2N2O5"@cn .
+
+formula:Q695 rdfs:label "C20H30O2"@cn .
+
+formula:Q696 rdfs:label "C12H13ClN4"@cn .
+
+formula:Q697 rdfs:label "C13H18ClN3O4S2"@cn .
+
+formula:Q698 rdfs:label "C20H28N2O5?C4H4O4"@cn .
+
+formula:Q699 rdfs:label "C14H13NaO3"@cn .
+
+formula:Q700 rdfs:label "C22H32O3"@cn .
+
+formula:Q701 rdfs:label "C17H17ClO6"@cn .
+
+formula:Q702 rdfs:label "C15H10ClN3O3"@cn .
+
+formula:Q703 rdfs:label "C19H18O5"@cn .
+
+formula:Q704 rdfs:label "C9H12N5NaO42。"@cn .
+
+formula:Q705 rdfs:label "C26H26F2N2·2HCl"@cn .
+
+formula:Q706 rdfs:label "C14H76N2O15"@cn .
+
+formula:Q707 rdfs:label "C9H13NO3?HCl"@cn .
+
+formula:Q708 rdfs:label "C24H32O4S"@cn .
+
+formula:Q709 rdfs:label "C18H20FN3O4·1/2H2O"@cn .
+
+formula:Q710 rdfs:label "C27H40O4"@cn .
+
+formula:Q711 rdfs:label "C32H37NO12·HCl"@cn .
+
+formula:Q712 rdfs:label "C14H10CI2NNaO2"@cn .
+
+formula:Q713 rdfs:label "C10H10N4O2S"@cn .
+
+formula:Q714 rdfs:label "C11H17N2NaO3"@cn .
+
+formula:Q715 rdfs:label "C9H15N03S"@cn .
+
+formula:Q716 rdfs:label "C25H28O3"@cn .
+
+formula:Q717 rdfs:label "C22H28N2O·C6H8O7"@cn .
+
+formula:Q718 rdfs:label "C13H11Cl2NaO4"@cn .
+
+formula:Q719 rdfs:label "C9H13NO3·HCl"@cn .
+
+formula:Q720 rdfs:label "C12H16F3N·HCl"@cn .
+
+formula:Q721 rdfs:label "C10H16O"@cn .
+
+formula:Q722 rdfs:label "C41H76N2O15"@cn .
+
+formula:Q723 rdfs:label "C10H12ClNO2"@cn .
+
+formula:Q724 rdfs:label "C24H30N2O2·HCl·H2O"@cn .
+
+formula:Q725 rdfs:label "(C16H18N2O4S)2·C16H20N2"@cn .
+
+formula:Q726 rdfs:label "C15H14F3N3O4S2"@cn .
+
+formula:Q727 rdfs:label "C7H6O3·C3H4N2"@cn .
+
+formula:Q728 rdfs:label "ZnSO4"@cn .
+
+formula:Q729 rdfs:label "C20H41N5O7·5/2H2SO4"@cn .
+
+formula:Q730 rdfs:label "C19H12O6"@cn .
+
+formula:Q731 rdfs:label "C17H21NO3·HBr"@cn .
+
+formula:Q732 rdfs:label "C16H11CIN4"@cn .
+
+formula:Q733 rdfs:label "C6H9NO6"@cn .
+
+formula:Q734 rdfs:label "C9H9Cl2N3?HCl"@cn .
+
+formula:Q735 rdfs:label "C11H12N4O3S"@cn .
+
+formula:Q736 rdfs:label "C20H24N2O2?2HCl"@cn .
+
+formula:Q737 rdfs:label "C19H18NO3"@cn .
+
+formula:Q738 rdfs:label "C25H28N6O7S3"@cn .
+
+formula:Q739 rdfs:label "C6H3O6"@cn .
+
+formula:Q740 rdfs:label "C14H10Cl2NNaO2"@cn .
+
+formula:Q741 rdfs:label "C18H37N5O9"@cn .
+
+formula:Q742 rdfs:label "C22H38O5"@cn .
+
+formula:Q743 rdfs:label "C17H18F3NO·HCI"@cn .
+
+formula:Q744 rdfs:label "C18H23N9O4S3·2HCl"@cn .
+
+formula:Q745 rdfs:label "C6H14N4O2·HCl"@cn .
+
+formula:Q746 rdfs:label "C21H25CIN2O3?2HCl"@cn .
+
+formula:Q747 rdfs:label "C6H6N2O3"@cn .
+
+formula:Q748 rdfs:label "C16H15N5O7S2.3H2O"@cn .
+
+formula:Q749 rdfs:label "(C6H10ON)n·XI或(C6H6ONI2)n"@cn .
+
+formula:Q750 rdfs:label "C19H22F2N4O3"@cn .
+
+formula:Q751 rdfs:label "C22H18N2"@cn .
+
+formula:Q752 rdfs:label "C17H23NO4·HBr"@cn .
+
+formula:Q753 rdfs:label "C21H27NO·HCl"@cn .
+
+formula:Q754 rdfs:label "C21H31N5O2·HCl"@cn .
+
+formula:Q755 rdfs:label "C26H28Cl2N4O4"@cn .
+
+formula:Q756 rdfs:label "C12H17N2NaO3"@cn .
+
+formula:Q757 rdfs:label "C10H18ClN3O2"@cn .
+
+formula:Q758 rdfs:label "C19H16CLNO4"@cn .
+
+formula:Q759 rdfs:label "C5H15N2O3PS"@cn .
+
+formula:Q760 rdfs:label "C34H48Na2O7"@cn .
+
+formula:Q761 rdfs:label "C17H18FN3O3·C3H6O3"@cn .
+
+formula:Q762 rdfs:label "C17H21NO·HCl"@cn .
+
+formula:Q763 rdfs:label "C12H13N4NaO2S"@cn .
+
+formula:Q764 rdfs:label "C16H25NO2"@cn .
+
+formula:Q765 rdfs:label "C15H10I4NNaO4"@cn .
+
+formula:Q766 rdfs:label "C41H64O14"@cn .
+
+formula:Q767 rdfs:label "C3H9NNa2O7P2·5H2O"@cn .
+
+formula:Q768 rdfs:label "C16H18FN3O3"@cn .
+
+formula:Q769 rdfs:label "C11H17N2NaO2S"@cn .
+
+formula:Q770 rdfs:label "C42H66O14"@cn .
+
+formula:Q771 rdfs:label "C14H11ClN2O4S"@cn .
+
+formula:Q772 rdfs:label "C15H22O3"@cn .
+
+formula:Q773 rdfs:label "C17H19NO3·HCl·3H2O"@cn .
+
+formula:Q774 rdfs:label "C14H13N8NaO4S3"@cn .
+
+formula:Q775 rdfs:label "C22H24ClN5O2"@cn .
+
+formula:Q776 rdfs:label "C24H29N5O3"@cn .
+
+formula:Q777 rdfs:label "C22H17ClN2"@cn .
+
+formula:Q778 rdfs:label "C19H16Cl2N3NaO5S·H2O  "@cn .
+
+formula:Q779 rdfs:label "(C13H21NO3)2?H2SO4"@cn .
+
+formula:Q780 rdfs:label "C37H67NO13·C18H36O2"@cn .
+
+formula:Q781 rdfs:label "C18Hx18F3NO4"@cn .
+
+formula:Q782 rdfs:label "C12H18N2O3S"@cn .
+
+formula:Q783 rdfs:label "C16H19N3O5S·3H2O"@cn .
+
+formula:Q784 rdfs:label "C17H13ClN4"@cn .
+
+formula:Q785 rdfs:label "C19H15NO6"@cn .
+
+formula:Q786 rdfs:label "C18H19N3O·HCl·2H2O"@cn .
+
+formula:Q787 rdfs:label "C11H11F3N2O3"@cn .
+
+formula:Q788 rdfs:label "C6H5Na3O7·2H2O"@cn .
+
+formula:Q789 rdfs:label "C15H23NO3"@cn .
+
+formula:Q790 rdfs:label "C10H13NO4·3/2H2O"@cn .
+
+formula:Q791 rdfs:label "C30H26CaO6·2H2O"@cn .
+
+formula:Q792 rdfs:label "C17H11N5"@cn .
+
+formula:Q793 rdfs:label "C13H20N2O2C16·H18N2O4S·H2O"@cn .
+
+formula:Q794 rdfs:label "C14H18N4O3"@cn .
+
+formula:Q795 rdfs:label "C9H7Cl2N5·C4H4O4"@cn .
+
+formula:Q796 rdfs:label "C14H10Cl2NKO2"@cn .
+
+formula:Q797 rdfs:label "C16H17N3O5S·H2O"@cn .
+
+formula:Q798 rdfs:label "C26H29N3O6·HCl·NaCl"@cn .
+
+formula:Q799 rdfs:label "C10H21N3O·C6H8O7"@cn .
+
+formula:Q800 rdfs:label "C18H20N2O6"@cn .
+
+formula:Q801 rdfs:label "C17H12N2O2"@cn .
+
+formula:Q802 rdfs:label "C24H40N8O4"@cn .
+
+formula:Q803 rdfs:label "C21H22N2O2·HNO3"@cn .
+
+formula:Q804 rdfs:label "C19H30O5"@cn .
+
+formula:Q805 rdfs:label "C16H7N2NaO5·H2O"@cn .
+
+formula:Q806 rdfs:label "C18H22ClNO·HCl"@cn .

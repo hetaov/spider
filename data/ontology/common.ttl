@@ -1,0 +1,9 @@
+@prefix prom: <http://www.semioe.org/prop/prom#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix food: <http://www.semioe.org/entity/medicine/food#> .
+@prefix hospital: <http://www.semioe.org/entity/medicine/hospital#> .
+@prefix place: <http://www.semioe.org/entity/medicine/place#> .
+@prefix drug: <http://www.semioe.org/entity/medicine/drug#> .
+@prefix medicine: <http://www.semioe.org/entity/medicine/medicine#> .
+
+medicine:Q1 rdfs:label "医保"@cn

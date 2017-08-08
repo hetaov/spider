@@ -1,0 +1,8464 @@
+@prefix prom: <http://www.semioe.org/prop/prom#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix food: <http://www.semioe.org/entity/medicine/food#> .
+@prefix hospital: <http://www.semioe.org/entity/medicine/hospital#> .
+@prefix place: <http://www.semioe.org/entity/medicine/place#> .
+@prefix drug: <http://www.semioe.org/entity/medicine/drug#> .
+@prefix org: <http://www.semioe.org/entity/medicine/org#> .
+@prefix disease: <http://www.semioe.org/entity/medicine/disease#> .
+@prefix symptom: <http://www.semioe.org/entity/medicine/symptom#> .
+@prefix check: <http://www.semioe.org/entity/medicine/check#> .
+@prefix department: <http://www.semioe.org/entity/medicine/department#> .
+@prefix department_1: <http://www.semioe.org/entity/medicine/department_1#> .
+@prefix department_2: <http://www.semioe.org/entity/medicine/department_2#> .
+@prefix medicine: <http://www.semioe.org/entity/medicine/medicine#> .
+@prefix drug_generic: <http://www.semioe.org/entity/medicine/drug_generic#> .
+@prefix formula: <http://www.semioe.org/entity/medicine/formula#> .
+@prefix dosage_form: <http://www.semioe.org/entity/medicine/dosage_form#> .
+@prefix ele: <http://www.semioe.org/entity/medicine/ele#> .
+@prefix part: <http://www.semioe.org/entity/medicine/part#> .
+
+
+ele:Q0 rdfs:label "连翘薄荷"@cn .
+
+ele:Q1 rdfs:label "鹿肉"@cn .
+
+ele:Q2 rdfs:label "壁钱炭"@cn .
+
+ele:Q3 rdfs:label "轻粉"@cn .
+
+ele:Q4 rdfs:label "穿心莲内酯"@cn .
+
+ele:Q5 rdfs:label "己酮可可碱"@cn .
+
+ele:Q6 rdfs:label "喷他佐辛"@cn .
+
+ele:Q7 rdfs:label "空心莲子草"@cn .
+
+ele:Q8 rdfs:label "芦根"@cn .
+
+ele:Q9 rdfs:label "旱菜"@cn .
+
+ele:Q10 rdfs:label "盐酸克仑特罗"@cn .
+
+ele:Q11 rdfs:label "对叶百部"@cn .
+
+ele:Q12 rdfs:label "含甲硝唑"@cn .
+
+ele:Q13 rdfs:label "薄荷油升"@cn .
+
+ele:Q14 rdfs:label "木香花椒"@cn .
+
+ele:Q15 rdfs:label "西洋参"@cn .
+
+ele:Q16 rdfs:label "羊脑粉"@cn .
+
+ele:Q17 rdfs:label "盐酸曲马多"@cn .
+
+ele:Q18 rdfs:label "氯唑西林钠"@cn .
+
+ele:Q19 rdfs:label "红霉素碱"@cn .
+
+ele:Q20 rdfs:label "海金沙藤"@cn .
+
+ele:Q21 rdfs:label "鹿胎"@cn .
+
+ele:Q22 rdfs:label "樟脑"@cn .
+
+ele:Q23 rdfs:label "乳糖酸阿奇霉素"@cn .
+
+ele:Q24 rdfs:label "黑豆"@cn .
+
+ele:Q25 rdfs:label "破天菜"@cn .
+
+ele:Q26 rdfs:label "炒青皮"@cn .
+
+ele:Q27 rdfs:label "杏仁水荷水"@cn .
+
+ele:Q28 rdfs:label "异甘草酸镁"@cn .
+
+ele:Q29 rdfs:label "苯苄唑"@cn .
+
+ele:Q30 rdfs:label "长春汀"@cn .
+
+ele:Q31 rdfs:label "绒楠"@cn .
+
+ele:Q32 rdfs:label "渗透压"@cn .
+
+ele:Q33 rdfs:label "奥扎格雷钠"@cn .
+
+ele:Q34 rdfs:label "五水头孢唑林钠"@cn .
+
+ele:Q35 rdfs:label "土霉素"@cn .
+
+ele:Q36 rdfs:label "槐角"@cn .
+
+ele:Q37 rdfs:label "制山茱萸"@cn .
+
+ele:Q38 rdfs:label "猪肚木皮"@cn .
+
+ele:Q39 rdfs:label "丹参"@cn .
+
+ele:Q40 rdfs:label "薄荷脑等"@cn .
+
+ele:Q41 rdfs:label "甜菊苷"@cn .
+
+ele:Q42 rdfs:label "磁石"@cn .
+
+ele:Q43 rdfs:label "青霉素"@cn .
+
+ele:Q44 rdfs:label "牛磺酸"@cn .
+
+ele:Q45 rdfs:label "鲜守宫"@cn .
+
+ele:Q46 rdfs:label "肉豆蔻仁"@cn .
+
+ele:Q47 rdfs:label "小檗皮"@cn .
+
+ele:Q48 rdfs:label "杜仲叶"@cn .
+
+ele:Q49 rdfs:label "青礞石"@cn .
+
+ele:Q50 rdfs:label "左旋多巴"@cn .
+
+ele:Q51 rdfs:label "野菊花"@cn .
+
+ele:Q52 rdfs:label "藏木通"@cn .
+
+ele:Q53 rdfs:label "佐太"@cn .
+
+ele:Q54 rdfs:label "常山"@cn .
+
+ele:Q55 rdfs:label "维库溴铵"@cn .
+
+ele:Q56 rdfs:label "水合氯醛"@cn .
+
+ele:Q57 rdfs:label "海浮石"@cn .
+
+ele:Q58 rdfs:label "乌梅肉"@cn .
+
+ele:Q59 rdfs:label "陈皮二两"@cn .
+
+ele:Q60 rdfs:label "丹参"@cn .
+
+ele:Q61 rdfs:label "土荆芥"@cn .
+
+ele:Q62 rdfs:label "龙虱"@cn .
+
+ele:Q63 rdfs:label "西洛他唑"@cn .
+
+ele:Q64 rdfs:label "五倍子"@cn .
+
+ele:Q65 rdfs:label "水田七"@cn .
+
+ele:Q66 rdfs:label "地骨皮"@cn .
+
+ele:Q67 rdfs:label "盐酸丁咯地尔"@cn .
+
+ele:Q68 rdfs:label "乙酰水杨酸"@cn .
+
+ele:Q69 rdfs:label "苯扎溴胺"@cn .
+
+ele:Q70 rdfs:label "石菖蒲粉"@cn .
+
+ele:Q71 rdfs:label "鹿角霜"@cn .
+
+ele:Q72 rdfs:label "葛根素"@cn .
+
+ele:Q73 rdfs:label "酮洛芬"@cn .
+
+ele:Q74 rdfs:label "马钱子粉"@cn .
+
+ele:Q75 rdfs:label "香油"@cn .
+
+ele:Q76 rdfs:label "桔络"@cn .
+
+ele:Q77 rdfs:label "苄氟噻嗪"@cn .
+
+ele:Q78 rdfs:label "缩宫素"@cn .
+
+ele:Q79 rdfs:label "沙丁胺醇"@cn .
+
+ele:Q80 rdfs:label "柳胺酚"@cn .
+
+ele:Q81 rdfs:label "蔗糖粉"@cn .
+
+ele:Q82 rdfs:label "天葵子"@cn .
+
+ele:Q83 rdfs:label "当归尾"@cn .
+
+ele:Q84 rdfs:label "铁包金"@cn .
+
+ele:Q85 rdfs:label "生姜"@cn .
+
+ele:Q86 rdfs:label "楮实子楮实子"@cn .
+
+ele:Q87 rdfs:label "陈醋"@cn .
+
+ele:Q88 rdfs:label "安吖啶"@cn .
+
+ele:Q89 rdfs:label "藿香油"@cn .
+
+ele:Q90 rdfs:label "秦艽防风"@cn .
+
+ele:Q91 rdfs:label "片姜黄"@cn .
+
+ele:Q92 rdfs:label "银环蛇"@cn .
+
+ele:Q93 rdfs:label "盐酸卡替洛尔"@cn .
+
+ele:Q94 rdfs:label "淀粉乳糖"@cn .
+
+ele:Q95 rdfs:label "廣藿香油"@cn .
+
+ele:Q96 rdfs:label "阿司匹林"@cn .
+
+ele:Q97 rdfs:label "盐酸仑特罗"@cn .
+
+ele:Q98 rdfs:label "氯雷他定"@cn .
+
+ele:Q99 rdfs:label "阳起石"@cn .
+
+ele:Q100 rdfs:label "白檀香"@cn .
+
+ele:Q101 rdfs:label "异丙托溴铵"@cn .
+
+ele:Q102 rdfs:label "白芷"@cn .
+
+ele:Q103 rdfs:label "骨碎补"@cn .
+
+ele:Q104 rdfs:label "红花醌甙"@cn .
+
+ele:Q105 rdfs:label "鱼肝油"@cn .
+
+ele:Q106 rdfs:label "盐酸吗啡"@cn .
+
+ele:Q107 rdfs:label "托西酸舒他西林"@cn .
+
+ele:Q108 rdfs:label "盐酸普鲁卡因胺"@cn .
+
+ele:Q109 rdfs:label "三角风"@cn .
+
+ele:Q110 rdfs:label "头孢曲松钠"@cn .
+
+ele:Q111 rdfs:label "呋喃硫胺"@cn .
+
+ele:Q112 rdfs:label "白芨"@cn .
+
+ele:Q113 rdfs:label "白花龙胆"@cn .
+
+ele:Q114 rdfs:label "中性胰岛素"@cn .
+
+ele:Q115 rdfs:label "川木香"@cn .
+
+ele:Q116 rdfs:label "川贝叶"@cn .
+
+ele:Q117 rdfs:label "盐酸布比卡因"@cn .
+
+ele:Q118 rdfs:label "白芍"@cn .
+
+ele:Q119 rdfs:label "桔梗薄荷"@cn .
+
+ele:Q120 rdfs:label "构把子"@cn .
+
+ele:Q121 rdfs:label "大黄和栀子"@cn .
+
+ele:Q122 rdfs:label "白英"@cn .
+
+ele:Q123 rdfs:label "土木香"@cn .
+
+ele:Q124 rdfs:label "山楂叶"@cn .
+
+ele:Q125 rdfs:label "乌鸡"@cn .
+
+ele:Q126 rdfs:label "仙鹤瓦楞子"@cn .
+
+ele:Q127 rdfs:label "山栀茶"@cn .
+
+ele:Q128 rdfs:label "藤合欢"@cn .
+
+ele:Q129 rdfs:label "羊角"@cn .
+
+ele:Q130 rdfs:label "甘草膏"@cn .
+
+ele:Q131 rdfs:label "丙二醇"@cn .
+
+ele:Q132 rdfs:label "胆南星"@cn .
+
+ele:Q133 rdfs:label "盐酸特拉唑嗪"@cn .
+
+ele:Q134 rdfs:label "胆影葡胺"@cn .
+
+ele:Q135 rdfs:label "广金钱草"@cn .
+
+ele:Q136 rdfs:label "苦参素"@cn .
+
+ele:Q137 rdfs:label "异烟肼"@cn .
+
+ele:Q138 rdfs:label "水三七"@cn .
+
+ele:Q139 rdfs:label "熊胆粉"@cn .
+
+ele:Q140 rdfs:label "甘西鼠尾"@cn .
+
+ele:Q141 rdfs:label "轮叶棘豆"@cn .
+
+ele:Q142 rdfs:label "琥珀酸亚铁"@cn .
+
+ele:Q143 rdfs:label "人工竺黄"@cn .
+
+ele:Q144 rdfs:label "多叶棘豆"@cn .
+
+ele:Q145 rdfs:label "栀子浸膏"@cn .
+
+ele:Q146 rdfs:label "依替膦酸二钠"@cn .
+
+ele:Q147 rdfs:label "茯苓三两"@cn .
+
+ele:Q148 rdfs:label "红升麻"@cn .
+
+ele:Q149 rdfs:label "过岗龙"@cn .
+
+ele:Q150 rdfs:label "萘哌地尔"@cn .
+
+ele:Q151 rdfs:label "百鸟藤"@cn .
+
+ele:Q152 rdfs:label "甲磺酸氨氯地平"@cn .
+
+ele:Q153 rdfs:label "肉丛蓉"@cn .
+
+ele:Q154 rdfs:label "茜草滕"@cn .
+
+ele:Q155 rdfs:label "棕板"@cn .
+
+ele:Q156 rdfs:label "薄荷油"@cn .
+
+ele:Q157 rdfs:label "奥沙普秦"@cn .
+
+ele:Q158 rdfs:label "乌蔹莓"@cn .
+
+ele:Q159 rdfs:label "盐酸组氨酸"@cn .
+
+ele:Q160 rdfs:label "槟榔"@cn .
+
+ele:Q161 rdfs:label "红糖"@cn .
+
+ele:Q162 rdfs:label "怀牛膝"@cn .
+
+ele:Q163 rdfs:label "山枝茶"@cn .
+
+ele:Q164 rdfs:label "对乙酰氨酚"@cn .
+
+ele:Q165 rdfs:label "朱砂"@cn .
+
+ele:Q166 rdfs:label "碘苯酯"@cn .
+
+ele:Q167 rdfs:label "珍珠等"@cn .
+
+ele:Q168 rdfs:label "胆碱"@cn .
+
+ele:Q169 rdfs:label "原蚕蛾"@cn .
+
+ele:Q170 rdfs:label "羟甲基烟酰胺"@cn .
+
+ele:Q171 rdfs:label "老鼠七"@cn .
+
+ele:Q172 rdfs:label "羌活大黄"@cn .
+
+ele:Q173 rdfs:label "丁香蓼"@cn .
+
+ele:Q174 rdfs:label "利福霉素钠"@cn .
+
+ele:Q175 rdfs:label "聚山梨脂"@cn .
+
+ele:Q176 rdfs:label "肉桂叶"@cn .
+
+ele:Q177 rdfs:label "盐酸格拉司琼"@cn .
+
+ele:Q178 rdfs:label "绞股兰"@cn .
+
+ele:Q179 rdfs:label "神香草"@cn .
+
+ele:Q180 rdfs:label "土甘草"@cn .
+
+ele:Q181 rdfs:label "桑椹"@cn .
+
+ele:Q182 rdfs:label "地桃花"@cn .
+
+ele:Q183 rdfs:label "制何首乌"@cn .
+
+ele:Q184 rdfs:label "川萆薢"@cn .
+
+ele:Q185 rdfs:label "猴头菌丝体"@cn .
+
+ele:Q186 rdfs:label "黄连干浸膏"@cn .
+
+ele:Q187 rdfs:label "黄花夹竹桃叶"@cn .
+
+ele:Q188 rdfs:label "泛酸钙"@cn .
+
+ele:Q189 rdfs:label "酞丁安"@cn .
+
+ele:Q190 rdfs:label "茧丝子"@cn .
+
+ele:Q191 rdfs:label "盐酸川芎嗪"@cn .
+
+ele:Q192 rdfs:label "人工牛黄"@cn .
+
+ele:Q193 rdfs:label "土鳖虫"@cn .
+
+ele:Q194 rdfs:label "金腰草"@cn .
+
+ele:Q195 rdfs:label "盐酸瑞芬太尼"@cn .
+
+ele:Q196 rdfs:label "没药"@cn .
+
+ele:Q197 rdfs:label "无机钙"@cn .
+
+ele:Q198 rdfs:label "可乐定"@cn .
+
+ele:Q199 rdfs:label "文石"@cn .
+
+ele:Q200 rdfs:label "氟康唑"@cn .
+
+ele:Q201 rdfs:label "果上叶"@cn .
+
+ele:Q202 rdfs:label "硬质酸镁"@cn .
+
+ele:Q203 rdfs:label "泽泻茯苓"@cn .
+
+ele:Q204 rdfs:label "鸡冠花"@cn .
+
+ele:Q205 rdfs:label "奋乃静"@cn .
+
+ele:Q206 rdfs:label "穿山龙"@cn .
+
+ele:Q207 rdfs:label "老鹤草"@cn .
+
+ele:Q208 rdfs:label "地椒"@cn .
+
+ele:Q209 rdfs:label "粉葛"@cn .
+
+ele:Q210 rdfs:label "富马酸氯马斯汀"@cn .
+
+ele:Q211 rdfs:label "赤勺乳香"@cn .
+
+ele:Q212 rdfs:label "精氨酸阿司匹林"@cn .
+
+ele:Q213 rdfs:label "断血流"@cn .
+
+ele:Q214 rdfs:label "叶酸"@cn .
+
+ele:Q215 rdfs:label "赤小豆赤小豆"@cn .
+
+ele:Q216 rdfs:label "炉甘石"@cn .
+
+ele:Q217 rdfs:label "牡蛎"@cn .
+
+ele:Q218 rdfs:label "替硝唑"@cn .
+
+ele:Q219 rdfs:label "过山龙"@cn .
+
+ele:Q220 rdfs:label "虾仁"@cn .
+
+ele:Q221 rdfs:label "冬青油等"@cn .
+
+ele:Q222 rdfs:label "门冬氨酸洛美沙星"@cn .
+
+ele:Q223 rdfs:label "丹西鼠尾RadixSalviaePrzewalskii"@cn .
+
+ele:Q224 rdfs:label "绞碎"@cn .
+
+ele:Q225 rdfs:label "土木香膏"@cn .
+
+ele:Q226 rdfs:label "粉萆"@cn .
+
+ele:Q227 rdfs:label "柏子仁泽泻"@cn .
+
+ele:Q228 rdfs:label "淡竹叶等"@cn .
+
+ele:Q229 rdfs:label "北葶苈子"@cn .
+
+ele:Q230 rdfs:label "贝诺酯"@cn .
+
+ele:Q231 rdfs:label "龙胆草"@cn .
+
+ele:Q232 rdfs:label "氧氟沙星"@cn .
+
+ele:Q233 rdfs:label "富马酸福莫特罗"@cn .
+
+ele:Q234 rdfs:label "盐酸舍曲林"@cn .
+
+ele:Q235 rdfs:label "硫磺"@cn .
+
+ele:Q236 rdfs:label "吴茱萸"@cn .
+
+ele:Q237 rdfs:label "艾纳香"@cn .
+
+ele:Q238 rdfs:label "蛇蜕"@cn .
+
+ele:Q239 rdfs:label "鹿茸"@cn .
+
+ele:Q240 rdfs:label "白芍浸膏"@cn .
+
+ele:Q241 rdfs:label "赤芍淡竹叶"@cn .
+
+ele:Q242 rdfs:label "茯神"@cn .
+
+ele:Q243 rdfs:label "糜蛋白酶"@cn .
+
+ele:Q244 rdfs:label "续断香加皮"@cn .
+
+ele:Q245 rdfs:label "可可豆碱"@cn .
+
+ele:Q246 rdfs:label "针砂"@cn .
+
+ele:Q247 rdfs:label "益母草膏"@cn .
+
+ele:Q248 rdfs:label "龙蔡"@cn .
+
+ele:Q249 rdfs:label "门冬酰胺酶"@cn .
+
+ele:Q250 rdfs:label "暴马子皮"@cn .
+
+ele:Q251 rdfs:label "灯芯草"@cn .
+
+ele:Q252 rdfs:label "沙棘总黄酮"@cn .
+
+ele:Q253 rdfs:label "肉豆蔻"@cn .
+
+ele:Q254 rdfs:label "钱白花蛇"@cn .
+
+ele:Q255 rdfs:label "硼酸"@cn .
+
+ele:Q256 rdfs:label "处方"@cn .
+
+ele:Q257 rdfs:label "零陵香"@cn .
+
+ele:Q258 rdfs:label "连翘"@cn .
+
+ele:Q259 rdfs:label "白毛七"@cn .
+
+ele:Q260 rdfs:label "甲砜霉素"@cn .
+
+ele:Q261 rdfs:label "头孢西丁钠"@cn .
+
+ele:Q262 rdfs:label "密陀僧"@cn .
+
+ele:Q263 rdfs:label "天麻素"@cn .
+
+ele:Q264 rdfs:label "吲哚菁绿"@cn .
+
+ele:Q265 rdfs:label "苯甲醇"@cn .
+
+ele:Q266 rdfs:label "贯众"@cn .
+
+ele:Q267 rdfs:label "戊酸雌二醇"@cn .
+
+ele:Q268 rdfs:label "硫酸新霉素"@cn .
+
+ele:Q269 rdfs:label "滇紫草"@cn .
+
+ele:Q270 rdfs:label "奥氮平"@cn .
+
+ele:Q271 rdfs:label "培氟沙星葡萄糖"@cn .
+
+ele:Q272 rdfs:label "溴新斯的明片"@cn .
+
+ele:Q273 rdfs:label "格列齐特"@cn .
+
+ele:Q274 rdfs:label "苘麻子"@cn .
+
+ele:Q275 rdfs:label "白胡椒"@cn .
+
+ele:Q276 rdfs:label "商陆"@cn .
+
+ele:Q277 rdfs:label "溴化钙"@cn .
+
+ele:Q278 rdfs:label "金荞麦"@cn .
+
+ele:Q279 rdfs:label "巯嘌呤"@cn .
+
+ele:Q280 rdfs:label "油菜花花粉"@cn .
+
+ele:Q281 rdfs:label "蔗糖"@cn .
+
+ele:Q282 rdfs:label "蜈蚣蛇蜕"@cn .
+
+ele:Q283 rdfs:label "茉莉香精"@cn .
+
+ele:Q284 rdfs:label "美罗培南"@cn .
+
+ele:Q285 rdfs:label "桉叶油"@cn .
+
+ele:Q286 rdfs:label "芫荽"@cn .
+
+ele:Q287 rdfs:label "萘啶酸"@cn .
+
+ele:Q288 rdfs:label "磷酸氢二钾"@cn .
+
+ele:Q289 rdfs:label "盐酸三氟拉嗪"@cn .
+
+ele:Q290 rdfs:label "生石膏"@cn .
+
+ele:Q291 rdfs:label "水杨酸钠"@cn .
+
+ele:Q292 rdfs:label "高锰酸钾"@cn .
+
+ele:Q293 rdfs:label "甲磺酸培氟沙星"@cn .
+
+ele:Q294 rdfs:label "灵芝浸育"@cn .
+
+ele:Q295 rdfs:label "大蒜"@cn .
+
+ele:Q296 rdfs:label "金霉素"@cn .
+
+ele:Q297 rdfs:label "蛇胆"@cn .
+
+ele:Q298 rdfs:label "辅料乙醇"@cn .
+
+ele:Q299 rdfs:label "鬼划符"@cn .
+
+ele:Q300 rdfs:label "泛昔洛韦"@cn .
+
+ele:Q301 rdfs:label "苦参碱"@cn .
+
+ele:Q302 rdfs:label "醋酸甲地孕酮"@cn .
+
+ele:Q303 rdfs:label "蜂蜜"@cn .
+
+ele:Q304 rdfs:label "依托泊甙"@cn .
+
+ele:Q305 rdfs:label "草流浸膏"@cn .
+
+ele:Q306 rdfs:label "石膏苦杏仁"@cn .
+
+ele:Q307 rdfs:label "党党参"@cn .
+
+ele:Q308 rdfs:label "返魂草"@cn .
+
+ele:Q309 rdfs:label "奈达铂"@cn .
+
+ele:Q310 rdfs:label "南五味子"@cn .
+
+ele:Q311 rdfs:label "盐酸拓扑替康"@cn .
+
+ele:Q312 rdfs:label "黄柏"@cn .
+
+ele:Q313 rdfs:label "头孢呋辛钠"@cn .
+
+ele:Q314 rdfs:label "菸酸"@cn .
+
+ele:Q315 rdfs:label "昆布"@cn .
+
+ele:Q316 rdfs:label "鲜王浆"@cn .
+
+ele:Q317 rdfs:label "达那唑"@cn .
+
+ele:Q318 rdfs:label "青葙子青葙子"@cn .
+
+ele:Q319 rdfs:label "桉油升"@cn .
+
+ele:Q320 rdfs:label "麦迪霉素"@cn .
+
+ele:Q321 rdfs:label "菥蓂"@cn .
+
+ele:Q322 rdfs:label "焦楂"@cn .
+
+ele:Q323 rdfs:label "山豆根浸膏"@cn .
+
+ele:Q324 rdfs:label "地胆头"@cn .
+
+ele:Q325 rdfs:label "荜茇高良姜"@cn .
+
+ele:Q326 rdfs:label "兰索拉唑"@cn .
+
+ele:Q327 rdfs:label "全反式维"@cn .
+
+ele:Q328 rdfs:label "利福喷丁"@cn .
+
+ele:Q329 rdfs:label "蜀葵子"@cn .
+
+ele:Q330 rdfs:label "飞龙掌血"@cn .
+
+ele:Q331 rdfs:label "石燕"@cn .
+
+ele:Q332 rdfs:label "鸭脚木叶"@cn .
+
+ele:Q333 rdfs:label "水半夏"@cn .
+
+ele:Q334 rdfs:label "人工虎骨粉"@cn .
+
+ele:Q335 rdfs:label "甲苯咪唑"@cn .
+
+ele:Q336 rdfs:label "大豆黄卷"@cn .
+
+ele:Q337 rdfs:label "多索茶碱"@cn .
+
+ele:Q338 rdfs:label "硬脂酸"@cn .
+
+ele:Q339 rdfs:label "茴香"@cn .
+
+ele:Q340 rdfs:label "黄葵子"@cn .
+
+ele:Q341 rdfs:label "干姜砂仁"@cn .
+
+ele:Q342 rdfs:label "广东土牛膝"@cn .
+
+ele:Q343 rdfs:label "曲尼司特"@cn .
+
+ele:Q344 rdfs:label "猪胆膏"@cn .
+
+ele:Q345 rdfs:label "甘草膏当归"@cn .
+
+ele:Q346 rdfs:label "土萆薢"@cn .
+
+ele:Q347 rdfs:label "陳皮"@cn .
+
+ele:Q348 rdfs:label "硫藤子"@cn .
+
+ele:Q349 rdfs:label "菊花蒺藜"@cn .
+
+ele:Q350 rdfs:label "芝麻油"@cn .
+
+ele:Q351 rdfs:label "象皮"@cn .
+
+ele:Q352 rdfs:label "复方樟脑酊"@cn .
+
+ele:Q353 rdfs:label "豆油黄酒"@cn .
+
+ele:Q354 rdfs:label "眼用炉甘石"@cn .
+
+ele:Q355 rdfs:label "赤石脂"@cn .
+
+ele:Q356 rdfs:label "吡拉西坦"@cn .
+
+ele:Q357 rdfs:label "核黄素"@cn .
+
+ele:Q358 rdfs:label "谷氨酸诺氟沙星"@cn .
+
+ele:Q359 rdfs:label "鹿心粉"@cn .
+
+ele:Q360 rdfs:label "金莲花"@cn .
+
+ele:Q361 rdfs:label "薄膜包衣剂"@cn .
+
+ele:Q362 rdfs:label "草莓香精"@cn .
+
+ele:Q363 rdfs:label "桂皮"@cn .
+
+ele:Q364 rdfs:label "天门冬"@cn .
+
+ele:Q365 rdfs:label "麦芽糖糊精"@cn .
+
+ele:Q366 rdfs:label "芒果叶"@cn .
+
+ele:Q367 rdfs:label "肉桂各"@cn .
+
+ele:Q368 rdfs:label "皱叶香薷"@cn .
+
+ele:Q369 rdfs:label "盐酸洛哌丁胺"@cn .
+
+ele:Q370 rdfs:label "制磁石"@cn .
+
+ele:Q371 rdfs:label "羚羊角"@cn .
+
+ele:Q372 rdfs:label "樟树根"@cn .
+
+ele:Q373 rdfs:label "珍珠粉"@cn .
+
+ele:Q374 rdfs:label "双环醇"@cn .
+
+ele:Q375 rdfs:label "水杨酸镁"@cn .
+
+ele:Q376 rdfs:label "盐酸尼卡地平"@cn .
+
+ele:Q377 rdfs:label "绵马贯众"@cn .
+
+ele:Q378 rdfs:label "海桐皮"@cn .
+
+ele:Q379 rdfs:label "贝母花"@cn .
+
+ele:Q380 rdfs:label "天仙子天仙子"@cn .
+
+ele:Q381 rdfs:label "蛋白质"@cn .
+
+ele:Q382 rdfs:label "血脉绿绒蒿"@cn .
+
+ele:Q383 rdfs:label "玉葡萄根"@cn .
+
+ele:Q384 rdfs:label "半边莲"@cn .
+
+ele:Q385 rdfs:label "赛空青药膏"@cn .
+
+ele:Q386 rdfs:label "蓖麻油"@cn .
+
+ele:Q387 rdfs:label "龙荟"@cn .
+
+ele:Q388 rdfs:label "用炭"@cn .
+
+ele:Q389 rdfs:label "四环素"@cn .
+
+ele:Q390 rdfs:label "沙苑子"@cn .
+
+ele:Q391 rdfs:label "氯氮"@cn .
+
+ele:Q392 rdfs:label "玉郎伞"@cn .
+
+ele:Q393 rdfs:label "白硇砂"@cn .
+
+ele:Q394 rdfs:label "积壳"@cn .
+
+ele:Q395 rdfs:label "芫花"@cn .
+
+ele:Q396 rdfs:label "保肝浸膏"@cn .
+
+ele:Q397 rdfs:label "臭屡茉莉"@cn .
+
+ele:Q398 rdfs:label "阿魏酸哌嗪"@cn .
+
+ele:Q399 rdfs:label "阿德福韦酯"@cn .
+
+ele:Q400 rdfs:label "氨来呫诺"@cn .
+
+ele:Q401 rdfs:label "苍朮"@cn .
+
+ele:Q402 rdfs:label "白蔹"@cn .
+
+ele:Q403 rdfs:label "苍木"@cn .
+
+ele:Q404 rdfs:label "炒麦芽"@cn .
+
+ele:Q405 rdfs:label "葛根青皮"@cn .
+
+ele:Q406 rdfs:label "硝西泮"@cn .
+
+ele:Q407 rdfs:label "阿柔比星"@cn .
+
+ele:Q408 rdfs:label "佛手"@cn .
+
+ele:Q409 rdfs:label "羚羊角片"@cn .
+
+ele:Q410 rdfs:label "檀香"@cn .
+
+ele:Q411 rdfs:label "巴戟天"@cn .
+
+ele:Q412 rdfs:label "蒜辣素"@cn .
+
+ele:Q413 rdfs:label "金刚藤"@cn .
+
+ele:Q414 rdfs:label "穿破石"@cn .
+
+ele:Q415 rdfs:label "苏梗"@cn .
+
+ele:Q416 rdfs:label "齐墩果酸"@cn .
+
+ele:Q417 rdfs:label "盐酸平阳霉素"@cn .
+
+ele:Q418 rdfs:label "炔诺酮"@cn .
+
+ele:Q419 rdfs:label "白英干浸膏"@cn .
+
+ele:Q420 rdfs:label "盐酸萘甲唑林"@cn .
+
+ele:Q421 rdfs:label "头孢拉定"@cn .
+
+ele:Q422 rdfs:label "穿山龙红花"@cn .
+
+ele:Q423 rdfs:label "龙胆"@cn .
+
+ele:Q424 rdfs:label "二氟尼柳"@cn .
+
+ele:Q425 rdfs:label "郁金乳香"@cn .
+
+ele:Q426 rdfs:label "黑吹风"@cn .
+
+ele:Q427 rdfs:label "羊蹄"@cn .
+
+ele:Q428 rdfs:label "胆粉"@cn .
+
+ele:Q429 rdfs:label "鳖甲胶"@cn .
+
+ele:Q430 rdfs:label "含有磷酸单酯酶"@cn .
+
+ele:Q431 rdfs:label "胡黄连"@cn .
+
+ele:Q432 rdfs:label "止泻木子"@cn .
+
+ele:Q433 rdfs:label "盐酸左布诺洛尔"@cn .
+
+ele:Q434 rdfs:label "郁金香"@cn .
+
+ele:Q435 rdfs:label "肿节风"@cn .
+
+ele:Q436 rdfs:label "溴化铵"@cn .
+
+ele:Q437 rdfs:label "丙胺太林"@cn .
+
+ele:Q438 rdfs:label "炉甘石"@cn .
+
+ele:Q439 rdfs:label "含布洛芬"@cn .
+
+ele:Q440 rdfs:label "马尿酸乌洛托品"@cn .
+
+ele:Q441 rdfs:label "灯盏花素"@cn .
+
+ele:Q442 rdfs:label "柴胡皂甙"@cn .
+
+ele:Q443 rdfs:label "铁皮石斛"@cn .
+
+ele:Q444 rdfs:label "橙子香料"@cn .
+
+ele:Q445 rdfs:label "忍冬藤"@cn .
+
+ele:Q446 rdfs:label "槐花"@cn .
+
+ele:Q447 rdfs:label "沉降系数"@cn .
+
+ele:Q448 rdfs:label "短尾铁先莲"@cn .
+
+ele:Q449 rdfs:label "炔孕酮"@cn .
+
+ele:Q450 rdfs:label "薏米"@cn .
+
+ele:Q451 rdfs:label "功劳木"@cn .
+
+ele:Q452 rdfs:label "蘑菇浸膏粉"@cn .
+
+ele:Q453 rdfs:label "红参"@cn .
+
+ele:Q454 rdfs:label "鲜葱"@cn .
+
+ele:Q455 rdfs:label "青篙"@cn .
+
+ele:Q456 rdfs:label "山茱萸山茱萸"@cn .
+
+ele:Q457 rdfs:label "白薇"@cn .
+
+ele:Q458 rdfs:label "焦糖溶液"@cn .
+
+ele:Q459 rdfs:label "棉团铁线莲"@cn .
+
+ele:Q460 rdfs:label "梨清膏"@cn .
+
+ele:Q461 rdfs:label "海金沙草"@cn .
+
+ele:Q462 rdfs:label "花椒"@cn .
+
+ele:Q463 rdfs:label "重组人白细胞介素"@cn .
+
+ele:Q464 rdfs:label "氯化筒箭毒碱"@cn .
+
+ele:Q465 rdfs:label "尼可刹米"@cn .
+
+ele:Q466 rdfs:label "林旦"@cn .
+
+ele:Q467 rdfs:label "去甲斑蝥素"@cn .
+
+ele:Q468 rdfs:label "杆菌肽"@cn .
+
+ele:Q469 rdfs:label "黄杨宁"@cn .
+
+ele:Q470 rdfs:label "枇把叶"@cn .
+
+ele:Q471 rdfs:label "余甘子粉"@cn .
+
+ele:Q472 rdfs:label "六甲蜜胺"@cn .
+
+ele:Q473 rdfs:label "异氟烷"@cn .
+
+ele:Q474 rdfs:label "羟丙纤维素"@cn .
+
+ele:Q475 rdfs:label "鲜藕"@cn .
+
+ele:Q476 rdfs:label "蛇莓"@cn .
+
+ele:Q477 rdfs:label "细辛脑"@cn .
+
+ele:Q478 rdfs:label "硫酸氨基葡聚糖钙"@cn .
+
+ele:Q479 rdfs:label "盐酸阿扑吗啡"@cn .
+
+ele:Q480 rdfs:label "吡哌酸锌"@cn .
+
+ele:Q481 rdfs:label "化香树果序"@cn .
+
+ele:Q482 rdfs:label "糊精"@cn .
+
+ele:Q483 rdfs:label "辣椒流浸膏"@cn .
+
+ele:Q484 rdfs:label "右旋糖酐"@cn .
+
+ele:Q485 rdfs:label "蘑菇"@cn .
+
+ele:Q486 rdfs:label "降香"@cn .
+
+ele:Q487 rdfs:label "诃子肉"@cn .
+
+ele:Q488 rdfs:label "平贝母"@cn .
+
+ele:Q489 rdfs:label "延胡索等"@cn .
+
+ele:Q490 rdfs:label "绿包藤"@cn .
+
+ele:Q491 rdfs:label "银杏酮酯"@cn .
+
+ele:Q492 rdfs:label "寄生"@cn .
+
+ele:Q493 rdfs:label "吡诺辛钠"@cn .
+
+ele:Q494 rdfs:label "牛蒡了"@cn .
+
+ele:Q495 rdfs:label "盐酸四环素"@cn .
+
+ele:Q496 rdfs:label "胎盘组织粉"@cn .
+
+ele:Q497 rdfs:label "紫地花丁"@cn .
+
+ele:Q498 rdfs:label "猪胆汁膏"@cn .
+
+ele:Q499 rdfs:label "盘龙七"@cn .
+
+ele:Q500 rdfs:label "头孢他啶"@cn .
+
+ele:Q501 rdfs:label "满山红油"@cn .
+
+ele:Q502 rdfs:label "金钗石斛"@cn .
+
+ele:Q503 rdfs:label "片仔癀粉"@cn .
+
+ele:Q504 rdfs:label "莱菔子"@cn .
+
+ele:Q505 rdfs:label "硫酸小诺霉素"@cn .
+
+ele:Q506 rdfs:label "桔硬"@cn .
+
+ele:Q507 rdfs:label "乳酸环丙沙星"@cn .
+
+ele:Q508 rdfs:label "龙脑"@cn .
+
+ele:Q509 rdfs:label "冰糖"@cn .
+
+ele:Q510 rdfs:label "银柴胡"@cn .
+
+ele:Q511 rdfs:label "灯心草灯心草MedullaJunci(英)Rush"@cn .
+
+ele:Q512 rdfs:label "盐酸氯丙嗪"@cn .
+
+ele:Q513 rdfs:label "牛地黄"@cn .
+
+ele:Q514 rdfs:label "丙戊酰胺"@cn .
+
+ele:Q515 rdfs:label "硼砂等"@cn .
+
+ele:Q516 rdfs:label "氯苯丁铝"@cn .
+
+ele:Q517 rdfs:label "紫苏叶红"@cn .
+
+ele:Q518 rdfs:label "牛章"@cn .
+
+ele:Q519 rdfs:label "欧李"@cn .
+
+ele:Q520 rdfs:label "山柰"@cn .
+
+ele:Q521 rdfs:label "菟丝子锁阳"@cn .
+
+ele:Q522 rdfs:label "醋酸氟氢可的松"@cn .
+
+ele:Q523 rdfs:label "山查"@cn .
+
+ele:Q524 rdfs:label "玉米须"@cn .
+
+ele:Q525 rdfs:label "地芬诺酯"@cn .
+
+ele:Q526 rdfs:label "木香碳酸钙"@cn .
+
+ele:Q527 rdfs:label "氯化镁"@cn .
+
+ele:Q528 rdfs:label "呋喃西林"@cn .
+
+ele:Q529 rdfs:label "咪唑斯汀"@cn .
+
+ele:Q530 rdfs:label "川木通"@cn .
+
+ele:Q531 rdfs:label "炼蜜"@cn .
+
+ele:Q532 rdfs:label "水柏枝"@cn .
+
+ele:Q533 rdfs:label "续断"@cn .
+
+ele:Q534 rdfs:label "硫酸巴龙霉素"@cn .
+
+ele:Q535 rdfs:label "礞石"@cn .
+
+ele:Q536 rdfs:label "洛伐他汀"@cn .
+
+ele:Q537 rdfs:label "独一味"@cn .
+
+ele:Q538 rdfs:label "清半夏厚朴"@cn .
+
+ele:Q539 rdfs:label "苯丙氨酸"@cn .
+
+ele:Q540 rdfs:label "盐酸小檗碱"@cn .
+
+ele:Q541 rdfs:label "绣线菊"@cn .
+
+ele:Q542 rdfs:label "红花等药"@cn .
+
+ele:Q543 rdfs:label "荆芥淡豆豉"@cn .
+
+ele:Q544 rdfs:label "四川川乌"@cn .
+
+ele:Q545 rdfs:label "苯丙氨酯"@cn .
+
+ele:Q546 rdfs:label "甲氯芬那酸"@cn .
+
+ele:Q547 rdfs:label "猕猴桃"@cn .
+
+ele:Q548 rdfs:label "紫花杜鹃"@cn .
+
+ele:Q549 rdfs:label "豆蔻"@cn .
+
+ele:Q550 rdfs:label "氯霉素"@cn .
+
+ele:Q551 rdfs:label "天胡荽"@cn .
+
+ele:Q552 rdfs:label "茶苯海明"@cn .
+
+ele:Q553 rdfs:label "十八症"@cn .
+
+ele:Q554 rdfs:label "麸皮"@cn .
+
+ele:Q555 rdfs:label "生山楂"@cn .
+
+ele:Q556 rdfs:label "冰片"@cn .
+
+ele:Q557 rdfs:label "茶碱"@cn .
+
+ele:Q558 rdfs:label "羊肉"@cn .
+
+ele:Q559 rdfs:label "甘松油"@cn .
+
+ele:Q560 rdfs:label "羊腰子"@cn .
+
+ele:Q561 rdfs:label "年黄"@cn .
+
+ele:Q562 rdfs:label "卡比马唑"@cn .
+
+ele:Q563 rdfs:label "盐酸特比萘芬"@cn .
+
+ele:Q564 rdfs:label "川芎枳壳"@cn .
+
+ele:Q565 rdfs:label "羊肾"@cn .
+
+ele:Q566 rdfs:label "甲胂酸钠"@cn .
+
+ele:Q567 rdfs:label "豹骨流浸膏"@cn .
+
+ele:Q568 rdfs:label "泛酸"@cn .
+
+ele:Q569 rdfs:label "胡颓子叶"@cn .
+
+ele:Q570 rdfs:label "特非那丁"@cn .
+
+ele:Q571 rdfs:label "五指毛桃"@cn .
+
+ele:Q572 rdfs:label "六神曲"@cn .
+
+ele:Q573 rdfs:label "淡竹叶"@cn .
+
+ele:Q574 rdfs:label "猪肝脏粉"@cn .
+
+ele:Q575 rdfs:label "绿矾"@cn .
+
+ele:Q576 rdfs:label "保泰松"@cn .
+
+ele:Q577 rdfs:label "甲酸水杨酸"@cn .
+
+ele:Q578 rdfs:label "鸦胆子"@cn .
+
+ele:Q579 rdfs:label "美沙拉秦"@cn .
+
+ele:Q580 rdfs:label "樟脑油升"@cn .
+
+ele:Q581 rdfs:label "植物脂肪"@cn .
+
+ele:Q582 rdfs:label "羚羊角粉"@cn .
+
+ele:Q583 rdfs:label "米诺地尔"@cn .
+
+ele:Q584 rdfs:label "聚山犁酯"@cn .
+
+ele:Q585 rdfs:label "地耳草"@cn .
+
+ele:Q586 rdfs:label "环磷酰胺"@cn .
+
+ele:Q587 rdfs:label "芫荽子"@cn .
+
+ele:Q588 rdfs:label "牡蛎碳酸钙"@cn .
+
+ele:Q589 rdfs:label "鬼羽箭"@cn .
+
+ele:Q590 rdfs:label "抗坏血酸钙"@cn .
+
+ele:Q591 rdfs:label "三叉神经痛"@cn .
+
+ele:Q592 rdfs:label "鹿血"@cn .
+
+ele:Q593 rdfs:label "山慈姑"@cn .
+
+ele:Q594 rdfs:label "车前子"@cn .
+
+ele:Q595 rdfs:label "溴丙胺太林"@cn .
+
+ele:Q596 rdfs:label "二乙酰氨乙酸乙二胺"@cn .
+
+ele:Q597 rdfs:label "透明质酸钠"@cn .
+
+ele:Q598 rdfs:label "核酸水解物"@cn .
+
+ele:Q599 rdfs:label "马来酸氯苯那敏"@cn .
+
+ele:Q600 rdfs:label "米格列醇"@cn .
+
+ele:Q601 rdfs:label "嘧啶二胺"@cn .
+
+ele:Q602 rdfs:label "水杨酸"@cn .
+
+ele:Q603 rdfs:label "碘普罗胺"@cn .
+
+ele:Q604 rdfs:label "头花蓼"@cn .
+
+ele:Q605 rdfs:label "辣椒"@cn .
+
+ele:Q606 rdfs:label "香薷"@cn .
+
+ele:Q607 rdfs:label "双氯西林钠"@cn .
+
+ele:Q608 rdfs:label "鹿茸粉"@cn .
+
+ele:Q609 rdfs:label "乌药干浸膏"@cn .
+
+ele:Q610 rdfs:label "仙茅"@cn .
+
+ele:Q611 rdfs:label "砂糖"@cn .
+
+ele:Q612 rdfs:label "山楂"@cn .
+
+ele:Q613 rdfs:label "砂仁叶油"@cn .
+
+ele:Q614 rdfs:label "富马酸酮替芬"@cn .
+
+ele:Q615 rdfs:label "藻酸双酯钠"@cn .
+
+ele:Q616 rdfs:label "烈香杜鹃油"@cn .
+
+ele:Q617 rdfs:label "臭灵丹"@cn .
+
+ele:Q618 rdfs:label "鹿角"@cn .
+
+ele:Q619 rdfs:label "甘草总黄酮"@cn .
+
+ele:Q620 rdfs:label "鹿茸精"@cn .
+
+ele:Q621 rdfs:label "威灵仙"@cn .
+
+ele:Q622 rdfs:label "射干"@cn .
+
+ele:Q623 rdfs:label "五味子"@cn .
+
+ele:Q624 rdfs:label "复方豆蔻酊"@cn .
+
+ele:Q625 rdfs:label "鹅不食草"@cn .
+
+ele:Q626 rdfs:label "肽酶抑"@cn .
+
+ele:Q627 rdfs:label "马兜铃"@cn .
+
+ele:Q628 rdfs:label "去氧氟尿苷"@cn .
+
+ele:Q629 rdfs:label "蟾酥粉"@cn .
+
+ele:Q630 rdfs:label "头孢他定"@cn .
+
+ele:Q631 rdfs:label "盐酸伐昔洛韦"@cn .
+
+ele:Q632 rdfs:label "牵牛子"@cn .
+
+ele:Q633 rdfs:label "雪上一枝蒿"@cn .
+
+ele:Q634 rdfs:label "云苓"@cn .
+
+ele:Q635 rdfs:label "拉维酸钾"@cn .
+
+ele:Q636 rdfs:label "氯化铵"@cn .
+
+ele:Q637 rdfs:label "枸杞子枸杞子"@cn .
+
+ele:Q638 rdfs:label "儿茶膏"@cn .
+
+ele:Q639 rdfs:label "楮实子"@cn .
+
+ele:Q640 rdfs:label "利巴韦林"@cn .
+
+ele:Q641 rdfs:label "硌合碘"@cn .
+
+ele:Q642 rdfs:label "亚大黄"@cn .
+
+ele:Q643 rdfs:label "香蕉"@cn .
+
+ele:Q644 rdfs:label "依诺沙星"@cn .
+
+ele:Q645 rdfs:label "三七总甙"@cn .
+
+ele:Q646 rdfs:label "透骨草"@cn .
+
+ele:Q647 rdfs:label "羧甲淀粉钠"@cn .
+
+ele:Q648 rdfs:label "硫酸软骨素"@cn .
+
+ele:Q649 rdfs:label "氯化钙"@cn .
+
+ele:Q650 rdfs:label "氯噻酮"@cn .
+
+ele:Q651 rdfs:label "败酱草"@cn .
+
+ele:Q652 rdfs:label "海螵蛸细粉"@cn .
+
+ele:Q653 rdfs:label "由生地"@cn .
+
+ele:Q654 rdfs:label "桐杞子"@cn .
+
+ele:Q655 rdfs:label "磺胺醋酰钠"@cn .
+
+ele:Q656 rdfs:label "槲叶干浸膏"@cn .
+
+ele:Q657 rdfs:label "盐酸羟甲唑啉"@cn .
+
+ele:Q658 rdfs:label "氯化钴"@cn .
+
+ele:Q659 rdfs:label "旱莲草"@cn .
+
+ele:Q660 rdfs:label "烟酸"@cn .
+
+ele:Q661 rdfs:label "氯化钾"@cn .
+
+ele:Q662 rdfs:label "樟脑等"@cn .
+
+ele:Q663 rdfs:label "氯化钠"@cn .
+
+ele:Q664 rdfs:label "制松节油升"@cn .
+
+ele:Q665 rdfs:label "马灵符"@cn .
+
+ele:Q666 rdfs:label "紫荆皮"@cn .
+
+ele:Q667 rdfs:label "岩陀"@cn .
+
+ele:Q668 rdfs:label "阿曲库铵苯磺酸盐"@cn .
+
+ele:Q669 rdfs:label "芥子"@cn .
+
+ele:Q670 rdfs:label "接骨木"@cn .
+
+ele:Q671 rdfs:label "紫参"@cn .
+
+ele:Q672 rdfs:label "胃蛋白酶"@cn .
+
+ele:Q673 rdfs:label "胡黄莲"@cn .
+
+ele:Q674 rdfs:label "林霉素"@cn .
+
+ele:Q675 rdfs:label "盐酸芬氟拉明"@cn .
+
+ele:Q676 rdfs:label "罗布麻叶"@cn .
+
+ele:Q677 rdfs:label "糊精或蔗糖"@cn .
+
+ele:Q678 rdfs:label "艾叶"@cn .
+
+ele:Q679 rdfs:label "明党参"@cn .
+
+ele:Q680 rdfs:label "醋酸可的松"@cn .
+
+ele:Q681 rdfs:label "三桠苦"@cn .
+
+ele:Q682 rdfs:label "地绵草"@cn .
+
+ele:Q683 rdfs:label "盐酸达罗宁"@cn .
+
+ele:Q684 rdfs:label "紫蘇葉油"@cn .
+
+ele:Q685 rdfs:label "脂肪"@cn .
+
+ele:Q686 rdfs:label "茴芹果"@cn .
+
+ele:Q687 rdfs:label "银杏叶"@cn .
+
+ele:Q688 rdfs:label "酸藤果"@cn .
+
+ele:Q689 rdfs:label "消导药"@cn .
+
+ele:Q690 rdfs:label "青金石"@cn .
+
+ele:Q691 rdfs:label "桃仁霜"@cn .
+
+ele:Q692 rdfs:label "竹叶柴胡"@cn .
+
+ele:Q693 rdfs:label "阿奇毒素"@cn .
+
+ele:Q694 rdfs:label "美司钠"@cn .
+
+ele:Q695 rdfs:label "渣驯膏"@cn .
+
+ele:Q696 rdfs:label "豨莶草"@cn .
+
+ele:Q697 rdfs:label "白芷浸膏"@cn .
+
+ele:Q698 rdfs:label "月桂氮酮升"@cn .
+
+ele:Q699 rdfs:label "山橿"@cn .
+
+ele:Q700 rdfs:label "人参淫羊藿"@cn .
+
+ele:Q701 rdfs:label "石决明"@cn .
+
+ele:Q702 rdfs:label "水杨梅根"@cn .
+
+ele:Q703 rdfs:label "桃仁二分"@cn .
+
+ele:Q704 rdfs:label "藏菖蒲"@cn .
+
+ele:Q705 rdfs:label "马蹄粉"@cn .
+
+ele:Q706 rdfs:label "硫普罗宁"@cn .
+
+ele:Q707 rdfs:label "甘草酸二钾"@cn .
+
+ele:Q708 rdfs:label "多西他赛"@cn .
+
+ele:Q709 rdfs:label "利眠宁"@cn .
+
+ele:Q710 rdfs:label "糖精钠"@cn .
+
+ele:Q711 rdfs:label "翠云草"@cn .
+
+ele:Q712 rdfs:label "乙醇升"@cn .
+
+ele:Q713 rdfs:label "褚实子"@cn .
+
+ele:Q714 rdfs:label "环戊噻嗪"@cn .
+
+ele:Q715 rdfs:label "白花秦艽"@cn .
+
+ele:Q716 rdfs:label "祖师麻"@cn .
+
+ele:Q717 rdfs:label "碘化钾"@cn .
+
+ele:Q718 rdfs:label "檀香等药"@cn .
+
+ele:Q719 rdfs:label "蔗糖"@cn .
+
+ele:Q720 rdfs:label "二酮"@cn .
+
+ele:Q721 rdfs:label "精制豆磷脂"@cn .
+
+ele:Q722 rdfs:label "鲜蕲蛇"@cn .
+
+ele:Q723 rdfs:label "阿米卡星"@cn .
+
+ele:Q724 rdfs:label "盐酸羟嗪"@cn .
+
+ele:Q725 rdfs:label "老蛇莲"@cn .
+
+ele:Q726 rdfs:label "革蘸"@cn .
+
+ele:Q727 rdfs:label "漆姑草"@cn .
+
+ele:Q728 rdfs:label "甘草酸二铵"@cn .
+
+ele:Q729 rdfs:label "花丝"@cn .
+
+ele:Q730 rdfs:label "青风藤"@cn .
+
+ele:Q731 rdfs:label "羌活等"@cn .
+
+ele:Q732 rdfs:label "肉桂子"@cn .
+
+ele:Q733 rdfs:label "醋氨己酸锌"@cn .
+
+ele:Q734 rdfs:label "金叶子"@cn .
+
+ele:Q735 rdfs:label "灰黄霉素"@cn .
+
+ele:Q736 rdfs:label "苦参"@cn .
+
+ele:Q737 rdfs:label "坐骨神经痛"@cn .
+
+ele:Q738 rdfs:label "右美沙芬"@cn .
+
+ele:Q739 rdfs:label "鲜羊肝"@cn .
+
+ele:Q740 rdfs:label "虫草菌精粉"@cn .
+
+ele:Q741 rdfs:label "川芎白芷"@cn .
+
+ele:Q742 rdfs:label "茵陈"@cn .
+
+ele:Q743 rdfs:label "雪莲花"@cn .
+
+ele:Q744 rdfs:label "藏茜草"@cn .
+
+ele:Q745 rdfs:label "黄桔"@cn .
+
+ele:Q746 rdfs:label "双氯芬酸"@cn .
+
+ele:Q747 rdfs:label "廨香"@cn .
+
+ele:Q748 rdfs:label "辛夷"@cn .
+
+ele:Q749 rdfs:label "欧缬草"@cn .
+
+ele:Q750 rdfs:label "枸橼酸钠"@cn .
+
+ele:Q751 rdfs:label "薄菏油"@cn .
+
+ele:Q752 rdfs:label "赋形剂加至"@cn .
+
+ele:Q753 rdfs:label "枸橼酸钾"@cn .
+
+ele:Q754 rdfs:label "玫瑰花"@cn .
+
+ele:Q755 rdfs:label "垂头菊"@cn .
+
+ele:Q756 rdfs:label "猴枣"@cn .
+
+ele:Q757 rdfs:label "成份栀子"@cn .
+
+ele:Q758 rdfs:label "鬼臼"@cn .
+
+ele:Q759 rdfs:label "细辛"@cn .
+
+ele:Q760 rdfs:label "核桃仁天冬"@cn .
+
+ele:Q761 rdfs:label "低分子肝素钙"@cn .
+
+ele:Q762 rdfs:label "药用氯化钠"@cn .
+
+ele:Q763 rdfs:label "干芦根"@cn .
+
+ele:Q764 rdfs:label "蛤蚧粉"@cn .
+
+ele:Q765 rdfs:label "苍耳子"@cn .
+
+ele:Q766 rdfs:label "富马酸比索洛尔"@cn .
+
+ele:Q767 rdfs:label "赤硝"@cn .
+
+ele:Q768 rdfs:label "盐酸甲氯芬酯"@cn .
+
+ele:Q769 rdfs:label "金银花等"@cn .
+
+ele:Q770 rdfs:label "桉叶油升"@cn .
+
+ele:Q771 rdfs:label "大果木姜子"@cn .
+
+ele:Q772 rdfs:label "苯海拉明"@cn .
+
+ele:Q773 rdfs:label "三七叶"@cn .
+
+ele:Q774 rdfs:label "红糖"@cn .
+
+ele:Q775 rdfs:label "蔓生百部"@cn .
+
+ele:Q776 rdfs:label "桔梗粉"@cn .
+
+ele:Q777 rdfs:label "法莫替丁"@cn .
+
+ele:Q778 rdfs:label "藏茴香"@cn .
+
+ele:Q779 rdfs:label "荸荠粉"@cn .
+
+ele:Q780 rdfs:label "牛尾蒿"@cn .
+
+ele:Q781 rdfs:label "肾上腺素"@cn .
+
+ele:Q782 rdfs:label "维胺酯"@cn .
+
+ele:Q783 rdfs:label "天山龙盘七"@cn .
+
+ele:Q784 rdfs:label "三硅酸镁"@cn .
+
+ele:Q785 rdfs:label "青盐"@cn .
+
+ele:Q786 rdfs:label "甘油"@cn .
+
+ele:Q787 rdfs:label "大叶桉叶"@cn .
+
+ele:Q788 rdfs:label "奈替米星"@cn .
+
+ele:Q789 rdfs:label "豆蔻仁"@cn .
+
+ele:Q790 rdfs:label "半枝莲等"@cn .
+
+ele:Q791 rdfs:label "可溶性淀粉"@cn .
+
+ele:Q792 rdfs:label "瓜蒌仁霜"@cn .
+
+ele:Q793 rdfs:label "瓜篓子"@cn .
+
+ele:Q794 rdfs:label "氯硝西泮"@cn .
+
+ele:Q795 rdfs:label "次硝酸铋"@cn .
+
+ele:Q796 rdfs:label "丸节茶"@cn .
+
+ele:Q797 rdfs:label "盐酸阿莫罗芬"@cn .
+
+ele:Q798 rdfs:label "地肤子"@cn .
+
+ele:Q799 rdfs:label "纯净水"@cn .
+
+ele:Q800 rdfs:label "青皮"@cn .
+
+ele:Q801 rdfs:label "盐酸羟苄唑"@cn .
+
+ele:Q802 rdfs:label "枳壳"@cn .
+
+ele:Q803 rdfs:label "当归"@cn .
+
+ele:Q804 rdfs:label "唐古特乌头"@cn .
+
+ele:Q805 rdfs:label "罂粟壳浸膏"@cn .
+
+ele:Q806 rdfs:label "黄花"@cn .
+
+ele:Q807 rdfs:label "环吡酮胺"@cn .
+
+ele:Q808 rdfs:label "大黄浸膏"@cn .
+
+ele:Q809 rdfs:label "弗朗鼠李皮"@cn .
+
+ele:Q810 rdfs:label "山梨酸钾"@cn .
+
+ele:Q811 rdfs:label "牛舌草"@cn .
+
+ele:Q812 rdfs:label "三七肉桂"@cn .
+
+ele:Q813 rdfs:label "去羟肌苷"@cn .
+
+ele:Q814 rdfs:label "桑枝"@cn .
+
+ele:Q815 rdfs:label "龟甲"@cn .
+
+ele:Q816 rdfs:label "楷杷仁"@cn .
+
+ele:Q817 rdfs:label "牛皮消"@cn .
+
+ele:Q818 rdfs:label "当归人参"@cn .
+
+ele:Q819 rdfs:label "金银花"@cn .
+
+ele:Q820 rdfs:label "莱服子"@cn .
+
+ele:Q821 rdfs:label "车前子等"@cn .
+
+ele:Q822 rdfs:label "球花党参"@cn .
+
+ele:Q823 rdfs:label "孟鲁司特钠"@cn .
+
+ele:Q824 rdfs:label "香旱芹"@cn .
+
+ele:Q825 rdfs:label "海金砂"@cn .
+
+ele:Q826 rdfs:label "头孢洛"@cn .
+
+ele:Q827 rdfs:label "海狗肾"@cn .
+
+ele:Q828 rdfs:label "北柴胡"@cn .
+
+ele:Q829 rdfs:label "托卡朋"@cn .
+
+ele:Q830 rdfs:label "醋酸生育酚"@cn .
+
+ele:Q831 rdfs:label "桔梗"@cn .
+
+ele:Q832 rdfs:label "有机钙"@cn .
+
+ele:Q833 rdfs:label "岩参"@cn .
+
+ele:Q834 rdfs:label "硫酸阿米卡星"@cn .
+
+ele:Q835 rdfs:label "丙戊酸镁"@cn .
+
+ele:Q836 rdfs:label "石刁柏"@cn .
+
+ele:Q837 rdfs:label "红米曲"@cn .
+
+ele:Q838 rdfs:label "醋酸钙"@cn .
+
+ele:Q839 rdfs:label "当归防风"@cn .
+
+ele:Q840 rdfs:label "多种维生素"@cn .
+
+ele:Q841 rdfs:label "洋金花"@cn .
+
+ele:Q842 rdfs:label "新鲜玫瑰花"@cn .
+
+ele:Q843 rdfs:label "玉米朊"@cn .
+
+ele:Q844 rdfs:label "醋酸钠"@cn .
+
+ele:Q845 rdfs:label "黑芝麻黑芝麻"@cn .
+
+ele:Q846 rdfs:label "溴米那"@cn .
+
+ele:Q847 rdfs:label "溴吡斯的明"@cn .
+
+ele:Q848 rdfs:label "酚磺乙胺"@cn .
+
+ele:Q849 rdfs:label "马来酸噻吗洛尔"@cn .
+
+ele:Q850 rdfs:label "棕榈"@cn .
+
+ele:Q851 rdfs:label "马齿苋"@cn .
+
+ele:Q852 rdfs:label "风疹减毒株"@cn .
+
+ele:Q853 rdfs:label "甜橙香精"@cn .
+
+ele:Q854 rdfs:label "枸杞子液"@cn .
+
+ele:Q855 rdfs:label "漏芦"@cn .
+
+ele:Q856 rdfs:label "精制植物油"@cn .
+
+ele:Q857 rdfs:label "半夏曲二两"@cn .
+
+ele:Q858 rdfs:label "齐多夫定"@cn .
+
+ele:Q859 rdfs:label "鼠妇"@cn .
+
+ele:Q860 rdfs:label "金不换总碱"@cn .
+
+ele:Q861 rdfs:label "冥楂"@cn .
+
+ele:Q862 rdfs:label "前生姜"@cn .
+
+ele:Q863 rdfs:label "番泻叶"@cn .
+
+ele:Q864 rdfs:label "盐酸奎宁"@cn .
+
+ele:Q865 rdfs:label "黑冰片"@cn .
+
+ele:Q866 rdfs:label "鸡胆浸膏"@cn .
+
+ele:Q867 rdfs:label "盐酸黄酮哌酯"@cn .
+
+ele:Q868 rdfs:label "莲子心"@cn .
+
+ele:Q869 rdfs:label "蕲蛇"@cn .
+
+ele:Q870 rdfs:label "橡胶"@cn .
+
+ele:Q871 rdfs:label "硫糖铝"@cn .
+
+ele:Q872 rdfs:label "荷油"@cn .
+
+ele:Q873 rdfs:label "酶试剂"@cn .
+
+ele:Q874 rdfs:label "双氯非那胺"@cn .
+
+ele:Q875 rdfs:label "勒苋菜"@cn .
+
+ele:Q876 rdfs:label "甜地丁"@cn .
+
+ele:Q877 rdfs:label "沙棘膏"@cn .
+
+ele:Q878 rdfs:label "马兰"@cn .
+
+ele:Q879 rdfs:label "甲橙皮苷"@cn .
+
+ele:Q880 rdfs:label "核桃油"@cn .
+
+ele:Q881 rdfs:label "比卡鲁胺"@cn .
+
+ele:Q882 rdfs:label "水"@cn .
+
+ele:Q883 rdfs:label "七叶莲"@cn .
+
+ele:Q884 rdfs:label "黄毛鹿茸"@cn .
+
+ele:Q885 rdfs:label "三叉苦"@cn .
+
+ele:Q886 rdfs:label "红花龙胆"@cn .
+
+ele:Q887 rdfs:label "乙醇腐剂"@cn .
+
+ele:Q888 rdfs:label "竹叶"@cn .
+
+ele:Q889 rdfs:label "石菖蒲根粉"@cn .
+
+ele:Q890 rdfs:label "炙干草"@cn .
+
+ele:Q891 rdfs:label "松果"@cn .
+
+ele:Q892 rdfs:label "调味剂"@cn .
+
+ele:Q893 rdfs:label "比沙可啶"@cn .
+
+ele:Q894 rdfs:label "小豆蔻"@cn .
+
+ele:Q895 rdfs:label "降香油"@cn .
+
+ele:Q896 rdfs:label "天氨酸"@cn .
+
+ele:Q897 rdfs:label "硫酸链霉素"@cn .
+
+ele:Q898 rdfs:label "瓜蒌仁"@cn .
+
+ele:Q899 rdfs:label "加替沙星"@cn .
+
+ele:Q900 rdfs:label "百尾参"@cn .
+
+ele:Q901 rdfs:label "胸腺"@cn .
+
+ele:Q902 rdfs:label "氧化锌"@cn .
+
+ele:Q903 rdfs:label "谷精草"@cn .
+
+ele:Q904 rdfs:label "薏苡人"@cn .
+
+ele:Q905 rdfs:label "还原型谷胱甘肽钠"@cn .
+
+ele:Q906 rdfs:label "没药黄"@cn .
+
+ele:Q907 rdfs:label "狼毒大戟"@cn .
+
+ele:Q908 rdfs:label "黄蜀葵花"@cn .
+
+ele:Q909 rdfs:label "阳春砂仁"@cn .
+
+ele:Q910 rdfs:label "吉非替尼"@cn .
+
+ele:Q911 rdfs:label "汞溴红"@cn .
+
+ele:Q912 rdfs:label "铁丝威灵仙"@cn .
+
+ele:Q913 rdfs:label "白云参"@cn .
+
+ele:Q914 rdfs:label "双香豆素"@cn .
+
+ele:Q915 rdfs:label "海星"@cn .
+
+ele:Q916 rdfs:label "盐酸罂粟碱"@cn .
+
+ele:Q917 rdfs:label "盐酸美司坦"@cn .
+
+ele:Q918 rdfs:label "丙戊酸钠"@cn .
+
+ele:Q919 rdfs:label "双氢青蒿素"@cn .
+
+ele:Q920 rdfs:label "南山楂"@cn .
+
+ele:Q921 rdfs:label "枸橼酸乙胺嗪"@cn .
+
+ele:Q922 rdfs:label "薏苡仁"@cn .
+
+ele:Q923 rdfs:label "过氧乙酸"@cn .
+
+ele:Q924 rdfs:label "黄芪流浸膏"@cn .
+
+ele:Q925 rdfs:label "香加皮"@cn .
+
+ele:Q926 rdfs:label "薄公英"@cn .
+
+ele:Q927 rdfs:label "半夏"@cn .
+
+ele:Q928 rdfs:label "大血藤"@cn .
+
+ele:Q929 rdfs:label "蕲蛇肉"@cn .
+
+ele:Q930 rdfs:label "甘草浸膏"@cn .
+
+ele:Q931 rdfs:label "二酮醋酸酯"@cn .
+
+ele:Q932 rdfs:label "甲磺酸倍他司汀"@cn .
+
+ele:Q933 rdfs:label "苯妥英钠"@cn .
+
+ele:Q934 rdfs:label "枸椽酸"@cn .
+
+ele:Q935 rdfs:label "肉桂粉"@cn .
+
+ele:Q936 rdfs:label "菝葜"@cn .
+
+ele:Q937 rdfs:label "替加氟"@cn .
+
+ele:Q938 rdfs:label "食盐"@cn .
+
+ele:Q939 rdfs:label "雄黄粉"@cn .
+
+ele:Q940 rdfs:label "蒲葵籽"@cn .
+
+ele:Q941 rdfs:label "氯氮平"@cn .
+
+ele:Q942 rdfs:label "板蓝根"@cn .
+
+ele:Q943 rdfs:label "三尖杉酯碱"@cn .
+
+ele:Q944 rdfs:label "青葙子"@cn .
+
+ele:Q945 rdfs:label "川穹"@cn .
+
+ele:Q946 rdfs:label "布美他尼"@cn .
+
+ele:Q947 rdfs:label "鳖甲"@cn .
+
+ele:Q948 rdfs:label "甘松"@cn .
+
+ele:Q949 rdfs:label "罗勒油"@cn .
+
+ele:Q950 rdfs:label "琐琐葡萄"@cn .
+
+ele:Q951 rdfs:label "过江龙"@cn .
+
+ele:Q952 rdfs:label "铁屑"@cn .
+
+ele:Q953 rdfs:label "滇桂艾纳香"@cn .
+
+ele:Q954 rdfs:label "系取猪"@cn .
+
+ele:Q955 rdfs:label "骨粹补"@cn .
+
+ele:Q956 rdfs:label "甘露聚糖肽"@cn .
+
+ele:Q957 rdfs:label "塞北紫堇"@cn .
+
+ele:Q958 rdfs:label "紫金牛"@cn .
+
+ele:Q959 rdfs:label "葱子葱子"@cn .
+
+ele:Q960 rdfs:label "奥美拉唑"@cn .
+
+ele:Q961 rdfs:label "菊花"@cn .
+
+ele:Q962 rdfs:label "小驳骨"@cn .
+
+ele:Q963 rdfs:label "壮筋丹"@cn .
+
+ele:Q964 rdfs:label "胰脂酶"@cn .
+
+ele:Q965 rdfs:label "马勃"@cn .
+
+ele:Q966 rdfs:label "茯苓山楂"@cn .
+
+ele:Q967 rdfs:label "鲑降钙素"@cn .
+
+ele:Q968 rdfs:label "盐酸吡多醇"@cn .
+
+ele:Q969 rdfs:label "棕榈炭等"@cn .
+
+ele:Q970 rdfs:label "红根草"@cn .
+
+ele:Q971 rdfs:label "黑芝麻等"@cn .
+
+ele:Q972 rdfs:label "盐酸阿扎司琼"@cn .
+
+ele:Q973 rdfs:label "枸橼酸氯米芬"@cn .
+
+ele:Q974 rdfs:label "一枝蒿"@cn .
+
+ele:Q975 rdfs:label "八爪金龙"@cn .
+
+ele:Q976 rdfs:label "丙二醇升"@cn .
+
+ele:Q977 rdfs:label "龟甲胶"@cn .
+
+ele:Q978 rdfs:label "猪睾丸"@cn .
+
+ele:Q979 rdfs:label "柿蒂"@cn .
+
+ele:Q980 rdfs:label "沉香"@cn .
+
+ele:Q981 rdfs:label "达卡巴嗪"@cn .
+
+ele:Q982 rdfs:label "孕二烯酮"@cn .
+
+ele:Q983 rdfs:label "一点红"@cn .
+
+ele:Q984 rdfs:label "左炔诺孕酮"@cn .
+
+ele:Q985 rdfs:label "青阳参"@cn .
+
+ele:Q986 rdfs:label "小檗碱"@cn .
+
+ele:Q987 rdfs:label "亚油酸"@cn .
+
+ele:Q988 rdfs:label "蜘蛛香"@cn .
+
+ele:Q989 rdfs:label "羊胆干膏"@cn .
+
+ele:Q990 rdfs:label "海风藤"@cn .
+
+ele:Q991 rdfs:label "盐酸羟考酮"@cn .
+
+ele:Q992 rdfs:label "西尼地平"@cn .
+
+ele:Q993 rdfs:label "盐酸克林霉素"@cn .
+
+ele:Q994 rdfs:label "山矾叶"@cn .
+
+ele:Q995 rdfs:label "新塔花"@cn .
+
+ele:Q996 rdfs:label "笮骸堵让姿"@cn .
+
+ele:Q997 rdfs:label "氯美扎酮"@cn .
+
+ele:Q998 rdfs:label "炙黄芪"@cn .
+
+ele:Q999 rdfs:label "赖氨酸"@cn .
+
+ele:Q1000 rdfs:label "盐酸洛美沙"@cn .
+
+ele:Q1001 rdfs:label "鲜人参"@cn .
+
+ele:Q1002 rdfs:label "葡萄糖酸依诺沙星"@cn .
+
+ele:Q1003 rdfs:label "八角枫"@cn .
+
+ele:Q1004 rdfs:label "重组人生长激素"@cn .
+
+ele:Q1005 rdfs:label "胆矾"@cn .
+
+ele:Q1006 rdfs:label "蜜黄芪"@cn .
+
+ele:Q1007 rdfs:label "氟芬那酸"@cn .
+
+ele:Q1008 rdfs:label "沉香沉香"@cn .
+
+ele:Q1009 rdfs:label "阿胶苓"@cn .
+
+ele:Q1010 rdfs:label "寒水石"@cn .
+
+ele:Q1011 rdfs:label "琥珀油"@cn .
+
+ele:Q1012 rdfs:label "酒黄芩"@cn .
+
+ele:Q1013 rdfs:label "曲昔匹特"@cn .
+
+ele:Q1014 rdfs:label "黄氏"@cn .
+
+ele:Q1015 rdfs:label "主地黄"@cn .
+
+ele:Q1016 rdfs:label "山梗菜碱"@cn .
+
+ele:Q1017 rdfs:label "基乙磺酸"@cn .
+
+ele:Q1018 rdfs:label "珍珠层粉"@cn .
+
+ele:Q1019 rdfs:label "壬苯醇醚"@cn .
+
+ele:Q1020 rdfs:label "肉桂红曲"@cn .
+
+ele:Q1021 rdfs:label "蛇床子"@cn .
+
+ele:Q1022 rdfs:label "葡萄根"@cn .
+
+ele:Q1023 rdfs:label "明矾"@cn .
+
+ele:Q1024 rdfs:label "碳酸氢钙"@cn .
+
+ele:Q1025 rdfs:label "藏党参"@cn .
+
+ele:Q1026 rdfs:label "鹿仙草"@cn .
+
+ele:Q1027 rdfs:label "碳酸氢钠"@cn .
+
+ele:Q1028 rdfs:label "前列地尔"@cn .
+
+ele:Q1029 rdfs:label "磺胺二甲嘧啶"@cn .
+
+ele:Q1030 rdfs:label "糯米饭"@cn .
+
+ele:Q1031 rdfs:label "龙胆花"@cn .
+
+ele:Q1032 rdfs:label "蔗糖及糊精"@cn .
+
+ele:Q1033 rdfs:label "牛筋草"@cn .
+
+ele:Q1034 rdfs:label "磺胺"@cn .
+
+ele:Q1035 rdfs:label "九里香"@cn .
+
+ele:Q1036 rdfs:label "玄明粉"@cn .
+
+ele:Q1037 rdfs:label "桃金娘根"@cn .
+
+ele:Q1038 rdfs:label "生附子"@cn .
+
+ele:Q1039 rdfs:label "倍他米松"@cn .
+
+ele:Q1040 rdfs:label "托西溴苄胺"@cn .
+
+ele:Q1041 rdfs:label "龙胆苦甙"@cn .
+
+ele:Q1042 rdfs:label "知母"@cn .
+
+ele:Q1043 rdfs:label "甲苯磺丁脲"@cn .
+
+ele:Q1044 rdfs:label "碳酸钙粉"@cn .
+
+ele:Q1045 rdfs:label "黄柏牡丹皮"@cn .
+
+ele:Q1046 rdfs:label "生地"@cn .
+
+ele:Q1047 rdfs:label "香茹"@cn .
+
+ele:Q1048 rdfs:label "三钾二枸橼酸铋"@cn .
+
+ele:Q1049 rdfs:label "山梨糖醇"@cn .
+
+ele:Q1050 rdfs:label "盐酸硫必利"@cn .
+
+ele:Q1051 rdfs:label "炼蜜"@cn .
+
+ele:Q1052 rdfs:label "赖诺普利"@cn .
+
+ele:Q1053 rdfs:label "枳实"@cn .
+
+ele:Q1054 rdfs:label "滑石粉"@cn .
+
+ele:Q1055 rdfs:label "金银忍冬叶"@cn .
+
+ele:Q1056 rdfs:label "龙血竭"@cn .
+
+ele:Q1057 rdfs:label "亚砷酸"@cn .
+
+ele:Q1058 rdfs:label "干漆"@cn .
+
+ele:Q1059 rdfs:label "紫草茸"@cn .
+
+ele:Q1060 rdfs:label "伏格列波糖"@cn .
+
+ele:Q1061 rdfs:label "甘草次酸"@cn .
+
+ele:Q1062 rdfs:label "盐酸萘唑林"@cn .
+
+ele:Q1063 rdfs:label "石竹"@cn .
+
+ele:Q1064 rdfs:label "茅莓茅莓"@cn .
+
+ele:Q1065 rdfs:label "熟大黄"@cn .
+
+ele:Q1066 rdfs:label "脂肪乳"@cn .
+
+ele:Q1067 rdfs:label "一水柠檬酸"@cn .
+
+ele:Q1068 rdfs:label "苦杏仁霜"@cn .
+
+ele:Q1069 rdfs:label "萝芙木"@cn .
+
+ele:Q1070 rdfs:label "芹菜子"@cn .
+
+ele:Q1071 rdfs:label "灵芝膏粉"@cn .
+
+ele:Q1072 rdfs:label "保存剂"@cn .
+
+ele:Q1073 rdfs:label "红花等"@cn .
+
+ele:Q1074 rdfs:label "鞣酸苦参碱"@cn .
+
+ele:Q1075 rdfs:label "碳酸钾"@cn .
+
+ele:Q1076 rdfs:label "胶体果胶铋"@cn .
+
+ele:Q1077 rdfs:label "血竭赤芍"@cn .
+
+ele:Q1078 rdfs:label "豹骨"@cn .
+
+ele:Q1079 rdfs:label "盐酸多巴胺"@cn .
+
+ele:Q1080 rdfs:label "贝美格"@cn .
+
+ele:Q1081 rdfs:label "马钱子浸膏"@cn .
+
+ele:Q1082 rdfs:label "碳酸钙"@cn .
+
+ele:Q1083 rdfs:label "酸枣树皮"@cn .
+
+ele:Q1084 rdfs:label "盐酸赖氨酸"@cn .
+
+ele:Q1085 rdfs:label "双氯酚酸钠"@cn .
+
+ele:Q1086 rdfs:label "瓜篓"@cn .
+
+ele:Q1087 rdfs:label "竹叶椒"@cn .
+
+ele:Q1088 rdfs:label "老鸦胆叶"@cn .
+
+ele:Q1089 rdfs:label "含三桠苦"@cn .
+
+ele:Q1090 rdfs:label "鹅胆干膏粉"@cn .
+
+ele:Q1091 rdfs:label "猪脑垂体前叶"@cn .
+
+ele:Q1092 rdfs:label "陈皮油"@cn .
+
+ele:Q1093 rdfs:label "榆树皮"@cn .
+
+ele:Q1094 rdfs:label "椒流浸膏"@cn .
+
+ele:Q1095 rdfs:label "生天南星"@cn .
+
+ele:Q1096 rdfs:label "苦楝子"@cn .
+
+ele:Q1097 rdfs:label "二盐酸奎宁"@cn .
+
+ele:Q1098 rdfs:label "赤小豆"@cn .
+
+ele:Q1099 rdfs:label "蜂胶"@cn .
+
+ele:Q1100 rdfs:label "七氟烷"@cn .
+
+ele:Q1101 rdfs:label "凝血酶样酶"@cn .
+
+ele:Q1102 rdfs:label "红藤"@cn .
+
+ele:Q1103 rdfs:label "莓叶委陵菜"@cn .
+
+ele:Q1104 rdfs:label "铝酸铋"@cn .
+
+ele:Q1105 rdfs:label "醋甲唑胺"@cn .
+
+ele:Q1106 rdfs:label "氟罗沙星"@cn .
+
+ele:Q1107 rdfs:label "茯苓等"@cn .
+
+ele:Q1108 rdfs:label "烟酸"@cn .
+
+ele:Q1109 rdfs:label "羧甲司坦"@cn .
+
+ele:Q1110 rdfs:label "贴梗海棠"@cn .
+
+ele:Q1111 rdfs:label "氟尿嘧啶"@cn .
+
+ele:Q1112 rdfs:label "蛇床子蛇床子"@cn .
+
+ele:Q1113 rdfs:label "野甘草"@cn .
+
+ele:Q1114 rdfs:label "枸橼酸莫沙必利"@cn .
+
+ele:Q1115 rdfs:label "满山白"@cn .
+
+ele:Q1116 rdfs:label "泽漆"@cn .
+
+ele:Q1117 rdfs:label "麻疹"@cn .
+
+ele:Q1118 rdfs:label "卡马西平"@cn .
+
+ele:Q1119 rdfs:label "猪胆粉"@cn .
+
+ele:Q1120 rdfs:label "七星剑"@cn .
+
+ele:Q1121 rdfs:label "无水咖啡因"@cn .
+
+ele:Q1122 rdfs:label "匹莫林"@cn .
+
+ele:Q1123 rdfs:label "三七"@cn .
+
+ele:Q1124 rdfs:label "黄藤素"@cn .
+
+ele:Q1125 rdfs:label "豆鼓姜"@cn .
+
+ele:Q1126 rdfs:label "弹性蛋白酶"@cn .
+
+ele:Q1127 rdfs:label "薯莨"@cn .
+
+ele:Q1128 rdfs:label "阿托品"@cn .
+
+ele:Q1129 rdfs:label "萘普生"@cn .
+
+ele:Q1130 rdfs:label "氯化亚铊"@cn .
+
+ele:Q1131 rdfs:label "利凡诺"@cn .
+
+ele:Q1132 rdfs:label "龟龄集药粉"@cn .
+
+ele:Q1133 rdfs:label "猪胆浸膏"@cn .
+
+ele:Q1134 rdfs:label "白及"@cn .
+
+ele:Q1135 rdfs:label "丹参浸膏"@cn .
+
+ele:Q1136 rdfs:label "楷杷叶"@cn .
+
+ele:Q1137 rdfs:label "氯化亚锡"@cn .
+
+ele:Q1138 rdfs:label "盐酸"@cn .
+
+ele:Q1139 rdfs:label "水泽兰"@cn .
+
+ele:Q1140 rdfs:label "聚乙二醇"@cn .
+
+ele:Q1141 rdfs:label "皂角子"@cn .
+
+ele:Q1142 rdfs:label "亮氨酸"@cn .
+
+ele:Q1143 rdfs:label "甲苯磺酸妥舒沙星"@cn .
+
+ele:Q1144 rdfs:label "石菖蒲油"@cn .
+
+ele:Q1145 rdfs:label "葱头"@cn .
+
+ele:Q1146 rdfs:label "焦糖"@cn .
+
+ele:Q1147 rdfs:label "苯乙酸钠"@cn .
+
+ele:Q1148 rdfs:label "鹫粪"@cn .
+
+ele:Q1149 rdfs:label "刺猬皮"@cn .
+
+ele:Q1150 rdfs:label "夏天无"@cn .
+
+ele:Q1151 rdfs:label "盐酸酚苯明"@cn .
+
+ele:Q1152 rdfs:label "干燥"@cn .
+
+ele:Q1153 rdfs:label "埃索美拉唑"@cn .
+
+ele:Q1154 rdfs:label "盐酸哌替啶"@cn .
+
+ele:Q1155 rdfs:label "驴肾"@cn .
+
+ele:Q1156 rdfs:label "辛荑"@cn .
+
+ele:Q1157 rdfs:label "皂角刺"@cn .
+
+ele:Q1158 rdfs:label "暴子皮"@cn .
+
+ele:Q1159 rdfs:label "盐酸氨溴索"@cn .
+
+ele:Q1160 rdfs:label "亚麻子亚麻子"@cn .
+
+ele:Q1161 rdfs:label "硝酸异山梨酯"@cn .
+
+ele:Q1162 rdfs:label "蝉蜕等"@cn .
+
+ele:Q1163 rdfs:label "熊去氧胆酸"@cn .
+
+ele:Q1164 rdfs:label "高原丹参"@cn .
+
+ele:Q1165 rdfs:label "打箭菊"@cn .
+
+ele:Q1166 rdfs:label "玻璃酸酶"@cn .
+
+ele:Q1167 rdfs:label "猪腰子"@cn .
+
+ele:Q1168 rdfs:label "酒曲"@cn .
+
+ele:Q1169 rdfs:label "小红参"@cn .
+
+ele:Q1170 rdfs:label "板栗壳"@cn .
+
+ele:Q1171 rdfs:label "生川乌"@cn .
+
+ele:Q1172 rdfs:label "安乃近"@cn .
+
+ele:Q1173 rdfs:label "羧苄西林钠"@cn .
+
+ele:Q1174 rdfs:label "枇杷"@cn .
+
+ele:Q1175 rdfs:label "螃蟹甲"@cn .
+
+ele:Q1176 rdfs:label "碳酸锂"@cn .
+
+ele:Q1177 rdfs:label "尿囊素"@cn .
+
+ele:Q1178 rdfs:label "竹节香附"@cn .
+
+ele:Q1179 rdfs:label "腮腺炎"@cn .
+
+ele:Q1180 rdfs:label "益母草"@cn .
+
+ele:Q1181 rdfs:label "大皂角"@cn .
+
+ele:Q1182 rdfs:label "丁香地"@cn .
+
+ele:Q1183 rdfs:label "酢酱草"@cn .
+
+ele:Q1184 rdfs:label "扁豆"@cn .
+
+ele:Q1185 rdfs:label "菥冥"@cn .
+
+ele:Q1186 rdfs:label "香榧草"@cn .
+
+ele:Q1187 rdfs:label "青黛玄参"@cn .
+
+ele:Q1188 rdfs:label "麦芽糖"@cn .
+
+ele:Q1189 rdfs:label "玄参茯苓"@cn .
+
+ele:Q1190 rdfs:label "桂枝"@cn .
+
+ele:Q1191 rdfs:label "谷氨酸"@cn .
+
+ele:Q1192 rdfs:label "桅子"@cn .
+
+ele:Q1193 rdfs:label "麝香等"@cn .
+
+ele:Q1194 rdfs:label "碳酸镁"@cn .
+
+ele:Q1195 rdfs:label "磺胺嘧啶"@cn .
+
+ele:Q1196 rdfs:label "白勒"@cn .
+
+ele:Q1197 rdfs:label "龙葵"@cn .
+
+ele:Q1198 rdfs:label "杏仁香精"@cn .
+
+ele:Q1199 rdfs:label "扭肚藤"@cn .
+
+ele:Q1200 rdfs:label "小檗果"@cn .
+
+ele:Q1201 rdfs:label "对氨甲基苯甲酸"@cn .
+
+ele:Q1202 rdfs:label "猪骨"@cn .
+
+ele:Q1203 rdfs:label "聚乙烯醇"@cn .
+
+ele:Q1204 rdfs:label "荠菜"@cn .
+
+ele:Q1205 rdfs:label "甘油成"@cn .
+
+ele:Q1206 rdfs:label "坐台"@cn .
+
+ele:Q1207 rdfs:label "凤仙透骨草"@cn .
+
+ele:Q1208 rdfs:label "白藓皮"@cn .
+
+ele:Q1209 rdfs:label "焦山楂"@cn .
+
+ele:Q1210 rdfs:label "西藏绫子芹"@cn .
+
+ele:Q1211 rdfs:label "田螺壳"@cn .
+
+ele:Q1212 rdfs:label "广狗鞭"@cn .
+
+ele:Q1213 rdfs:label "冬凌草"@cn .
+
+ele:Q1214 rdfs:label "聚山梨酯"@cn .
+
+ele:Q1215 rdfs:label "老鹳萆"@cn .
+
+ele:Q1216 rdfs:label "氢胆酸"@cn .
+
+ele:Q1217 rdfs:label "肉挂"@cn .
+
+ele:Q1218 rdfs:label "吐根流浸膏"@cn .
+
+ele:Q1219 rdfs:label "九层风"@cn .
+
+ele:Q1220 rdfs:label "辅酶"@cn .
+
+ele:Q1221 rdfs:label "麦冬地黄"@cn .
+
+ele:Q1222 rdfs:label "红参远志"@cn .
+
+ele:Q1223 rdfs:label "前胡"@cn .
+
+ele:Q1224 rdfs:label "玄参大青盐"@cn .
+
+ele:Q1225 rdfs:label "徐长卿"@cn .
+
+ele:Q1226 rdfs:label "莲子肉"@cn .
+
+ele:Q1227 rdfs:label "败酱"@cn .
+
+ele:Q1228 rdfs:label "硝酸士的宁"@cn .
+
+ele:Q1229 rdfs:label "白酒"@cn .
+
+ele:Q1230 rdfs:label "淫羊藿浸膏"@cn .
+
+ele:Q1231 rdfs:label "一支黄花"@cn .
+
+ele:Q1232 rdfs:label "粗胆酸"@cn .
+
+ele:Q1233 rdfs:label "厚樸"@cn .
+
+ele:Q1234 rdfs:label "熟地浸膏"@cn .
+
+ele:Q1235 rdfs:label "聚丙烯酸钠"@cn .
+
+ele:Q1236 rdfs:label "糖浆"@cn .
+
+ele:Q1237 rdfs:label "浓茸血液"@cn .
+
+ele:Q1238 rdfs:label "牛蒡子"@cn .
+
+ele:Q1239 rdfs:label "伊贝母"@cn .
+
+ele:Q1240 rdfs:label "垂体后叶素"@cn .
+
+ele:Q1241 rdfs:label "漆大姑"@cn .
+
+ele:Q1242 rdfs:label "樟脑"@cn .
+
+ele:Q1243 rdfs:label "白花蛇舌草"@cn .
+
+ele:Q1244 rdfs:label "甲基橙皮苷"@cn .
+
+ele:Q1245 rdfs:label "优降糖"@cn .
+
+ele:Q1246 rdfs:label "尼美舒利"@cn .
+
+ele:Q1247 rdfs:label "红花夹竹桃"@cn .
+
+ele:Q1248 rdfs:label "食用色素"@cn .
+
+ele:Q1249 rdfs:label "九层塔"@cn .
+
+ele:Q1250 rdfs:label "鲜石斛"@cn .
+
+ele:Q1251 rdfs:label "高山龙"@cn .
+
+ele:Q1252 rdfs:label "羊骨"@cn .
+
+ele:Q1253 rdfs:label "荜澄茄"@cn .
+
+ele:Q1254 rdfs:label "锯木屑"@cn .
+
+ele:Q1255 rdfs:label "白醋"@cn .
+
+ele:Q1256 rdfs:label "高莨姜"@cn .
+
+ele:Q1257 rdfs:label "猫爪草"@cn .
+
+ele:Q1258 rdfs:label "葶苈各一分"@cn .
+
+ele:Q1259 rdfs:label "咖啡因"@cn .
+
+ele:Q1260 rdfs:label "及组分"@cn .
+
+ele:Q1261 rdfs:label "大豆油"@cn .
+
+ele:Q1262 rdfs:label "氨苯喋啶"@cn .
+
+ele:Q1263 rdfs:label "珍珠母"@cn .
+
+ele:Q1264 rdfs:label "胡精"@cn .
+
+ele:Q1265 rdfs:label "战骨"@cn .
+
+ele:Q1266 rdfs:label "莶草"@cn .
+
+ele:Q1267 rdfs:label "女贞子浸膏"@cn .
+
+ele:Q1268 rdfs:label "款冬花"@cn .
+
+ele:Q1269 rdfs:label "水高丽"@cn .
+
+ele:Q1270 rdfs:label "桂枝川楝子"@cn .
+
+ele:Q1271 rdfs:label "羟乙磷酸钠"@cn .
+
+ele:Q1272 rdfs:label "盐酸吡硫醇"@cn .
+
+ele:Q1273 rdfs:label "花生衣"@cn .
+
+ele:Q1274 rdfs:label "络石藤"@cn .
+
+ele:Q1275 rdfs:label "山慈菇"@cn .
+
+ele:Q1276 rdfs:label "吗氯贝胺"@cn .
+
+ele:Q1277 rdfs:label "陈皮甘草"@cn .
+
+ele:Q1278 rdfs:label "生关白附"@cn .
+
+ele:Q1279 rdfs:label "盐酸文拉法辛"@cn .
+
+ele:Q1280 rdfs:label "磺胺林"@cn .
+
+ele:Q1281 rdfs:label "氨甲苯酸"@cn .
+
+ele:Q1282 rdfs:label "杆菌肽位"@cn .
+
+ele:Q1283 rdfs:label "白背叶"@cn .
+
+ele:Q1284 rdfs:label "鲜益母草"@cn .
+
+ele:Q1285 rdfs:label "含铝酸铋"@cn .
+
+ele:Q1286 rdfs:label "泽泻"@cn .
+
+ele:Q1287 rdfs:label "女贞子山药"@cn .
+
+ele:Q1288 rdfs:label "小蘖科鬼臼属植物木脂类抗肿瘤成分"@cn .
+
+ele:Q1289 rdfs:label "硫磺"@cn .
+
+ele:Q1290 rdfs:label "大黄"@cn .
+
+ele:Q1291 rdfs:label "陈皮流浸膏"@cn .
+
+ele:Q1292 rdfs:label "花粉"@cn .
+
+ele:Q1293 rdfs:label "含水杨酸"@cn .
+
+ele:Q1294 rdfs:label "黑老虎"@cn .
+
+ele:Q1295 rdfs:label "棕榈氯霉素"@cn .
+
+ele:Q1296 rdfs:label "利可君"@cn .
+
+ele:Q1297 rdfs:label "由金银花"@cn .
+
+ele:Q1298 rdfs:label "利福平"@cn .
+
+ele:Q1299 rdfs:label "救必"@cn .
+
+ele:Q1300 rdfs:label "苍耳草"@cn .
+
+ele:Q1301 rdfs:label "肿节风浸膏"@cn .
+
+ele:Q1302 rdfs:label "氢溴酸高乌甲素"@cn .
+
+ele:Q1303 rdfs:label "马缨丹"@cn .
+
+ele:Q1304 rdfs:label "北沙参"@cn .
+
+ele:Q1305 rdfs:label "牛滕"@cn .
+
+ele:Q1306 rdfs:label "烟酸占替诺"@cn .
+
+ele:Q1307 rdfs:label "茯苓甘草"@cn .
+
+ele:Q1308 rdfs:label "硫酸阿奇霉素"@cn .
+
+ele:Q1309 rdfs:label "巴豆霜朱砂"@cn .
+
+ele:Q1310 rdfs:label "鸡血腾"@cn .
+
+ele:Q1311 rdfs:label "大蒜素"@cn .
+
+ele:Q1312 rdfs:label "消旋山莨菪碱"@cn .
+
+ele:Q1313 rdfs:label "乳果糖"@cn .
+
+ele:Q1314 rdfs:label "马蓝"@cn .
+
+ele:Q1315 rdfs:label "橘叶"@cn .
+
+ele:Q1316 rdfs:label "镰形棘豆"@cn .
+
+ele:Q1317 rdfs:label "高良姜"@cn .
+
+ele:Q1318 rdfs:label "牛白藤"@cn .
+
+ele:Q1319 rdfs:label "升麻"@cn .
+
+ele:Q1320 rdfs:label "兔丝子"@cn .
+
+ele:Q1321 rdfs:label "促皮质素"@cn .
+
+ele:Q1322 rdfs:label "乌拉地尔"@cn .
+
+ele:Q1323 rdfs:label "绿豆粉"@cn .
+
+ele:Q1324 rdfs:label "马蔺子甲素"@cn .
+
+ele:Q1325 rdfs:label "独脚金"@cn .
+
+ele:Q1326 rdfs:label "七叶一枝花"@cn .
+
+ele:Q1327 rdfs:label "头孢克洛"@cn .
+
+ele:Q1328 rdfs:label "甲氧沙林"@cn .
+
+ele:Q1329 rdfs:label "克林霉素磷酸酯"@cn .
+
+ele:Q1330 rdfs:label "圆柏膏"@cn .
+
+ele:Q1331 rdfs:label "三七茎叶"@cn .
+
+ele:Q1332 rdfs:label "酪蛋白"@cn .
+
+ele:Q1333 rdfs:label "翼首草"@cn .
+
+ele:Q1334 rdfs:label "白芍"@cn .
+
+ele:Q1335 rdfs:label "苦玄参"@cn .
+
+ele:Q1336 rdfs:label "缩砂蜜"@cn .
+
+ele:Q1337 rdfs:label "马齿苋子"@cn .
+
+ele:Q1338 rdfs:label "佐米曲普坦"@cn .
+
+ele:Q1339 rdfs:label "花椒花椒"@cn .
+
+ele:Q1340 rdfs:label "己酸羟孕酮"@cn .
+
+ele:Q1341 rdfs:label "硒酵母"@cn .
+
+ele:Q1342 rdfs:label "复合铅盐"@cn .
+
+ele:Q1343 rdfs:label "人参酸肌肽"@cn .
+
+ele:Q1344 rdfs:label "萱草"@cn .
+
+ele:Q1345 rdfs:label "盐酸青藤碱"@cn .
+
+ele:Q1346 rdfs:label "党参白术"@cn .
+
+ele:Q1347 rdfs:label "香墨"@cn .
+
+ele:Q1348 rdfs:label "春根藤"@cn .
+
+ele:Q1349 rdfs:label "氢氧化铝"@cn .
+
+ele:Q1350 rdfs:label "乳猪"@cn .
+
+ele:Q1351 rdfs:label "熟地"@cn .
+
+ele:Q1352 rdfs:label "胰蛋白酶"@cn .
+
+ele:Q1353 rdfs:label "浓氨溶液"@cn .
+
+ele:Q1354 rdfs:label "异戊巴比妥钠"@cn .
+
+ele:Q1355 rdfs:label "焦麦芽"@cn .
+
+ele:Q1356 rdfs:label "薄荷叶"@cn .
+
+ele:Q1357 rdfs:label "露兜"@cn .
+
+ele:Q1358 rdfs:label "液体石蜡"@cn .
+
+ele:Q1359 rdfs:label "氢氧化钠"@cn .
+
+ele:Q1360 rdfs:label "玫瑰油"@cn .
+
+ele:Q1361 rdfs:label "蚕砂蝉蜕"@cn .
+
+ele:Q1362 rdfs:label "人参"@cn .
+
+ele:Q1363 rdfs:label "肉桂乳香"@cn .
+
+ele:Q1364 rdfs:label "狗鞭"@cn .
+
+ele:Q1365 rdfs:label "吴茱萸吴茱萸"@cn .
+
+ele:Q1366 rdfs:label "苦玄参浸膏"@cn .
+
+ele:Q1367 rdfs:label "苦树皮"@cn .
+
+ele:Q1368 rdfs:label "硫酸长春新碱"@cn .
+
+ele:Q1369 rdfs:label "玉簪花"@cn .
+
+ele:Q1370 rdfs:label "合欢花"@cn .
+
+ele:Q1371 rdfs:label "甘氨双唑钠"@cn .
+
+ele:Q1372 rdfs:label "玉竹"@cn .
+
+ele:Q1373 rdfs:label "胡桃仁"@cn .
+
+ele:Q1374 rdfs:label "珍珠液"@cn .
+
+ele:Q1375 rdfs:label "白土苓"@cn .
+
+ele:Q1376 rdfs:label "盐酸多西环素"@cn .
+
+ele:Q1377 rdfs:label "山甘草"@cn .
+
+ele:Q1378 rdfs:label "玻璃酸钠"@cn .
+
+ele:Q1379 rdfs:label "联苯双酯"@cn .
+
+ele:Q1380 rdfs:label "青黛人中白"@cn .
+
+ele:Q1381 rdfs:label "生长抑素"@cn .
+
+ele:Q1382 rdfs:label "浮萍"@cn .
+
+ele:Q1383 rdfs:label "硝普钠"@cn .
+
+ele:Q1384 rdfs:label "卡比多巴"@cn .
+
+ele:Q1385 rdfs:label "人参粉"@cn .
+
+ele:Q1386 rdfs:label "唑来膦酸"@cn .
+
+ele:Q1387 rdfs:label "牡荆叶"@cn .
+
+ele:Q1388 rdfs:label "四方藤"@cn .
+
+ele:Q1389 rdfs:label "驴皮"@cn .
+
+ele:Q1390 rdfs:label "制川乌"@cn .
+
+ele:Q1391 rdfs:label "氟胞嘧啶"@cn .
+
+ele:Q1392 rdfs:label "盐酸氯丙那林"@cn .
+
+ele:Q1393 rdfs:label "塞隆骨"@cn .
+
+ele:Q1394 rdfs:label "鞣质"@cn .
+
+ele:Q1395 rdfs:label "香白芷"@cn .
+
+ele:Q1396 rdfs:label "苯扎溴铵"@cn .
+
+ele:Q1397 rdfs:label "朱砂根"@cn .
+
+ele:Q1398 rdfs:label "牛鞭胶粉"@cn .
+
+ele:Q1399 rdfs:label "人参"@cn .
+
+ele:Q1400 rdfs:label "三氮唑"@cn .
+
+ele:Q1401 rdfs:label "醋酸奥曲肽"@cn .
+
+ele:Q1402 rdfs:label "珠子参"@cn .
+
+ele:Q1403 rdfs:label "桔梗我"@cn .
+
+ele:Q1404 rdfs:label "红大戟"@cn .
+
+ele:Q1405 rdfs:label "氯诺昔康"@cn .
+
+ele:Q1406 rdfs:label "槲寄生"@cn .
+
+ele:Q1407 rdfs:label "无茎芥"@cn .
+
+ele:Q1408 rdfs:label "面粉"@cn .
+
+ele:Q1409 rdfs:label "枸橼酸铋钾"@cn .
+
+ele:Q1410 rdfs:label "水飞蓟素"@cn .
+
+ele:Q1411 rdfs:label "稻秀"@cn .
+
+ele:Q1412 rdfs:label "葡萄糖钙"@cn .
+
+ele:Q1413 rdfs:label "淀粉浆"@cn .
+
+ele:Q1414 rdfs:label "忍冬"@cn .
+
+ele:Q1415 rdfs:label "异丁司特"@cn .
+
+ele:Q1416 rdfs:label "兔心"@cn .
+
+ele:Q1417 rdfs:label "臭灵丹草"@cn .
+
+ele:Q1418 rdfs:label "盐酸乙哌立松"@cn .
+
+ele:Q1419 rdfs:label "活性成份"@cn .
+
+ele:Q1420 rdfs:label "雀脑"@cn .
+
+ele:Q1421 rdfs:label "官桂樟脑"@cn .
+
+ele:Q1422 rdfs:label "野颠茄"@cn .
+
+ele:Q1423 rdfs:label "老鹳草"@cn .
+
+ele:Q1424 rdfs:label "单硝酸异山梨酯"@cn .
+
+ele:Q1425 rdfs:label "硫酸西索米星"@cn .
+
+ele:Q1426 rdfs:label "木通等药"@cn .
+
+ele:Q1427 rdfs:label "头孢地尼"@cn .
+
+ele:Q1428 rdfs:label "拉米夫定"@cn .
+
+ele:Q1429 rdfs:label "阿纳其根"@cn .
+
+ele:Q1430 rdfs:label "母草"@cn .
+
+ele:Q1431 rdfs:label "雄鸡"@cn .
+
+ele:Q1432 rdfs:label "全蝎"@cn .
+
+ele:Q1433 rdfs:label "二氯乙酰胺"@cn .
+
+ele:Q1434 rdfs:label "川桐皮"@cn .
+
+ele:Q1435 rdfs:label "田基黄"@cn .
+
+ele:Q1436 rdfs:label "丁香叶"@cn .
+
+ele:Q1437 rdfs:label "糯米"@cn .
+
+ele:Q1438 rdfs:label "苯酚升"@cn .
+
+ele:Q1439 rdfs:label "浮海石"@cn .
+
+ele:Q1440 rdfs:label "雄黄"@cn .
+
+ele:Q1441 rdfs:label "阿斯帕坦"@cn .
+
+ele:Q1442 rdfs:label "异亮氨酸"@cn .
+
+ele:Q1443 rdfs:label "色甘酸钠"@cn .
+
+ele:Q1444 rdfs:label "荜茇油"@cn .
+
+ele:Q1445 rdfs:label "神曲茶菊花"@cn .
+
+ele:Q1446 rdfs:label "淡竹"@cn .
+
+ele:Q1447 rdfs:label "氨苯砜"@cn .
+
+ele:Q1448 rdfs:label "板兰根"@cn .
+
+ele:Q1449 rdfs:label "艾叶油"@cn .
+
+ele:Q1450 rdfs:label "金嫁石"@cn .
+
+ele:Q1451 rdfs:label "紫苏叶油"@cn .
+
+ele:Q1452 rdfs:label "苏合皂"@cn .
+
+ele:Q1453 rdfs:label "松罗"@cn .
+
+ele:Q1454 rdfs:label "鹅部食草"@cn .
+
+ele:Q1455 rdfs:label "氢氧化镁"@cn .
+
+ele:Q1456 rdfs:label "硬脂酸镁"@cn .
+
+ele:Q1457 rdfs:label "吡啶甲酰肼"@cn .
+
+ele:Q1458 rdfs:label "总状土木香"@cn .
+
+ele:Q1459 rdfs:label "甾醇"@cn .
+
+ele:Q1460 rdfs:label "微量元素"@cn .
+
+ele:Q1461 rdfs:label "萑香三两"@cn .
+
+ele:Q1462 rdfs:label "细叶十大功劳"@cn .
+
+ele:Q1463 rdfs:label "黄芩素"@cn .
+
+ele:Q1464 rdfs:label "乳酸依沙吖啶"@cn .
+
+ele:Q1465 rdfs:label "盐酸吗啡和硫酸阿托品"@cn .
+
+ele:Q1466 rdfs:label "牛白藤白薇"@cn .
+
+ele:Q1467 rdfs:label "胆酸钠"@cn .
+
+ele:Q1468 rdfs:label "斑蝥素"@cn .
+
+ele:Q1469 rdfs:label "玉树油"@cn .
+
+ele:Q1470 rdfs:label "防己"@cn .
+
+ele:Q1471 rdfs:label "防已"@cn .
+
+ele:Q1472 rdfs:label "拍子仁"@cn .
+
+ele:Q1473 rdfs:label "盐酸氟桂利嗪"@cn .
+
+ele:Q1474 rdfs:label "荆芥穗油"@cn .
+
+ele:Q1475 rdfs:label "醋酸氟轻松"@cn .
+
+ele:Q1476 rdfs:label "蕤仁"@cn .
+
+ele:Q1477 rdfs:label "糠酸莫米松"@cn .
+
+ele:Q1478 rdfs:label "蝉蜕薄荷"@cn .
+
+ele:Q1479 rdfs:label "黄芪膏粉"@cn .
+
+ele:Q1480 rdfs:label "甲睾酮"@cn .
+
+ele:Q1481 rdfs:label "山楂山楂"@cn .
+
+ele:Q1482 rdfs:label "萝蘑"@cn .
+
+ele:Q1483 rdfs:label "塞硝唑"@cn .
+
+ele:Q1484 rdfs:label "川加皮"@cn .
+
+ele:Q1485 rdfs:label "活性炭"@cn .
+
+ele:Q1486 rdfs:label "红药"@cn .
+
+ele:Q1487 rdfs:label "黑种草子"@cn .
+
+ele:Q1488 rdfs:label "闹羊花"@cn .
+
+ele:Q1489 rdfs:label "胺肽素"@cn .
+
+ele:Q1490 rdfs:label "姜粉"@cn .
+
+ele:Q1491 rdfs:label "蝉蜕金银花"@cn .
+
+ele:Q1492 rdfs:label "溴化钾"@cn .
+
+ele:Q1493 rdfs:label "蟑蜕"@cn .
+
+ele:Q1494 rdfs:label "橙皮酊"@cn .
+
+ele:Q1495 rdfs:label "盐酸头孢替安"@cn .
+
+ele:Q1496 rdfs:label "海藻"@cn .
+
+ele:Q1497 rdfs:label "由人工养殖赤子爱胜蚓中提取分离而得的含酶复合物"@cn .
+
+ele:Q1498 rdfs:label "甘遂"@cn .
+
+ele:Q1499 rdfs:label "芙蓉叶"@cn .
+
+ele:Q1500 rdfs:label "硅油"@cn .
+
+ele:Q1501 rdfs:label "薄荷醇"@cn .
+
+ele:Q1502 rdfs:label "天麻枸杞子"@cn .
+
+ele:Q1503 rdfs:label "白蒺藜"@cn .
+
+ele:Q1504 rdfs:label "溴化钠"@cn .
+
+ele:Q1505 rdfs:label "甲紫"@cn .
+
+ele:Q1506 rdfs:label "茴香根皮"@cn .
+
+ele:Q1507 rdfs:label "白石脂"@cn .
+
+ele:Q1508 rdfs:label "氢氯噻嗪"@cn .
+
+ele:Q1509 rdfs:label "岩白菜"@cn .
+
+ele:Q1510 rdfs:label "蔗糖"@cn .
+
+ele:Q1511 rdfs:label "红茶"@cn .
+
+ele:Q1512 rdfs:label "苯酚"@cn .
+
+ele:Q1513 rdfs:label "红豆蔻"@cn .
+
+ele:Q1514 rdfs:label "角茴香"@cn .
+
+ele:Q1515 rdfs:label "百部浸膏"@cn .
+
+ele:Q1516 rdfs:label "艾纳香油"@cn .
+
+ele:Q1517 rdfs:label "大腹皮三两"@cn .
+
+ele:Q1518 rdfs:label "白芥子"@cn .
+
+ele:Q1519 rdfs:label "红花素"@cn .
+
+ele:Q1520 rdfs:label "卷柏"@cn .
+
+ele:Q1521 rdfs:label "神曲"@cn .
+
+ele:Q1522 rdfs:label "韭莱子"@cn .
+
+ele:Q1523 rdfs:label "大黄藤"@cn .
+
+ele:Q1524 rdfs:label "金钮扣"@cn .
+
+ele:Q1525 rdfs:label "海金沙叶"@cn .
+
+ele:Q1526 rdfs:label "油松节"@cn .
+
+ele:Q1527 rdfs:label "吡嗪酰胺"@cn .
+
+ele:Q1528 rdfs:label "利福定"@cn .
+
+ele:Q1529 rdfs:label "侧柏叶"@cn .
+
+ele:Q1530 rdfs:label "华细辛"@cn .
+
+ele:Q1531 rdfs:label "重组人胰岛素辅料"@cn .
+
+ele:Q1532 rdfs:label "建曲"@cn .
+
+ele:Q1533 rdfs:label "丙酸睾酮"@cn .
+
+ele:Q1534 rdfs:label "鱼鳔"@cn .
+
+ele:Q1535 rdfs:label "阿莫西林"@cn .
+
+ele:Q1536 rdfs:label "大风子仁"@cn .
+
+ele:Q1537 rdfs:label "水貂鞭粉"@cn .
+
+ele:Q1538 rdfs:label "戊四硝酯"@cn .
+
+ele:Q1539 rdfs:label "浓氨溶液升"@cn .
+
+ele:Q1540 rdfs:label "乳酸诺氟沙星"@cn .
+
+ele:Q1541 rdfs:label "娑罗子娑罗子"@cn .
+
+ele:Q1542 rdfs:label "片仔癀"@cn .
+
+ele:Q1543 rdfs:label "咪替丁"@cn .
+
+ele:Q1544 rdfs:label "前胡干浸膏"@cn .
+
+ele:Q1545 rdfs:label "小茴香"@cn .
+
+ele:Q1546 rdfs:label "蜗牛"@cn .
+
+ele:Q1547 rdfs:label "麦门冬"@cn .
+
+ele:Q1548 rdfs:label "暴马子浸膏"@cn .
+
+ele:Q1549 rdfs:label "腊梅油"@cn .
+
+ele:Q1550 rdfs:label "呋喃妥因"@cn .
+
+ele:Q1551 rdfs:label "阿卡波糖"@cn .
+
+ele:Q1552 rdfs:label "鹿角胶"@cn .
+
+ele:Q1553 rdfs:label "西罗莫司"@cn .
+
+ele:Q1554 rdfs:label "草果"@cn .
+
+ele:Q1555 rdfs:label "药物组成"@cn .
+
+ele:Q1556 rdfs:label "人指甲"@cn .
+
+ele:Q1557 rdfs:label "鸡血藤"@cn .
+
+ele:Q1558 rdfs:label "鹿鞭"@cn .
+
+ele:Q1559 rdfs:label "水杨酸"@cn .
+
+ele:Q1560 rdfs:label "雷丸"@cn .
+
+ele:Q1561 rdfs:label "玄麦"@cn .
+
+ele:Q1562 rdfs:label "荔枝草"@cn .
+
+ele:Q1563 rdfs:label "穿心莲叶"@cn .
+
+ele:Q1564 rdfs:label "硫酸庆大霉"@cn .
+
+ele:Q1565 rdfs:label "广酸枣"@cn .
+
+ele:Q1566 rdfs:label "盐酸尼卡地平注射液"@cn .
+
+ele:Q1567 rdfs:label "雄蚕蛾"@cn .
+
+ele:Q1568 rdfs:label "皂刺"@cn .
+
+ele:Q1569 rdfs:label "人参浸膏"@cn .
+
+ele:Q1570 rdfs:label "广藿香油"@cn .
+
+ele:Q1571 rdfs:label "包衣剂"@cn .
+
+ele:Q1572 rdfs:label "猪去胆氧酸"@cn .
+
+ele:Q1573 rdfs:label "棕榈血余炭"@cn .
+
+ele:Q1574 rdfs:label "乳糖"@cn .
+
+ele:Q1575 rdfs:label "虏牧希"@cn .
+
+ele:Q1576 rdfs:label "地黄"@cn .
+
+ele:Q1577 rdfs:label "甘草霜"@cn .
+
+ele:Q1578 rdfs:label "淫洋藿"@cn .
+
+ele:Q1579 rdfs:label "盐酸苯乙双胍"@cn .
+
+ele:Q1580 rdfs:label "桑螵蛸"@cn .
+
+ele:Q1581 rdfs:label "酒剂"@cn .
+
+ele:Q1582 rdfs:label "延胡萦"@cn .
+
+ele:Q1583 rdfs:label "莲子莲子"@cn .
+
+ele:Q1584 rdfs:label "生草乌麻黄"@cn .
+
+ele:Q1585 rdfs:label "饴糖"@cn .
+
+ele:Q1586 rdfs:label "鲑鱼降钙素"@cn .
+
+ele:Q1587 rdfs:label "植物油"@cn .
+
+ele:Q1588 rdfs:label "萘丁美酮"@cn .
+
+ele:Q1589 rdfs:label "雄黄丁香"@cn .
+
+ele:Q1590 rdfs:label "高锝"@cn .
+
+ele:Q1591 rdfs:label "蜂蜡"@cn .
+
+ele:Q1592 rdfs:label "替莫唑胺"@cn .
+
+ele:Q1593 rdfs:label "石灰毕"@cn .
+
+ele:Q1594 rdfs:label "离心"@cn .
+
+ele:Q1595 rdfs:label "黄栀子"@cn .
+
+ele:Q1596 rdfs:label "磷酸二氢钠"@cn .
+
+ele:Q1597 rdfs:label "灶心土"@cn .
+
+ele:Q1598 rdfs:label "黑草乌"@cn .
+
+ele:Q1599 rdfs:label "五味藤"@cn .
+
+ele:Q1600 rdfs:label "盐酸林可霉素"@cn .
+
+ele:Q1601 rdfs:label "火把花根"@cn .
+
+ele:Q1602 rdfs:label "郁金"@cn .
+
+ele:Q1603 rdfs:label "海米"@cn .
+
+ele:Q1604 rdfs:label "红花"@cn .
+
+ele:Q1605 rdfs:label "蒲桃"@cn .
+
+ele:Q1606 rdfs:label "舒林酸"@cn .
+
+ele:Q1607 rdfs:label "红杜仲"@cn .
+
+ele:Q1608 rdfs:label "黑胡椒"@cn .
+
+ele:Q1609 rdfs:label "光慈姑"@cn .
+
+ele:Q1610 rdfs:label "吲哚拉新"@cn .
+
+ele:Q1611 rdfs:label "丁香酸"@cn .
+
+ele:Q1612 rdfs:label "鸡儿肠"@cn .
+
+ele:Q1613 rdfs:label "银紫胡"@cn .
+
+ele:Q1614 rdfs:label "金毛狗脊"@cn .
+
+ele:Q1615 rdfs:label "土槿皮"@cn .
+
+ele:Q1616 rdfs:label "木香马兜铃"@cn .
+
+ele:Q1617 rdfs:label "瓜蒌子"@cn .
+
+ele:Q1618 rdfs:label "盐酸丁螺环酮"@cn .
+
+ele:Q1619 rdfs:label "独脚莲"@cn .
+
+ele:Q1620 rdfs:label "茅膏菜"@cn .
+
+ele:Q1621 rdfs:label "檩香"@cn .
+
+ele:Q1622 rdfs:label "甘氨酸"@cn .
+
+ele:Q1623 rdfs:label "盐酸美他环素"@cn .
+
+ele:Q1624 rdfs:label "微晶纤维素"@cn .
+
+ele:Q1625 rdfs:label "蟾酥"@cn .
+
+ele:Q1626 rdfs:label "氧化锌各"@cn .
+
+ele:Q1627 rdfs:label "四季红"@cn .
+
+ele:Q1628 rdfs:label "海南砂仁"@cn .
+
+ele:Q1629 rdfs:label "紫苏梗"@cn .
+
+ele:Q1630 rdfs:label "芡实"@cn .
+
+ele:Q1631 rdfs:label "麝香樟脑"@cn .
+
+ele:Q1632 rdfs:label "木防己"@cn .
+
+ele:Q1633 rdfs:label "冰片等药物"@cn .
+
+ele:Q1634 rdfs:label "焦槟榔"@cn .
+
+ele:Q1635 rdfs:label "木蝴蝶"@cn .
+
+ele:Q1636 rdfs:label "见血飞"@cn .
+
+ele:Q1637 rdfs:label "芦竹根"@cn .
+
+ele:Q1638 rdfs:label "甲地高辛"@cn .
+
+ele:Q1639 rdfs:label "乳酸菌素"@cn .
+
+ele:Q1640 rdfs:label "米非司酮"@cn .
+
+ele:Q1641 rdfs:label "胭脂红"@cn .
+
+ele:Q1642 rdfs:label "蒺藜"@cn .
+
+ele:Q1643 rdfs:label "蛴螬"@cn .
+
+ele:Q1644 rdfs:label "环丙沙星"@cn .
+
+ele:Q1645 rdfs:label "克拉霉素"@cn .
+
+ele:Q1646 rdfs:label "蟹壳粉"@cn .
+
+ele:Q1647 rdfs:label "天仙藤"@cn .
+
+ele:Q1648 rdfs:label "枣仁硫浸膏"@cn .
+
+ele:Q1649 rdfs:label "番石榴叶"@cn .
+
+ele:Q1650 rdfs:label "夏枯草"@cn .
+
+ele:Q1651 rdfs:label "伸筋藤"@cn .
+
+ele:Q1652 rdfs:label "蒼朮"@cn .
+
+ele:Q1653 rdfs:label "白花菜籽"@cn .
+
+ele:Q1654 rdfs:label "矫味剂"@cn .
+
+ele:Q1655 rdfs:label "依达拉奉"@cn .
+
+ele:Q1656 rdfs:label "鞣酸小檗碱"@cn .
+
+ele:Q1657 rdfs:label "广防己"@cn .
+
+ele:Q1658 rdfs:label "甘青青兰"@cn .
+
+ele:Q1659 rdfs:label "南板蓝根"@cn .
+
+ele:Q1660 rdfs:label "山碴"@cn .
+
+ele:Q1661 rdfs:label "大红炮"@cn .
+
+ele:Q1662 rdfs:label "甜叶菊"@cn .
+
+ele:Q1663 rdfs:label "糊饭"@cn .
+
+ele:Q1664 rdfs:label "酸氯己定"@cn .
+
+ele:Q1665 rdfs:label "土茵陈"@cn .
+
+ele:Q1666 rdfs:label "荆芥油"@cn .
+
+ele:Q1667 rdfs:label "苯丙酸诺龙"@cn .
+
+ele:Q1668 rdfs:label "辣椒碱"@cn .
+
+ele:Q1669 rdfs:label "裸花紫珠"@cn .
+
+ele:Q1670 rdfs:label "海金沙"@cn .
+
+ele:Q1671 rdfs:label "七甲基"@cn .
+
+ele:Q1672 rdfs:label "盐酸丙卡特罗"@cn .
+
+ele:Q1673 rdfs:label "云芝多糖"@cn .
+
+ele:Q1674 rdfs:label "西瓜皮"@cn .
+
+ele:Q1675 rdfs:label "烟酸胺"@cn .
+
+ele:Q1676 rdfs:label "盐酸溴已新"@cn .
+
+ele:Q1677 rdfs:label "硫酸锌"@cn .
+
+ele:Q1678 rdfs:label "腺苷钴铵片"@cn .
+
+ele:Q1679 rdfs:label "二钾硅油"@cn .
+
+ele:Q1680 rdfs:label "陈皮糖浆"@cn .
+
+ele:Q1681 rdfs:label "酸枣仁"@cn .
+
+ele:Q1682 rdfs:label "当归藤"@cn .
+
+ele:Q1683 rdfs:label "碳酸氢钠各"@cn .
+
+ele:Q1684 rdfs:label "柏子仁"@cn .
+
+ele:Q1685 rdfs:label "氨力农"@cn .
+
+ele:Q1686 rdfs:label "生物素"@cn .
+
+ele:Q1687 rdfs:label "狗腿骨"@cn .
+
+ele:Q1688 rdfs:label "猪脑粉"@cn .
+
+ele:Q1689 rdfs:label "酸蛋白"@cn .
+
+ele:Q1690 rdfs:label "麝香"@cn .
+
+ele:Q1691 rdfs:label "箭杆风"@cn .
+
+ele:Q1692 rdfs:label "竹沥油"@cn .
+
+ele:Q1693 rdfs:label "古羊藤"@cn .
+
+ele:Q1694 rdfs:label "当归牛膝"@cn .
+
+ele:Q1695 rdfs:label "枸橼酸哌嗪"@cn .
+
+ele:Q1696 rdfs:label "碘番酸"@cn .
+
+ele:Q1697 rdfs:label "桉油"@cn .
+
+ele:Q1698 rdfs:label "利多卡因"@cn .
+
+ele:Q1699 rdfs:label "白茅根"@cn .
+
+ele:Q1700 rdfs:label "薄荷薄荷油"@cn .
+
+ele:Q1701 rdfs:label "扁蓄"@cn .
+
+ele:Q1702 rdfs:label "地氯雷他定"@cn .
+
+ele:Q1703 rdfs:label "乳香没药"@cn .
+
+ele:Q1704 rdfs:label "马钱子"@cn .
+
+ele:Q1705 rdfs:label "薄荷素油"@cn .
+
+ele:Q1706 rdfs:label "罗红霉素"@cn .
+
+ele:Q1707 rdfs:label "炙麻黄"@cn .
+
+ele:Q1708 rdfs:label "天南星"@cn .
+
+ele:Q1709 rdfs:label "蚕茧"@cn .
+
+ele:Q1710 rdfs:label "磷酸川芎嗪"@cn .
+
+ele:Q1711 rdfs:label "川贝母"@cn .
+
+ele:Q1712 rdfs:label "紫花地"@cn .
+
+ele:Q1713 rdfs:label "香附等"@cn .
+
+ele:Q1714 rdfs:label "五香血藤"@cn .
+
+ele:Q1715 rdfs:label "枸骨叶"@cn .
+
+ele:Q1716 rdfs:label "蔓荆子蔓荆子"@cn .
+
+ele:Q1717 rdfs:label "委陵菜"@cn .
+
+ele:Q1718 rdfs:label "厚朴二两"@cn .
+
+ele:Q1719 rdfs:label "旋覆花"@cn .
+
+ele:Q1720 rdfs:label "胱氨酸"@cn .
+
+ele:Q1721 rdfs:label "黔曲"@cn .
+
+ele:Q1722 rdfs:label "蜘蛛"@cn .
+
+ele:Q1723 rdfs:label "伪麻黄碱"@cn .
+
+ele:Q1724 rdfs:label "硫酸亚铁"@cn .
+
+ele:Q1725 rdfs:label "尿素"@cn .
+
+ele:Q1726 rdfs:label "陆英"@cn .
+
+ele:Q1727 rdfs:label "竹叶卷心"@cn .
+
+ele:Q1728 rdfs:label "异叶青兰"@cn .
+
+ele:Q1729 rdfs:label "磷霉素钠"@cn .
+
+ele:Q1730 rdfs:label "苯丙醇"@cn .
+
+ele:Q1731 rdfs:label "由珍珠"@cn .
+
+ele:Q1732 rdfs:label "尼麦角林"@cn .
+
+ele:Q1733 rdfs:label "布渣叶"@cn .
+
+ele:Q1734 rdfs:label "帕米膦酸二钠"@cn .
+
+ele:Q1735 rdfs:label "百草霜"@cn .
+
+ele:Q1736 rdfs:label "卡他奈瑟菌"@cn .
+
+ele:Q1737 rdfs:label "苕叶细辛"@cn .
+
+ele:Q1738 rdfs:label "酸枣"@cn .
+
+ele:Q1739 rdfs:label "豆豉姜"@cn .
+
+ele:Q1740 rdfs:label "缬草"@cn .
+
+ele:Q1741 rdfs:label "那可丁"@cn .
+
+ele:Q1742 rdfs:label "盐酸苯海索"@cn .
+
+ele:Q1743 rdfs:label "头孢羟氨苄"@cn .
+
+ele:Q1744 rdfs:label "美洛西林钠"@cn .
+
+ele:Q1745 rdfs:label "五味子等"@cn .
+
+ele:Q1746 rdfs:label "蚕蛾渣"@cn .
+
+ele:Q1747 rdfs:label "杜仲"@cn .
+
+ele:Q1748 rdfs:label "草浸膏"@cn .
+
+ele:Q1749 rdfs:label "罗布麻"@cn .
+
+ele:Q1750 rdfs:label "威麦宁"@cn .
+
+ele:Q1751 rdfs:label "盐酸安他唑啉"@cn .
+
+ele:Q1752 rdfs:label "龙齿"@cn .
+
+ele:Q1753 rdfs:label "学界"@cn .
+
+ele:Q1754 rdfs:label "阿仑膦酸钠"@cn .
+
+ele:Q1755 rdfs:label "紫菀"@cn .
+
+ele:Q1756 rdfs:label "铁筷子"@cn .
+
+ele:Q1757 rdfs:label "草果仁"@cn .
+
+ele:Q1758 rdfs:label "乳酸左氧氟沙星"@cn .
+
+ele:Q1759 rdfs:label "五指柑"@cn .
+
+ele:Q1760 rdfs:label "山羊血粉"@cn .
+
+ele:Q1761 rdfs:label "陕青茶"@cn .
+
+ele:Q1762 rdfs:label "舒必利"@cn .
+
+ele:Q1763 rdfs:label "叶绿素"@cn .
+
+ele:Q1764 rdfs:label "脂酸镁"@cn .
+
+ele:Q1765 rdfs:label "三七花"@cn .
+
+ele:Q1766 rdfs:label "西拉普利"@cn .
+
+ele:Q1767 rdfs:label "天竺黄"@cn .
+
+ele:Q1768 rdfs:label "枸橼油"@cn .
+
+ele:Q1769 rdfs:label "辛夷油"@cn .
+
+ele:Q1770 rdfs:label "东莨菪碱的丁基化季铵盐"@cn .
+
+ele:Q1771 rdfs:label "玛瑙"@cn .
+
+ele:Q1772 rdfs:label "玄参"@cn .
+
+ele:Q1773 rdfs:label "南瓜子"@cn .
+
+ele:Q1774 rdfs:label "脱水"@cn .
+
+ele:Q1775 rdfs:label "浓缩"@cn .
+
+ele:Q1776 rdfs:label "汉中防己"@cn .
+
+ele:Q1777 rdfs:label "葛根稻芽"@cn .
+
+ele:Q1778 rdfs:label "母丁香"@cn .
+
+ele:Q1779 rdfs:label "苦杏仁"@cn .
+
+ele:Q1780 rdfs:label "苦草"@cn .
+
+ele:Q1781 rdfs:label "毛麝香"@cn .
+
+ele:Q1782 rdfs:label "大青叶"@cn .
+
+ele:Q1783 rdfs:label "诺氟沙星"@cn .
+
+ele:Q1784 rdfs:label "银翘浸膏"@cn .
+
+ele:Q1785 rdfs:label "紫草"@cn .
+
+ele:Q1786 rdfs:label "鞣酸蛋白"@cn .
+
+ele:Q1787 rdfs:label "大黄粉"@cn .
+
+ele:Q1788 rdfs:label "水飞蓟"@cn .
+
+ele:Q1789 rdfs:label "瓜子金"@cn .
+
+ele:Q1790 rdfs:label "七味莲"@cn .
+
+ele:Q1791 rdfs:label "清风藤"@cn .
+
+ele:Q1792 rdfs:label "金钱草同"@cn .
+
+ele:Q1793 rdfs:label "环轮宁"@cn .
+
+ele:Q1794 rdfs:label "枯矾"@cn .
+
+ele:Q1795 rdfs:label "蝉衣"@cn .
+
+ele:Q1796 rdfs:label "马来酸依那普利"@cn .
+
+ele:Q1797 rdfs:label "琥乙红霉素"@cn .
+
+ele:Q1798 rdfs:label "阔叶麦冬"@cn .
+
+ele:Q1799 rdfs:label "头孢哌酮钠"@cn .
+
+ele:Q1800 rdfs:label "曲安奈德"@cn .
+
+ele:Q1801 rdfs:label "香附"@cn .
+
+ele:Q1802 rdfs:label "荚丽乌头"@cn .
+
+ele:Q1803 rdfs:label "宽筋藤"@cn .
+
+ele:Q1804 rdfs:label "列当"@cn .
+
+ele:Q1805 rdfs:label "蟾皮"@cn .
+
+ele:Q1806 rdfs:label "金腰子"@cn .
+
+ele:Q1807 rdfs:label "甘草酸单铵盐"@cn .
+
+ele:Q1808 rdfs:label "山橘干"@cn .
+
+ele:Q1809 rdfs:label "猴头子实体"@cn .
+
+ele:Q1810 rdfs:label "头孢唑林钠"@cn .
+
+ele:Q1811 rdfs:label "青果"@cn .
+
+ele:Q1812 rdfs:label "司坦唑醇"@cn .
+
+ele:Q1813 rdfs:label "狮子尾"@cn .
+
+ele:Q1814 rdfs:label "土五加"@cn .
+
+ele:Q1815 rdfs:label "鸡骨香"@cn .
+
+ele:Q1816 rdfs:label "猪苓多糖"@cn .
+
+ele:Q1817 rdfs:label "盐酸伐地那非"@cn .
+
+ele:Q1818 rdfs:label "冬绿油"@cn .
+
+ele:Q1819 rdfs:label "紫苏"@cn .
+
+ele:Q1820 rdfs:label "紫苑"@cn .
+
+ele:Q1821 rdfs:label "糯稻根"@cn .
+
+ele:Q1822 rdfs:label "菌"@cn .
+
+ele:Q1823 rdfs:label "甲芬那酸"@cn .
+
+ele:Q1824 rdfs:label "补骨脂补骨脂"@cn .
+
+ele:Q1825 rdfs:label "水肿"@cn .
+
+ele:Q1826 rdfs:label "洪连"@cn .
+
+ele:Q1827 rdfs:label "硝石"@cn .
+
+ele:Q1828 rdfs:label "蜚蠊等十味"@cn .
+
+ele:Q1829 rdfs:label "三分三"@cn .
+
+ele:Q1830 rdfs:label "绿绒蒿"@cn .
+
+ele:Q1831 rdfs:label "花瓣"@cn .
+
+ele:Q1832 rdfs:label "珍珠柿子叶"@cn .
+
+ele:Q1833 rdfs:label "羊开口"@cn .
+
+ele:Q1834 rdfs:label "土藿香"@cn .
+
+ele:Q1835 rdfs:label "以甘草浸膏"@cn .
+
+ele:Q1836 rdfs:label "丹参数"@cn .
+
+ele:Q1837 rdfs:label "急性子"@cn .
+
+ele:Q1838 rdfs:label "孕三烯酮"@cn .
+
+ele:Q1839 rdfs:label "沙棘"@cn .
+
+ele:Q1840 rdfs:label "虎刺"@cn .
+
+ele:Q1841 rdfs:label "银耳"@cn .
+
+ele:Q1842 rdfs:label "肿芎风"@cn .
+
+ele:Q1843 rdfs:label "紫珠叶"@cn .
+
+ele:Q1844 rdfs:label "红丹"@cn .
+
+ele:Q1845 rdfs:label "紫芝"@cn .
+
+ele:Q1846 rdfs:label "皮子药"@cn .
+
+ele:Q1847 rdfs:label "莫匹罗星"@cn .
+
+ele:Q1848 rdfs:label "薰鲁香"@cn .
+
+ele:Q1849 rdfs:label "葛根"@cn .
+
+ele:Q1850 rdfs:label "淫羊霍"@cn .
+
+ele:Q1851 rdfs:label "黄体酮"@cn .
+
+ele:Q1852 rdfs:label "茵陈"@cn .
+
+ele:Q1853 rdfs:label "草决明"@cn .
+
+ele:Q1854 rdfs:label "格列吡嗪"@cn .
+
+ele:Q1855 rdfs:label "海狗鞭"@cn .
+
+ele:Q1856 rdfs:label "蚕蛾油"@cn .
+
+ele:Q1857 rdfs:label "眼镜蛇"@cn .
+
+ele:Q1858 rdfs:label "墨旱莲"@cn .
+
+ele:Q1859 rdfs:label "乙酰吉他霉素"@cn .
+
+ele:Q1860 rdfs:label "茄科植物山莨菪"@cn .
+
+ele:Q1861 rdfs:label "胡颓子"@cn .
+
+ele:Q1862 rdfs:label "高良姜油"@cn .
+
+ele:Q1863 rdfs:label "大枣等"@cn .
+
+ele:Q1864 rdfs:label "附片"@cn .
+
+ele:Q1865 rdfs:label "磷酸苯丙哌林"@cn .
+
+ele:Q1866 rdfs:label "当药甙"@cn .
+
+ele:Q1867 rdfs:label "伞梗虎耳草"@cn .
+
+ele:Q1868 rdfs:label "天冬"@cn .
+
+ele:Q1869 rdfs:label "蛋氨酸"@cn .
+
+ele:Q1870 rdfs:label "珍珠层粉草"@cn .
+
+ele:Q1871 rdfs:label "羟乙基淀粉"@cn .
+
+ele:Q1872 rdfs:label "榕树须"@cn .
+
+ele:Q1873 rdfs:label "猪胆膏粉"@cn .
+
+ele:Q1874 rdfs:label "温郁金"@cn .
+
+ele:Q1875 rdfs:label "杨柳枝"@cn .
+
+ele:Q1876 rdfs:label "半夏曲"@cn .
+
+ele:Q1877 rdfs:label "泮库溴铵"@cn .
+
+ele:Q1878 rdfs:label "千里光"@cn .
+
+ele:Q1879 rdfs:label "金银"@cn .
+
+ele:Q1880 rdfs:label "麻油"@cn .
+
+ele:Q1881 rdfs:label "菊苣根"@cn .
+
+ele:Q1882 rdfs:label "党参黄芪"@cn .
+
+ele:Q1883 rdfs:label "枸橼酸铁铵"@cn .
+
+ele:Q1884 rdfs:label "老鸦嘴"@cn .
+
+ele:Q1885 rdfs:label "厄贝沙坦"@cn .
+
+ele:Q1886 rdfs:label "火硝"@cn .
+
+ele:Q1887 rdfs:label "右旋泛酸钠"@cn .
+
+ele:Q1888 rdfs:label "木棉花"@cn .
+
+ele:Q1889 rdfs:label "癸酰乙醛"@cn .
+
+ele:Q1890 rdfs:label "盐酸洛非西定"@cn .
+
+ele:Q1891 rdfs:label "格列本脲"@cn .
+
+ele:Q1892 rdfs:label "替米沙坦"@cn .
+
+ele:Q1893 rdfs:label "当归白芍"@cn .
+
+ele:Q1894 rdfs:label "头孢唑肟钠"@cn .
+
+ele:Q1895 rdfs:label "柿蒂柿蒂"@cn .
+
+ele:Q1896 rdfs:label "头孢丙烯"@cn .
+
+ele:Q1897 rdfs:label "盐酸肼屈嗪"@cn .
+
+ele:Q1898 rdfs:label "葶苈子"@cn .
+
+ele:Q1899 rdfs:label "紫苏油"@cn .
+
+ele:Q1900 rdfs:label "葡萄糖酸钠"@cn .
+
+ele:Q1901 rdfs:label "头孢噻吩钠"@cn .
+
+ele:Q1902 rdfs:label "龙骨"@cn .
+
+ele:Q1903 rdfs:label "盐酸奥营非君"@cn .
+
+ele:Q1904 rdfs:label "洋葱头"@cn .
+
+ele:Q1905 rdfs:label "葡萄糖酸钙"@cn .
+
+ele:Q1906 rdfs:label "生马钱子"@cn .
+
+ele:Q1907 rdfs:label "蒿甲醚"@cn .
+
+ele:Q1908 rdfs:label "盐酸西替利嗪"@cn .
+
+ele:Q1909 rdfs:label "白芷流浸膏"@cn .
+
+ele:Q1910 rdfs:label "灭活"@cn .
+
+ele:Q1911 rdfs:label "盐酸伊托必利"@cn .
+
+ele:Q1912 rdfs:label "冻干粉"@cn .
+
+ele:Q1913 rdfs:label "谷维素"@cn .
+
+ele:Q1914 rdfs:label "龙胆浸膏"@cn .
+
+ele:Q1915 rdfs:label "鲜鱼腥草"@cn .
+
+ele:Q1916 rdfs:label "白药子"@cn .
+
+ele:Q1917 rdfs:label "紫菜叶"@cn .
+
+ele:Q1918 rdfs:label "广木香"@cn .
+
+ele:Q1919 rdfs:label "乳石"@cn .
+
+ele:Q1920 rdfs:label "活蜗牛"@cn .
+
+ele:Q1921 rdfs:label "葡萄糖醛酸钠"@cn .
+
+ele:Q1922 rdfs:label "大黄"@cn .
+
+ele:Q1923 rdfs:label "氧化铝"@cn .
+
+ele:Q1924 rdfs:label "胡芦巴"@cn .
+
+ele:Q1925 rdfs:label "广地龙"@cn .
+
+ele:Q1926 rdfs:label "艾叶炭"@cn .
+
+ele:Q1927 rdfs:label "鹿尾"@cn .
+
+ele:Q1928 rdfs:label "蚕蛾"@cn .
+
+ele:Q1929 rdfs:label "麦冬玉竹"@cn .
+
+ele:Q1930 rdfs:label "通草"@cn .
+
+ele:Q1931 rdfs:label "莪术油"@cn .
+
+ele:Q1932 rdfs:label "石吊兰"@cn .
+
+ele:Q1933 rdfs:label "甘草"@cn .
+
+ele:Q1934 rdfs:label "金樱子肉"@cn .
+
+ele:Q1935 rdfs:label "红参须"@cn .
+
+ele:Q1936 rdfs:label "臭鼻雷白菌"@cn .
+
+ele:Q1937 rdfs:label "碘"@cn .
+
+ele:Q1938 rdfs:label "硫酸庆大霉素"@cn .
+
+ele:Q1939 rdfs:label "五味于"@cn .
+
+ele:Q1940 rdfs:label "萘普生钠"@cn .
+
+ele:Q1941 rdfs:label "原花青素"@cn .
+
+ele:Q1942 rdfs:label "芥子芥子"@cn .
+
+ele:Q1943 rdfs:label "石榴"@cn .
+
+ele:Q1944 rdfs:label "胡黄连等药"@cn .
+
+ele:Q1945 rdfs:label "大花细辛"@cn .
+
+ele:Q1946 rdfs:label "盐酸吉西他滨"@cn .
+
+ele:Q1947 rdfs:label "制天南星"@cn .
+
+ele:Q1948 rdfs:label "华佩兰"@cn .
+
+ele:Q1949 rdfs:label "醋酸曲安奈德"@cn .
+
+ele:Q1950 rdfs:label "利鲁唑"@cn .
+
+ele:Q1951 rdfs:label "甘罗溴铵"@cn .
+
+ele:Q1952 rdfs:label "罗汉果罗汉果"@cn .
+
+ele:Q1953 rdfs:label "赋形剂"@cn .
+
+ele:Q1954 rdfs:label "大豆磷脂"@cn .
+
+ele:Q1955 rdfs:label "成份"@cn .
+
+ele:Q1956 rdfs:label "酚酞"@cn .
+
+ele:Q1957 rdfs:label "刘寄奴"@cn .
+
+ele:Q1958 rdfs:label "鱼腥草"@cn .
+
+ele:Q1959 rdfs:label "红管药"@cn .
+
+ele:Q1960 rdfs:label "硫鸟嘌呤"@cn .
+
+ele:Q1961 rdfs:label "白芍等"@cn .
+
+ele:Q1962 rdfs:label "纯化水"@cn .
+
+ele:Q1963 rdfs:label "景天三七"@cn .
+
+ele:Q1964 rdfs:label "铁棒槌"@cn .
+
+ele:Q1965 rdfs:label "硫喷妥钠"@cn .
+
+ele:Q1966 rdfs:label "盐酸二甲双胍"@cn .
+
+ele:Q1967 rdfs:label "高山辣根菜"@cn .
+
+ele:Q1968 rdfs:label "盐酸米诺环素"@cn .
+
+ele:Q1969 rdfs:label "矿物质"@cn .
+
+ele:Q1970 rdfs:label "硫酸氨"@cn .
+
+ele:Q1971 rdfs:label "枫树叶"@cn .
+
+ele:Q1972 rdfs:label "松石"@cn .
+
+ele:Q1973 rdfs:label "樟脑"@cn .
+
+ele:Q1974 rdfs:label "分心木"@cn .
+
+ele:Q1975 rdfs:label "东风桔"@cn .
+
+ele:Q1976 rdfs:label "鲜牛乳"@cn .
+
+ele:Q1977 rdfs:label "桂皮醛"@cn .
+
+ele:Q1978 rdfs:label "青蒿油"@cn .
+
+ele:Q1979 rdfs:label "石吊兰浸膏"@cn .
+
+ele:Q1980 rdfs:label "特非那定"@cn .
+
+ele:Q1981 rdfs:label "松花粉"@cn .
+
+ele:Q1982 rdfs:label "代代花"@cn .
+
+ele:Q1983 rdfs:label "阿那曲唑"@cn .
+
+ele:Q1984 rdfs:label "葡萄糖酸氯己定"@cn .
+
+ele:Q1985 rdfs:label "大发表"@cn .
+
+ele:Q1986 rdfs:label "非诺洛芬钙"@cn .
+
+ele:Q1987 rdfs:label "黔苦丁"@cn .
+
+ele:Q1988 rdfs:label "肉豆寇"@cn .
+
+ele:Q1989 rdfs:label "重楼"@cn .
+
+ele:Q1990 rdfs:label "吡嗪甲酰胺"@cn .
+
+ele:Q1991 rdfs:label "毛诃子"@cn .
+
+ele:Q1992 rdfs:label "半枫荷"@cn .
+
+ele:Q1993 rdfs:label "葡醛内酯"@cn .
+
+ele:Q1994 rdfs:label "黏合剂"@cn .
+
+ele:Q1995 rdfs:label "水蛭"@cn .
+
+ele:Q1996 rdfs:label "救必应"@cn .
+
+ele:Q1997 rdfs:label "茯苓皮"@cn .
+
+ele:Q1998 rdfs:label "大驳骨"@cn .
+
+ele:Q1999 rdfs:label "氟马西尼"@cn .
+
+ele:Q2000 rdfs:label "黄色片"@cn .
+
+ele:Q2001 rdfs:label "赤藓糖醇"@cn .
+
+ele:Q2002 rdfs:label "氯磺丙脲"@cn .
+
+ele:Q2003 rdfs:label "竹茹"@cn .
+
+ele:Q2004 rdfs:label "非洛地平"@cn .
+
+ele:Q2005 rdfs:label "氟比洛芬钠"@cn .
+
+ele:Q2006 rdfs:label "氧化锌"@cn .
+
+ele:Q2007 rdfs:label "五味子浸膏"@cn .
+
+ele:Q2008 rdfs:label "米索前列醇"@cn .
+
+ele:Q2009 rdfs:label "十大功劳"@cn .
+
+ele:Q2010 rdfs:label "紫葳"@cn .
+
+ele:Q2011 rdfs:label "水果香精"@cn .
+
+ele:Q2012 rdfs:label "三药"@cn .
+
+ele:Q2013 rdfs:label "葡萄糖酸锌"@cn .
+
+ele:Q2014 rdfs:label "桑白"@cn .
+
+ele:Q2015 rdfs:label "来氟米特"@cn .
+
+ele:Q2016 rdfs:label "拳参"@cn .
+
+ele:Q2017 rdfs:label "冬瓜子"@cn .
+
+ele:Q2018 rdfs:label "天麻"@cn .
+
+ele:Q2019 rdfs:label "氧化镁"@cn .
+
+ele:Q2020 rdfs:label "生晒参"@cn .
+
+ele:Q2021 rdfs:label "化橘红"@cn .
+
+ele:Q2022 rdfs:label "油菜花粉"@cn .
+
+ele:Q2023 rdfs:label "丙缬草酰胺"@cn .
+
+ele:Q2024 rdfs:label "黄芩甙"@cn .
+
+ele:Q2025 rdfs:label "盐酸氯胺酮"@cn .
+
+ele:Q2026 rdfs:label "扑尔敏"@cn .
+
+ele:Q2027 rdfs:label "制菟丝子"@cn .
+
+ele:Q2028 rdfs:label "藏茄根"@cn .
+
+ele:Q2029 rdfs:label "制用稀释液"@cn .
+
+ele:Q2030 rdfs:label "密蒙花"@cn .
+
+ele:Q2031 rdfs:label "樟脑油"@cn .
+
+ele:Q2032 rdfs:label "香桂油"@cn .
+
+ele:Q2033 rdfs:label "伸筋草"@cn .
+
+ele:Q2034 rdfs:label "绵茵陈"@cn .
+
+ele:Q2035 rdfs:label "磷酸伯氨喹"@cn .
+
+ele:Q2036 rdfs:label "毛老虎"@cn .
+
+ele:Q2037 rdfs:label "绞股蓝"@cn .
+
+ele:Q2038 rdfs:label "海葱浸膏"@cn .
+
+ele:Q2039 rdfs:label "桑白皮"@cn .
+
+ele:Q2040 rdfs:label "生半夏"@cn .
+
+ele:Q2041 rdfs:label "弗郎鼠李皮"@cn .
+
+ele:Q2042 rdfs:label "党参"@cn .
+
+ele:Q2043 rdfs:label "野蔷薇"@cn .
+
+ele:Q2044 rdfs:label "梧桐根"@cn .
+
+ele:Q2045 rdfs:label "盐酸金刚烷胺"@cn .
+
+ele:Q2046 rdfs:label "甲异靛"@cn .
+
+ele:Q2047 rdfs:label "丙酸倍氯米松"@cn .
+
+ele:Q2048 rdfs:label "白螺蛳壳"@cn .
+
+ele:Q2049 rdfs:label "留兰香"@cn .
+
+ele:Q2050 rdfs:label "丁苯羟酸"@cn .
+
+ele:Q2051 rdfs:label "枸杞"@cn .
+
+ele:Q2052 rdfs:label "昂丹司琼"@cn .
+
+ele:Q2053 rdfs:label "三棵针"@cn .
+
+ele:Q2054 rdfs:label "制南星"@cn .
+
+ele:Q2055 rdfs:label "羟苯乙酯"@cn .
+
+ele:Q2056 rdfs:label "广藿得地"@cn .
+
+ele:Q2057 rdfs:label "胰岛素位"@cn .
+
+ele:Q2058 rdfs:label "配制桂叶油"@cn .
+
+ele:Q2059 rdfs:label "连翘挥发油"@cn .
+
+ele:Q2060 rdfs:label "阿司匹林锌"@cn .
+
+ele:Q2061 rdfs:label "木瓜酶"@cn .
+
+ele:Q2062 rdfs:label "锝"@cn .
+
+ele:Q2063 rdfs:label "秦皮"@cn .
+
+ele:Q2064 rdfs:label "鸡内金"@cn .
+
+ele:Q2065 rdfs:label "配以草乌"@cn .
+
+ele:Q2066 rdfs:label "北刘寄奴"@cn .
+
+ele:Q2067 rdfs:label "小麦胚芽粉"@cn .
+
+ele:Q2068 rdfs:label "盐酸溴己新"@cn .
+
+ele:Q2069 rdfs:label "水蔓菁"@cn .
+
+ele:Q2070 rdfs:label "多潘立酮"@cn .
+
+ele:Q2071 rdfs:label "炒苦杏仁"@cn .
+
+ele:Q2072 rdfs:label "地在"@cn .
+
+ele:Q2073 rdfs:label "安息香"@cn .
+
+ele:Q2074 rdfs:label "玳瑁粉"@cn .
+
+ele:Q2075 rdfs:label "西南黄芩"@cn .
+
+ele:Q2076 rdfs:label "地胆草"@cn .
+
+ele:Q2077 rdfs:label "大狼毒"@cn .
+
+ele:Q2078 rdfs:label "三七总皂甙"@cn .
+
+ele:Q2079 rdfs:label "盐酸多沙普仑"@cn .
+
+ele:Q2080 rdfs:label "盐酸胺碘酮"@cn .
+
+ele:Q2081 rdfs:label "盐酸奈福泮"@cn .
+
+ele:Q2082 rdfs:label "贝母"@cn .
+
+ele:Q2083 rdfs:label "倍他米松磷酸钠"@cn .
+
+ele:Q2084 rdfs:label "地黄忍冬藤"@cn .
+
+ele:Q2085 rdfs:label "丸剂"@cn .
+
+ele:Q2086 rdfs:label "人造香地"@cn .
+
+ele:Q2087 rdfs:label "萱草根"@cn .
+
+ele:Q2088 rdfs:label "荆芥"@cn .
+
+ele:Q2089 rdfs:label "粉萆薢"@cn .
+
+ele:Q2090 rdfs:label "蜂乳"@cn .
+
+ele:Q2091 rdfs:label "柚叶"@cn .
+
+ele:Q2092 rdfs:label "胆糖膏"@cn .
+
+ele:Q2093 rdfs:label "胆汁酸"@cn .
+
+ele:Q2094 rdfs:label "琥珀粉"@cn .
+
+ele:Q2095 rdfs:label "无水羊毛脂"@cn .
+
+ele:Q2096 rdfs:label "木糖醇"@cn .
+
+ele:Q2097 rdfs:label "东风橘"@cn .
+
+ele:Q2098 rdfs:label "木板蓝根"@cn .
+
+ele:Q2099 rdfs:label "益智仁"@cn .
+
+ele:Q2100 rdfs:label "荆荠"@cn .
+
+ele:Q2101 rdfs:label "苦参总碱"@cn .
+
+ele:Q2102 rdfs:label "铝碳酸镁"@cn .
+
+ele:Q2103 rdfs:label "黄米"@cn .
+
+ele:Q2104 rdfs:label "远志"@cn .
+
+ele:Q2105 rdfs:label "羟喜树碱"@cn .
+
+ele:Q2106 rdfs:label "海藻酸"@cn .
+
+ele:Q2107 rdfs:label "盐酸托哌酮"@cn .
+
+ele:Q2108 rdfs:label "北五味子"@cn .
+
+ele:Q2109 rdfs:label "莪术油升"@cn .
+
+ele:Q2110 rdfs:label "炒酸枣仁"@cn .
+
+ele:Q2111 rdfs:label "蒲公英浸膏"@cn .
+
+ele:Q2112 rdfs:label "白附子"@cn .
+
+ele:Q2113 rdfs:label "杜衡"@cn .
+
+ele:Q2114 rdfs:label "厚朴"@cn .
+
+ele:Q2115 rdfs:label "无花果叶"@cn .
+
+ele:Q2116 rdfs:label "有效成份"@cn .
+
+ele:Q2117 rdfs:label "桑葚"@cn .
+
+ele:Q2118 rdfs:label "绵萆"@cn .
+
+ele:Q2119 rdfs:label "胆维丁"@cn .
+
+ele:Q2120 rdfs:label "大枫子油"@cn .
+
+ele:Q2121 rdfs:label "血余炭"@cn .
+
+ele:Q2122 rdfs:label "庚酸炔诺酮和戊酸雌二醇的灭菌油溶液"@cn .
+
+ele:Q2123 rdfs:label "碱式硝酸铋"@cn .
+
+ele:Q2124 rdfs:label "甘草浸膏粉"@cn .
+
+ele:Q2125 rdfs:label "硫黄"@cn .
+
+ele:Q2126 rdfs:label "泽泻等"@cn .
+
+ele:Q2127 rdfs:label "羊鞭"@cn .
+
+ele:Q2128 rdfs:label "龙涎香精"@cn .
+
+ele:Q2129 rdfs:label "卵磷脂"@cn .
+
+ele:Q2130 rdfs:label "头孢匹胺钠"@cn .
+
+ele:Q2131 rdfs:label "磺巯嘌呤钠"@cn .
+
+ele:Q2132 rdfs:label "氯贝酸铝"@cn .
+
+ele:Q2133 rdfs:label "小麦"@cn .
+
+ele:Q2134 rdfs:label "细柱五加"@cn .
+
+ele:Q2135 rdfs:label "马兰草"@cn .
+
+ele:Q2136 rdfs:label "打破碗花花"@cn .
+
+ele:Q2137 rdfs:label "氨基己酸"@cn .
+
+ele:Q2138 rdfs:label "诃子"@cn .
+
+ele:Q2139 rdfs:label "巴豆霜"@cn .
+
+ele:Q2140 rdfs:label "泽兰叶"@cn .
+
+ele:Q2141 rdfs:label "间苯二酚"@cn .
+
+ele:Q2142 rdfs:label "瓜萎皮"@cn .
+
+ele:Q2143 rdfs:label "葡萄"@cn .
+
+ele:Q2144 rdfs:label "苯磺酸氨氯地平"@cn .
+
+ele:Q2145 rdfs:label "十二分"@cn .
+
+ele:Q2146 rdfs:label "盐酸洛贝林"@cn .
+
+ele:Q2147 rdfs:label "黄精"@cn .
+
+ele:Q2148 rdfs:label "酒大黄"@cn .
+
+ele:Q2149 rdfs:label "盐酸苄达明"@cn .
+
+ele:Q2150 rdfs:label "白芸香"@cn .
+
+ele:Q2151 rdfs:label "续断附子"@cn .
+
+ele:Q2152 rdfs:label "桂皮油"@cn .
+
+ele:Q2153 rdfs:label "白果仁"@cn .
+
+ele:Q2154 rdfs:label "亮菌甲素"@cn .
+
+ele:Q2155 rdfs:label "乙酰半胱氨酸"@cn .
+
+ele:Q2156 rdfs:label "黄草"@cn .
+
+ele:Q2157 rdfs:label "磷离子"@cn .
+
+ele:Q2158 rdfs:label "骨皮鹿茸"@cn .
+
+ele:Q2159 rdfs:label "地榆"@cn .
+
+ele:Q2160 rdfs:label "硇砂"@cn .
+
+ele:Q2161 rdfs:label "芡实芡实"@cn .
+
+ele:Q2162 rdfs:label "蜜蜂巢脾"@cn .
+
+ele:Q2163 rdfs:label "石杉碱甲"@cn .
+
+ele:Q2164 rdfs:label "倒卵叶五加"@cn .
+
+ele:Q2165 rdfs:label "当归浸膏"@cn .
+
+ele:Q2166 rdfs:label "盐酸土霉素"@cn .
+
+ele:Q2167 rdfs:label "盐酸地尔硫"@cn .
+
+ele:Q2168 rdfs:label "车前于"@cn .
+
+ele:Q2169 rdfs:label "芬太尼"@cn .
+
+ele:Q2170 rdfs:label "雌二醇"@cn .
+
+ele:Q2171 rdfs:label "沙参"@cn .
+
+ele:Q2172 rdfs:label "黄茂"@cn .
+
+ele:Q2173 rdfs:label "祖司麻"@cn .
+
+ele:Q2174 rdfs:label "虻虫"@cn .
+
+ele:Q2175 rdfs:label "连翘牡丹皮"@cn .
+
+ele:Q2176 rdfs:label "王不留行"@cn .
+
+ele:Q2177 rdfs:label "珠芽蓼"@cn .
+
+ele:Q2178 rdfs:label "吡罗昔康"@cn .
+
+ele:Q2179 rdfs:label "马来酸伊索拉定"@cn .
+
+ele:Q2180 rdfs:label "那格列奈"@cn .
+
+ele:Q2181 rdfs:label "鼠曲草"@cn .
+
+ele:Q2182 rdfs:label "车前仁"@cn .
+
+ele:Q2183 rdfs:label "经研磨"@cn .
+
+ele:Q2184 rdfs:label "合欢皮"@cn .
+
+ele:Q2185 rdfs:label "苦地丁"@cn .
+
+ele:Q2186 rdfs:label "司莫司洒"@cn .
+
+ele:Q2187 rdfs:label "黑油"@cn .
+
+ele:Q2188 rdfs:label "生蒲黄"@cn .
+
+ele:Q2189 rdfs:label "大红袍"@cn .
+
+ele:Q2190 rdfs:label "珍珠香"@cn .
+
+ele:Q2191 rdfs:label "多肽及核糖"@cn .
+
+ele:Q2192 rdfs:label "处方组分"@cn .
+
+ele:Q2193 rdfs:label "无机盐"@cn .
+
+ele:Q2194 rdfs:label "长春西汀"@cn .
+
+ele:Q2195 rdfs:label "绒毛龙穿草"@cn .
+
+ele:Q2196 rdfs:label "灵芝浸膏"@cn .
+
+ele:Q2197 rdfs:label "大戟"@cn .
+
+ele:Q2198 rdfs:label "普罗雌烯"@cn .
+
+ele:Q2199 rdfs:label "羊乳根"@cn .
+
+ele:Q2200 rdfs:label "灯心草"@cn .
+
+ele:Q2201 rdfs:label "盒果腾"@cn .
+
+ele:Q2202 rdfs:label "天仙子浸膏"@cn .
+
+ele:Q2203 rdfs:label "胭脂花根"@cn .
+
+ele:Q2204 rdfs:label "大腹皮"@cn .
+
+ele:Q2205 rdfs:label "棘豆"@cn .
+
+ele:Q2206 rdfs:label "盐酸阿夫唑嗪"@cn .
+
+ele:Q2207 rdfs:label "款冬花等"@cn .
+
+ele:Q2208 rdfs:label "狗肝菜"@cn .
+
+ele:Q2209 rdfs:label "竹叶花椒"@cn .
+
+ele:Q2210 rdfs:label "胖大海"@cn .
+
+ele:Q2211 rdfs:label "甲丙氨酯"@cn .
+
+ele:Q2212 rdfs:label "曲匹地尔"@cn .
+
+ele:Q2213 rdfs:label "瓶耳小草"@cn .
+
+ele:Q2214 rdfs:label "沙棘汁"@cn .
+
+ele:Q2215 rdfs:label "黄莲"@cn .
+
+ele:Q2216 rdfs:label "多刺绿绒蒿"@cn .
+
+ele:Q2217 rdfs:label "醋酸氢化可的松"@cn .
+
+ele:Q2218 rdfs:label "鱼腥草素钠"@cn .
+
+ele:Q2219 rdfs:label "氨基乙酸"@cn .
+
+ele:Q2220 rdfs:label "氟比洛芬"@cn .
+
+ele:Q2221 rdfs:label "肺炎双球菌"@cn .
+
+ele:Q2222 rdfs:label "草河车"@cn .
+
+ele:Q2223 rdfs:label "麻黄薄荷"@cn .
+
+ele:Q2224 rdfs:label "螺内酯"@cn .
+
+ele:Q2225 rdfs:label "及已"@cn .
+
+ele:Q2226 rdfs:label "丁香罗勒油"@cn .
+
+ele:Q2227 rdfs:label "磺胺二甲嘧啶钠"@cn .
+
+ele:Q2228 rdfs:label "荆芥甘草"@cn .
+
+ele:Q2229 rdfs:label "利血平"@cn .
+
+ele:Q2230 rdfs:label "桂圆"@cn .
+
+ele:Q2231 rdfs:label "人工麝香等"@cn .
+
+ele:Q2232 rdfs:label "苦荬菜"@cn .
+
+ele:Q2233 rdfs:label "杏香兔耳风"@cn .
+
+ele:Q2234 rdfs:label "金礞石"@cn .
+
+ele:Q2235 rdfs:label "麻黄枇杷叶"@cn .
+
+ele:Q2236 rdfs:label "呋喃唑酮"@cn .
+
+ele:Q2237 rdfs:label "蒲黄"@cn .
+
+ele:Q2238 rdfs:label "金铁锁"@cn .
+
+ele:Q2239 rdfs:label "纯化"@cn .
+
+ele:Q2240 rdfs:label "鲜竹沥"@cn .
+
+ele:Q2241 rdfs:label "咪达唑仑片"@cn .
+
+ele:Q2242 rdfs:label "橙皮"@cn .
+
+ele:Q2243 rdfs:label "沙杨酸甲酯"@cn .
+
+ele:Q2244 rdfs:label "奥沙利铂"@cn .
+
+ele:Q2245 rdfs:label "地榆炭"@cn .
+
+ele:Q2246 rdfs:label "金牛草"@cn .
+
+ele:Q2247 rdfs:label "碱式碳酸铋"@cn .
+
+ele:Q2248 rdfs:label "钝顶螺旋藻"@cn .
+
+ele:Q2249 rdfs:label "乌梢蛇"@cn .
+
+ele:Q2250 rdfs:label "薄菏"@cn .
+
+ele:Q2251 rdfs:label "庶糖"@cn .
+
+ele:Q2252 rdfs:label "二甲苯麝香"@cn .
+
+ele:Q2253 rdfs:label "磷酸氢钙各"@cn .
+
+ele:Q2254 rdfs:label "鸭脚木皮"@cn .
+
+ele:Q2255 rdfs:label "盐酸吗啉呱"@cn .
+
+ele:Q2256 rdfs:label "黄苓"@cn .
+
+ele:Q2257 rdfs:label "白扁豆"@cn .
+
+ele:Q2258 rdfs:label "赛北紫堇"@cn .
+
+ele:Q2259 rdfs:label "含酮洛芬"@cn .
+
+ele:Q2260 rdfs:label "人血白蛋白"@cn .
+
+ele:Q2261 rdfs:label "翻白草"@cn .
+
+ele:Q2262 rdfs:label "麻雀"@cn .
+
+ele:Q2263 rdfs:label "黄苹"@cn .
+
+ele:Q2264 rdfs:label "积雪草总苷"@cn .
+
+ele:Q2265 rdfs:label "妥路脂"@cn .
+
+ele:Q2266 rdfs:label "色素"@cn .
+
+ele:Q2267 rdfs:label "小茴香油"@cn .
+
+ele:Q2268 rdfs:label "小槐花"@cn .
+
+ele:Q2269 rdfs:label "肖梵天花"@cn .
+
+ele:Q2270 rdfs:label "紫珠草叶"@cn .
+
+ele:Q2271 rdfs:label "呋塞米"@cn .
+
+ele:Q2272 rdfs:label "赤勺"@cn .
+
+ele:Q2273 rdfs:label "血红素铁"@cn .
+
+ele:Q2274 rdfs:label "肝草"@cn .
+
+ele:Q2275 rdfs:label "羊外肾"@cn .
+
+ele:Q2276 rdfs:label "黄芬"@cn .
+
+ele:Q2277 rdfs:label "黄芪"@cn .
+
+ele:Q2278 rdfs:label "头孢肟"@cn .
+
+ele:Q2279 rdfs:label "黄芩"@cn .
+
+ele:Q2280 rdfs:label "稀莶草"@cn .
+
+ele:Q2281 rdfs:label "豆油"@cn .
+
+ele:Q2282 rdfs:label "阿司帕坦"@cn .
+
+ele:Q2283 rdfs:label "苍耳子苍耳子"@cn .
+
+ele:Q2284 rdfs:label "黄毛耳草"@cn .
+
+ele:Q2285 rdfs:label "大戟膏"@cn .
+
+ele:Q2286 rdfs:label "倒扣草"@cn .
+
+ele:Q2287 rdfs:label "多种氨基酸"@cn .
+
+ele:Q2288 rdfs:label "研细"@cn .
+
+ele:Q2289 rdfs:label "制松节油"@cn .
+
+ele:Q2290 rdfs:label "青木香"@cn .
+
+ele:Q2291 rdfs:label "盐酸雷尼替丁"@cn .
+
+ele:Q2292 rdfs:label "珍珠母粉"@cn .
+
+ele:Q2293 rdfs:label "苯甲酸雌二醇"@cn .
+
+ele:Q2294 rdfs:label "磷酸肌酸钠"@cn .
+
+ele:Q2295 rdfs:label "兜茶"@cn .
+
+ele:Q2296 rdfs:label "小蓟"@cn .
+
+ele:Q2297 rdfs:label "槐耳菌质"@cn .
+
+ele:Q2298 rdfs:label "盐酸左西替利嗪"@cn .
+
+ele:Q2299 rdfs:label "琥珀氯霉素"@cn .
+
+ele:Q2300 rdfs:label "维生素"@cn .
+
+ele:Q2301 rdfs:label "参三七"@cn .
+
+ele:Q2302 rdfs:label "焦谷芽"@cn .
+
+ele:Q2303 rdfs:label "醋酸甲羟孕酮"@cn .
+
+ele:Q2304 rdfs:label "水杨酸乙酯"@cn .
+
+ele:Q2305 rdfs:label "竹根七"@cn .
+
+ele:Q2306 rdfs:label "氯化二甲基苄基烃铵的混合物"@cn .
+
+ele:Q2307 rdfs:label "路路通"@cn .
+
+ele:Q2308 rdfs:label "地西泮"@cn .
+
+ele:Q2309 rdfs:label "氯法齐明"@cn .
+
+ele:Q2310 rdfs:label "菊三七"@cn .
+
+ele:Q2311 rdfs:label "八角茴香油"@cn .
+
+ele:Q2312 rdfs:label "苏木赤芍"@cn .
+
+ele:Q2313 rdfs:label "牛角尖粉"@cn .
+
+ele:Q2314 rdfs:label "膳食纤维"@cn .
+
+ele:Q2315 rdfs:label "桃十二"@cn .
+
+ele:Q2316 rdfs:label "黄柏等药材"@cn .
+
+ele:Q2317 rdfs:label "金盏银盘"@cn .
+
+ele:Q2318 rdfs:label "藏红花"@cn .
+
+ele:Q2319 rdfs:label "藤黄"@cn .
+
+ele:Q2320 rdfs:label "炙乳香"@cn .
+
+ele:Q2321 rdfs:label "甲氧苄啶"@cn .
+
+ele:Q2322 rdfs:label "芬布芬"@cn .
+
+ele:Q2323 rdfs:label "蚕砂"@cn .
+
+ele:Q2324 rdfs:label "对乙酰氨基酚"@cn .
+
+ele:Q2325 rdfs:label "桑白皮酊"@cn .
+
+ele:Q2326 rdfs:label "奥硝唑"@cn .
+
+ele:Q2327 rdfs:label "楝子"@cn .
+
+ele:Q2328 rdfs:label "柳枝"@cn .
+
+ele:Q2329 rdfs:label "大头陈"@cn .
+
+ele:Q2330 rdfs:label "猪笼草"@cn .
+
+ele:Q2331 rdfs:label "九龙藤"@cn .
+
+ele:Q2332 rdfs:label "生薑"@cn .
+
+ele:Q2333 rdfs:label "野牛心"@cn .
+
+ele:Q2334 rdfs:label "紫地榆"@cn .
+
+ele:Q2335 rdfs:label "水牛角粉"@cn .
+
+ele:Q2336 rdfs:label "白尾参"@cn .
+
+ele:Q2337 rdfs:label "泼尼松龙"@cn .
+
+ele:Q2338 rdfs:label "心脉隆浸膏"@cn .
+
+ele:Q2339 rdfs:label "头孢氨苄"@cn .
+
+ele:Q2340 rdfs:label "大鳖子"@cn .
+
+ele:Q2341 rdfs:label "炔诺孕酮"@cn .
+
+ele:Q2342 rdfs:label "天花粉等"@cn .
+
+ele:Q2343 rdfs:label "溴化二甲基苄基烃铵的混合物"@cn .
+
+ele:Q2344 rdfs:label "苯并二塞平"@cn .
+
+ele:Q2345 rdfs:label "圣地红景天"@cn .
+
+ele:Q2346 rdfs:label "粗纤维"@cn .
+
+ele:Q2347 rdfs:label "替勃龙"@cn .
+
+ele:Q2348 rdfs:label "草豆蔻"@cn .
+
+ele:Q2349 rdfs:label "红鱼眼"@cn .
+
+ele:Q2350 rdfs:label "浮小麦等"@cn .
+
+ele:Q2351 rdfs:label "玉叶金花"@cn .
+
+ele:Q2352 rdfs:label "生白附子"@cn .
+
+ele:Q2353 rdfs:label "盐酸氯喘"@cn .
+
+ele:Q2354 rdfs:label "石韦"@cn .
+
+ele:Q2355 rdfs:label "鬼针草"@cn .
+
+ele:Q2356 rdfs:label "稻米"@cn .
+
+ele:Q2357 rdfs:label "僵蚕"@cn .
+
+ele:Q2358 rdfs:label "九节茶"@cn .
+
+ele:Q2359 rdfs:label "着色剂"@cn .
+
+ele:Q2360 rdfs:label "灭活"@cn .
+
+ele:Q2361 rdfs:label "枙子"@cn .
+
+ele:Q2362 rdfs:label "哚美辛"@cn .
+
+ele:Q2363 rdfs:label "绿原酸"@cn .
+
+ele:Q2364 rdfs:label "白沉香"@cn .
+
+ele:Q2365 rdfs:label "肌醇"@cn .
+
+ele:Q2366 rdfs:label "甘油"@cn .
+
+ele:Q2367 rdfs:label "披麻草"@cn .
+
+ele:Q2368 rdfs:label "小伞虎耳草"@cn .
+
+ele:Q2369 rdfs:label "醋香附"@cn .
+
+ele:Q2370 rdfs:label "滇橄榄"@cn .
+
+ele:Q2371 rdfs:label "凤尾草"@cn .
+
+ele:Q2372 rdfs:label "北参清膏"@cn .
+
+ele:Q2373 rdfs:label "大黄炭"@cn .
+
+ele:Q2374 rdfs:label "林可霉素"@cn .
+
+ele:Q2375 rdfs:label "黄耆"@cn .
+
+ele:Q2376 rdfs:label "栀子"@cn .
+
+ele:Q2377 rdfs:label "重酒石酸去甲肾上腺素"@cn .
+
+ele:Q2378 rdfs:label "南沙参"@cn .
+
+ele:Q2379 rdfs:label "甘油升"@cn .
+
+ele:Q2380 rdfs:label "紫苏叶"@cn .
+
+ele:Q2381 rdfs:label "碱花"@cn .
+
+ele:Q2382 rdfs:label "臭梧桐叶"@cn .
+
+ele:Q2383 rdfs:label "孔雀瓴炭"@cn .
+
+ele:Q2384 rdfs:label "地板藤"@cn .
+
+ele:Q2385 rdfs:label "悬钩木"@cn .
+
+ele:Q2386 rdfs:label "凤凰衣"@cn .
+
+ele:Q2387 rdfs:label "甘石膏粉"@cn .
+
+ele:Q2388 rdfs:label "川西獐牙菜"@cn .
+
+ele:Q2389 rdfs:label "山药"@cn .
+
+ele:Q2390 rdfs:label "肉苁蓉"@cn .
+
+ele:Q2391 rdfs:label "癸氟奋乃静"@cn .
+
+ele:Q2392 rdfs:label "蝉蜕"@cn .
+
+ele:Q2393 rdfs:label "环磷腺苷"@cn .
+
+ele:Q2394 rdfs:label "牛黃"@cn .
+
+ele:Q2395 rdfs:label "短穗兔耳草"@cn .
+
+ele:Q2396 rdfs:label "观音草"@cn .
+
+ele:Q2397 rdfs:label "牛黄"@cn .
+
+ele:Q2398 rdfs:label "肝脏"@cn .
+
+ele:Q2399 rdfs:label "杜仲炭"@cn .
+
+ele:Q2400 rdfs:label "干草"@cn .
+
+ele:Q2401 rdfs:label "半边旗"@cn .
+
+ele:Q2402 rdfs:label "珍珠层粉等"@cn .
+
+ele:Q2403 rdfs:label "紫金龙"@cn .
+
+ele:Q2404 rdfs:label "青黛"@cn .
+
+ele:Q2405 rdfs:label "苏氨酸"@cn .
+
+ele:Q2406 rdfs:label "鸭跖草"@cn .
+
+ele:Q2407 rdfs:label "淡豆鼓"@cn .
+
+ele:Q2408 rdfs:label "金银花叶"@cn .
+
+ele:Q2409 rdfs:label "厄多司坦"@cn .
+
+ele:Q2410 rdfs:label "副伤寒甲"@cn .
+
+ele:Q2411 rdfs:label "硫酸吗啡"@cn .
+
+ele:Q2412 rdfs:label "核酸"@cn .
+
+ele:Q2413 rdfs:label "羟乙桂胺"@cn .
+
+ele:Q2414 rdfs:label "茶叶"@cn .
+
+ele:Q2415 rdfs:label "月腺大戟"@cn .
+
+ele:Q2416 rdfs:label "肉桂灵芝"@cn .
+
+ele:Q2417 rdfs:label "北寒水石"@cn .
+
+ele:Q2418 rdfs:label "鸡血藤膏"@cn .
+
+ele:Q2419 rdfs:label "麻黄"@cn .
+
+ele:Q2420 rdfs:label "佐匹克隆"@cn .
+
+ele:Q2421 rdfs:label "蒿本"@cn .
+
+ele:Q2422 rdfs:label "苦木苦木"@cn .
+
+ele:Q2423 rdfs:label "水杨酰胺"@cn .
+
+ele:Q2424 rdfs:label "丝瓜络"@cn .
+
+ele:Q2425 rdfs:label "三七粉"@cn .
+
+ele:Q2426 rdfs:label "山萘"@cn .
+
+ele:Q2427 rdfs:label "木芙蓉叶"@cn .
+
+ele:Q2428 rdfs:label "米醋"@cn .
+
+ele:Q2429 rdfs:label "硫酸锰"@cn .
+
+ele:Q2430 rdfs:label "白胶香"@cn .
+
+ele:Q2431 rdfs:label "玳瑁"@cn .
+
+ele:Q2432 rdfs:label "白木"@cn .
+
+ele:Q2433 rdfs:label "乙胺硫脲"@cn .
+
+ele:Q2434 rdfs:label "三叶青藤"@cn .
+
+ele:Q2435 rdfs:label "煤焦油"@cn .
+
+ele:Q2436 rdfs:label "笔管草"@cn .
+
+ele:Q2437 rdfs:label "野姜"@cn .
+
+ele:Q2438 rdfs:label "琼脂"@cn .
+
+ele:Q2439 rdfs:label "隔山香"@cn .
+
+ele:Q2440 rdfs:label "金边龙舌兰"@cn .
+
+ele:Q2441 rdfs:label "羟甲香豆素"@cn .
+
+ele:Q2442 rdfs:label "新疆芍药"@cn .
+
+ele:Q2443 rdfs:label "马来那敏"@cn .
+
+ele:Q2444 rdfs:label "木汉果"@cn .
+
+ele:Q2445 rdfs:label "人参鹿茸"@cn .
+
+ele:Q2446 rdfs:label "辅料甘氨酸"@cn .
+
+ele:Q2447 rdfs:label "硝酸咪康唑"@cn .
+
+ele:Q2448 rdfs:label "盒果藤"@cn .
+
+ele:Q2449 rdfs:label "红土茯苓"@cn .
+
+ele:Q2450 rdfs:label "液状石蜡"@cn .
+
+ele:Q2451 rdfs:label "微粒化"@cn .
+
+ele:Q2452 rdfs:label "狭叶柴胡"@cn .
+
+ele:Q2453 rdfs:label "牛尾蕨"@cn .
+
+ele:Q2454 rdfs:label "硫酸镁"@cn .
+
+ele:Q2455 rdfs:label "牛大力"@cn .
+
+ele:Q2456 rdfs:label "砂仁六神曲"@cn .
+
+ele:Q2457 rdfs:label "樟脑冰片"@cn .
+
+ele:Q2458 rdfs:label "豹骨"@cn .
+
+ele:Q2459 rdfs:label "双氯芬酸二乙胺"@cn .
+
+ele:Q2460 rdfs:label "盐酸伪麻黄"@cn .
+
+ele:Q2461 rdfs:label "紫苏三两"@cn .
+
+ele:Q2462 rdfs:label "头孢地秦钠"@cn .
+
+ele:Q2463 rdfs:label "干葛"@cn .
+
+ele:Q2464 rdfs:label "酸雷尼替丁"@cn .
+
+ele:Q2465 rdfs:label "胞嘧啶核苷三磷酸二钠三水物"@cn .
+
+ele:Q2466 rdfs:label "五氟利多"@cn .
+
+ele:Q2467 rdfs:label "胰激肽原酶"@cn .
+
+ele:Q2468 rdfs:label "白果"@cn .
+
+ele:Q2469 rdfs:label "乌梢蛇等"@cn .
+
+ele:Q2470 rdfs:label "郁金等"@cn .
+
+ele:Q2471 rdfs:label "芸香浸膏"@cn .
+
+ele:Q2472 rdfs:label "门冬氨酸阿奇霉素"@cn .
+
+ele:Q2473 rdfs:label "辣蓼"@cn .
+
+ele:Q2474 rdfs:label "三月泡"@cn .
+
+ele:Q2475 rdfs:label "章鱼"@cn .
+
+ele:Q2476 rdfs:label "蜻蜓"@cn .
+
+ele:Q2477 rdfs:label "龙眼各"@cn .
+
+ele:Q2478 rdfs:label "柠檬黄"@cn .
+
+ele:Q2479 rdfs:label "金锦香"@cn .
+
+ele:Q2480 rdfs:label "淀粉酶"@cn .
+
+ele:Q2481 rdfs:label "蔓荆于"@cn .
+
+ele:Q2482 rdfs:label "盐酸精氨酸"@cn .
+
+ele:Q2483 rdfs:label "柴胡黄芩"@cn .
+
+ele:Q2484 rdfs:label "五味子酊"@cn .
+
+ele:Q2485 rdfs:label "氨茶碱"@cn .
+
+ele:Q2486 rdfs:label "豆叶九里香"@cn .
+
+ele:Q2487 rdfs:label "南蚊藤果"@cn .
+
+ele:Q2488 rdfs:label "仙鹤草"@cn .
+
+ele:Q2489 rdfs:label "马前子"@cn .
+
+ele:Q2490 rdfs:label "韭菜子"@cn .
+
+ele:Q2491 rdfs:label "黄芩浸膏"@cn .
+
+ele:Q2492 rdfs:label "力嘎都"@cn .
+
+ele:Q2493 rdfs:label "吐根酊"@cn .
+
+ele:Q2494 rdfs:label "大枣"@cn .
+
+ele:Q2495 rdfs:label "西沙必利"@cn .
+
+ele:Q2496 rdfs:label "制首乌"@cn .
+
+ele:Q2497 rdfs:label "硫酸卡那霉素"@cn .
+
+ele:Q2498 rdfs:label "防风"@cn .
+
+ele:Q2499 rdfs:label "苏合香油"@cn .
+
+ele:Q2500 rdfs:label "肺炎雷白菌"@cn .
+
+ele:Q2501 rdfs:label "滇草乌"@cn .
+
+ele:Q2502 rdfs:label "丙硫氧嘧啶"@cn .
+
+ele:Q2503 rdfs:label "锦灯笼"@cn .
+
+ele:Q2504 rdfs:label "槐花炭"@cn .
+
+ele:Q2505 rdfs:label "牛胆干膏"@cn .
+
+ele:Q2506 rdfs:label "维胺酯"@cn .
+
+ele:Q2507 rdfs:label "盐酸氟西汀"@cn .
+
+ele:Q2508 rdfs:label "刺五加清膏"@cn .
+
+ele:Q2509 rdfs:label "一枝黄花"@cn .
+
+ele:Q2510 rdfs:label "当药"@cn .
+
+ele:Q2511 rdfs:label "赖氨酸茶碱"@cn .
+
+ele:Q2512 rdfs:label "氟吗西尼"@cn .
+
+ele:Q2513 rdfs:label "蒙脱石"@cn .
+
+ele:Q2514 rdfs:label "枸橼酸芬太尼"@cn .
+
+ele:Q2515 rdfs:label "金橘"@cn .
+
+ele:Q2516 rdfs:label "牛舌草花"@cn .
+
+ele:Q2517 rdfs:label "地塞米松"@cn .
+
+ele:Q2518 rdfs:label "党参流浸膏"@cn .
+
+ele:Q2519 rdfs:label "碳酸氢纳"@cn .
+
+ele:Q2520 rdfs:label "黑骨藤"@cn .
+
+ele:Q2521 rdfs:label "甲基橙皮甙"@cn .
+
+ele:Q2522 rdfs:label "碳酸酰胺过氧化氢"@cn .
+
+ele:Q2523 rdfs:label "灵芝"@cn .
+
+ele:Q2524 rdfs:label "经培养"@cn .
+
+ele:Q2525 rdfs:label "硫酸钡"@cn .
+
+ele:Q2526 rdfs:label "硝酸硫胺"@cn .
+
+ele:Q2527 rdfs:label "川芎桂枝"@cn .
+
+ele:Q2528 rdfs:label "千金子霜"@cn .
+
+ele:Q2529 rdfs:label "盐酸氟西泮"@cn .
+
+ele:Q2530 rdfs:label "硫酸钾"@cn .
+
+ele:Q2531 rdfs:label "罗通定"@cn .
+
+ele:Q2532 rdfs:label "生物淀粉酶"@cn .
+
+ele:Q2533 rdfs:label "西洋参粉"@cn .
+
+ele:Q2534 rdfs:label "鹿衔草"@cn .
+
+ele:Q2535 rdfs:label "非那西丁"@cn .
+
+ele:Q2536 rdfs:label "葡萄糖"@cn .
+
+ele:Q2537 rdfs:label "乙菌成"@cn .
+
+ele:Q2538 rdfs:label "丹皮"@cn .
+
+ele:Q2539 rdfs:label "淀粉"@cn .
+
+ele:Q2540 rdfs:label "乌药白芍"@cn .
+
+ele:Q2541 rdfs:label "香茶菜"@cn .
+
+ele:Q2542 rdfs:label "硫酸铜"@cn .
+
+ele:Q2543 rdfs:label "大黄药"@cn .
+
+ele:Q2544 rdfs:label "醋酸泼尼松龙"@cn .
+
+ele:Q2545 rdfs:label "瑞香"@cn .
+
+ele:Q2546 rdfs:label "地骨皮山药"@cn .
+
+ele:Q2547 rdfs:label "醋酸洗必泰"@cn .
+
+ele:Q2548 rdfs:label "氟化物"@cn .
+
+ele:Q2549 rdfs:label "川楝子白芍"@cn .
+
+ele:Q2550 rdfs:label "细梗胡枝子"@cn .
+
+ele:Q2551 rdfs:label "西瓜霜硼砂"@cn .
+
+ele:Q2552 rdfs:label "吐温"@cn .
+
+ele:Q2553 rdfs:label "依托度酸"@cn .
+
+ele:Q2554 rdfs:label "含水羊毛"@cn .
+
+ele:Q2555 rdfs:label "卡莫司汀"@cn .
+
+ele:Q2556 rdfs:label "秋水仙"@cn .
+
+ele:Q2557 rdfs:label "盐酸曲唑酮"@cn .
+
+ele:Q2558 rdfs:label "紫丹参"@cn .
+
+ele:Q2559 rdfs:label "檀香油"@cn .
+
+ele:Q2560 rdfs:label "氨苄西林"@cn .
+
+ele:Q2561 rdfs:label "红旱莲"@cn .
+
+ele:Q2562 rdfs:label "氯氟舒松"@cn .
+
+ele:Q2563 rdfs:label "芹菜根"@cn .
+
+ele:Q2564 rdfs:label "麦冬葛根"@cn .
+
+ele:Q2565 rdfs:label "马来酸氨氯地平"@cn .
+
+ele:Q2566 rdfs:label "木贼"@cn .
+
+ele:Q2567 rdfs:label "桔梗酊"@cn .
+
+ele:Q2568 rdfs:label "当归等"@cn .
+
+ele:Q2569 rdfs:label "大风艾"@cn .
+
+ele:Q2570 rdfs:label "氨水"@cn .
+
+ele:Q2571 rdfs:label "白花鬼灯笼"@cn .
+
+ele:Q2572 rdfs:label "巴西矛头蝮蛇蛇毒血凝酶"@cn .
+
+ele:Q2573 rdfs:label "经提取"@cn .
+
+ele:Q2574 rdfs:label "金樱根"@cn .
+
+ele:Q2575 rdfs:label "桉叶"@cn .
+
+ele:Q2576 rdfs:label "芦丁"@cn .
+
+ele:Q2577 rdfs:label "硼砂"@cn .
+
+ele:Q2578 rdfs:label "八角茴香"@cn .
+
+ele:Q2579 rdfs:label "枫香叶"@cn .
+
+ele:Q2580 rdfs:label "盐酸普鲁卡因"@cn .
+
+ele:Q2581 rdfs:label "天冬麦冬"@cn .
+
+ele:Q2582 rdfs:label "亚硝酸"@cn .
+
+ele:Q2583 rdfs:label "膨润土"@cn .
+
+ele:Q2584 rdfs:label "硫酸氨基葡聚糖"@cn .
+
+ele:Q2585 rdfs:label "非诺贝特"@cn .
+
+ele:Q2586 rdfs:label "伊曲康唑"@cn .
+
+ele:Q2587 rdfs:label "防风草"@cn .
+
+ele:Q2588 rdfs:label "荆芥挥发油"@cn .
+
+ele:Q2589 rdfs:label "枸橼酸西地那非"@cn .
+
+ele:Q2590 rdfs:label "菜菔子"@cn .
+
+ele:Q2591 rdfs:label "香樟"@cn .
+
+ele:Q2592 rdfs:label "薄菏脑"@cn .
+
+ele:Q2593 rdfs:label "普罗碘铵"@cn .
+
+ele:Q2594 rdfs:label "葛缕子"@cn .
+
+ele:Q2595 rdfs:label "蕲蛇毒"@cn .
+
+ele:Q2596 rdfs:label "黄藤"@cn .
+
+ele:Q2597 rdfs:label "陈皮"@cn .
+
+ele:Q2598 rdfs:label "刺五加多糖"@cn .
+
+ele:Q2599 rdfs:label "茴香粉"@cn .
+
+ele:Q2600 rdfs:label "汉防己"@cn .
+
+ele:Q2601 rdfs:label "辅料"@cn .
+
+ele:Q2602 rdfs:label "磷酸氯喹"@cn .
+
+ele:Q2603 rdfs:label "锡兰肉桂"@cn .
+
+ele:Q2604 rdfs:label "朱砂等"@cn .
+
+ele:Q2605 rdfs:label "碳水化合物"@cn .
+
+ele:Q2606 rdfs:label "低分子右旋"@cn .
+
+ele:Q2607 rdfs:label "枣仁"@cn .
+
+ele:Q2608 rdfs:label "石见穿"@cn .
+
+ele:Q2609 rdfs:label "香橼"@cn .
+
+ele:Q2610 rdfs:label "虎耳草"@cn .
+
+ele:Q2611 rdfs:label "九香虫"@cn .
+
+ele:Q2612 rdfs:label "地瓜藤"@cn .
+
+ele:Q2613 rdfs:label "制马钱子"@cn .
+
+ele:Q2614 rdfs:label "胖大海胖大海"@cn .
+
+ele:Q2615 rdfs:label "阿胶"@cn .
+
+ele:Q2616 rdfs:label "远志复盆子"@cn .
+
+ele:Q2617 rdfs:label "白芍总苷"@cn .
+
+ele:Q2618 rdfs:label "岗梅"@cn .
+
+ele:Q2619 rdfs:label "胸腺肽"@cn .
+
+ele:Q2620 rdfs:label "无水硫酸铜"@cn .
+
+ele:Q2621 rdfs:label "粉绿竹"@cn .
+
+ele:Q2622 rdfs:label "盐酸左氧氟沙星"@cn .
+
+ele:Q2623 rdfs:label "苯巴比妥"@cn .
+
+ele:Q2624 rdfs:label "黃芩"@cn .
+
+ele:Q2625 rdfs:label "虫草菌粉"@cn .
+
+ele:Q2626 rdfs:label "艾绒"@cn .
+
+ele:Q2627 rdfs:label "磷酸组胺"@cn .
+
+ele:Q2628 rdfs:label "芝多糖"@cn .
+
+ele:Q2629 rdfs:label "氯仿"@cn .
+
+ele:Q2630 rdfs:label "淫羊藿淫羊藿"@cn .
+
+ele:Q2631 rdfs:label "蓝花柴胡"@cn .
+
+ele:Q2632 rdfs:label "紫丁香叶"@cn .
+
+ele:Q2633 rdfs:label "盐酸美沙酮"@cn .
+
+ele:Q2634 rdfs:label "附于"@cn .
+
+ele:Q2635 rdfs:label "土茯苓"@cn .
+
+ele:Q2636 rdfs:label "黄萃"@cn .
+
+ele:Q2637 rdfs:label "冬青油"@cn .
+
+ele:Q2638 rdfs:label "山豆根甘草"@cn .
+
+ele:Q2639 rdfs:label "酒石酸美托洛尔"@cn .
+
+ele:Q2640 rdfs:label "雷尼替丁"@cn .
+
+ele:Q2641 rdfs:label "左甲状腺素钠"@cn .
+
+ele:Q2642 rdfs:label "盐酸氯普噻吨"@cn .
+
+ele:Q2643 rdfs:label "甜瓜子甜瓜子"@cn .
+
+ele:Q2644 rdfs:label "盐酸马普替林"@cn .
+
+ele:Q2645 rdfs:label "油茶油"@cn .
+
+ele:Q2646 rdfs:label "含硝苯地平"@cn .
+
+ele:Q2647 rdfs:label "甲基多巴"@cn .
+
+ele:Q2648 rdfs:label "牛髓"@cn .
+
+ele:Q2649 rdfs:label "家鸡"@cn .
+
+ele:Q2650 rdfs:label "枸橼酸"@cn .
+
+ele:Q2651 rdfs:label "糖粉"@cn .
+
+ele:Q2652 rdfs:label "石南藤"@cn .
+
+ele:Q2653 rdfs:label "羊毛脂"@cn .
+
+ele:Q2654 rdfs:label "大叶补血萆"@cn .
+
+ele:Q2655 rdfs:label "抑肽酶"@cn .
+
+ele:Q2656 rdfs:label "尼索地平"@cn .
+
+ele:Q2657 rdfs:label "雌黄"@cn .
+
+ele:Q2658 rdfs:label "毛大丁草"@cn .
+
+ele:Q2659 rdfs:label "官桂油松节"@cn .
+
+ele:Q2660 rdfs:label "甘草酸单铵"@cn .
+
+ele:Q2661 rdfs:label "他莫司"@cn .
+
+ele:Q2662 rdfs:label "麦冬莲房"@cn .
+
+ele:Q2663 rdfs:label "猪去氧胆酸"@cn .
+
+ele:Q2664 rdfs:label "乙氧苯柳胺软膏"@cn .
+
+ele:Q2665 rdfs:label "钻山风"@cn .
+
+ele:Q2666 rdfs:label "马蹄金"@cn .
+
+ele:Q2667 rdfs:label "苦竹叶"@cn .
+
+ele:Q2668 rdfs:label "玄精石"@cn .
+
+ele:Q2669 rdfs:label "酢浆草"@cn .
+
+ele:Q2670 rdfs:label "爬山虎"@cn .
+
+ele:Q2671 rdfs:label "升华硫"@cn .
+
+ele:Q2672 rdfs:label "石楠藤"@cn .
+
+ele:Q2673 rdfs:label "沙棘籽油"@cn .
+
+ele:Q2674 rdfs:label "焦神曲"@cn .
+
+ele:Q2675 rdfs:label "豆蔻豆蔻"@cn .
+
+ele:Q2676 rdfs:label "丙磺舒"@cn .
+
+ele:Q2677 rdfs:label "羟基苯甲酸"@cn .
+
+ele:Q2678 rdfs:label "荜茇"@cn .
+
+ele:Q2679 rdfs:label "盐酸去甲万古霉素"@cn .
+
+ele:Q2680 rdfs:label "经花"@cn .
+
+ele:Q2681 rdfs:label "黏多醣体"@cn .
+
+ele:Q2682 rdfs:label "别嘌醇"@cn .
+
+ele:Q2683 rdfs:label "无色澄时"@cn .
+
+ele:Q2684 rdfs:label "鲜芦荟叶"@cn .
+
+ele:Q2685 rdfs:label "丰城鸡血藤"@cn .
+
+ele:Q2686 rdfs:label "螃蟹"@cn .
+
+ele:Q2687 rdfs:label "黑老虎根"@cn .
+
+ele:Q2688 rdfs:label "头孢孟多酯钠"@cn .
+
+ele:Q2689 rdfs:label "肾上腺色腙"@cn .
+
+ele:Q2690 rdfs:label "桑寄生"@cn .
+
+ele:Q2691 rdfs:label "川西千里光"@cn .
+
+ele:Q2692 rdfs:label "金丝草"@cn .
+
+ele:Q2693 rdfs:label "官粉"@cn .
+
+ele:Q2694 rdfs:label "硼酸"@cn .
+
+ele:Q2695 rdfs:label "瓦松"@cn .
+
+ele:Q2696 rdfs:label "刺玫果"@cn .
+
+ele:Q2697 rdfs:label "枫荷桂"@cn .
+
+ele:Q2698 rdfs:label "穿山甲"@cn .
+
+ele:Q2699 rdfs:label "草红花"@cn .
+
+ele:Q2700 rdfs:label "枸橼酸他莫昔芬"@cn .
+
+ele:Q2701 rdfs:label "胃膜素"@cn .
+
+ele:Q2702 rdfs:label "干酵母"@cn .
+
+ele:Q2703 rdfs:label "含甘油约"@cn .
+
+ele:Q2704 rdfs:label "胶体酒石酸铋"@cn .
+
+ele:Q2705 rdfs:label "角鲨烯"@cn .
+
+ele:Q2706 rdfs:label "杜仲等"@cn .
+
+ele:Q2707 rdfs:label "绿松石"@cn .
+
+ele:Q2708 rdfs:label "松节"@cn .
+
+ele:Q2709 rdfs:label "磺胺嘧啶锌"@cn .
+
+ele:Q2710 rdfs:label "钻朗风"@cn .
+
+ele:Q2711 rdfs:label "无水硫酸钙"@cn .
+
+ele:Q2712 rdfs:label "补胃脂"@cn .
+
+ele:Q2713 rdfs:label "香樟根"@cn .
+
+ele:Q2714 rdfs:label "醋酸氯己定"@cn .
+
+ele:Q2715 rdfs:label "青叶胆总苷"@cn .
+
+ele:Q2716 rdfs:label "盐酸赛庚啶"@cn .
+
+ele:Q2717 rdfs:label "代代花枳壳"@cn .
+
+ele:Q2718 rdfs:label "马洛替酯"@cn .
+
+ele:Q2719 rdfs:label "氯膦酸二钠"@cn .
+
+ele:Q2720 rdfs:label "苯噻啶"@cn .
+
+ele:Q2721 rdfs:label "桉油丁香酚"@cn .
+
+ele:Q2722 rdfs:label "盐酸去氧肾上腺素"@cn .
+
+ele:Q2723 rdfs:label "菊苣子"@cn .
+
+ele:Q2724 rdfs:label "骆驼蓬子"@cn .
+
+ele:Q2725 rdfs:label "白芍熟地黄"@cn .
+
+ele:Q2726 rdfs:label "脓毒"@cn .
+
+ele:Q2727 rdfs:label "密花豆"@cn .
+
+ele:Q2728 rdfs:label "碘酸钾"@cn .
+
+ele:Q2729 rdfs:label "西洋"@cn .
+
+ele:Q2730 rdfs:label "花蛇肉"@cn .
+
+ele:Q2731 rdfs:label "刺五加甙"@cn .
+
+ele:Q2732 rdfs:label "白苏子"@cn .
+
+ele:Q2733 rdfs:label "四氢嘧啶"@cn .
+
+ele:Q2734 rdfs:label "柠檬香精"@cn .
+
+ele:Q2735 rdfs:label "叶绿素铜钠"@cn .
+
+ele:Q2736 rdfs:label "野山楂"@cn .
+
+ele:Q2737 rdfs:label "黑蚂蚁"@cn .
+
+ele:Q2738 rdfs:label "金樱子"@cn .
+
+ele:Q2739 rdfs:label "五爪龙"@cn .
+
+ele:Q2740 rdfs:label "布洛芬"@cn .
+
+ele:Q2741 rdfs:label "丙泊酚"@cn .
+
+ele:Q2742 rdfs:label "槟榔槟榔"@cn .
+
+ele:Q2743 rdfs:label "双醋瑞因"@cn .
+
+ele:Q2744 rdfs:label "尿素"@cn .
+
+ele:Q2745 rdfs:label "白背桐"@cn .
+
+ele:Q2746 rdfs:label "溪黄草"@cn .
+
+ele:Q2747 rdfs:label "路路通路路通"@cn .
+
+ele:Q2748 rdfs:label "野菊花等"@cn .
+
+ele:Q2749 rdfs:label "猪胆汁"@cn .
+
+ele:Q2750 rdfs:label "六曲"@cn .
+
+ele:Q2751 rdfs:label "桑草"@cn .
+
+ele:Q2752 rdfs:label "独活"@cn .
+
+ele:Q2753 rdfs:label "谷胱甘肽"@cn .
+
+ele:Q2754 rdfs:label "甲磺酸左氧氟沙星"@cn .
+
+ele:Q2755 rdfs:label "前胡桔梗"@cn .
+
+ele:Q2756 rdfs:label "地黄熟地黄"@cn .
+
+ele:Q2757 rdfs:label "三七总皂苷"@cn .
+
+ele:Q2758 rdfs:label "勾儿茶"@cn .
+
+ele:Q2759 rdfs:label "碘苷"@cn .
+
+ele:Q2760 rdfs:label "盐酸氯哌丁"@cn .
+
+ele:Q2761 rdfs:label "夏天无总碱"@cn .
+
+ele:Q2762 rdfs:label "纤维素酶"@cn .
+
+ele:Q2763 rdfs:label "吹风散"@cn .
+
+ele:Q2764 rdfs:label "湖北麦冬"@cn .
+
+ele:Q2765 rdfs:label "丁香"@cn .
+
+ele:Q2766 rdfs:label "山楂"@cn .
+
+ele:Q2767 rdfs:label "红参液"@cn .
+
+ele:Q2768 rdfs:label "喜树果喜树果"@cn .
+
+ele:Q2769 rdfs:label "大黄黄芩"@cn .
+
+ele:Q2770 rdfs:label "白鲜皮"@cn .
+
+ele:Q2771 rdfs:label "乳酸亚铁"@cn .
+
+ele:Q2772 rdfs:label "岗松"@cn .
+
+ele:Q2773 rdfs:label "蔗糖铁"@cn .
+
+ele:Q2774 rdfs:label "麻黄素"@cn .
+
+ele:Q2775 rdfs:label "奥替溴铵"@cn .
+
+ele:Q2776 rdfs:label "腺苷钴胺"@cn .
+
+ele:Q2777 rdfs:label "大蓟根"@cn .
+
+ele:Q2778 rdfs:label "磺胺嘧啶银"@cn .
+
+ele:Q2779 rdfs:label "大枫子"@cn .
+
+ele:Q2780 rdfs:label "石斛"@cn .
+
+ele:Q2781 rdfs:label "膦甲酸钠"@cn .
+
+ele:Q2782 rdfs:label "阿奇霉素"@cn .
+
+ele:Q2783 rdfs:label "北败酱"@cn .
+
+ele:Q2784 rdfs:label "补骨脂"@cn .
+
+ele:Q2785 rdfs:label "由香附"@cn .
+
+ele:Q2786 rdfs:label "生天星南"@cn .
+
+ele:Q2787 rdfs:label "伏立康唑"@cn .
+
+ele:Q2788 rdfs:label "竹叶防风"@cn .
+
+ele:Q2789 rdfs:label "藿香"@cn .
+
+ele:Q2790 rdfs:label "枣仁阿胶"@cn .
+
+ele:Q2791 rdfs:label "木香等"@cn .
+
+ele:Q2792 rdfs:label "白豆蔻"@cn .
+
+ele:Q2793 rdfs:label "硝酸益康唑"@cn .
+
+ele:Q2794 rdfs:label "麻黄"@cn .
+
+ele:Q2795 rdfs:label "甘油磷酸铁"@cn .
+
+ele:Q2796 rdfs:label "罗汉果"@cn .
+
+ele:Q2797 rdfs:label "盐酸万古霉素"@cn .
+
+ele:Q2798 rdfs:label "维替泊芬"@cn .
+
+ele:Q2799 rdfs:label "卡莫氟"@cn .
+
+ele:Q2800 rdfs:label "劳拉西泮"@cn .
+
+ele:Q2801 rdfs:label "磺胺嘧啶钠"@cn .
+
+ele:Q2802 rdfs:label "山葡萄"@cn .
+
+ele:Q2803 rdfs:label "多西份赛"@cn .
+
+ele:Q2804 rdfs:label "甘油磷酸钠"@cn .
+
+ele:Q2805 rdfs:label "甘油磷酸钙"@cn .
+
+ele:Q2806 rdfs:label "菟丝子菟丝子"@cn .
+
+ele:Q2807 rdfs:label "红粉"@cn .
+
+ele:Q2808 rdfs:label "杏仁"@cn .
+
+ele:Q2809 rdfs:label "百合"@cn .
+
+ele:Q2810 rdfs:label "锁阳"@cn .
+
+ele:Q2811 rdfs:label "丁香酚"@cn .
+
+ele:Q2812 rdfs:label "樟脑子"@cn .
+
+ele:Q2813 rdfs:label "玉带草"@cn .
+
+ele:Q2814 rdfs:label "鲜生姜"@cn .
+
+ele:Q2815 rdfs:label "硝酸甘油"@cn .
+
+ele:Q2816 rdfs:label "甘草"@cn .
+
+ele:Q2817 rdfs:label "盐酸坦洛新"@cn .
+
+ele:Q2818 rdfs:label "猪脊髓"@cn .
+
+ele:Q2819 rdfs:label "刺五加"@cn .
+
+ele:Q2820 rdfs:label "紫硇砂"@cn .
+
+ele:Q2821 rdfs:label "满山红"@cn .
+
+ele:Q2822 rdfs:label "黄芩苷"@cn .
+
+ele:Q2823 rdfs:label "油磷酸钠"@cn .
+
+ele:Q2824 rdfs:label "紫花地丁"@cn .
+
+ele:Q2825 rdfs:label "尼泊金"@cn .
+
+ele:Q2826 rdfs:label "美洛昔康"@cn .
+
+ele:Q2827 rdfs:label "黏多糖"@cn .
+
+ele:Q2828 rdfs:label "丁香油"@cn .
+
+ele:Q2829 rdfs:label "苎麻根"@cn .
+
+ele:Q2830 rdfs:label "烟酰酸镁"@cn .
+
+ele:Q2831 rdfs:label "阿立哌唑"@cn .
+
+ele:Q2832 rdfs:label "浙桐皮"@cn .
+
+ele:Q2833 rdfs:label "异卡波肼"@cn .
+
+ele:Q2834 rdfs:label "鼻中骨"@cn .
+
+ele:Q2835 rdfs:label "硫酸氨基葡萄糖钾"@cn .
+
+ele:Q2836 rdfs:label "獾油"@cn .
+
+ele:Q2837 rdfs:label "南天仙子"@cn .
+
+ele:Q2838 rdfs:label "棉花根"@cn .
+
+ele:Q2839 rdfs:label "三唑仑"@cn .
+
+ele:Q2840 rdfs:label "金果榄"@cn .
+
+ele:Q2841 rdfs:label "秦艽"@cn .
+
+ele:Q2842 rdfs:label "桔梗清半夏"@cn .
+
+ele:Q2843 rdfs:label "丁香锁阳"@cn .
+
+ele:Q2844 rdfs:label "鹿角阿魏"@cn .
+
+ele:Q2845 rdfs:label "哈拉宗"@cn .
+
+ele:Q2846 rdfs:label "苯甲酸苄酯"@cn .
+
+ele:Q2847 rdfs:label "更昔洛韦"@cn .
+
+ele:Q2848 rdfs:label "葡萄酸锌"@cn .
+
+ele:Q2849 rdfs:label "川党参"@cn .
+
+ele:Q2850 rdfs:label "甘露醇"@cn .
+
+ele:Q2851 rdfs:label "生地黄"@cn .
+
+ele:Q2852 rdfs:label "奥拉西坦"@cn .
+
+ele:Q2853 rdfs:label "乳香粉"@cn .
+
+ele:Q2854 rdfs:label "金刚头"@cn .
+
+ele:Q2855 rdfs:label "麻黄绒"@cn .
+
+ele:Q2856 rdfs:label "司帕沙星"@cn .
+
+ele:Q2857 rdfs:label "转移因子"@cn .
+
+ele:Q2858 rdfs:label "拉霉素"@cn .
+
+ele:Q2859 rdfs:label "无患子"@cn .
+
+ele:Q2860 rdfs:label "泛影酸"@cn .
+
+ele:Q2861 rdfs:label "细辛油"@cn .
+
+ele:Q2862 rdfs:label "广枣"@cn .
+
+ele:Q2863 rdfs:label "白术陈皮"@cn .
+
+ele:Q2864 rdfs:label "牡丹皮等"@cn .
+
+ele:Q2865 rdfs:label "红茴香根"@cn .
+
+ele:Q2866 rdfs:label "非那雄胺"@cn .
+
+ele:Q2867 rdfs:label "香青兰"@cn .
+
+ele:Q2868 rdfs:label "烟酰胺"@cn .
+
+ele:Q2869 rdfs:label "硝苯地平"@cn .
+
+ele:Q2870 rdfs:label "冬虫夏草"@cn .
+
+ele:Q2871 rdfs:label "水的溶液"@cn .
+
+ele:Q2872 rdfs:label "胆通"@cn .
+
+ele:Q2873 rdfs:label "千年健"@cn .
+
+ele:Q2874 rdfs:label "还原的锝"@cn .
+
+ele:Q2875 rdfs:label "白勺"@cn .
+
+ele:Q2876 rdfs:label "盐酸哌仑西平"@cn .
+
+ele:Q2877 rdfs:label "曲伏前列素"@cn .
+
+ele:Q2878 rdfs:label "关白附子"@cn .
+
+ele:Q2879 rdfs:label "人发"@cn .
+
+ele:Q2880 rdfs:label "颠茄浸膏"@cn .
+
+ele:Q2881 rdfs:label "硫酸"@cn .
+
+ele:Q2882 rdfs:label "哈蚧"@cn .
+
+ele:Q2883 rdfs:label "牛鞭"@cn .
+
+ele:Q2884 rdfs:label "分离"@cn .
+
+ele:Q2885 rdfs:label "哈西奈德"@cn .
+
+ele:Q2886 rdfs:label "睡莲花"@cn .
+
+ele:Q2887 rdfs:label "八角莲"@cn .
+
+ele:Q2888 rdfs:label "白头翁"@cn .
+
+ele:Q2889 rdfs:label "银灰"@cn .
+
+ele:Q2890 rdfs:label "防腐剂"@cn .
+
+ele:Q2891 rdfs:label "夫西地酸钠"@cn .
+
+ele:Q2892 rdfs:label "姜膏"@cn .
+
+ele:Q2893 rdfs:label "二羟丙茶碱"@cn .
+
+ele:Q2894 rdfs:label "大草寇"@cn .
+
+ele:Q2895 rdfs:label "蜂王浆"@cn .
+
+ele:Q2896 rdfs:label "丁公藤"@cn .
+
+ele:Q2897 rdfs:label "芦荟"@cn .
+
+ele:Q2898 rdfs:label "雷尼替丁"@cn .
+
+ele:Q2899 rdfs:label "盐酸麻黄碱"@cn .
+
+ele:Q2900 rdfs:label "巴氯芬"@cn .
+
+ele:Q2901 rdfs:label "乌药"@cn .
+
+ele:Q2902 rdfs:label "硫酸特布他林"@cn .
+
+ele:Q2903 rdfs:label "芫花枝条"@cn .
+
+ele:Q2904 rdfs:label "青叶胆"@cn .
+
+ele:Q2905 rdfs:label "木耳"@cn .
+
+ele:Q2906 rdfs:label "黄瓜子"@cn .
+
+ele:Q2907 rdfs:label "冰片"@cn .
+
+ele:Q2908 rdfs:label "蛤壳"@cn .
+
+ele:Q2909 rdfs:label "柠檬酸"@cn .
+
+ele:Q2910 rdfs:label "山桔叶"@cn .
+
+ele:Q2911 rdfs:label "香精油"@cn .
+
+ele:Q2912 rdfs:label "刺五加浸膏"@cn .
+
+ele:Q2913 rdfs:label "大力王"@cn .
+
+ele:Q2914 rdfs:label "薄荷水"@cn .
+
+ele:Q2915 rdfs:label "姜制半夏"@cn .
+
+ele:Q2916 rdfs:label "牡荆油"@cn .
+
+ele:Q2917 rdfs:label "椿皮"@cn .
+
+ele:Q2918 rdfs:label "冰片黄连"@cn .
+
+ele:Q2919 rdfs:label "盐酸头孢甲肟"@cn .
+
+ele:Q2920 rdfs:label "蓝布正"@cn .
+
+ele:Q2921 rdfs:label "甲钴胺"@cn .
+
+ele:Q2922 rdfs:label "胆酸"@cn .
+
+ele:Q2923 rdfs:label "丙酸氯倍他索"@cn .
+
+ele:Q2924 rdfs:label "共芩"@cn .
+
+ele:Q2925 rdfs:label "艾片"@cn .
+
+ele:Q2926 rdfs:label "五肽胃泌素"@cn .
+
+ele:Q2927 rdfs:label "滑石"@cn .
+
+ele:Q2928 rdfs:label "松节油"@cn .
+
+ele:Q2929 rdfs:label "豌豆花"@cn .
+
+ele:Q2930 rdfs:label "干草等"@cn .
+
+ele:Q2931 rdfs:label "矮地茶"@cn .
+
+ele:Q2932 rdfs:label "青果青果"@cn .
+
+ele:Q2933 rdfs:label "熏鲁香"@cn .
+
+ele:Q2934 rdfs:label "地骨皮等"@cn .
+
+ele:Q2935 rdfs:label "血管紧张素"@cn .
+
+ele:Q2936 rdfs:label "蛟龙木"@cn .
+
+ele:Q2937 rdfs:label "野马追"@cn .
+
+ele:Q2938 rdfs:label "卡络磺钠"@cn .
+
+ele:Q2939 rdfs:label "硅酸"@cn .
+
+ele:Q2940 rdfs:label "延胡索粗碱"@cn .
+
+ele:Q2941 rdfs:label "四块瓦"@cn .
+
+ele:Q2942 rdfs:label "紫苏子"@cn .
+
+ele:Q2943 rdfs:label "蛇胆汁"@cn .
+
+ele:Q2944 rdfs:label "葫芦茶"@cn .
+
+ele:Q2945 rdfs:label "山豆根"@cn .
+
+ele:Q2946 rdfs:label "聚甲酚磺醛"@cn .
+
+ele:Q2947 rdfs:label "荧光素钠"@cn .
+
+ele:Q2948 rdfs:label "鸡血藤细粉"@cn .
+
+ele:Q2949 rdfs:label "积雪草"@cn .
+
+ele:Q2950 rdfs:label "甲氧氯普胺"@cn .
+
+ele:Q2951 rdfs:label "干姜荆芥"@cn .
+
+ele:Q2952 rdfs:label "盐酸恩丹西酮"@cn .
+
+ele:Q2953 rdfs:label "羊睾丸浸膏"@cn .
+
+ele:Q2954 rdfs:label "磷酸奥司他韦"@cn .
+
+ele:Q2955 rdfs:label "土生地"@cn .
+
+ele:Q2956 rdfs:label "三白草"@cn .
+
+ele:Q2957 rdfs:label "波棱瓜子"@cn .
+
+ele:Q2958 rdfs:label "十八醇"@cn .
+
+ele:Q2959 rdfs:label "甲磺酸酚妥拉明"@cn .
+
+ele:Q2960 rdfs:label "盐酸氯米帕明"@cn .
+
+ele:Q2961 rdfs:label "经浓缩"@cn .
+
+ele:Q2962 rdfs:label "枳具子"@cn .
+
+ele:Q2963 rdfs:label "金不换"@cn .
+
+ele:Q2964 rdfs:label "甘蔗"@cn .
+
+ele:Q2965 rdfs:label "柴胡"@cn .
+
+ele:Q2966 rdfs:label "血余"@cn .
+
+ele:Q2967 rdfs:label "辣豆"@cn .
+
+ele:Q2968 rdfs:label "碘化物"@cn .
+
+ele:Q2969 rdfs:label "炒蒺藜"@cn .
+
+ele:Q2970 rdfs:label "氨基酸"@cn .
+
+ele:Q2971 rdfs:label "五灵脂膏"@cn .
+
+ele:Q2972 rdfs:label "盐酸利多卡因"@cn .
+
+ele:Q2973 rdfs:label "川明参"@cn .
+
+ele:Q2974 rdfs:label "乙酰氨基酚"@cn .
+
+ele:Q2975 rdfs:label "蛇泡勒"@cn .
+
+ele:Q2976 rdfs:label "黄连"@cn .
+
+ele:Q2977 rdfs:label "古日古木"@cn .
+
+ele:Q2978 rdfs:label "醋酸氯已定"@cn .
+
+ele:Q2979 rdfs:label "天花粉"@cn .
+
+ele:Q2980 rdfs:label "细辛荜茇"@cn .
+
+ele:Q2981 rdfs:label "金沙藤"@cn .
+
+ele:Q2982 rdfs:label "桑椹清膏"@cn .
+
+ele:Q2983 rdfs:label "氢溴酸加兰他敏"@cn .
+
+ele:Q2984 rdfs:label "白前"@cn .
+
+ele:Q2985 rdfs:label "鼓姜"@cn .
+
+ele:Q2986 rdfs:label "依帕司他"@cn .
+
+ele:Q2987 rdfs:label "骚羊古"@cn .
+
+ele:Q2988 rdfs:label "桉油等"@cn .
+
+ele:Q2989 rdfs:label "蓼大青叶"@cn .
+
+ele:Q2990 rdfs:label "马鞭草"@cn .
+
+ele:Q2991 rdfs:label "胡椒"@cn .
+
+ele:Q2992 rdfs:label "雪梨清膏"@cn .
+
+ele:Q2993 rdfs:label "穿壁风"@cn .
+
+ele:Q2994 rdfs:label "川牛膝"@cn .
+
+ele:Q2995 rdfs:label "硫酸沙丁胺醇"@cn .
+
+ele:Q2996 rdfs:label "了棒"@cn .
+
+ele:Q2997 rdfs:label "胆色素"@cn .
+
+ele:Q2998 rdfs:label "人参皂甙"@cn .
+
+ele:Q2999 rdfs:label "牛膝"@cn .
+
+ele:Q3000 rdfs:label "蜂胶膏"@cn .
+
+ele:Q3001 rdfs:label "地锦草"@cn .
+
+ele:Q3002 rdfs:label "麻黄碱"@cn .
+
+ele:Q3003 rdfs:label "替比夫定"@cn .
+
+ele:Q3004 rdfs:label "山绿茶"@cn .
+
+ele:Q3005 rdfs:label "尼可地尔"@cn .
+
+ele:Q3006 rdfs:label "雪胆"@cn .
+
+ele:Q3007 rdfs:label "蓖麻子蓖麻子"@cn .
+
+ele:Q3008 rdfs:label "盐酸伪麻黄碱"@cn .
+
+ele:Q3009 rdfs:label "砂仁等药"@cn .
+
+ele:Q3010 rdfs:label "愈创甘油醚"@cn .
+
+ele:Q3011 rdfs:label "孩儿草"@cn .
+
+ele:Q3012 rdfs:label "渐贝母"@cn .
+
+ele:Q3013 rdfs:label "垂盆草"@cn .
+
+ele:Q3014 rdfs:label "骨胶"@cn .
+
+ele:Q3015 rdfs:label "百部"@cn .
+
+ele:Q3016 rdfs:label "地龙等"@cn .
+
+ele:Q3017 rdfs:label "盐酸萘替芬"@cn .
+
+ele:Q3018 rdfs:label "甲泼尼龙"@cn .
+
+ele:Q3019 rdfs:label "岗稔子"@cn .
+
+ele:Q3020 rdfs:label "山柰等"@cn .
+
+ele:Q3021 rdfs:label "假苟叶"@cn .
+
+ele:Q3022 rdfs:label "了哥王"@cn .
+
+ele:Q3023 rdfs:label "柘树根"@cn .
+
+ele:Q3024 rdfs:label "黑芝麻"@cn .
+
+ele:Q3025 rdfs:label "北豆根"@cn .
+
+ele:Q3026 rdfs:label "麝香草酚"@cn .
+
+ele:Q3027 rdfs:label "梧桐子"@cn .
+
+ele:Q3028 rdfs:label "盐酸曲美他嗪"@cn .
+
+ele:Q3029 rdfs:label "常春油麻藤"@cn .
+
+ele:Q3030 rdfs:label "诃子诃子"@cn .
+
+ele:Q3031 rdfs:label "氢化可的松"@cn .
+
+ele:Q3032 rdfs:label "格列喹酮"@cn .
+
+ele:Q3033 rdfs:label "海蛇"@cn .
+
+ele:Q3034 rdfs:label "铝镁加"@cn .
+
+ele:Q3035 rdfs:label "头孢尼西钠"@cn .
+
+ele:Q3036 rdfs:label "芒硝"@cn .
+
+ele:Q3037 rdfs:label "枸橼酸喷托维林"@cn .
+
+ele:Q3038 rdfs:label "枸椽酸钠"@cn .
+
+ele:Q3039 rdfs:label "地丁"@cn .
+
+ele:Q3040 rdfs:label "红花黄色素"@cn .
+
+ele:Q3041 rdfs:label "经灭活"@cn .
+
+ele:Q3042 rdfs:label "曲安西龙"@cn .
+
+ele:Q3043 rdfs:label "炙淫羊藿"@cn .
+
+ele:Q3044 rdfs:label "田七"@cn .
+
+ele:Q3045 rdfs:label "冰糖草"@cn .
+
+ele:Q3046 rdfs:label "八里麻"@cn .
+
+ele:Q3047 rdfs:label "水杨酸苯酯"@cn .
+
+ele:Q3048 rdfs:label "酮康唑"@cn .
+
+ele:Q3049 rdfs:label "更昔洛韦钠"@cn .
+
+ele:Q3050 rdfs:label "盐酸异丙嗪"@cn .
+
+ele:Q3051 rdfs:label "当归炭"@cn .
+
+ele:Q3052 rdfs:label "川黄柏"@cn .
+
+ele:Q3053 rdfs:label "细辛羌活"@cn .
+
+ele:Q3054 rdfs:label "木大青叶"@cn .
+
+ele:Q3055 rdfs:label "川射干"@cn .
+
+ele:Q3056 rdfs:label "扎来普隆"@cn .
+
+ele:Q3057 rdfs:label "黄荆子"@cn .
+
+ele:Q3058 rdfs:label "钆喷酸双葡胺"@cn .
+
+ele:Q3059 rdfs:label "胰酶"@cn .
+
+ele:Q3060 rdfs:label "束花石斛"@cn .
+
+ele:Q3061 rdfs:label "薄荷等"@cn .
+
+ele:Q3062 rdfs:label "邻位标记碘"@cn .
+
+ele:Q3063 rdfs:label "石榴皮"@cn .
+
+ele:Q3064 rdfs:label "琥珀"@cn .
+
+ele:Q3065 rdfs:label "陈皮等"@cn .
+
+ele:Q3066 rdfs:label "车前草"@cn .
+
+ele:Q3067 rdfs:label "黑云香"@cn .
+
+ele:Q3068 rdfs:label "歪叶蓝"@cn .
+
+ele:Q3069 rdfs:label "神曲茶"@cn .
+
+ele:Q3070 rdfs:label "沙棘沙棘"@cn .
+
+ele:Q3071 rdfs:label "咪达唑仑盐酸盐"@cn .
+
+ele:Q3072 rdfs:label "硫酸胍生"@cn .
+
+ele:Q3073 rdfs:label "木藤蓼"@cn .
+
+ele:Q3074 rdfs:label "神麴"@cn .
+
+ele:Q3075 rdfs:label "长梗郁李"@cn .
+
+ele:Q3076 rdfs:label "野菊花膏粉"@cn .
+
+ele:Q3077 rdfs:label "福莫司汀"@cn .
+
+ele:Q3078 rdfs:label "盐酸洛美沙星"@cn .
+
+ele:Q3079 rdfs:label "虎杖"@cn .
+
+ele:Q3080 rdfs:label "苦地胆"@cn .
+
+ele:Q3081 rdfs:label "肝素钠"@cn .
+
+ele:Q3082 rdfs:label "土鳖"@cn .
+
+ele:Q3083 rdfs:label "绿衣枳壳"@cn .
+
+ele:Q3084 rdfs:label "稻芽"@cn .
+
+ele:Q3085 rdfs:label "石膏桔梗"@cn .
+
+ele:Q3086 rdfs:label "塞替派"@cn .
+
+ele:Q3087 rdfs:label "亮蓝"@cn .
+
+ele:Q3088 rdfs:label "枸橼酸铋雷尼替丁"@cn .
+
+ele:Q3089 rdfs:label "冰片"@cn .
+
+ele:Q3090 rdfs:label "地服草"@cn .
+
+ele:Q3091 rdfs:label "盐酸巴氨西林"@cn .
+
+ele:Q3092 rdfs:label "天麻防己"@cn .
+
+ele:Q3093 rdfs:label "恩替卡韦"@cn .
+
+ele:Q3094 rdfs:label "延胡索"@cn .
+
+ele:Q3095 rdfs:label "延胡素"@cn .
+
+ele:Q3096 rdfs:label "香蕉香精"@cn .
+
+ele:Q3097 rdfs:label "狗骨"@cn .
+
+ele:Q3098 rdfs:label "丹曲林钠"@cn .
+
+ele:Q3099 rdfs:label "斑蝥"@cn .
+
+ele:Q3100 rdfs:label "长春花"@cn .
+
+ele:Q3101 rdfs:label "笔筒草"@cn .
+
+ele:Q3102 rdfs:label "薜荔"@cn .
+
+ele:Q3103 rdfs:label "无菌水溶液"@cn .
+
+ele:Q3104 rdfs:label "铁粉"@cn .
+
+ele:Q3105 rdfs:label "猪毛蒿油"@cn .
+
+ele:Q3106 rdfs:label "磷霉素氨三醇"@cn .
+
+ele:Q3107 rdfs:label "新洁尔灭"@cn .
+
+ele:Q3108 rdfs:label "羌活"@cn .
+
+ele:Q3109 rdfs:label "由川芎"@cn .
+
+ele:Q3110 rdfs:label "桔梗二两"@cn .
+
+ele:Q3111 rdfs:label "丙酸交沙霉素"@cn .
+
+ele:Q3112 rdfs:label "南丹参"@cn .
+
+ele:Q3113 rdfs:label "半枝莲"@cn .
+
+ele:Q3114 rdfs:label "纯植物成份"@cn .
+
+ele:Q3115 rdfs:label "膏桐"@cn .
+
+ele:Q3116 rdfs:label "粉甘草"@cn .
+
+ele:Q3117 rdfs:label "泽兰"@cn .
+
+ele:Q3118 rdfs:label "茴香油升"@cn .
+
+ele:Q3119 rdfs:label "海螵蛸"@cn .
+
+ele:Q3120 rdfs:label "麦芽"@cn .
+
+ele:Q3121 rdfs:label "柿霜"@cn .
+
+ele:Q3122 rdfs:label "凝结芽孢杆菌活菌菌粉"@cn .
+
+ele:Q3123 rdfs:label "爵床"@cn .
+
+ele:Q3124 rdfs:label "哌拉西林钠"@cn .
+
+ele:Q3125 rdfs:label "千金子"@cn .
+
+ele:Q3126 rdfs:label "尿素"@cn .
+
+ele:Q3127 rdfs:label "基己酸"@cn .
+
+ele:Q3128 rdfs:label "沙棘鲜浆"@cn .
+
+ele:Q3129 rdfs:label "功劳叶"@cn .
+
+ele:Q3130 rdfs:label "阿西美辛"@cn .
+
+ele:Q3131 rdfs:label "牡荆根"@cn .
+
+ele:Q3132 rdfs:label "甜瓜蒂"@cn .
+
+ele:Q3133 rdfs:label "瓜蒌"@cn .
+
+ele:Q3134 rdfs:label "赤芍北败酱"@cn .
+
+ele:Q3135 rdfs:label "黑枣黑豆"@cn .
+
+ele:Q3136 rdfs:label "磷酸哌喹"@cn .
+
+ele:Q3137 rdfs:label "五仁醇浸膏"@cn .
+
+ele:Q3138 rdfs:label "盐酸阿米洛利"@cn .
+
+ele:Q3139 rdfs:label "石灰华"@cn .
+
+ele:Q3140 rdfs:label "氯化物"@cn .
+
+ele:Q3141 rdfs:label "啤酒花浸膏"@cn .
+
+ele:Q3142 rdfs:label "醋酸地塞米松"@cn .
+
+ele:Q3143 rdfs:label "核桃仁"@cn .
+
+ele:Q3144 rdfs:label "人参总皂甙"@cn .
+
+ele:Q3145 rdfs:label "氨曲南"@cn .
+
+ele:Q3146 rdfs:label "杨梅根"@cn .
+
+ele:Q3147 rdfs:label "梗通草"@cn .
+
+ele:Q3148 rdfs:label "维生素"@cn .
+
+ele:Q3149 rdfs:label "艾地苯醌"@cn .
+
+ele:Q3150 rdfs:label "安痛藤"@cn .
+
+ele:Q3151 rdfs:label "氢溴酸右美沙芬"@cn .
+
+ele:Q3152 rdfs:label "余甘子"@cn .
+
+ele:Q3153 rdfs:label "纤维素"@cn .
+
+ele:Q3154 rdfs:label "山梨醇"@cn .
+
+ele:Q3155 rdfs:label "无水葡萄糖"@cn .
+
+ele:Q3156 rdfs:label "磷酸哌嗪"@cn .
+
+ele:Q3157 rdfs:label "内含蜂王浆"@cn .
+
+ele:Q3158 rdfs:label "海风藤牛膝"@cn .
+
+ele:Q3159 rdfs:label "山梨酸"@cn .
+
+ele:Q3160 rdfs:label "硝酸毛果芸香碱"@cn .
+
+ele:Q3161 rdfs:label "吡嘧司特钾"@cn .
+
+ele:Q3162 rdfs:label "瓜萎"@cn .
+
+ele:Q3163 rdfs:label "磷酸可待因"@cn .
+
+ele:Q3164 rdfs:label "枇杷仁"@cn .
+
+ele:Q3165 rdfs:label "洋茴香"@cn .
+
+ele:Q3166 rdfs:label "橘红"@cn .
+
+ele:Q3167 rdfs:label "山楂清膏"@cn .
+
+ele:Q3168 rdfs:label "墨旱莲茯苓"@cn .
+
+ele:Q3169 rdfs:label "石椒草"@cn .
+
+ele:Q3170 rdfs:label "松馏油升"@cn .
+
+ele:Q3171 rdfs:label "紫河车"@cn .
+
+ele:Q3172 rdfs:label "四叶参"@cn .
+
+ele:Q3173 rdfs:label "墨早莲"@cn .
+
+ele:Q3174 rdfs:label "肉桂"@cn .
+
+ele:Q3175 rdfs:label "破布木果"@cn .
+
+ele:Q3176 rdfs:label "藏茄流浸膏"@cn .
+
+ele:Q3177 rdfs:label "酵母"@cn .
+
+ele:Q3178 rdfs:label "蛋黄油"@cn .
+
+ele:Q3179 rdfs:label "氯普噻吨"@cn .
+
+ele:Q3180 rdfs:label "番泻果实"@cn .
+
+ele:Q3181 rdfs:label "远志流浸膏"@cn .
+
+ele:Q3182 rdfs:label "已烯雌酚"@cn .
+
+ele:Q3183 rdfs:label "没药粉"@cn .
+
+ele:Q3184 rdfs:label "乌灵菌粉"@cn .
+
+ele:Q3185 rdfs:label "娱蚣"@cn .
+
+ele:Q3186 rdfs:label "花蕊石"@cn .
+
+ele:Q3187 rdfs:label "当规"@cn .
+
+ele:Q3188 rdfs:label "苘麻子苘麻子"@cn .
+
+ele:Q3189 rdfs:label "正硼酸"@cn .
+
+ele:Q3190 rdfs:label "鞣酸"@cn .
+
+ele:Q3191 rdfs:label "甘草二两"@cn .
+
+ele:Q3192 rdfs:label "牛胆粉"@cn .
+
+ele:Q3193 rdfs:label "菟丝子"@cn .
+
+ele:Q3194 rdfs:label "乌桕根皮"@cn .
+
+ele:Q3195 rdfs:label "依巴斯汀"@cn .
+
+ele:Q3196 rdfs:label "野木瓜"@cn .
+
+ele:Q3197 rdfs:label "盐酸噻氯匹定"@cn .
+
+ele:Q3198 rdfs:label "黑紫藜芦"@cn .
+
+ele:Q3199 rdfs:label "冬瓜皮"@cn .
+
+ele:Q3200 rdfs:label "替尼泊苷"@cn .
+
+ele:Q3201 rdfs:label "厚补"@cn .
+
+ele:Q3202 rdfs:label "阿胶各三分"@cn .
+
+ele:Q3203 rdfs:label "无患子根"@cn .
+
+ele:Q3204 rdfs:label "香精"@cn .
+
+ele:Q3205 rdfs:label "柳氮磺吡啶"@cn .
+
+ele:Q3206 rdfs:label "人参须"@cn .
+
+ele:Q3207 rdfs:label "万筋藤"@cn .
+
+ele:Q3208 rdfs:label "大蓟"@cn .
+
+ele:Q3209 rdfs:label "赤药"@cn .
+
+ele:Q3210 rdfs:label "甘草干浸膏"@cn .
+
+ele:Q3211 rdfs:label "薰衣草油"@cn .
+
+ele:Q3212 rdfs:label "肌苷"@cn .
+
+ele:Q3213 rdfs:label "黄根"@cn .
+
+ele:Q3214 rdfs:label "氢化可的松琥珀酸钠"@cn .
+
+ele:Q3215 rdfs:label "氯烯雌醚"@cn .
+
+ele:Q3216 rdfs:label "奶油香精"@cn .
+
+ele:Q3217 rdfs:label "盐酸芦氟沙星"@cn .
+
+ele:Q3218 rdfs:label "头孢硫脒"@cn .
+
+ele:Q3219 rdfs:label "克霉唑"@cn .
+
+ele:Q3220 rdfs:label "脂质脂肪酸"@cn .
+
+ele:Q3221 rdfs:label "盐酸昂丹司琼"@cn .
+
+ele:Q3222 rdfs:label "花椒目"@cn .
+
+ele:Q3223 rdfs:label "龙眼肉"@cn .
+
+ele:Q3224 rdfs:label "硫酸依替米星"@cn .
+
+ele:Q3225 rdfs:label "氟哌啶醇"@cn .
+
+ele:Q3226 rdfs:label "人参麦冬"@cn .
+
+ele:Q3227 rdfs:label "四方木皮"@cn .
+
+ele:Q3228 rdfs:label "盐酸环丙沙星"@cn .
+
+ele:Q3229 rdfs:label "巴朝天"@cn .
+
+ele:Q3230 rdfs:label "珍珠精卵液"@cn .
+
+ele:Q3231 rdfs:label "尼莫地平"@cn .
+
+ele:Q3232 rdfs:label "三七根"@cn .
+
+ele:Q3233 rdfs:label "大麻药"@cn .
+
+ele:Q3234 rdfs:label "甜瓜子"@cn .
+
+ele:Q3235 rdfs:label "小分子量生物活性多肽物质"@cn .
+
+ele:Q3236 rdfs:label "广升麻"@cn .
+
+ele:Q3237 rdfs:label "尼替了"@cn .
+
+ele:Q3238 rdfs:label "广山楂"@cn .
+
+ele:Q3239 rdfs:label "土蟞虫"@cn .
+
+ele:Q3240 rdfs:label "獐牙菜"@cn .
+
+ele:Q3241 rdfs:label "淡豆豉"@cn .
+
+ele:Q3242 rdfs:label "希莶草"@cn .
+
+ele:Q3243 rdfs:label "盐炙"@cn .
+
+ele:Q3244 rdfs:label "度米芬"@cn .
+
+ele:Q3245 rdfs:label "茅根"@cn .
+
+ele:Q3246 rdfs:label "獐芽菜"@cn .
+
+ele:Q3247 rdfs:label "薄荷"@cn .
+
+ele:Q3248 rdfs:label "草乌甲素"@cn .
+
+ele:Q3249 rdfs:label "天然冰片"@cn .
+
+ele:Q3250 rdfs:label "酸麻黄碱"@cn .
+
+ele:Q3251 rdfs:label "饱和脂肪酸"@cn .
+
+ele:Q3252 rdfs:label "白花茶"@cn .
+
+ele:Q3253 rdfs:label "土获"@cn .
+
+ele:Q3254 rdfs:label "蒲公英丹参"@cn .
+
+ele:Q3255 rdfs:label "羊鞭胶"@cn .
+
+ele:Q3256 rdfs:label "蔓荆子"@cn .
+
+ele:Q3257 rdfs:label "覆盆子"@cn .
+
+ele:Q3258 rdfs:label "游离凝固酶"@cn .
+
+ele:Q3259 rdfs:label "萆薢"@cn .
+
+ele:Q3260 rdfs:label "炙甘草"@cn .
+
+ele:Q3261 rdfs:label "苹果"@cn .
+
+ele:Q3262 rdfs:label "罂粟壳"@cn .
+
+ele:Q3263 rdfs:label "二氧乙酰胺"@cn .
+
+ele:Q3264 rdfs:label "熟酒曲"@cn .
+
+ele:Q3265 rdfs:label "樟脑磺酸钠"@cn .
+
+ele:Q3266 rdfs:label "青鱼胆草"@cn .
+
+ele:Q3267 rdfs:label "无名异"@cn .
+
+ele:Q3268 rdfs:label "绞股蓝总甙"@cn .
+
+ele:Q3269 rdfs:label "鸡蛋壳"@cn .
+
+ele:Q3270 rdfs:label "关木通"@cn .
+
+ele:Q3271 rdfs:label "无水硫酸钠"@cn .
+
+ele:Q3272 rdfs:label "良姜"@cn .
+
+ele:Q3273 rdfs:label "炮姜"@cn .
+
+ele:Q3274 rdfs:label "川芎丝子"@cn .
+
+ele:Q3275 rdfs:label "注射用甘油"@cn .
+
+ele:Q3276 rdfs:label "湘曲党参"@cn .
+
+ele:Q3277 rdfs:label "二甲基亚砜"@cn .
+
+ele:Q3278 rdfs:label "白附片"@cn .
+
+ele:Q3279 rdfs:label "右旋泛酸钙"@cn .
+
+ele:Q3280 rdfs:label "甘精胰岛素"@cn .
+
+ele:Q3281 rdfs:label "西瓜"@cn .
+
+ele:Q3282 rdfs:label "驴皮经煎煮"@cn .
+
+ele:Q3283 rdfs:label "兔耳草"@cn .
+
+ele:Q3284 rdfs:label "使君子肉"@cn .
+
+ele:Q3285 rdfs:label "白术二两"@cn .
+
+ele:Q3286 rdfs:label "黑面神"@cn .
+
+ele:Q3287 rdfs:label "淡附片"@cn .
+
+ele:Q3288 rdfs:label "薤白"@cn .
+
+ele:Q3289 rdfs:label "排草"@cn .
+
+ele:Q3290 rdfs:label "盐酸小檗碱"@cn .
+
+ele:Q3291 rdfs:label "草脑"@cn .
+
+ele:Q3292 rdfs:label "盐酸普萘洛尔"@cn .
+
+ele:Q3293 rdfs:label "露兜勒"@cn .
+
+ele:Q3294 rdfs:label "五灵脂"@cn .
+
+ele:Q3295 rdfs:label "大托叶云实"@cn .
+
+ele:Q3296 rdfs:label "石南叶"@cn .
+
+ele:Q3297 rdfs:label "赤芍"@cn .
+
+ele:Q3298 rdfs:label "荆芥穗"@cn .
+
+ele:Q3299 rdfs:label "奥美拉唑钠"@cn .
+
+ele:Q3300 rdfs:label "萹蓄"@cn .
+
+ele:Q3301 rdfs:label "二氧化物"@cn .
+
+ele:Q3302 rdfs:label "丹参酮粉"@cn .
+
+ele:Q3303 rdfs:label "当归油"@cn .
+
+ele:Q3304 rdfs:label "清半夏"@cn .
+
+ele:Q3305 rdfs:label "莲子"@cn .
+
+ele:Q3306 rdfs:label "寻骨风"@cn .
+
+ele:Q3307 rdfs:label "四季青"@cn .
+
+ele:Q3308 rdfs:label "海马"@cn .
+
+ele:Q3309 rdfs:label "二酮缩氨脲"@cn .
+
+ele:Q3310 rdfs:label "氯贝丁酯"@cn .
+
+ele:Q3311 rdfs:label "蔓菁膏"@cn .
+
+ele:Q3312 rdfs:label "山茱萸"@cn .
+
+ele:Q3313 rdfs:label "葛花"@cn .
+
+ele:Q3314 rdfs:label "磺胺多辛"@cn .
+
+ele:Q3315 rdfs:label "甘草流浸膏"@cn .
+
+ele:Q3316 rdfs:label "疾藜疾藜"@cn .
+
+ele:Q3317 rdfs:label "氯化琥珀胆碱"@cn .
+
+ele:Q3318 rdfs:label "乳香"@cn .
+
+ele:Q3319 rdfs:label "白术"@cn .
+
+ele:Q3320 rdfs:label "茯苓红参"@cn .
+
+ele:Q3321 rdfs:label "匹多莫德"@cn .
+
+ele:Q3322 rdfs:label "瓜萎子"@cn .
+
+ele:Q3323 rdfs:label "佐匹隆"@cn .
+
+ele:Q3324 rdfs:label "秦艽花"@cn .
+
+ele:Q3325 rdfs:label "黄酮"@cn .
+
+ele:Q3326 rdfs:label "苯酰甲硝唑"@cn .
+
+ele:Q3327 rdfs:label "光明盐"@cn .
+
+ele:Q3328 rdfs:label "血竭"@cn .
+
+ele:Q3329 rdfs:label "头孢噻肟钠"@cn .
+
+ele:Q3330 rdfs:label "小罗伞"@cn .
+
+ele:Q3331 rdfs:label "蓖麻子"@cn .
+
+ele:Q3332 rdfs:label "多糖和多肽"@cn .
+
+ele:Q3333 rdfs:label "扁豆花"@cn .
+
+ele:Q3334 rdfs:label "灯台叶"@cn .
+
+ele:Q3335 rdfs:label "洛莫司汀"@cn .
+
+ele:Q3336 rdfs:label "布渣时"@cn .
+
+ele:Q3337 rdfs:label "川灯心草"@cn .
+
+ele:Q3338 rdfs:label "茶碱"@cn .
+
+ele:Q3339 rdfs:label "荷叶"@cn .
+
+ele:Q3340 rdfs:label "苯溴马隆"@cn .
+
+ele:Q3341 rdfs:label "藏紫草"@cn .
+
+ele:Q3342 rdfs:label "厚朴花"@cn .
+
+ele:Q3343 rdfs:label "钩藤"@cn .
+
+ele:Q3344 rdfs:label "过塘蛇"@cn .
+
+ele:Q3345 rdfs:label "全虫"@cn .
+
+ele:Q3346 rdfs:label "氮酮"@cn .
+
+ele:Q3347 rdfs:label "二甲基亚矾"@cn .
+
+ele:Q3348 rdfs:label "九眼石"@cn .
+
+ele:Q3349 rdfs:label "左氧氟沙星"@cn .
+
+ele:Q3350 rdfs:label "剌蒺藜浸膏"@cn .
+
+ele:Q3351 rdfs:label "蛭石"@cn .
+
+ele:Q3352 rdfs:label "黑旱莲"@cn .
+
+ele:Q3353 rdfs:label "豆蔻郁金"@cn .
+
+ele:Q3354 rdfs:label "透骨香"@cn .
+
+ele:Q3355 rdfs:label "枇杷叶"@cn .
+
+ele:Q3356 rdfs:label "鸡血藤浸膏"@cn .
+
+ele:Q3357 rdfs:label "叶下珠"@cn .
+
+ele:Q3358 rdfs:label "石菖蒲"@cn .
+
+ele:Q3359 rdfs:label "附子"@cn .
+
+ele:Q3360 rdfs:label "吲哚美辛"@cn .
+
+ele:Q3361 rdfs:label "赤芍板蓝根"@cn .
+
+ele:Q3362 rdfs:label "绵萆薢"@cn .
+
+ele:Q3363 rdfs:label "松塔"@cn .
+
+ele:Q3364 rdfs:label "藕粉"@cn .
+
+ele:Q3365 rdfs:label "国产血竭"@cn .
+
+ele:Q3366 rdfs:label "蜂房"@cn .
+
+ele:Q3367 rdfs:label "黄连粉"@cn .
+
+ele:Q3368 rdfs:label "扑热息痛"@cn .
+
+ele:Q3369 rdfs:label "葫芦巴"@cn .
+
+ele:Q3370 rdfs:label "狗肾胶"@cn .
+
+ele:Q3371 rdfs:label "红枣"@cn .
+
+ele:Q3372 rdfs:label "麦麸"@cn .
+
+ele:Q3373 rdfs:label "水杨酸钠和碘化钠"@cn .
+
+ele:Q3374 rdfs:label "盐酸帕罗西汀"@cn .
+
+ele:Q3375 rdfs:label "青蛙七"@cn .
+
+ele:Q3376 rdfs:label "氟米龙"@cn .
+
+ele:Q3377 rdfs:label "福尔可定"@cn .
+
+ele:Q3378 rdfs:label "托吡酯"@cn .
+
+ele:Q3379 rdfs:label "板蓝板"@cn .
+
+ele:Q3380 rdfs:label "熊胆"@cn .
+
+ele:Q3381 rdfs:label "盐酸地芬尼多"@cn .
+
+ele:Q3382 rdfs:label "手参"@cn .
+
+ele:Q3383 rdfs:label "石蟹"@cn .
+
+ele:Q3384 rdfs:label "木香"@cn .
+
+ele:Q3385 rdfs:label "桂利嗪"@cn .
+
+ele:Q3386 rdfs:label "阿片酊"@cn .
+
+ele:Q3387 rdfs:label "鸭脚木"@cn .
+
+ele:Q3388 rdfs:label "三尖杉"@cn .
+
+ele:Q3389 rdfs:label "莲须"@cn .
+
+ele:Q3390 rdfs:label "内含氯化钠"@cn .
+
+ele:Q3391 rdfs:label "皂矾"@cn .
+
+ele:Q3392 rdfs:label "匾蓄"@cn .
+
+ele:Q3393 rdfs:label "头孢泊肟酯"@cn .
+
+ele:Q3394 rdfs:label "芍药"@cn .
+
+ele:Q3395 rdfs:label "牛耳枫"@cn .
+
+ele:Q3396 rdfs:label "禹粮土"@cn .
+
+ele:Q3397 rdfs:label "黄连素"@cn .
+
+ele:Q3398 rdfs:label "肉桂"@cn .
+
+ele:Q3399 rdfs:label "牛乳"@cn .
+
+ele:Q3400 rdfs:label "舒巴坦匹酯"@cn .
+
+ele:Q3401 rdfs:label "珊瑚"@cn .
+
+ele:Q3402 rdfs:label "人工麝香"@cn .
+
+ele:Q3403 rdfs:label "丁茄根"@cn .
+
+ele:Q3404 rdfs:label "船形乌头"@cn .
+
+ele:Q3405 rdfs:label "丝瓜络丝瓜络"@cn .
+
+ele:Q3406 rdfs:label "马钱子马钱子"@cn .
+
+ele:Q3407 rdfs:label "丛菔"@cn .
+
+ele:Q3408 rdfs:label "桂圆肉"@cn .
+
+ele:Q3409 rdfs:label "九节菖蒲"@cn .
+
+ele:Q3410 rdfs:label "亚硫酸氢钠"@cn .
+
+ele:Q3411 rdfs:label "水杨梅"@cn .
+
+ele:Q3412 rdfs:label "磷酸丙吡胺"@cn .
+
+ele:Q3413 rdfs:label "松香"@cn .
+
+ele:Q3414 rdfs:label "白凡士林"@cn .
+
+ele:Q3415 rdfs:label "廷胡索"@cn .
+
+ele:Q3416 rdfs:label "川蜡"@cn .
+
+ele:Q3417 rdfs:label "绿豆"@cn .
+
+ele:Q3418 rdfs:label "头孢妥仑匹酯"@cn .
+
+ele:Q3419 rdfs:label "天冬牛膝"@cn .
+
+ele:Q3420 rdfs:label "蚂蚁"@cn .
+
+ele:Q3421 rdfs:label "依托泊苷"@cn .
+
+ele:Q3422 rdfs:label "赖氨匹林"@cn .
+
+ele:Q3423 rdfs:label "决明子"@cn .
+
+ele:Q3424 rdfs:label "厚叶川木香k"@cn .
+
+ele:Q3425 rdfs:label "大观霉素"@cn .
+
+ele:Q3426 rdfs:label "双氯芬酸钾"@cn .
+
+ele:Q3427 rdfs:label "草乌叶"@cn .
+
+ele:Q3428 rdfs:label "苍术茯苓"@cn .
+
+ele:Q3429 rdfs:label "新阿胶"@cn .
+
+ele:Q3430 rdfs:label "活性肽"@cn .
+
+ele:Q3431 rdfs:label "土藿香油"@cn .
+
+ele:Q3432 rdfs:label "华中五味子"@cn .
+
+ele:Q3433 rdfs:label "苯佐卡因"@cn .
+
+ele:Q3434 rdfs:label "桃仁"@cn .
+
+ele:Q3435 rdfs:label "高三尖杉酯碱"@cn .
+
+ele:Q3436 rdfs:label "神草"@cn .
+
+ele:Q3437 rdfs:label "摈榔"@cn .
+
+ele:Q3438 rdfs:label "甲巯咪唑"@cn .
+
+ele:Q3439 rdfs:label "氨茶碱"@cn .
+
+ele:Q3440 rdfs:label "飞龙掌血叶"@cn .
+
+ele:Q3441 rdfs:label "百部薄荷油"@cn .
+
+ele:Q3442 rdfs:label "单磷酸阿糖腺苷"@cn .
+
+ele:Q3443 rdfs:label "活乌龟"@cn .
+
+ele:Q3444 rdfs:label "奥沙西泮"@cn .
+
+ele:Q3445 rdfs:label "鱼精蛋白和重组人胰岛素"@cn .
+
+ele:Q3446 rdfs:label "莪术"@cn .
+
+ele:Q3447 rdfs:label "扎氯铵"@cn .
+
+ele:Q3448 rdfs:label "盐酸哌甲酯"@cn .
+
+ele:Q3449 rdfs:label "百草霜粉"@cn .
+
+ele:Q3450 rdfs:label "鸡眼草"@cn .
+
+ele:Q3451 rdfs:label "盐酸金霉素"@cn .
+
+ele:Q3452 rdfs:label "石脂"@cn .
+
+ele:Q3453 rdfs:label "纤维"@cn .
+
+ele:Q3454 rdfs:label "酒药"@cn .
+
+ele:Q3455 rdfs:label "莱阳梨清膏"@cn .
+
+ele:Q3456 rdfs:label "黄革"@cn .
+
+ele:Q3457 rdfs:label "芫荽果"@cn .
+
+ele:Q3458 rdfs:label "十一酸睾酮"@cn .
+
+ele:Q3459 rdfs:label "顺铂"@cn .
+
+ele:Q3460 rdfs:label "鞣酸"@cn .
+
+ele:Q3461 rdfs:label "金针菇"@cn .
+
+ele:Q3462 rdfs:label "枯矾冰片"@cn .
+
+ele:Q3463 rdfs:label "地红霉素"@cn .
+
+ele:Q3464 rdfs:label "木鳖子木鳖子"@cn .
+
+ele:Q3465 rdfs:label "海龙"@cn .
+
+ele:Q3466 rdfs:label "蛋白糖"@cn .
+
+ele:Q3467 rdfs:label "金钱白花蛇"@cn .
+
+ele:Q3468 rdfs:label "金钱草"@cn .
+
+ele:Q3469 rdfs:label "艾司唑仑"@cn .
+
+ele:Q3470 rdfs:label "姜黄"@cn .
+
+ele:Q3471 rdfs:label "轮环藤根"@cn .
+
+ele:Q3472 rdfs:label "黄氧化汞"@cn .
+
+ele:Q3473 rdfs:label "白芍等中药"@cn .
+
+ele:Q3474 rdfs:label "石菖蒲浸膏"@cn .
+
+ele:Q3475 rdfs:label "水东哥"@cn .
+
+ele:Q3476 rdfs:label "草珊瑚"@cn .
+
+ele:Q3477 rdfs:label "白首乌"@cn .
+
+ele:Q3478 rdfs:label "水杨酸甲酯"@cn .
+
+ele:Q3479 rdfs:label "红景天"@cn .
+
+ele:Q3480 rdfs:label "结合雌激素"@cn .
+
+ele:Q3481 rdfs:label "胆红素"@cn .
+
+ele:Q3482 rdfs:label "狗肾"@cn .
+
+ele:Q3483 rdfs:label "黄药子"@cn .
+
+ele:Q3484 rdfs:label "经病毒灭活"@cn .
+
+ele:Q3485 rdfs:label "磷酸铝"@cn .
+
+ele:Q3486 rdfs:label "筋骨草"@cn .
+
+ele:Q3487 rdfs:label "石膏"@cn .
+
+ele:Q3488 rdfs:label "精制红花油"@cn .
+
+ele:Q3489 rdfs:label "二甲亚砚"@cn .
+
+ele:Q3490 rdfs:label "哈壳"@cn .
+
+ele:Q3491 rdfs:label "硬酯酸镁"@cn .
+
+ele:Q3492 rdfs:label "庐山石韦"@cn .
+
+ele:Q3493 rdfs:label "追风伞"@cn .
+
+ele:Q3494 rdfs:label "樟木"@cn .
+
+ele:Q3495 rdfs:label "无花果无花果"@cn .
+
+ele:Q3496 rdfs:label "蒂达"@cn .
+
+ele:Q3497 rdfs:label "毛诃子肉"@cn .
+
+ele:Q3498 rdfs:label "多磺酸粘多糖"@cn .
+
+ele:Q3499 rdfs:label "扯根菜"@cn .
+
+ele:Q3500 rdfs:label "水牛角"@cn .
+
+ele:Q3501 rdfs:label "自然铜"@cn .
+
+ele:Q3502 rdfs:label "通关藤浸膏"@cn .
+
+ele:Q3503 rdfs:label "白矾"@cn .
+
+ele:Q3504 rdfs:label "氨酪酸"@cn .
+
+ele:Q3505 rdfs:label "断节参"@cn .
+
+ele:Q3506 rdfs:label "葛根乌梅"@cn .
+
+ele:Q3507 rdfs:label "伸筋"@cn .
+
+ele:Q3508 rdfs:label "搜山虎"@cn .
+
+ele:Q3509 rdfs:label "火麻仁"@cn .
+
+ele:Q3510 rdfs:label "缬沙坦"@cn .
+
+ele:Q3511 rdfs:label "硬脂肪酸镁"@cn .
+
+ele:Q3512 rdfs:label "化钾"@cn .
+
+ele:Q3513 rdfs:label "陈皮陈皮"@cn .
+
+ele:Q3514 rdfs:label "土荆皮"@cn .
+
+ele:Q3515 rdfs:label "甲氯芬酯"@cn .
+
+ele:Q3516 rdfs:label "麻黄粉"@cn .
+
+ele:Q3517 rdfs:label "槐米"@cn .
+
+ele:Q3518 rdfs:label "苄达赖氨酸"@cn .
+
+ele:Q3519 rdfs:label "苯甲酸"@cn .
+
+ele:Q3520 rdfs:label "蛤蚧"@cn .
+
+ele:Q3521 rdfs:label "首乌"@cn .
+
+ele:Q3522 rdfs:label "利福昔明"@cn .
+
+ele:Q3523 rdfs:label "替考拉宁"@cn .
+
+ele:Q3524 rdfs:label "环草石斛"@cn .
+
+ele:Q3525 rdfs:label "盐酸吗啉胍"@cn .
+
+ele:Q3526 rdfs:label "乌洛托品"@cn .
+
+ele:Q3527 rdfs:label "阿拉伯胶"@cn .
+
+ele:Q3528 rdfs:label "无水枸橼酸"@cn .
+
+ele:Q3529 rdfs:label "阿法骨化醇"@cn .
+
+ele:Q3530 rdfs:label "青霉素钠"@cn .
+
+ele:Q3531 rdfs:label "石膏蒲清膏"@cn .
+
+ele:Q3532 rdfs:label "甘糖酯"@cn .
+
+ele:Q3533 rdfs:label "地栗粉"@cn .
+
+ele:Q3534 rdfs:label "单糖浆"@cn .
+
+ele:Q3535 rdfs:label "妥布霉素"@cn .
+
+ele:Q3536 rdfs:label "羟基脲"@cn .
+
+ele:Q3537 rdfs:label "土贝母"@cn .
+
+ele:Q3538 rdfs:label "金银花菊花"@cn .
+
+ele:Q3539 rdfs:label "马齿笕"@cn .
+
+ele:Q3540 rdfs:label "铜绿"@cn .
+
+ele:Q3541 rdfs:label "林下参"@cn .
+
+ele:Q3542 rdfs:label "山茱肉"@cn .
+
+ele:Q3543 rdfs:label "豆科植物甘草的根中提取得到的有效成分与锌结合的含锌药物"@cn .
+
+ele:Q3544 rdfs:label "印度獐牙菜"@cn .
+
+ele:Q3545 rdfs:label "铁棒锤"@cn .
+
+ele:Q3546 rdfs:label "小米辣"@cn .
+
+ele:Q3547 rdfs:label "福辛普列钠"@cn .
+
+ele:Q3548 rdfs:label "乳酸钠"@cn .
+
+ele:Q3549 rdfs:label "红曲"@cn .
+
+ele:Q3550 rdfs:label "卡波姆"@cn .
+
+ele:Q3551 rdfs:label "佩兰"@cn .
+
+ele:Q3552 rdfs:label "甲磺酸培高利特"@cn .
+
+ele:Q3553 rdfs:label "紫檀香"@cn .
+
+ele:Q3554 rdfs:label "醋酸曲普瑞林"@cn .
+
+ele:Q3555 rdfs:label "双水杨酯"@cn .
+
+ele:Q3556 rdfs:label "益智"@cn .
+
+ele:Q3557 rdfs:label "磺胺脒"@cn .
+
+ele:Q3558 rdfs:label "西红花"@cn .
+
+ele:Q3559 rdfs:label "卡托普利"@cn .
+
+ele:Q3560 rdfs:label "金钱花"@cn .
+
+ele:Q3561 rdfs:label "二十碳五烯酸乙酯"@cn .
+
+ele:Q3562 rdfs:label "马来酸麦角新碱"@cn .
+
+ele:Q3563 rdfs:label "蜈蚣"@cn .
+
+ele:Q3564 rdfs:label "望江南"@cn .
+
+ele:Q3565 rdfs:label "岩精膏"@cn .
+
+ele:Q3566 rdfs:label "川膝"@cn .
+
+ele:Q3567 rdfs:label "圆柏枝"@cn .
+
+ele:Q3568 rdfs:label "薄荷脑"@cn .
+
+ele:Q3569 rdfs:label "狗脊"@cn .
+
+ele:Q3570 rdfs:label "钻地风"@cn .
+
+ele:Q3571 rdfs:label "女贞妇"@cn .
+
+ele:Q3572 rdfs:label "迷果芹"@cn .
+
+ele:Q3573 rdfs:label "虫白蜡"@cn .
+
+ele:Q3574 rdfs:label "木鳖子"@cn .
+
+ele:Q3575 rdfs:label "直立百部"@cn .
+
+ele:Q3576 rdfs:label "维他命"@cn .
+
+ele:Q3577 rdfs:label "甲硫氨酸"@cn .
+
+ele:Q3578 rdfs:label "刺柏"@cn .
+
+ele:Q3579 rdfs:label "单唾液酸四己糖神经节苷脂钠"@cn .
+
+ele:Q3580 rdfs:label "瓜蒌皮"@cn .
+
+ele:Q3581 rdfs:label "盐酸硫利达嗪"@cn .
+
+ele:Q3582 rdfs:label "甘草杜仲"@cn .
+
+ele:Q3583 rdfs:label "木通等"@cn .
+
+ele:Q3584 rdfs:label "吉他霉素"@cn .
+
+ele:Q3585 rdfs:label "苯丁氧丙醇"@cn .
+
+ele:Q3586 rdfs:label "驴鞭"@cn .
+
+ele:Q3587 rdfs:label "西番莲"@cn .
+
+ele:Q3588 rdfs:label "赭石"@cn .
+
+ele:Q3589 rdfs:label "五加皮"@cn .
+
+ele:Q3590 rdfs:label "冬氨酸"@cn .
+
+ele:Q3591 rdfs:label "普伐他汀钠"@cn .
+
+ele:Q3592 rdfs:label "常春藤"@cn .
+
+ele:Q3593 rdfs:label "甲硫酸新斯的明"@cn .
+
+ele:Q3594 rdfs:label "北细辛"@cn .
+
+ele:Q3595 rdfs:label "烈香杜鹃"@cn .
+
+ele:Q3596 rdfs:label "羟丁酸钠"@cn .
+
+ele:Q3597 rdfs:label "卡铂"@cn .
+
+ele:Q3598 rdfs:label "甲硝唑磷酸二钠"@cn .
+
+ele:Q3599 rdfs:label "三棱"@cn .
+
+ele:Q3600 rdfs:label "悬钩子木"@cn .
+
+ele:Q3601 rdfs:label "菌陈"@cn .
+
+ele:Q3602 rdfs:label "枸橼酸氢钠"@cn .
+
+ele:Q3603 rdfs:label "利巴书林"@cn .
+
+ele:Q3604 rdfs:label "钾"@cn .
+
+ele:Q3605 rdfs:label "猴骨"@cn .
+
+ele:Q3606 rdfs:label "普罗布考"@cn .
+
+ele:Q3607 rdfs:label "地黄酊"@cn .
+
+ele:Q3608 rdfs:label "龟板"@cn .
+
+ele:Q3609 rdfs:label "穿心莲"@cn .
+
+ele:Q3610 rdfs:label "白术"@cn .
+
+ele:Q3611 rdfs:label "双氯芬酸钠"@cn .
+
+ele:Q3612 rdfs:label "丹参干浸膏"@cn .
+
+ele:Q3613 rdfs:label "法法半夏"@cn .
+
+ele:Q3614 rdfs:label "羊角七"@cn .
+
+ele:Q3615 rdfs:label "土堂参"@cn .
+
+ele:Q3616 rdfs:label "石楠叶"@cn .
+
+ele:Q3617 rdfs:label "巴豆叶"@cn .
+
+ele:Q3618 rdfs:label "白葡萄干"@cn .
+
+ele:Q3619 rdfs:label "盐酸二甲弗林"@cn .
+
+ele:Q3620 rdfs:label "富马酸亚铁"@cn .
+
+ele:Q3621 rdfs:label "西咪替丁"@cn .
+
+ele:Q3622 rdfs:label "丙谷胺"@cn .
+
+ele:Q3623 rdfs:label "三梭"@cn .
+
+ele:Q3624 rdfs:label "梨膏"@cn .
+
+ele:Q3625 rdfs:label "重组链激酶"@cn .
+
+ele:Q3626 rdfs:label "缬氨酸"@cn .
+
+ele:Q3627 rdfs:label "天竺子天竺子"@cn .
+
+ele:Q3628 rdfs:label "金丝梅鲜果"@cn .
+
+ele:Q3629 rdfs:label "穆库没药"@cn .
+
+ele:Q3630 rdfs:label "含甘露醇"@cn .
+
+ele:Q3631 rdfs:label "阿洛西林钠"@cn .
+
+ele:Q3632 rdfs:label "痰火草"@cn .
+
+ele:Q3633 rdfs:label "阿伐斯汀"@cn .
+
+ele:Q3634 rdfs:label "冬葵子"@cn .
+
+ele:Q3635 rdfs:label "钩腾"@cn .
+
+ele:Q3636 rdfs:label "霉唑"@cn .
+
+ele:Q3637 rdfs:label "炔雌醚"@cn .
+
+ele:Q3638 rdfs:label "味子"@cn .
+
+ele:Q3639 rdfs:label "绒促性素"@cn .
+
+ele:Q3640 rdfs:label "川楝子"@cn .
+
+ele:Q3641 rdfs:label "黄瓜籽"@cn .
+
+ele:Q3642 rdfs:label "炔雌醇"@cn .
+
+ele:Q3643 rdfs:label "川芍"@cn .
+
+ele:Q3644 rdfs:label "川芎"@cn .
+
+ele:Q3645 rdfs:label "氟哌利多"@cn .
+
+ele:Q3646 rdfs:label "橄榄核"@cn .
+
+ele:Q3647 rdfs:label "蚕沙"@cn .
+
+ele:Q3648 rdfs:label "预知子预知子"@cn .
+
+ele:Q3649 rdfs:label "氨苯蝶啶"@cn .
+
+ele:Q3650 rdfs:label "间苯二酚各"@cn .
+
+ele:Q3651 rdfs:label "绵毛马兜铃"@cn .
+
+ele:Q3652 rdfs:label "茴香油"@cn .
+
+ele:Q3653 rdfs:label "樟树子"@cn .
+
+ele:Q3654 rdfs:label "盐酸多塞平"@cn .
+
+ele:Q3655 rdfs:label "白酒升"@cn .
+
+ele:Q3656 rdfs:label "青果核"@cn .
+
+ele:Q3657 rdfs:label "女贞子"@cn .
+
+ele:Q3658 rdfs:label "白芍白术"@cn .
+
+ele:Q3659 rdfs:label "盐酸阿糖胞苷"@cn .
+
+ele:Q3660 rdfs:label "甘草侧柏叶"@cn .
+
+ele:Q3661 rdfs:label "川草"@cn .
+
+ele:Q3662 rdfs:label "酮康唑"@cn .
+
+ele:Q3663 rdfs:label "使君子"@cn .
+
+ele:Q3664 rdfs:label "瑞格列奈"@cn .
+
+ele:Q3665 rdfs:label "手掌参"@cn .
+
+ele:Q3666 rdfs:label "氯乙烷"@cn .
+
+ele:Q3667 rdfs:label "浓薄荷水"@cn .
+
+ele:Q3668 rdfs:label "肉桂冰片"@cn .
+
+ele:Q3669 rdfs:label "蔊菜"@cn .
+
+ele:Q3670 rdfs:label "冰片薄荷脑"@cn .
+
+ele:Q3671 rdfs:label "火炭母"@cn .
+
+ele:Q3672 rdfs:label "醋酸麦迪霉素"@cn .
+
+ele:Q3673 rdfs:label "龟板胶"@cn .
+
+ele:Q3674 rdfs:label "九节草蒲"@cn .
+
+ele:Q3675 rdfs:label "白豆寇"@cn .
+
+ele:Q3676 rdfs:label "无水碳酸钠"@cn .
+
+ele:Q3677 rdfs:label "发热剂"@cn .
+
+ele:Q3678 rdfs:label "重质碳酸镁"@cn .
+
+ele:Q3679 rdfs:label "乌梅"@cn .
+
+ele:Q3680 rdfs:label "交沙霉素"@cn .
+
+ele:Q3681 rdfs:label "蔗糖或糊精"@cn .
+
+ele:Q3682 rdfs:label "氨甲环酸"@cn .
+
+ele:Q3683 rdfs:label "薄荷脑"@cn .
+
+ele:Q3684 rdfs:label "雷贝拉唑钠"@cn .
+
+ele:Q3685 rdfs:label "当归熟地黄"@cn .
+
+ele:Q3686 rdfs:label "红花川乌"@cn .
+
+ele:Q3687 rdfs:label "聚山梨醇酯"@cn .
+
+ele:Q3688 rdfs:label "铁苋菜"@cn .
+
+ele:Q3689 rdfs:label "鸡肠狼毒"@cn .
+
+ele:Q3690 rdfs:label "矮垂头菊"@cn .
+
+ele:Q3691 rdfs:label "酞磺胺噻唑"@cn .
+
+ele:Q3692 rdfs:label "岩白菜素"@cn .
+
+ele:Q3693 rdfs:label "香瓜子"@cn .
+
+ele:Q3694 rdfs:label "核苷酸"@cn .
+
+ele:Q3695 rdfs:label "石花"@cn .
+
+ele:Q3696 rdfs:label "甲硝唑"@cn .
+
+ele:Q3697 rdfs:label "曲匹布通"@cn .
+
+ele:Q3698 rdfs:label "氯波必利"@cn .
+
+ele:Q3699 rdfs:label "盐酸西布曲明"@cn .
+
+ele:Q3700 rdfs:label "降纤酶"@cn .
+
+ele:Q3701 rdfs:label "菟丝子地黄"@cn .
+
+ele:Q3702 rdfs:label "盐酸阿米替林"@cn .
+
+ele:Q3703 rdfs:label "瞿麦"@cn .
+
+ele:Q3704 rdfs:label "布地奈德"@cn .
+
+ele:Q3705 rdfs:label "石苇"@cn .
+
+ele:Q3706 rdfs:label "威灵灿"@cn .
+
+ele:Q3707 rdfs:label "亚麻子"@cn .
+
+ele:Q3708 rdfs:label "猪脚筋"@cn .
+
+ele:Q3709 rdfs:label "关白附"@cn .
+
+ele:Q3710 rdfs:label "巴豆巴豆"@cn .
+
+ele:Q3711 rdfs:label "阿普唑仑"@cn .
+
+ele:Q3712 rdfs:label "奈韦拉平"@cn .
+
+ele:Q3713 rdfs:label "脱脂"@cn .
+
+ele:Q3714 rdfs:label "积雪草等"@cn .
+
+ele:Q3715 rdfs:label "藏木香"@cn .
+
+ele:Q3716 rdfs:label "磷酸氢钙"@cn .
+
+ele:Q3717 rdfs:label "还原型谷胱甘肽"@cn .
+
+ele:Q3718 rdfs:label "肽"@cn .
+
+ele:Q3719 rdfs:label "姜半复"@cn .
+
+ele:Q3720 rdfs:label "茜草白术"@cn .
+
+ele:Q3721 rdfs:label "姜半夏"@cn .
+
+ele:Q3722 rdfs:label "猎牙皂"@cn .
+
+ele:Q3723 rdfs:label "茯苓"@cn .
+
+ele:Q3724 rdfs:label "糖化素"@cn .
+
+ele:Q3725 rdfs:label "尼泊金乙酯"@cn .
+
+ele:Q3726 rdfs:label "马槟榔"@cn .
+
+ele:Q3727 rdfs:label "岩豇豆"@cn .
+
+ele:Q3728 rdfs:label "藁木"@cn .
+
+ele:Q3729 rdfs:label "蛇药片"@cn .
+
+ele:Q3730 rdfs:label "藁本"@cn .
+
+ele:Q3731 rdfs:label "南布正"@cn .
+
+ele:Q3732 rdfs:label "三乙醇胺"@cn .
+
+ele:Q3733 rdfs:label "市菖蒲"@cn .
+
+ele:Q3734 rdfs:label "经灭活病毒"@cn .
+
+ele:Q3735 rdfs:label "药材浸膏"@cn .
+
+ele:Q3736 rdfs:label "桑叶"@cn .
+
+ele:Q3737 rdfs:label "盐酸布桂嗪"@cn .
+
+ele:Q3738 rdfs:label "盐肤木"@cn .
+
+ele:Q3739 rdfs:label "蜂窝草"@cn .
+
+ele:Q3740 rdfs:label "全叶青兰"@cn .
+
+ele:Q3741 rdfs:label "明胶"@cn .
+
+ele:Q3742 rdfs:label "海参"@cn .
+
+ele:Q3743 rdfs:label "茯芩"@cn .
+
+ele:Q3744 rdfs:label "汉桃叶"@cn .
+
+ele:Q3745 rdfs:label "山白芷"@cn .
+
+ele:Q3746 rdfs:label "普洱茶"@cn .
+
+ele:Q3747 rdfs:label "氨苄西林钠"@cn .
+
+ele:Q3748 rdfs:label "蟾蜍皮"@cn .
+
+ele:Q3749 rdfs:label "青藤"@cn .
+
+ele:Q3750 rdfs:label "龙胆碱"@cn .
+
+ele:Q3751 rdfs:label "培哚普利"@cn .
+
+ele:Q3752 rdfs:label "桔梗流浸膏"@cn .
+
+ele:Q3753 rdfs:label "牡丹皮"@cn .
+
+ele:Q3754 rdfs:label "干鹿肉"@cn .
+
+ele:Q3755 rdfs:label "麝香沉香"@cn .
+
+ele:Q3756 rdfs:label "鸭肉"@cn .
+
+ele:Q3757 rdfs:label "柳寄生"@cn .
+
+ele:Q3758 rdfs:label "氯氮卓"@cn .
+
+ele:Q3759 rdfs:label "茺蔚子"@cn .
+
+ele:Q3760 rdfs:label "米氯平"@cn .
+
+ele:Q3761 rdfs:label "土党参"@cn .
+
+ele:Q3762 rdfs:label "走马胎"@cn .
+
+ele:Q3763 rdfs:label "山风"@cn .
+
+ele:Q3764 rdfs:label "腊梅花"@cn .
+
+ele:Q3765 rdfs:label "毛冬青"@cn .
+
+ele:Q3766 rdfs:label "元胡"@cn .
+
+ele:Q3767 rdfs:label "绞股蓝浸膏"@cn .
+
+ele:Q3768 rdfs:label "吡哌酸"@cn .
+
+ele:Q3769 rdfs:label "荞麦花粉"@cn .
+
+ele:Q3770 rdfs:label "吲达帕胺"@cn .
+
+ele:Q3771 rdfs:label "葡萄干"@cn .
+
+ele:Q3772 rdfs:label "庶糖粉"@cn .
+
+ele:Q3773 rdfs:label "干姜"@cn .
+
+ele:Q3774 rdfs:label "阿昔莫司"@cn .
+
+ele:Q3775 rdfs:label "盐酸酚苄明"@cn .
+
+ele:Q3776 rdfs:label "松叶"@cn .
+
+ele:Q3777 rdfs:label "鹅去氧胆酸"@cn .
+
+ele:Q3778 rdfs:label "盐酸吡格列酮"@cn .
+
+ele:Q3779 rdfs:label "茜草"@cn .
+
+ele:Q3780 rdfs:label "吗啉胍的盐酸盐"@cn .
+
+ele:Q3781 rdfs:label "苏木"@cn .
+
+ele:Q3782 rdfs:label "川西小黄菊"@cn .
+
+ele:Q3783 rdfs:label "橘核"@cn .
+
+ele:Q3784 rdfs:label "非布丙醇"@cn .
+
+ele:Q3785 rdfs:label "大罗伞"@cn .
+
+ele:Q3786 rdfs:label "酵素"@cn .
+
+ele:Q3787 rdfs:label "煅明矾"@cn .
+
+ele:Q3788 rdfs:label "鬼箭羽"@cn .
+
+ele:Q3789 rdfs:label "阿昔洛韦"@cn .
+
+ele:Q3790 rdfs:label "新疆紫草"@cn .
+
+ele:Q3791 rdfs:label "川贝"@cn .
+
+ele:Q3792 rdfs:label "太子参"@cn .
+
+ele:Q3793 rdfs:label "温姜"@cn .
+
+ele:Q3794 rdfs:label "微粉硅胶"@cn .
+
+ele:Q3795 rdfs:label "山奈"@cn .
+
+ele:Q3796 rdfs:label "扛板归"@cn .
+
+ele:Q3797 rdfs:label "当归"@cn .
+
+ele:Q3798 rdfs:label "羧甲基淀粉"@cn .
+
+ele:Q3799 rdfs:label "茯获"@cn .
+
+ele:Q3800 rdfs:label "喷昔洛韦"@cn .
+
+ele:Q3801 rdfs:label "西瓜霜"@cn .
+
+ele:Q3802 rdfs:label "香附子"@cn .
+
+ele:Q3803 rdfs:label "盐酸利托君"@cn .
+
+ele:Q3804 rdfs:label "连钱草"@cn .
+
+ele:Q3805 rdfs:label "包衣粉"@cn .
+
+ele:Q3806 rdfs:label "茯荟"@cn .
+
+ele:Q3807 rdfs:label "山芝麻"@cn .
+
+ele:Q3808 rdfs:label "大小蓟各"@cn .
+
+ele:Q3809 rdfs:label "连翘连翘"@cn .
+
+ele:Q3810 rdfs:label "全鹿干"@cn .
+
+ele:Q3811 rdfs:label "十一烯酸锌"@cn .
+
+ele:Q3812 rdfs:label "薏米仁"@cn .
+
+ele:Q3813 rdfs:label "陈百部"@cn .
+
+ele:Q3814 rdfs:label "花粉素"@cn .
+
+ele:Q3815 rdfs:label "淫羊藿"@cn .
+
+ele:Q3816 rdfs:label "头孢呋辛酯"@cn .
+
+ele:Q3817 rdfs:label "野葛"@cn .
+
+ele:Q3818 rdfs:label "地黄等"@cn .
+
+ele:Q3819 rdfs:label "辛伐他汀"@cn .
+
+ele:Q3820 rdfs:label "广藿香"@cn .
+
+ele:Q3821 rdfs:label "枫茄花"@cn .
+
+ele:Q3822 rdfs:label "人参醇"@cn .
+
+ele:Q3823 rdfs:label "白樟油"@cn .
+
+ele:Q3824 rdfs:label "安神膏"@cn .
+
+ele:Q3825 rdfs:label "硝唑"@cn .
+
+ele:Q3826 rdfs:label "北合欢"@cn .
+
+ele:Q3827 rdfs:label "青蒿"@cn .
+
+ele:Q3828 rdfs:label "山姜"@cn .
+
+ele:Q3829 rdfs:label "南鹤虱"@cn .
+
+ele:Q3830 rdfs:label "小风艾"@cn .
+
+ele:Q3831 rdfs:label "干蟾皮"@cn .
+
+ele:Q3832 rdfs:label "厚叶川木香"@cn .
+
+ele:Q3833 rdfs:label "磺苄西林钠"@cn .
+
+ele:Q3834 rdfs:label "阴柴胡"@cn .
+
+ele:Q3835 rdfs:label "盐酸丁卡因"@cn .
+
+ele:Q3836 rdfs:label "地枫皮"@cn .
+
+ele:Q3837 rdfs:label "椿根皮"@cn .
+
+ele:Q3838 rdfs:label "滿山紅"@cn .
+
+ele:Q3839 rdfs:label "紫石英"@cn .
+
+ele:Q3840 rdfs:label "泽泻桑椹子"@cn .
+
+ele:Q3841 rdfs:label "司他夫定"@cn .
+
+ele:Q3842 rdfs:label "预胶化淀粉"@cn .
+
+ele:Q3843 rdfs:label "二氮嗪"@cn .
+
+ele:Q3844 rdfs:label "地龙"@cn .
+
+ele:Q3845 rdfs:label "丁香粉"@cn .
+
+ele:Q3846 rdfs:label "依他尼酸"@cn .
+
+ele:Q3847 rdfs:label "依托红霉素"@cn .
+
+ele:Q3848 rdfs:label "红花酊"@cn .
+
+ele:Q3849 rdfs:label "格列美脲"@cn .
+
+ele:Q3850 rdfs:label "精制松节油"@cn .
+
+ele:Q3851 rdfs:label "川乌"@cn .
+
+ele:Q3852 rdfs:label "泮托拉唑钠"@cn .
+
+ele:Q3853 rdfs:label "半支莲"@cn .
+
+ele:Q3854 rdfs:label "狼毒"@cn .
+
+ele:Q3855 rdfs:label "当归术"@cn .
+
+ele:Q3856 rdfs:label "牛膝等"@cn .
+
+ele:Q3857 rdfs:label "北京石韦"@cn .
+
+ele:Q3858 rdfs:label "伏龙肝"@cn .
+
+ele:Q3859 rdfs:label "刀豆"@cn .
+
+ele:Q3860 rdfs:label "麻黄提取液"@cn .
+
+ele:Q3861 rdfs:label "云母石"@cn .
+
+ele:Q3862 rdfs:label "乙醇"@cn .
+
+ele:Q3863 rdfs:label "门冬氨酸钙"@cn .
+
+ele:Q3864 rdfs:label "氨茶碱"@cn .
+
+ele:Q3865 rdfs:label "山楂核精"@cn .
+
+ele:Q3866 rdfs:label "乳酸"@cn .
+
+ele:Q3867 rdfs:label "矮紫堇"@cn .
+
+ele:Q3868 rdfs:label "人参香精"@cn .
+
+ele:Q3869 rdfs:label "桂皮油等"@cn .
+
+ele:Q3870 rdfs:label "冬葵"@cn .
+
+ele:Q3871 rdfs:label "刺蓬花"@cn .
+
+ele:Q3872 rdfs:label "猪胆汁粉"@cn .
+
+ele:Q3873 rdfs:label "鸡蛋参"@cn .
+
+ele:Q3874 rdfs:label "蔗糖硫酸酯的碱式铝盐"@cn .
+
+ele:Q3875 rdfs:label "葡萄糖酸亚铁"@cn .
+
+ele:Q3876 rdfs:label "马来酸罗格列酮"@cn .
+
+ele:Q3877 rdfs:label "碘酊"@cn .
+
+ele:Q3878 rdfs:label "刺梨"@cn .
+
+ele:Q3879 rdfs:label "三七酊"@cn .
+
+ele:Q3880 rdfs:label "三爪龙"@cn .
+
+ele:Q3881 rdfs:label "刺梨果"@cn .
+
+ele:Q3882 rdfs:label "千斤拔"@cn .
+
+ele:Q3883 rdfs:label "含羞草"@cn .
+
+ele:Q3884 rdfs:label "盐酸维拉帕米"@cn .
+
+ele:Q3885 rdfs:label "多肽"@cn .
+
+ele:Q3886 rdfs:label "氯化铵前胡"@cn .
+
+ele:Q3887 rdfs:label "千斤拨"@cn .
+
+ele:Q3888 rdfs:label "硫脲"@cn .
+
+ele:Q3889 rdfs:label "高岭土"@cn .
+
+ele:Q3890 rdfs:label "九龙川"@cn .
+
+ele:Q3891 rdfs:label "苏合香"@cn .
+
+ele:Q3892 rdfs:label "旋复花"@cn .
+
+ele:Q3893 rdfs:label "臭屎茉莉"@cn .
+
+ele:Q3894 rdfs:label "天麻川牛膝"@cn .
+
+ele:Q3895 rdfs:label "白术甘草"@cn .
+
+ele:Q3896 rdfs:label "炮制"@cn .
+
+ele:Q3897 rdfs:label "氧化物"@cn .
+
+ele:Q3898 rdfs:label "花锚"@cn .
+
+ele:Q3899 rdfs:label "浙贝母"@cn .
+
+ele:Q3900 rdfs:label "马尿泡"@cn .
+
+ele:Q3901 rdfs:label "千屈菜"@cn .
+
+ele:Q3902 rdfs:label "鲜芦笋"@cn .
+
+ele:Q3903 rdfs:label "羊角拗羊角拗"@cn .
+
+ele:Q3904 rdfs:label "乳酸"@cn .
+
+ele:Q3905 rdfs:label "硅酸镁"@cn .
+
+ele:Q3906 rdfs:label "当归干浸膏"@cn .
+
+ele:Q3907 rdfs:label "何首乌"@cn .
+
+ele:Q3908 rdfs:label "梅花"@cn .
+
+ele:Q3909 rdfs:label "果糖"@cn .
+
+ele:Q3910 rdfs:label "西河柳等"@cn .
+
+ele:Q3911 rdfs:label "甘草等"@cn .
+
+ele:Q3912 rdfs:label "凡士林"@cn .
+
+ele:Q3913 rdfs:label "苯唑西林钠"@cn .
+
+ele:Q3914 rdfs:label "喜树果"@cn .
+
+ele:Q3915 rdfs:label "腺苷葳胺"@cn .
+
+ele:Q3916 rdfs:label "鸦胆子油"@cn .
+
+ele:Q3917 rdfs:label "冰片樟脑"@cn .
+
+ele:Q3918 rdfs:label "黄精等"@cn .
+
+ele:Q3919 rdfs:label "两头尖"@cn .
+
+ele:Q3920 rdfs:label "江南卷柏"@cn .
+
+ele:Q3921 rdfs:label "枫香脂"@cn .
+
+ele:Q3922 rdfs:label "百合流浸膏"@cn .
+
+ele:Q3923 rdfs:label "砂仁"@cn .
+
+ele:Q3924 rdfs:label "首乌藤"@cn .
+
+ele:Q3925 rdfs:label "珊瑚姜"@cn .
+
+ele:Q3926 rdfs:label "胆膏"@cn .
+
+ele:Q3927 rdfs:label "木通"@cn .
+
+ele:Q3928 rdfs:label "川椒"@cn .
+
+ele:Q3929 rdfs:label "鸡矢藤"@cn .
+
+ele:Q3930 rdfs:label "氨基比林"@cn .
+
+ele:Q3931 rdfs:label "土大黄"@cn .
+
+ele:Q3932 rdfs:label "苦丁茶"@cn .
+
+ele:Q3933 rdfs:label "醋酸泼尼松"@cn .
+
+ele:Q3934 rdfs:label "艾把"@cn .
+
+ele:Q3935 rdfs:label "盐酸二氧丙嗪"@cn .
+
+ele:Q3936 rdfs:label "熟地黄白芍"@cn .
+
+ele:Q3937 rdfs:label "贝母粉"@cn .
+
+ele:Q3938 rdfs:label "山乌龟"@cn .
+
+ele:Q3939 rdfs:label "半校莲"@cn .
+
+ele:Q3940 rdfs:label "黑豆馏油"@cn .
+
+ele:Q3941 rdfs:label "异叶茴芹"@cn .
+
+ele:Q3942 rdfs:label "螺旋霉素"@cn .
+
+ele:Q3943 rdfs:label "二氧化硅"@cn .
+
+ele:Q3944 rdfs:label "三叶鬼针草"@cn .
+
+ele:Q3945 rdfs:label "食用香精"@cn .
+
+ele:Q3946 rdfs:label "利培酮"@cn .
+
+ele:Q3947 rdfs:label "萝卜子"@cn .
+
+ele:Q3948 rdfs:label "人参叶"@cn .
+
+ele:Q3949 rdfs:label "颠茄流浸膏"@cn .
+
+ele:Q3950 rdfs:label "岗梅根"@cn .
+
+ele:Q3951 rdfs:label "月见草油"@cn .
+
+ele:Q3952 rdfs:label "盐酸罗格列酮"@cn .
+
+ele:Q3953 rdfs:label "麝香酮"@cn .
+
+ele:Q3954 rdfs:label "黑矾"@cn .
+
+ele:Q3955 rdfs:label "相思藤"@cn .
+
+ele:Q3956 rdfs:label "玫瑰茄"@cn .
+
+ele:Q3957 rdfs:label "盐酸溴己胺"@cn .
+
+ele:Q3958 rdfs:label "麝香酊"@cn .
+
+ele:Q3959 rdfs:label "铜灰"@cn .
+
+ele:Q3960 rdfs:label "淫阳藿"@cn .
+
+ele:Q3961 rdfs:label "广豆根"@cn .
+
+ele:Q3962 rdfs:label "吉祥草"@cn .
+
+ele:Q3963 rdfs:label "支柱蓼"@cn .
+
+ele:Q3964 rdfs:label "胜红蓟"@cn .
+
+ele:Q3965 rdfs:label "亮兰"@cn .
+
+ele:Q3966 rdfs:label "象牙屑"@cn .
+
+ele:Q3967 rdfs:label "乌鸡粉"@cn .
+
+ele:Q3968 rdfs:label "尼尔雌醇"@cn .
+
+ele:Q3969 rdfs:label "臭牡丹"@cn .
+
+ele:Q3970 rdfs:label "绿茶"@cn .
+
+ele:Q3971 rdfs:label "猴头菌粉"@cn .
+
+ele:Q3972 rdfs:label "雌三醇"@cn .
+
+ele:Q3973 rdfs:label "硫酸普拉睾酮钠"@cn .
+
+ele:Q3974 rdfs:label "洛索洛芬钠"@cn .
+
+ele:Q3975 rdfs:label "紫杉醇"@cn .
+
+ele:Q3976 rdfs:label "马钱子膏"@cn .
+
+ele:Q3977 rdfs:label "白花丹"@cn .
+
+ele:Q3978 rdfs:label "红霉素"@cn .
+
+ele:Q3979 rdfs:label "鸡骨"@cn .
+
+ele:Q3980 rdfs:label "鲜韭菜"@cn .
+
+ele:Q3981 rdfs:label "石上柏"@cn .
+
+ele:Q3982 rdfs:label "鱼鳔珠"@cn .
+
+ele:Q3983 rdfs:label "磺胺对甲氧嘧啶"@cn .
+
+ele:Q3984 rdfs:label "河车"@cn .
+
+ele:Q3985 rdfs:label "倒提壶"@cn .
+
+ele:Q3986 rdfs:label "罗非昔布"@cn .
+
+ele:Q3987 rdfs:label "冬葵果"@cn .
+
+ele:Q3988 rdfs:label "乳酸左氟沙星"@cn .
+
+ele:Q3989 rdfs:label "制草乌"@cn .
+
+ele:Q3990 rdfs:label "银朱"@cn .
+
+ele:Q3991 rdfs:label "荔枝核"@cn .
+
+ele:Q3992 rdfs:label "硫酸异丙肾上腺素"@cn .
+
+ele:Q3993 rdfs:label "钾与镁"@cn .
+
+ele:Q3994 rdfs:label "鹤虱"@cn .
+
+ele:Q3995 rdfs:label "猴耳环"@cn .
+
+ele:Q3996 rdfs:label "麻黄根"@cn .
+
+ele:Q3997 rdfs:label "鸡子白"@cn .
+
+ele:Q3998 rdfs:label "党参清膏"@cn .
+
+ele:Q3999 rdfs:label "人参"@cn .
+
+ele:Q4000 rdfs:label "己烯雌酚"@cn .
+
+ele:Q4001 rdfs:label "培养后"@cn .
+
+ele:Q4002 rdfs:label "聚维酮"@cn .
+
+ele:Q4003 rdfs:label "官桂"@cn .
+
+ele:Q4004 rdfs:label "菠萝酶"@cn .
+
+ele:Q4005 rdfs:label "干辣椒"@cn .
+
+ele:Q4006 rdfs:label "盐酸纳洛酮"@cn .
+
+ele:Q4007 rdfs:label "甘羟铝"@cn .
+
+ele:Q4008 rdfs:label "白酒曲"@cn .
+
+ele:Q4009 rdfs:label "牛至"@cn .
+
+ele:Q4010 rdfs:label "人参熟地黄"@cn .
+
+ele:Q4011 rdfs:label "均除去毛"@cn .
+
+ele:Q4012 rdfs:label "人参"@cn .
+
+ele:Q4013 rdfs:label "龙胆粉"@cn .
+
+ele:Q4014 rdfs:label "广藿香叶"@cn .
+
+ele:Q4015 rdfs:label "阿魏"@cn .
+
+ele:Q4016 rdfs:label "冰醋酸"@cn .
+
+ele:Q4017 rdfs:label "氧化苦参碱"@cn .
+
+ele:Q4018 rdfs:label "甘草粉"@cn .
+
+ele:Q4019 rdfs:label "玄参麦冬"@cn .
+
+ele:Q4020 rdfs:label "单氯芬那酸"@cn .
+
+ele:Q4021 rdfs:label "阿莫西林"@cn .
+
+ele:Q4022 rdfs:label "炉甘石蜂蜡"@cn .
+
+ele:Q4023 rdfs:label "水翁花"@cn .
+
+ele:Q4024 rdfs:label "巴旦仁"@cn .
+
+ele:Q4025 rdfs:label "杏仁水"@cn .
+
+ele:Q4026 rdfs:label "甲磺酸多沙唑嗪"@cn .
+
+ele:Q4027 rdfs:label "阿替洛尔"@cn .
+
+ele:Q4028 rdfs:label "干姜粒"@cn .
+
+ele:Q4029 rdfs:label "干姜粉"@cn .
+
+ele:Q4030 rdfs:label "磺胺甲噁唑"@cn .
+
+ele:Q4031 rdfs:label "瓦楞子"@cn .
+
+ele:Q4032 rdfs:label "豨签草"@cn .
+
+ele:Q4033 rdfs:label "蟾酥"@cn .
+
+ele:Q4034 rdfs:label "两面针"@cn .
+
+ele:Q4035 rdfs:label "鹤虱鹤虱"@cn .
+
+ele:Q4036 rdfs:label "鱼腹草"@cn .
+
+ele:Q4037 rdfs:label "肉桂油"@cn .
+
+ele:Q4038 rdfs:label "京大戟"@cn .
+
+ele:Q4039 rdfs:label "人中白"@cn .
+
+ele:Q4040 rdfs:label "甘草白茅根"@cn .
+
+ele:Q4041 rdfs:label "细辛等"@cn .
+
+ele:Q4042 rdfs:label "曼陀罗叶"@cn .
+
+ele:Q4043 rdfs:label "单盐酸氟西泮"@cn .
+
+ele:Q4044 rdfs:label "生槐米"@cn .
+
+ele:Q4045 rdfs:label "苏叶"@cn .
+
+ele:Q4046 rdfs:label "西河柳"@cn .
+
+ele:Q4047 rdfs:label "单面针"@cn .
+
+ele:Q4048 rdfs:label "分子碘"@cn .
+
+ele:Q4049 rdfs:label "乙酰唑胺"@cn .
+
+ele:Q4050 rdfs:label "水线草"@cn .
+
+ele:Q4051 rdfs:label "干草浸膏"@cn .
+
+ele:Q4052 rdfs:label "人参果皂苷"@cn .
+
+ele:Q4053 rdfs:label "环孢素"@cn .
+
+ele:Q4054 rdfs:label "羟甲淀粉钠"@cn .
+
+ele:Q4055 rdfs:label "呋布西林钠"@cn .
+
+ele:Q4056 rdfs:label "无患子果"@cn .
+
+ele:Q4057 rdfs:label "山花椒"@cn .
+
+ele:Q4058 rdfs:label "麝香草脑"@cn .
+
+ele:Q4059 rdfs:label "核桃楸皮"@cn .
+
+ele:Q4060 rdfs:label "酸枣仁酸枣仁"@cn .
+
+ele:Q4061 rdfs:label "粉防己"@cn .
+
+ele:Q4062 rdfs:label "夜明砂"@cn .
+
+ele:Q4063 rdfs:label "收获病毒液"@cn .
+
+ele:Q4064 rdfs:label "蒲公英"@cn .
+
+ele:Q4065 rdfs:label "甲基硅油"@cn .
+
+ele:Q4066 rdfs:label "猪蹄甲"@cn .
+
+ele:Q4067 rdfs:label "苦楝皮"@cn .
+
+ele:Q4068 rdfs:label "乌扇"@cn .
+
+ele:Q4069 rdfs:label "白前等"@cn .
+
+ele:Q4070 rdfs:label "槐米麦冬"@cn .
+
+ele:Q4071 rdfs:label "香菇多糖"@cn .
+
+ele:Q4072 rdfs:label "阿奇霉素枸橼酸二氢钠盐"@cn .
+
+ele:Q4073 rdfs:label "磷酸二氢纳"@cn .
+
+ele:Q4074 rdfs:label "酒石酸"@cn .
+
+ele:Q4075 rdfs:label "甘草香薷"@cn .
+
+ele:Q4076 rdfs:label "人参白术"@cn .
+
+ele:Q4077 rdfs:label "珍珠"@cn .
+
+ele:Q4078 rdfs:label "盐酸班布特罗"@cn .
+
+ele:Q4079 rdfs:label "河于"@cn .
+
+ele:Q4080 rdfs:label "丹皮酚"@cn .
+
+ele:Q4081 rdfs:label "麦冬"@cn .
+
+ele:Q4082 rdfs:label "红背叶根"@cn .
+
+ele:Q4083 rdfs:label "木瓜"@cn .
+
+ele:Q4084 rdfs:label "牛肾"@cn .
+
+ele:Q4085 rdfs:label "蚤缀"@cn .
+
+ele:Q4086 rdfs:label "托吡卡胺"@cn .
+
+ele:Q4087 rdfs:label "三叉片"@cn .
+
+ele:Q4088 rdfs:label "白芷三两"@cn .
+
+ele:Q4089 rdfs:label "桃胶"@cn .
+
+ele:Q4090 rdfs:label "甘珀酸钠"@cn .
+
+ele:Q4091 rdfs:label "清半夏等"@cn .
+
+ele:Q4092 rdfs:label "羊耳菊"@cn .
+
+ele:Q4093 rdfs:label "硫胺"@cn .
+
+ele:Q4094 rdfs:label "灯盏细辛"@cn .
+
+ele:Q4095 rdfs:label "苦木"@cn .
+
+ele:Q4096 rdfs:label "硫酸粘菌素"@cn .
+
+ele:Q4097 rdfs:label "黑木耳"@cn .
+
+ele:Q4098 rdfs:label "野菊"@cn .
+
+ele:Q4099 rdfs:label "新红花甙"@cn .
+
+ele:Q4100 rdfs:label "生草乌"@cn .
+
+ele:Q4101 rdfs:label "巴夏嘎"@cn .
+
+ele:Q4102 rdfs:label "水红花子"@cn .
+
+ele:Q4103 rdfs:label "安替比林"@cn .
+
+ele:Q4104 rdfs:label "九牛力"@cn .
+
+ele:Q4105 rdfs:label "等五十九味"@cn .
+
+ele:Q4106 rdfs:label "油菜蜂花粉"@cn .
+
+ele:Q4107 rdfs:label "芒果核"@cn .
+
+ele:Q4108 rdfs:label "头孢克肟"@cn .
+
+ele:Q4109 rdfs:label "多库酯钠"@cn .
+
+ele:Q4110 rdfs:label "土牛膝"@cn .
+
+ele:Q4111 rdfs:label "犀角"@cn .
+
+ele:Q4112 rdfs:label "肼苯达嗪"@cn .
+
+ele:Q4113 rdfs:label "亚硫酸氢钠甲萘醌"@cn .
+
+ele:Q4114 rdfs:label "洋甘菊"@cn .
+
+ele:Q4115 rdfs:label "当归木瓜"@cn .
+
+ele:Q4116 rdfs:label "酒石酸锑钾"@cn .
+
+ele:Q4117 rdfs:label "榧子"@cn .
+
+ele:Q4118 rdfs:label "西青果"@cn .
+
+ele:Q4119 rdfs:label "苷草"@cn .
+
+ele:Q4120 rdfs:label "乳酸钙"@cn .
+
+ele:Q4121 rdfs:label "阿如"@cn .
+
+ele:Q4122 rdfs:label "由丹参"@cn .
+
+ele:Q4123 rdfs:label "朱砂莲"@cn .
+
+ele:Q4124 rdfs:label "白蛋白"@cn .
+
+ele:Q4125 rdfs:label "杠板归"@cn .
+
+ele:Q4126 rdfs:label "特利加压素"@cn .
+
+ele:Q4127 rdfs:label "冰片等"@cn .
+
+ele:Q4128 rdfs:label "兴安白头翁"@cn .
+
+ele:Q4129 rdfs:label "几茶"@cn .
+
+ele:Q4130 rdfs:label "尼美舒利"@cn .
+
+ele:Q4131 rdfs:label "吉非罗齐"@cn .
+
+ele:Q4132 rdfs:label "茴拉西坦"@cn .
+
+ele:Q4133 rdfs:label "氯屈膦酸二钠"@cn .
+
+ele:Q4134 rdfs:label "云实皮"@cn .
+
+ele:Q4135 rdfs:label "鸭嘴花"@cn .
+
+ele:Q4136 rdfs:label "升华硫"@cn .
+
+ele:Q4137 rdfs:label "白色糖衣片"@cn .
+
+ele:Q4138 rdfs:label "蜈蚣等"@cn .
+
+ele:Q4139 rdfs:label "合成樟脑"@cn .
+
+ele:Q4140 rdfs:label "异戊巴比妥"@cn .
+
+ele:Q4141 rdfs:label "半夏曲等"@cn .
+
+ele:Q4142 rdfs:label "西藏棱子芹"@cn .
+
+ele:Q4143 rdfs:label "草乌"@cn .
+
+ele:Q4144 rdfs:label "山羊角"@cn .
+
+ele:Q4145 rdfs:label "制附子"@cn .
+
+ele:Q4146 rdfs:label "果糖酸钙"@cn .
+
+ele:Q4147 rdfs:label "苯甲酸钠"@cn .
+
+ele:Q4148 rdfs:label "三七叶茎"@cn .
+
+ele:Q4149 rdfs:label "牡丹皮栀子"@cn .
+
+ele:Q4150 rdfs:label "盐酸氟奋乃静"@cn .
+
+ele:Q4151 rdfs:label "明矾各"@cn .
+
+ele:Q4152 rdfs:label "熟地黄"@cn .
+
+ele:Q4153 rdfs:label "色氨酸"@cn .
+
+ele:Q4154 rdfs:label "乌骨藤"@cn .
+
+ele:Q4155 rdfs:label "三氯叔丁醇"@cn .
+
+ele:Q4156 rdfs:label "青霉素钾"@cn .
+
+ele:Q4157 rdfs:label "豆磷脂"@cn .
+
+ele:Q4158 rdfs:label "甲司坦"@cn .
+
+ele:Q4159 rdfs:label "使君子仁"@cn .
+
+ele:Q4160 rdfs:label "樟油"@cn .
+
+ele:Q4161 rdfs:label "浮小麦"@cn .
+
+ele:Q4162 rdfs:label "香附"@cn .
+
+ele:Q4163 rdfs:label "猪牙皂"@cn .
+
+ele:Q4164 rdfs:label "黄芪各"@cn .
+
+ele:Q4165 rdfs:label "苦瓜干"@cn .
+
+ele:Q4166 rdfs:label "广霍香"@cn .
+
+ele:Q4167 rdfs:label "金灰"@cn .
+
+ele:Q4168 rdfs:label "阿莫西林钠"@cn .
+
+ele:Q4169 rdfs:label "水杨酸咪唑"@cn .
+
+ele:Q4170 rdfs:label "秋水仙碱"@cn .
+
+ele:Q4171 rdfs:label "山羊血"@cn .
+
+ele:Q4172 rdfs:label "盐酸异丙肾上腺素"@cn .
+
+ele:Q4173 rdfs:label "噻奈普汀"@cn .
+
+ele:Q4174 rdfs:label "联苯苄唑"@cn .
+
+ele:Q4175 rdfs:label "阿斯巴甜"@cn .
+
+ele:Q4176 rdfs:label "血竭酊"@cn .
+
+ele:Q4177 rdfs:label "百部流浸膏"@cn .
+
+ele:Q4178 rdfs:label "郁李仁"@cn .
+
+ele:Q4179 rdfs:label "大风子"@cn .
+
+ele:Q4180 rdfs:label "注射用水"@cn .
+
+ele:Q4181 rdfs:label "地塞米松磷酸钠"@cn .
+
+ele:Q4182 rdfs:label "亚叶酸钙"@cn .
+
+ele:Q4183 rdfs:label "橙香精"@cn .
+
+ele:Q4184 rdfs:label "硬脂酸美"@cn .
+
+ele:Q4185 rdfs:label "牵牛子牵牛子"@cn .
+
+ele:Q4186 rdfs:label "盐酸柔红霉素"@cn .
+
+ele:Q4187 rdfs:label "角花胡颓子"@cn .
+
+ele:Q4188 rdfs:label "甜菊素"@cn .
+
+ele:Q4189 rdfs:label "乳糖酸红霉素"@cn .
+
+ele:Q4190 rdfs:label "盐酸可乐定"@cn .
+
+ele:Q4191 rdfs:label "药用炭"@cn .
+
+ele:Q4192 rdfs:label "马鞭石斛"@cn .
+
+ele:Q4193 rdfs:label "盐酸头孢他美酯"@cn .
+
+ele:Q4194 rdfs:label "白屈莱"@cn .
+
+ele:Q4195 rdfs:label "乳酶生"@cn .
+
+ele:Q4196 rdfs:label "法半夏"@cn .
+
+ele:Q4197 rdfs:label "胎盘粉"@cn .
+
+ele:Q4198 rdfs:label "红木香"@cn .
+
+ele:Q4199 rdfs:label "醋酸"@cn .
+
+ele:Q4200 rdfs:label "大青盐"@cn .
+
+ele:Q4201 rdfs:label "枸杞子"@cn .
+
+ele:Q4202 rdfs:label "大海米"@cn .
+
+ele:Q4203 rdfs:label "土人参"@cn .
+
+ele:Q4204 rdfs:label "桃花"@cn .
+
+ele:Q4205 rdfs:label "净竹"@cn .
+
+ele:Q4206 rdfs:label "貂油"@cn .
+
+ele:Q4207 rdfs:label "酪酸梭菌"@cn .
+
+ele:Q4208 rdfs:label "儿茶"@cn .
+
+ele:Q4209 rdfs:label "臭草"@cn .
+
+ele:Q4210 rdfs:label "扶芳藤"@cn .
+
+ele:Q4211 rdfs:label "榜嘎"@cn .
+
+ele:Q4212 rdfs:label "黄岑"@cn .
+
+ele:Q4213 rdfs:label "汉防己甲素"@cn .
+
+ele:Q4214 rdfs:label "白屈菜"@cn .
+
+ele:Q4215 rdfs:label "白糖"@cn .
+
+ele:Q4216 rdfs:label "磷霉素"@cn .
+
+ele:Q4217 rdfs:label "乳酸锌"@cn .
+
+ele:Q4218 rdfs:label "苯巴比妥钠"@cn .
+
+ele:Q4219 rdfs:label "白藓皮薄荷"@cn .
+
+ele:Q4220 rdfs:label "谷氨酸钠"@cn .
+
+ele:Q4221 rdfs:label "苍术"@cn .

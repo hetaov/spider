@@ -1,0 +1,426 @@
+@prefix prom: <http://www.semioe.org/prop/prom#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix food: <http://www.semioe.org/entity/medicine/food#> .
+@prefix hospital: <http://www.semioe.org/entity/medicine/hospital#> .
+@prefix place: <http://www.semioe.org/entity/medicine/place#> .
+@prefix drug: <http://www.semioe.org/entity/medicine/drug#> .
+@prefix org: <http://www.semioe.org/entity/medicine/org#> .
+@prefix disease: <http://www.semioe.org/entity/medicine/disease#> .
+@prefix symptom: <http://www.semioe.org/entity/medicine/symptom#> .
+@prefix check: <http://www.semioe.org/entity/medicine/check#> .
+@prefix department: <http://www.semioe.org/entity/medicine/department#> .
+@prefix department_1: <http://www.semioe.org/entity/medicine/department_1#> .
+@prefix department_2: <http://www.semioe.org/entity/medicine/department_2#> .
+@prefix medicine: <http://www.semioe.org/entity/medicine/medicine#> .
+@prefix drug_generic: <http://www.semioe.org/entity/medicine/drug_generic#> .
+@prefix formula: <http://www.semioe.org/entity/medicine/formula#> .
+@prefix dosage_form: <http://www.semioe.org/entity/medicine/dosage_form#> .
+@prefix ele: <http://www.semioe.org/entity/medicine/ele#> .
+@prefix part: <http://www.semioe.org/entity/medicine/part#> .
+
+
+dosage_form:Q0 rdfs:label "口服混悬液"@cn .
+
+dosage_form:Q1 rdfs:label "肠溶胶囊剂"@cn .
+
+dosage_form:Q2 rdfs:label "冻干"@cn .
+
+dosage_form:Q3 rdfs:label "热熨剂"@cn .
+
+dosage_form:Q4 rdfs:label "曲剂"@cn .
+
+dosage_form:Q5 rdfs:label "泡沫剂"@cn .
+
+dosage_form:Q6 rdfs:label "凝胶剂(Gel)"@cn .
+
+dosage_form:Q7 rdfs:label "缓释颗粒剂"@cn .
+
+dosage_form:Q8 rdfs:label "巴布膏剂"@cn .
+
+dosage_form:Q9 rdfs:label "丸剂(糖丸)"@cn .
+
+dosage_form:Q10 rdfs:label "片剂(含片)"@cn .
+
+dosage_form:Q11 rdfs:label "水丸"@cn .
+
+dosage_form:Q12 rdfs:label "胶囊剂(Capsule)"@cn .
+
+dosage_form:Q13 rdfs:label "散剂"@cn .
+
+dosage_form:Q14 rdfs:label "液体制剂"@cn .
+
+dosage_form:Q15 rdfs:label "眼膏剂"@cn .
+
+dosage_form:Q16 rdfs:label "滴剂(胶囊型)"@cn .
+
+dosage_form:Q17 rdfs:label "醑剂"@cn .
+
+dosage_form:Q18 rdfs:label "滴鼻剂"@cn .
+
+dosage_form:Q19 rdfs:label "泡腾片剂"@cn .
+
+dosage_form:Q20 rdfs:label "搽剂"@cn .
+
+dosage_form:Q21 rdfs:label "栓剂"@cn .
+
+dosage_form:Q22 rdfs:label "滴耳液"@cn .
+
+dosage_form:Q23 rdfs:label "片剂(缓释,薄膜衣)"@cn .
+
+dosage_form:Q24 rdfs:label "眼用制剂"@cn .
+
+dosage_form:Q25 rdfs:label "冻干粉"@cn .
+
+dosage_form:Q26 rdfs:label "糖浆"@cn .
+
+dosage_form:Q27 rdfs:label "冻干粉针"@cn .
+
+dosage_form:Q28 rdfs:label "茶剂"@cn .
+
+dosage_form:Q29 rdfs:label "舌下片剂"@cn .
+
+dosage_form:Q30 rdfs:label "片剂"@cn .
+
+dosage_form:Q31 rdfs:label "片剂(糖衣,薄膜衣)"@cn .
+
+dosage_form:Q32 rdfs:label "分散片"@cn .
+
+dosage_form:Q33 rdfs:label "合剂"@cn .
+
+dosage_form:Q34 rdfs:label "干粉吸入剂"@cn .
+
+dosage_form:Q35 rdfs:label "口胶剂"@cn .
+
+dosage_form:Q36 rdfs:label "片剂(糖衣)"@cn .
+
+dosage_form:Q37 rdfs:label "硬膏剂"@cn .
+
+dosage_form:Q38 rdfs:label "凝胶剂"@cn .
+
+dosage_form:Q39 rdfs:label "试剂盒"@cn .
+
+dosage_form:Q40 rdfs:label "混悬液"@cn .
+
+dosage_form:Q41 rdfs:label "气体"@cn .
+
+dosage_form:Q42 rdfs:label "粉雾剂"@cn .
+
+dosage_form:Q43 rdfs:label "泡腾颗粒剂"@cn .
+
+dosage_form:Q44 rdfs:label "粉针"@cn .
+
+dosage_form:Q45 rdfs:label "注射剂(Injection)"@cn .
+
+dosage_form:Q46 rdfs:label "溶液剂(外用)"@cn .
+
+dosage_form:Q47 rdfs:label "片剂(糖衣、薄膜衣)"@cn .
+
+dosage_form:Q48 rdfs:label "阴道片剂(Vaginal Tablet)"@cn .
+
+dosage_form:Q49 rdfs:label "缓释胶囊"@cn .
+
+dosage_form:Q50 rdfs:label "含片"@cn .
+
+dosage_form:Q51 rdfs:label "注射液"@cn .
+
+dosage_form:Q52 rdfs:label "热敷剂"@cn .
+
+dosage_form:Q53 rdfs:label "颗粒剂"@cn .
+
+dosage_form:Q54 rdfs:label "口服液体剂"@cn .
+
+dosage_form:Q55 rdfs:label "缓释片"@cn .
+
+dosage_form:Q56 rdfs:label "冻干粉针剂"@cn .
+
+dosage_form:Q57 rdfs:label "口服乳剂"@cn .
+
+dosage_form:Q58 rdfs:label "干混悬剂"@cn .
+
+dosage_form:Q59 rdfs:label "吸入溶液剂"@cn .
+
+dosage_form:Q60 rdfs:label "膏剂"@cn .
+
+dosage_form:Q61 rdfs:label "煎膏剂"@cn .
+
+dosage_form:Q62 rdfs:label "膏剂(Cataplasm)"@cn .
+
+dosage_form:Q63 rdfs:label "注射溶液"@cn .
+
+dosage_form:Q64 rdfs:label "透皮贴剂"@cn .
+
+dosage_form:Q65 rdfs:label "体外诊断试剂"@cn .
+
+dosage_form:Q66 rdfs:label "缓释剂型"@cn .
+
+dosage_form:Q67 rdfs:label "胶囊剂"@cn .
+
+dosage_form:Q68 rdfs:label "片剂(薄膜衣)"@cn .
+
+dosage_form:Q69 rdfs:label "洗剂"@cn .
+
+dosage_form:Q70 rdfs:label "软膏剂"@cn .
+
+dosage_form:Q71 rdfs:label "肠溶片剂"@cn .
+
+dosage_form:Q72 rdfs:label "片剂(泡腾)"@cn .
+
+dosage_form:Q73 rdfs:label "胶剂"@cn .
+
+dosage_form:Q74 rdfs:label "液体剂"@cn .
+
+dosage_form:Q75 rdfs:label "胶丸剂"@cn .
+
+dosage_form:Q76 rdfs:label "粉针剂"@cn .
+
+dosage_form:Q77 rdfs:label "气雾剂(混悬型)"@cn .
+
+dosage_form:Q78 rdfs:label "阴道胶囊剂"@cn .
+
+dosage_form:Q79 rdfs:label "贴片"@cn .
+
+dosage_form:Q80 rdfs:label "喷鼻剂"@cn .
+
+dosage_form:Q81 rdfs:label "贴剂"@cn .
+
+dosage_form:Q82 rdfs:label "注射剂(Powder for Injection)"@cn .
+
+dosage_form:Q83 rdfs:label "喷剂"@cn .
+
+dosage_form:Q84 rdfs:label "滴眼剂"@cn .
+
+dosage_form:Q85 rdfs:label "吸入剂"@cn .
+
+dosage_form:Q86 rdfs:label "胶囊剂(控释)"@cn .
+
+dosage_form:Q87 rdfs:label "丸剂"@cn .
+
+dosage_form:Q88 rdfs:label "流浸膏剂"@cn .
+
+dosage_form:Q89 rdfs:label "滴丸剂"@cn .
+
+dosage_form:Q90 rdfs:label "咀嚼片"@cn .
+
+dosage_form:Q91 rdfs:label "体内诊断试剂"@cn .
+
+dosage_form:Q92 rdfs:label "胶囊剂(缓释)"@cn .
+
+dosage_form:Q93 rdfs:label "软胶囊剂"@cn .
+
+dosage_form:Q94 rdfs:label "控释片"@cn .
+
+dosage_form:Q95 rdfs:label "冻干制剂"@cn .
+
+dosage_form:Q96 rdfs:label "眼用凝胶剂"@cn .
+
+dosage_form:Q97 rdfs:label "口崩片"@cn .
+
+dosage_form:Q98 rdfs:label "冲剂"@cn .
+
+dosage_form:Q99 rdfs:label "锭剂"@cn .
+
+dosage_form:Q100 rdfs:label "复合散剂"@cn .
+
+dosage_form:Q101 rdfs:label "涂膜剂"@cn .
+
+dosage_form:Q102 rdfs:label "粉末吸入剂"@cn .
+
+dosage_form:Q103 rdfs:label "滴眼液"@cn .
+
+dosage_form:Q104 rdfs:label "缓释胶囊剂"@cn .
+
+dosage_form:Q105 rdfs:label "干糖浆剂"@cn .
+
+dosage_form:Q106 rdfs:label "口服溶液(Oral Solution)"@cn .
+
+dosage_form:Q107 rdfs:label "片剂(薄膜衣片)"@cn .
+
+dosage_form:Q108 rdfs:label "片剂剂"@cn .
+
+dosage_form:Q109 rdfs:label "颗粒剂(泡腾)"@cn .
+
+dosage_form:Q110 rdfs:label "粉剂"@cn .
+
+dosage_form:Q111 rdfs:label "缓释片剂"@cn .
+
+dosage_form:Q112 rdfs:label "口服液"@cn .
+
+dosage_form:Q113 rdfs:label "酊剂"@cn .
+
+dosage_form:Q114 rdfs:label "片剂(舌下片)"@cn .
+
+dosage_form:Q115 rdfs:label "诊断试剂"@cn .
+
+dosage_form:Q116 rdfs:label "乳膏剂(Cream)"@cn .
+
+dosage_form:Q117 rdfs:label "控释片剂"@cn .
+
+dosage_form:Q118 rdfs:label "生药粉"@cn .
+
+dosage_form:Q119 rdfs:label "喷鼻液"@cn .
+
+dosage_form:Q120 rdfs:label "胶浆剂"@cn .
+
+dosage_form:Q121 rdfs:label "口服溶液剂"@cn .
+
+dosage_form:Q122 rdfs:label "灸熨剂"@cn .
+
+dosage_form:Q123 rdfs:label "酒剂"@cn .
+
+dosage_form:Q124 rdfs:label "糖丸"@cn .
+
+dosage_form:Q125 rdfs:label "鼻喷雾剂"@cn .
+
+dosage_form:Q126 rdfs:label "冻干针剂"@cn .
+
+dosage_form:Q127 rdfs:label "灌肠"@cn .
+
+dosage_form:Q128 rdfs:label "丸剂(滴丸)"@cn .
+
+dosage_form:Q129 rdfs:label "胶囊剂剂"@cn .
+
+dosage_form:Q130 rdfs:label "火棉胶剂"@cn .
+
+dosage_form:Q131 rdfs:label "片剂(缓释)"@cn .
+
+dosage_form:Q132 rdfs:label "胶囊剂(肠溶)"@cn .
+
+dosage_form:Q133 rdfs:label "片剂(分散)"@cn .
+
+dosage_form:Q134 rdfs:label "鼻喷雾剂(Nasal Spray)"@cn .
+
+dosage_form:Q135 rdfs:label "释剂型"@cn .
+
+dosage_form:Q136 rdfs:label "注射剂(无菌粉末)"@cn .
+
+dosage_form:Q137 rdfs:label "注射用氢氧化铝混悬液"@cn .
+
+dosage_form:Q138 rdfs:label "吸入用溶液剂(Solution for Inhalation)"@cn .
+
+dosage_form:Q139 rdfs:label "片剂(肠溶衣,糖衣)"@cn .
+
+dosage_form:Q140 rdfs:label "片剂(素片,薄膜衣)"@cn .
+
+dosage_form:Q141 rdfs:label "口服常释剂型"@cn .
+
+dosage_form:Q142 rdfs:label "溶液剂"@cn .
+
+dosage_form:Q143 rdfs:label "口服溶液剂(Solution)"@cn .
+
+dosage_form:Q144 rdfs:label "注射剂"@cn .
+
+dosage_form:Q145 rdfs:label "缓释植入剂"@cn .
+
+dosage_form:Q146 rdfs:label "口服溶液"@cn .
+
+dosage_form:Q147 rdfs:label "缓释控释剂型"@cn .
+
+dosage_form:Q148 rdfs:label "阴道栓剂"@cn .
+
+dosage_form:Q149 rdfs:label "灌肠液"@cn .
+
+dosage_form:Q150 rdfs:label "膏药"@cn .
+
+dosage_form:Q151 rdfs:label "微囊剂"@cn .
+
+dosage_form:Q152 rdfs:label "乳膏剂"@cn .
+
+dosage_form:Q153 rdfs:label "双释放肠溶胶囊剂"@cn .
+
+dosage_form:Q154 rdfs:label "口含片剂"@cn .
+
+dosage_form:Q155 rdfs:label "气雾剂"@cn .
+
+dosage_form:Q156 rdfs:label "糖浆剂"@cn .
+
+dosage_form:Q157 rdfs:label "含漱剂"@cn .
+
+dosage_form:Q158 rdfs:label "肠溶胶囊"@cn .
+
+dosage_form:Q159 rdfs:label "颗粒剂,茶剂"@cn .
+
+dosage_form:Q160 rdfs:label "膜剂"@cn .
+
+dosage_form:Q161 rdfs:label "橡胶膏剂"@cn .
+
+dosage_form:Q162 rdfs:label "混悬剂"@cn .
+
+dosage_form:Q163 rdfs:label "滴剂"@cn .
+
+dosage_form:Q164 rdfs:label "糊剂"@cn .
+
+dosage_form:Q165 rdfs:label "口服混悬剂"@cn .
+
+dosage_form:Q166 rdfs:label "注射剂剂"@cn .
+
+dosage_form:Q167 rdfs:label "片剂(糖衣片或薄膜衣片)"@cn .
+
+dosage_form:Q168 rdfs:label "划痕剂"@cn .
+
+dosage_form:Q169 rdfs:label "油剂"@cn .
+
+dosage_form:Q170 rdfs:label "分散片(Tablet for Oral Suspension)"@cn .
+
+dosage_form:Q171 rdfs:label "海绵剂"@cn .
+
+dosage_form:Q172 rdfs:label "补脾安神合剂"@cn .
+
+dosage_form:Q173 rdfs:label "贴膏剂"@cn .
+
+dosage_form:Q174 rdfs:label "注射剂(冻干)"@cn .
+
+dosage_form:Q175 rdfs:label "分散片剂"@cn .
+
+dosage_form:Q176 rdfs:label "散剂(泡腾)"@cn .
+
+dosage_form:Q177 rdfs:label "片剂(Tablet)"@cn .
+
+dosage_form:Q178 rdfs:label "肠溶片"@cn .
+
+dosage_form:Q179 rdfs:label "液体"@cn .
+
+dosage_form:Q180 rdfs:label "乳胶剂"@cn .
+
+dosage_form:Q181 rdfs:label "糖浆(Syrup)"@cn .
+
+dosage_form:Q182 rdfs:label "滴耳剂"@cn .
+
+dosage_form:Q183 rdfs:label "喷雾剂"@cn .
+
+dosage_form:Q184 rdfs:label "片剂(控释)"@cn .
+
+dosage_form:Q185 rdfs:label "片剂(咀嚼)"@cn .
+
+dosage_form:Q186 rdfs:label "口服滴剂"@cn .
+
+dosage_form:Q187 rdfs:label "针剂"@cn .
+
+dosage_form:Q188 rdfs:label "乳剂"@cn .
+
+dosage_form:Q189 rdfs:label "咀嚼片剂"@cn .
+
+dosage_form:Q190 rdfs:label "粉吸入剂"@cn .
+
+dosage_form:Q191 rdfs:label "注射剂(冻干粉)"@cn .
+
+dosage_form:Q192 rdfs:label "片剂(阴道片)"@cn .
+
+dosage_form:Q193 rdfs:label "片剂(肠溶)"@cn .
+
+dosage_form:Q194 rdfs:label "口腔崩解片"@cn .
+
+dosage_form:Q195 rdfs:label "冻干注射剂"@cn .
+
+dosage_form:Q196 rdfs:label "橡胶膏"@cn .
+
+dosage_form:Q197 rdfs:label "片剂(贴片)"@cn .
+
+dosage_form:Q198 rdfs:label "软胶囊"@cn .
+
+dosage_form:Q199 rdfs:label "薄膜衣片"@cn .
+
+dosage_form:Q200 rdfs:label "外用冻干粉"@cn .
+
+dosage_form:Q201 rdfs:label "滴鼻液"@cn .
+
+dosage_form:Q202 rdfs:label "无菌冻干制剂"@cn .
