@@ -26,7 +26,7 @@ def main():
     l = len(df)
     line_s = list()
 
-    for index, symptom in df.iterrows():
+    for index, symptom in df[:20].iterrows():
         symptom_uri = symptom_dict.get(symptom[3])
         #print symptom
         if type(symptom[9]) is unicode:
@@ -37,7 +37,7 @@ def main():
         line_s.append(build_department(symptom, symptom_uri))
         line_s.append(build_symptom(symptom, symptom_uri))
         line_s.append(build_part(symptom, symptom_uri))
-        #fl.write(build_food(symptom, symptom_uri))
+        build_food(symptom, symptom_uri)
         #fl.write('\n\n')
 
         print 'finished: %d: %d' % (index, l)
@@ -47,13 +47,31 @@ def main():
 
 def build_food(row, index):
 
-    if type(row[14]) is unicode:
-        good = re.split(regex, row[14])
-        print '='.join(good)
+    regex = re.compile(u'\d\s?[、.]([^(\d(、|.))]+)')
+    m_l = re.compile('[\r\n]')
+    m_d = re.compile('\d\s*[.、](?:\D)')
+    m_d_s = re.compile('\d\s*[.、]')
 
+    if type(row[14]) is unicode:
+        al =  re.split(m_l, row[14])
+        for el in al:
+            if re.search(m_d, el):
+                print '<-->'.join(re.split(m_d_s, el))
+            else:
+                print el
+        good = re.findall(regex, row[14])
+
+    print '-------------- split finished'
     if type(row[15]) is unicode:
-        bad = re.split(regex, row[15])
-        print '='.join(bad)
+        al =  re.split(m_l, row[15])
+        for el in al:
+            if re.search(m_d, el):
+                print '<-->'.join(re.split(m_d_s, el))
+            else:
+                print el
+        good = re.findall(regex, row[15])
+
+    print '-------------- line finished'
 
 #科室
 def build_department(row, index):

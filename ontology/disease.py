@@ -165,7 +165,7 @@ def build_other(row, index, cols):
     lines = list()
     pros = {5:"rdfs:comment"}
     for i in arr:
-        print '%d:%s------>%s' % (i, cols[i], row[i])
+        #print '%d:%s------>%s' % (i, cols[i], row[i])
         item = pros.get(i)
         if item:
             lines.append('disease:Q%d %s "%s"cn .' % (index, item, row[i]))
