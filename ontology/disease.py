@@ -86,9 +86,9 @@ def build_department(row, index):
     #print d_2_dict.get(row[2])
     line = []
     if d_1_dict.get(row[1]):
-        line.append(build_line(index, 'P27', 'department_1:%s .' % d_1_dict.get(row[1])))
+        line.append(build_line(index, 'P30', 'department_1:Q%s .' % d_1_dict.get(row[1])))
     if d_2_dict.get(row[2]):
-        line.append(build_line(index, 'P27', 'department_2:%s .' % d_2_dict.get(row[2])))
+        line.append(build_line(index, 'P30', 'department_2:Q%s .' % d_2_dict.get(row[2])))
     return '\n'.join(line)
 
 

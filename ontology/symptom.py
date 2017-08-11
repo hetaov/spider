@@ -26,7 +26,7 @@ def main():
     l = len(df)
     line_s = list()
 
-    for index, symptom in df[:20].iterrows():
+    for index, symptom in df.iterrows():
         symptom_uri = symptom_dict.get(symptom[3])
         #print symptom
         if type(symptom[9]) is unicode:
@@ -61,7 +61,7 @@ def build_food(row, index):
                 print el
         good = re.findall(regex, row[14])
 
-    print '-------------- split finished'
+    #print '-------------- split finished'
     if type(row[15]) is unicode:
         al =  re.split(m_l, row[15])
         for el in al:
@@ -71,7 +71,7 @@ def build_food(row, index):
                 print el
         good = re.findall(regex, row[15])
 
-    print '-------------- line finished'
+    #print '-------------- line finished'
 
 #科室
 def build_department(row, index):
@@ -90,9 +90,9 @@ def build_department(row, index):
     #print d_2_dict.get(row[2])
     line = []
     if d_1_dict.get(row[1]):
-        line.append(build_line(index, 'P27', 'department_1:%s .' % d_1_dict.get(row[1])))
+        line.append(build_line(index, 'P30', 'department_1:Q%s .' % d_1_dict.get(row[1])))
     if d_2_dict.get(row[2]):
-        line.append(build_line(index, 'P27', 'department_2:%s .' % d_2_dict.get(row[2])))
+        line.append(build_line(index, 'P30', 'department_2:Q%s .' % d_2_dict.get(row[2])))
     return '\n'.join(line)
 
 #相关疾病

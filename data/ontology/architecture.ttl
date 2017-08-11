@@ -1,0 +1,12 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+@prefix semioe: <http://www.semioe.com/onto#> .
+
+semioe:Q1 a owl:Class;
+	rdfs:label 'drug'@en;
+	rdfs:comment 'for disease hel' .
+
+semioe:Q2 rdfs:subClassOf semioe:Q1;
+	rdfs:label 'Chinese patent drug' .
+	
