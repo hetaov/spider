@@ -1,0 +1,22 @@
+{
+  "name": "spider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "json_f.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hetaov/spider.git"
+  },
+  "author": "hetaov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hetaov/spider/issues"
+  },
+  "homepage": "https://github.com/hetaov/spider#readme",
+  "devDependencies": {
+    "json2csv": "^3.11.1"
+  }
+}

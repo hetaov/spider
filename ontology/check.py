@@ -16,6 +16,10 @@ def main():
 
     fl.write('\n\n'.join(line).encode('utf-8'))
 
+def build_category():
+	
+	pass
+
 if __name__ == '__main__':
     main()
 

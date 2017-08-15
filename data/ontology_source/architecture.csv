@@ -1,0 +1,53 @@
+name,description,class
+class,类,
+medicine,医学,class
+drug,药,class
+symptom,症状,class
+disease,病,class
+pharmaceutical_factory,制药厂,factory
+healthy_examination,体检(需要做的检查),class
+body_part,身体部位,class
+chinese_herbology,中药,class
+element,成分,property
+orientation_symptom,适应症状
+contraindication,禁忌症,property
+dosage_form,剂型,property
+hospital_department,医院科室,org
+hospital,医院,place
+factory,工厂,class
+place,地方名称,class
+food,食物,class
+
+明细名称
+药品名称
+通用药名
+批准文号
+相关疾病
+
+不良反应,Property
+规格,Property
+性状,Property
+用法用量,Property
+注意事项,Property
+贮藏,Property
+分子量,Property
+分子式,Property
+汉语拼音,Property
+患病部位,Property
+药物过量,Property
+药理作用,Property
+药代动力学,Property
+相互作用,Property
+病的所属科室,Property
+常用药物,Property
+相关症状,Property
+处方,class
+
+
+
+prom:P30 rdfs:label "part of"@en ;
+         rdfs:label "属于"@cn ;
+         rdfs:comment "此项是另一个实体的一部分"@cn .
+
+prom:P31 rdfs:label "instance of"@en ;
+         rdfs:label "是"@cn .
