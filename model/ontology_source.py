@@ -11,12 +11,13 @@ class Ontology(Base):
     __tablename__ = 'ontology'
 
     id = Column(Integer, primary_key=True, autoincrement=True)
-    name = Column(String(20))
+    label_en = Column(String(100))
+    label_cn = Column(String(150))
     category = Column(Integer)
-    alias = Column(String(5))
-    comment = Column(String(255))
-	#1:property,0:ontology
-    pro_onto = Column(Integer(1))
+    comment_cn = Column(String(255))
+    comment_en = Column(String(255))
+    keywords_en = Column(String(250))
+    keywords_cn = Column(String(250))
 
 engine = create_engine('mysql+pymysql://root:123456@localhost:3306/ontology?charset=utf8')
 

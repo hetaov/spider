@@ -1,0 +1,48 @@
+label_en,label_cn,description,Class,level
+Class,类,,,1
+Property,属性,,,1
+medicine,医学,,Class,2
+organization,机构,,Class,2
+prescription,处方,,Class,2
+factory,工厂,,Class,2
+place,地方名称,,Class,2
+food,食物,,Class,2
+drug,药,,Class,2
+symptom,症状,,Class,2
+disease,病,,Class,2
+pharmaceutical_factory,制药厂,,factory,3
+healthy_examination,体检(需要做的检查),,Class,2
+body_part,身体部位,,Class,2
+chinese_herbology,中药,,Class,2
+element,成分,,Property,2
+orientation_symptom,适应症状,,Property,2
+contraindication,禁忌症,,Property,2
+dosage form,剂型,,Property,2
+hospital department,医院科室,,organization,3
+hospital,医院,,organization,3
+
+drug product,药品名称,,Property,2
+drug generic,通用药名,,Property,2
+Approve Number,批准文号,,Property,2
+related disease,相关疾病,,Property,2
+
+adverse reaction,不良反应,,Property,2
+specification,规格,,Property,2
+trait,性状,,Property,2
+Usage and dosage,用法用量,,Property,2
+Notes,注意事项,,Property,2
+storage,贮藏,,Property,2
+molecular weight,分子量,,Property,2
+molecular formula,分子式,,Property,2
+Pinyin,汉语拼音,,Property,2
+diseased parts,患病部位,,Property,2
+drug overdose,药物过量,,Property,2
+pharmacological action,药理作用,,Property,2
+pharmacokinetics,药代动力学,,Property,2
+interactions,相互作用,,Property,2
+department,病的所属科室,,Property,2
+common medicines,常用药物,,Property,2
+related symptom,相关症状,,Property,2
+part of,属于,此项是另一个实体的一部分,Property,2
+instance of,是,此项是另一个项的实例,Property,2
+
