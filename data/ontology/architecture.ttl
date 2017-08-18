@@ -1,5 +1,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 @prefix semioe: <http://www.semioe.com/onto#> .
 
@@ -7,6 +8,34 @@ semioe:Q1 a owl:Class;
 	rdfs:label 'drug'@en;
 	rdfs:comment 'for disease hel' .
 
+semioe:Q5 rdf:instanceOf owl:ObjectProperty;
+	rdfs:label '禁忌'@cn .
+
+semioe:Q7 rdf:subClassOf owl:Class ;
+	rdfs:label '病'@cn .
+
+semioe:Q6 rdf:instanceOf semioe:Q7 ;
+	rdfs:label '糖尿病'@cn .
+
 semioe:Q2 rdfs:subClassOf semioe:Q1;
-	rdfs:label 'Chinese patent drug' .
+	rdfs:label 'Chinese patent drug'@en ;
+	rdfs:label '中药'@cn .
 	
+
+semioe:Q3 rdf:instanceOf semioe:Q2;
+	rdfs:label '桂皮油'@cn .
+
+semioe:Q4 rdf:instanceOf semioe:Q2;
+	rdfs:label '环轮宁'@cn ;
+	semioe:Q5 semioe:Q6 .
+
+semioe:Q11 semioe:p1 semioe:Q12 .
+semioe:Q12 semioe:p1 semioe:Q13 .
+semioe:Q13 semioe:p1 semioe:Q14 .
+
+semioe:Q11 rdfs:label 'a'@en .
+semioe:Q12 rdfs:label 'b'@en .
+semioe:Q13 rdfs:label 'c'@en .
+semioe:Q14 rdfs:label 'd'@en .
+semioe:p1 rdfs:label 'test'@en .
+
