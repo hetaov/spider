@@ -1,0 +1,12 @@
+AIzaSyDRRpR3GS1F1_jKNNM9HCNd2wJQyPG3oN0
+
+print(service.translations().list(
+      source='en',
+      target='fr',
+      q=['flower', 'car']
+    ).execute())
+
+
+from googleapiclient.discovery import build
+
+AIzaSyBK588WG8UJYqVUULuC0QDgkNjomyTRBY8

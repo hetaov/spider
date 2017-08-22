@@ -5,6 +5,7 @@ from util.prefix import all
 import jieba
 import math
 from util.str_h import remove_html, remove_special_character, format_formula, remove_all_html
+from model.ontology_query import get_by_keyword
 
 df_symptom = pds.read_csv('data/ontology_source/symptom.csv', encoding='utf-8')
 df_disease = pds.read_csv('data/ontology_source/disease.csv', encoding='utf-8')
@@ -67,7 +68,7 @@ def main():
 
     medicine_x = pds.read_excel('data/raw/medicine.xlsx', encoding="utf-8")
 
-    medicine_o = open('data/ontology/medicine.ttl', 'w')
+    medicine_o = open('data/triple/medicine.ttl', 'w')
 
     ls = df['name']
 
@@ -96,8 +97,12 @@ def main():
     for index, medicine in medicine_x.iterrows():
 
         #print medicine
-        medicine_uri = medicine_dict.get(medicine[2])
-        #print medicine[2]
+        #medicine_uri = medicine_dict.get(medicine[2])
+        print medicine[2]
+        medicine_uri = get_by_keyword(medicine[2])
+        print medicine_uri
+        print '==============='
+        medicine_uri = int(medicine_uri.id)
         #print medicine[30]
         #print medicine[2]
         for col_i, col in enumerate(medicine_x.columns):
