@@ -10,7 +10,7 @@ result_right = (4, 4, 0)
 
 records = set()
 
-def getAction(water):
+def getAction(water, records):
 
     for i in range(3):
         for j in range(3):
@@ -27,8 +27,8 @@ def getAction(water):
             else:
                 print records
                 if water_l not in records:
-                    getAction(water_l)
                     records.add(water_l)
+                    getAction(water_l, records)
 
 
 #倒水动作
@@ -68,5 +68,5 @@ if __name__ == '__main__':
     print pour(2, 1, 2)
     print pour(0, 2, 2)
     '''
-    getAction(g_water)
+    getAction(g_water, records)
 
